@@ -1,0 +1,20 @@
+<%var opts = {};
+opts.has_share = true;
+opts.template = "masonry-thumb";
+opts.no_info_header = true;
+opts.small_thumbs = true;
+opts.thumb_title = true;
+opts.dark = true;
+%>
+<%- include partials/head.ejs %>
+<%- include partials/header.ejs %>
+<main class="container masonry no-info-header">
+	<% if (typeof pagination !=="undefined") {%>
+	    <% pagination.files.forEach(file => {
+			file.opts = opts%>
+			<%- include("content/masonry-thumb.ejs", file)%>
+		<% }) %>
+	<% } %>
+	 <div class="gutter"></div> 
+</main>
+<%- include partials/footer.ejs %>

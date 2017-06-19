@@ -1,0 +1,147 @@
+//EXTRAS
+
+//Fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Open+Sans|Kalam:700');
+//@import url('https://fonts.googleapis.com/css?family=Cabin|Open+Sans|Kalam:700');
+//@import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Exo+2:300,600|Open+Sans'); 
+
+@font-face {
+    font-family: "Fontello";
+    src: url("fontello/font/fontello.ttf") format("truetype");
+}
+@import "fontello/css/fontello.css";
+@import "fontello/css/animation.css";
+
+//COLORS
+$header-image-color: mixed; //light, dark, mixed (based on theme with background box)
+$value0: white;//switch
+@if (lightness($value0) > 50) {
+    $offvalue: 3% !global;
+    $offhighvalue: (100% - 10%) !global;
+    //$value0: rgb(253, 253, 253) !global;
+    $value6: black !global;
+    //box shadows
+} @else {
+    $offvalue: 10% !global;
+    $offhighvalue: (100% - $offvalue) !global;
+    //$value0: rgb(12, 12, 12) !global;
+    $value6: white !global;
+}
+$valueoff0: mix($value6, $value0, $offvalue);
+$value1: mix($value6, $value0, 16.6%);
+$value2: mix($value6, $value0, 33.3%);
+$value3: mix($value6, $value0, 50%);
+$value4: mix($value6, $value0, 66.6%);
+$value5: mix($value6, $value0, 83.3%);
+$valueoff6: mix($value6, $value0, $offhighvalue);
+
+//Always
+$alwaysvalue0: white;
+$alwaysvalueoff0: mix(black, white, $offvalue);
+$alwaysvalue1 :mix(black, white,  16.6%);
+$alwaysvalue2: mix(black, white,  33.3%);
+$alwaysvalue3: mix(black, white, 50%);
+$alwaysvalue4: mix(black, white,  66.6%);
+$alwaysvalue5: mix(black, white,  83.3%);
+$alwaysvalueoff6: mix(black, white, $offhighvalue); 
+$alwaysvalue6: black;
+//accent
+$accent-color: #0065ce ;// #ffde9b;// $value1; // #ffde9b; //rgb(255, 209, 4);// #ffdb72;
+$mix-background: false;
+$mix-titles: false;
+//links 
+$link-color: #0065ce;//rgb(0, 141, 193);
+@if (lightness($value0) < 50) { 
+    $link-color: lighten($link-color, 30%) !global;
+}
+$link-hover: lighten($link-color, 20%);//overlay($value3, $link-color);
+$link-active: lighten($link-color, 40%);
+//code
+$code-color: $value1;// #272822;// #f8f8f8; monokai / github
+@if (lightness($code-color) > 50) {
+    $non-hjs-code-color: $alwaysvalueoff6 !global;
+} @else {
+    $non-hjs-code-color: $alwaysvalueoff0 !global;
+}
+$search-higlight-color: yellow;
+@if (lightness($value0) < 50) {
+    $search-higlight-color: darken($search-higlight-color, 10%) !global;
+}
+
+
+//loading
+$loading-color: $link-hover; 
+$loading-color2: $link-color;
+$loading-size: 60; //px
+@import "svgs.scss";  
+
+//box shadow/images
+$box-shadow-main-imgs: true; 
+$darken_and_zoom: false; 
+@if (lightness($value0) > 50) {
+    $box-shadow: rgba($alwaysvalue6, 0.7) !global;
+} @else {
+    $box-shadow: $alwaysvalue6 !global;
+}
+
+//Main Colors
+$background-color: mix($valueoff0, $value1);
+$post-color: $value0; 
+
+//OTHER
+
+$margin: 30px;
+$side_margin: 0px;
+$interior_margin: 30px;
+$interior_side_margin: 0px;
+$max-width: 700px;
+$masonry-limit: 5; //max number of rows
+//masonry width is half max-width; //list item is max width * 1.5
+$masonry-gutter: 40px;
+
+$blog-title-font: "Cabin";
+$blog-title-weight: 600;
+$blog-title-size: 6rem;
+$description-font: "Cabin";
+$description-weight: normal;
+$description-size: 1.5rem; 
+$header-background-image: "/resources/uploads/water-lily.jpg";//#6eb5ff; //"https://images.pexels.com/photos/220634/pexels-photo-220634.jpeg?w=940&h=650&auto=compress&cs=tinysrgb";///resources/uploads/2016/08/Light-Optimized.png";  
+$header-image-parallax: true;
+$headers-font: Open Sans; //"Exo 2";
+$headers-weight: 600;
+$headers-steps: 0.2rem; 
+$text-font: Open Sans; 
+$text-weight: normal; 
+$titles-font: "Kalam";
+$titles-weight: 700;
+$titles-size: 2.7rem;
+$post-text-align: justify;
+$text-multiplier: 1;//.2;
+$code-font: Roboto Mono;
+$code-multiplier: 0.9;
+$line-height: 1.7rem;
+$transition-speed: 0.7s;
+$border-radius:3px; 
+$first-paragraph-large: false;
+
+.fontello {
+    transition: $transition-speed;
+}
+.icon-youtube:hover {
+    color: #f30000 ;
+}
+.icon-twitter:hover {
+    color: #00ceff;
+}
+.icon-patreon:hover {
+    color: #ff8300 ;
+}
+.icon-facebook-squared:hover {
+    color: #1e1eff;
+}
+.icon-instagram-1:hover {
+    color: #ff4566;
+}
+.icon-mail:hover {
+    color: #ff9b00;
+} 

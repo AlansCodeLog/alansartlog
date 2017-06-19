@@ -1,0 +1,64 @@
+@mixin not($type, $side, $amount) {
+ @if $side == "left" {
+   #{$type}: $amount $amount $amount 0;
+ }
+ @else if $side == "right" {
+   #{$type}: $amount 0 $amount $amount;
+ }
+ @else if $side == "top" {
+   #{$type}: 0 $amount $amount $amount;
+ }
+ @else if $side == "bottom" {
+   #{$type}: $amount $amount 0 $amount;
+ }
+}
+@mixin only($type, $side, $amount) {
+ @if $side == "left" {
+   #{$type}: 0 0 0 $amount;
+ }
+ @else if $side == "right" {
+   #{$type}: 0 $amount 0 0;
+ }
+ @else if $side == "top" {
+   #{$type}: $amount 0 0 0;
+ }
+ @else if $side == "bottom" {
+   #{$type}: 0 0 $amount 0;
+ }
+}
+@mixin media($when, $width) {
+    @if $when == "before" {
+        @media (max-width: $width) {
+            @content;
+        }
+    } @else if $when == "after" {
+        @media (min-width: $width) {
+            @content;
+        }
+    }
+}
+@mixin absolutecenter {
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0
+}
+@mixin fixedcenter {
+    position: fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0
+}
+@mixin flexapart ($wrap) {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: $wrap;
+    align-items: center;
+}
+@mixin loading-background ($url) {
+   background-repeat: no-repeat;
+   background-position: center;
+   background-image: url($url);
+}

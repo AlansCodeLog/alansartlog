@@ -1,0 +1,95 @@
+<header class="header">
+	<%if (typeof site.debug !=="undefined" && site.debug == true) {%>
+		<div id="debug"></div>
+	<%}%>
+	<nav class="header-bar">
+		<%if (typeof site.nav_links !== "undefined") {%>
+			<div class="text-links">
+				<%if (!((typeof site.big_header !== "undefined" && site.big_header == true)
+				&& (typeof opts.no_info_header == "undefined" || opts.no_info_header == false)
+				&& (typeof opts.is_single == "undefined" || typeof opts.is_single == false))) {%>
+					<%if(typeof site.title_svg !== "undefined") {%>
+						<li class="home title-svg"><a href="/" aria-label="Home"><%-site.title_svg%></a></li>
+					<%} else{%>
+						<li class="home"><a href="/"><%=site.title%></a></li>
+					<%}%>
+				<%}%>
+				<%for (item in site.nav_links) {%>
+					<%if (item == "Projects" && typeof site.project_links !== "undefined") {%>
+						<li class="projects-hover"><a href="<%= site.nav_links[item]%>"><%= item%></a>
+							<ul class="projects-dropdown">
+								<%for (item in site.project_links) {%>
+									<%if (typeof site.project_links[item].menu !== "undefined" &&  site.project_links[item].menu == true) {%>
+										<li><a href="<%= site.project_links[item]%>" alt="<%= item%>"><%= item%></a></li>
+									<%}%>
+								<%}%>
+							</ul>
+						</li>
+					<%} else {%>
+						<li><a href="<%= site.nav_links[item]%>"><%= item%></a></li>
+					<%}%>
+				<%}%>
+				<%- include ../partials/search.ejs %>
+			</div>
+		<%}%>
+			<%/*if (typeof site.project_links !== "undefined") {%>
+				<ul class="project_links">
+					<li>Projects
+						<ul>
+							<%for (item in site.project_links) {%>
+								<li><a href="<%= site.project_links[item]%>"><%= item%></a></li>
+							<%}%>
+						</ul>
+					</li>
+				</ul>
+			<%}*/%>
+		<%if (typeof site.social_links !== "undefined") {%>
+			<div class="icon-links">
+				<%for (item in site.social_links) {%>
+					<a href="<%= site.social_links[item].href%>"
+				<%if (typeof site.social_links[item].alt !== "undefined") {%>
+					id="<%= site.social_links[item].alt%>"
+					aria-label="<%= site.social_links[item].alt%>"
+				<%} else {%>
+					id="<%= item%>"
+					aria-label="<%= item%>"
+				<%}%>
+					class="clicks">
+						<%if (typeof site.social_links[item].icon !== "undefined") {%>
+							<i class="fontello <%=site.social_links[item].icon%>" aria-hidden="true"></i>
+						<%} else if (typeof site.social_links[item].img !== "undefined") {%>
+							<img src="<%= site.theme_images%><%=site.social_links[item].img%>" alt=""/>
+						<%} else {%>
+							<img src="<%= site.theme_images + "Social-" + item +".png"%>" alt=""/>
+						<%}%>
+					</a>
+				<%}%>
+			</div>
+		<%}%>
+	</nav>
+	<%if (typeof opts.no_search =="undefined" && opts.no_search !== true) {%>
+			<div class="search-results"></div>
+	<%}%>
+	<%if ((typeof site.big_header !== "undefined" && site.big_header == true)
+	&& (typeof opts.no_info_header == "undefined" || opts.no_info_header == false)
+	&& (typeof opts.is_single == "undefined" || typeof opts.is_single == false)) {%>
+		<%if(typeof site.show_title !== "undefined" && site.show_title == false) {%>
+			<a href="/">
+		<%}%>
+		<div class="site-info">
+			<%if(typeof site.show_title == "undefined" || site.show_title == true) {%>
+				<%if(typeof site.title_svg !== "undefined") {%>
+					<h1 class="header-title title-svg"><a href="/" aria-label="Home"><%-site.title_svg%></a></h1>
+				<%} else{%>
+					<h1 class="header-title"><a href="/ "><%=site.title%></a></h1>
+				<%}%>
+			<%}%>
+			<%if(typeof site.show_description == "undefined" || site.show_description == true) {%>
+				<div class="header-description"><%=site.description%></div>
+			<%}%>
+		</div>
+		<%if(typeof site.show_title !== "undefined" || site.show_title == false) {%>
+			</a>
+		<%}%>
+	<%}%>
+</header>

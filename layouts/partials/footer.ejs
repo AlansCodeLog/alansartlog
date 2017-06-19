@@ -1,0 +1,11 @@
+<footer role="contentinfo" class="blog-footer">
+    <%if (typeof opts.is_single == "undefined") {%>
+        <%- include pagination.ejs %>
+    <%}%>
+    <%if (typeof site.copyright_start_year !== "undefined") {%>
+        <%var year = new Date().getFullYear()%>
+        <small>© Copyright <%= site.copyright_start_year%>-<%= year%> <%= site.author%> - <%= site.copyright_notice%> </small>
+    <%}%>
+</footer>
+</body>
+</html>

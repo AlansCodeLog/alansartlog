@@ -1,0 +1,67 @@
+<%var opts = {}
+opts.is_single = true
+opts.no_info_header = true%>
+<%- include partials/head.ejs %>
+<%- include partials/header.ejs %>
+<main class="container page no-info-header">
+    <article class="page-contact">
+        <div class="inner">
+            <header>
+                <h1 class="title">
+                <%if (typeof opts.is_single == "undefined") {%>
+                    <a href="<%=permalink%>"><%=title%></a>
+                <%} else {%>
+                    <%=title%>
+                <%}%>
+                </h1>
+            </header>
+            <%- include partials/thumbnail.ejs %>
+            <div class="content">
+                <%- original_contents%>
+                <%
+                var this_dropdown_placeholder = typeof dropdown_placeholder !== "undefined"? dropdown_placeholder : "Select a Subject";
+                var this_subject_placeholder = typeof subject_placeholder !== "undefined"? subject_placeholder :"Subject";
+                var this_email_placeholder = typeof email_placeholder !== "undefined"? email_placeholder : "Your Email";
+                var this_message_placeholder = typeof message_placeholder !== "undefined"? message_placeholder : "Your Message";
+                var this_send_placeholder = typeof send_placeholder !== "undefined"? send_placeholder : "Send";
+                var this_file_placeholder = typeof file_placeholder !=="undefined"? file_placeholder: "Choose a file..."
+                %>
+                <form id="form" action="<%=form_action%>" method="POST" enctype="multipart/form-data"><input class="form-email" name="email" required="" type="email" placeholder="<%=this_email_placeholder%>" />
+                <%if (typeof dropdown !=="undefined") {%>
+                    <select class="form-dropdown" name="subject" required="">
+                        <option class="dropdown-option" disabled="disabled" selected="selected" value=""><%=this_dropdown_placeholder%></option>
+                    <%for (item of dropdown) {%>
+                        <%if (item.toLowerCase() == "other") {%>
+                            <option class="dropdown-option dropdown-other" value="<%=item%>"><%=item%></option>
+                            <input class="dropdown-extra" name="other-subject" type="other-subject" placeholder="<%=this_subject_placeholder%>" />
+                        <%} else {%>
+                            <option class="dropdown-option" type="<%=item%>" value="<%=item%>"><%=item%></option>
+                        <%}%>
+                    <%}%>
+                    </select>
+                <%} else {%>
+                    <input name="subject" required="" type="subject" placeholder="<%=this_subject_placeholder%>" />
+                <%}%>
+                <textarea class="form-textarea" name="message" required="" placeholder="<%=this_message_placeholder%>"></textarea>
+                <%if (typeof allow_attachment !== "undefined" && allow_attachment == true && !form_action.includes("formspree")) {%>
+                    <input type='file' name='file' id="file" />
+                    <label class="form-attachment" for="file"><i class="fontello icon-upload-cloud" aria-hidden="true"></i><span class="file-placeholder"><%=this_file_placeholder%></span></label>
+                    <div class="info"></div>
+                    <div class="limit">Upload Limit: 10MB</div>
+                <%}%>
+                <button class="form-submit" type="submit"><%=this_send_placeholder%></button><input class="form-gotcha" style="display: none;" name="_gotcha" type="text" />
+                <%if (typeof form_next !=="undefined") {%>
+                    <%if (form_action.includes("simpleform")) {%>
+                        <input type='hidden' name='redirect_to' value='<%if (typeof site.url !== "undefined"){%><%=site.url%><%}%><%=form_next%>' />
+                    <%} else if (form_action.includes("formspree")) {%>
+                        <input type="hidden" name="_next" value="<%if (typeof site.url !== "undefined"){%><%=site.url%><%}%><%=form_next%>" />
+                    <%} else {
+                        throw "unknown service for form_next"
+                    }%>
+                <%}%>
+                </form>
+            </div>
+        </div>
+    </article>
+</main>
+<%- include partials/footer.ejs %>

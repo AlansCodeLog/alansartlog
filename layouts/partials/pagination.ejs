@@ -1,0 +1,32 @@
+<%if (typeof pagination !== "undefined") {%>
+    <nav class="nav-links" alt="page navigation">
+        <%if (typeof pagination.prev !== "undefined") {%>
+            <a href="<%=pagination.prev.permalink%>" rel="prev"
+                <%if (typeof pagination.prev.title !== "undefined") {%>
+                title="<%=pagination.prev.title%>"
+                <%}%>
+            >
+                <div class="button nav-prev">&larr; Newer</div>
+            </a>
+        <%} else {%>
+            <div class="button nav-prev inactive">&larr; Newer</div>
+        <%}%>
+        <%if (typeof pagination.num !=="undefined") {%>
+            <div class="nav-pages">
+                <span class="nav-current" aria-label="page <%=pagination.num%> of <%=pagination.total%>"><%=pagination.num%></span>
+                <span class="nav-total"><a href="<%=pagination.total_pages_permalink%>" aria-label="page <%=pagination.total%>"><%=pagination.total%></a></span>
+            </div>
+        <%}%>
+        <%if (typeof pagination.next !== "undefined") {%>
+           <a  href="<%=pagination.next.permalink%>" rel="next"
+               <%if (typeof pagination.next.title !== "undefined") {%>
+               title="<%=pagination.next.title%>"
+               <%}%>
+               >
+                <div class="button nav-next">Older &rarr;</div>
+           </a>
+       <%} else {%>
+           <div class="button nav-next inactive">Older &rarr;</div>
+       <%}%>
+    </nav>
+<%}%>

@@ -1,0 +1,7 @@
+<%var opts = {}
+opts.is_single = true
+opts.no_info_header = true%>
+<%- include partials/head.ejs %>
+<%- include partials/header.ejs %>
+<div class="redirect">This page redirects to <%-redirect_path%>.<br> If it's not redirecting you, click <a href="<%-redirect_path%>">here</a>.
+</div>

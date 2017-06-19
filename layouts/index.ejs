@@ -1,0 +1,19 @@
+<%var opts = {}
+opts.has_share = true%>
+<%- include partials/head.ejs %>
+<%- include partials/header.ejs %>
+<main class="container">
+	<%if (typeof categories !== "undefined" || typeof tags !== "undefined") {
+		%>
+		<header class="term-header">
+			<h1 class="term-title"><%= typeof categories !== "undefined" ? categories : tags%></h1>
+		</header>
+	<%}%>
+	<% if (typeof pagination !=="undefined") {%>
+	    <% pagination.files.forEach(file => {
+			file.opts = opts%>
+			<%- include("content/post.ejs", file)%>
+		<% }) %>
+	<% } %>
+</main>
+<%- include partials/footer.ejs %>

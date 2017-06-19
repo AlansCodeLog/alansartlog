@@ -1,0 +1,38 @@
+<% if (typeof site.dates !== "undefiend") {%>
+	<ul class="archive-years archive">
+	<%
+	var years = Object.keys(site.dates).map(year=>{
+		var months = Object.keys(site.dates[year]).map(month=> {
+			return month
+		})
+		months = months.sort((a,b)=> {
+			return a - b
+		})
+		obj = {}
+		obj[year] = months
+		return obj
+	}).sort((a,b)=>{
+		return Object.keys(a)[0] - Object.keys(b)[0]
+	})
+	for (yearindex of years) {
+		var year = Object.keys(yearindex)[0]
+		%>
+		<li><h2><a href="/<%=year%>"><%=year%></a></h2>
+			<ul class="archive-months">
+				<%for (month of yearindex[year]) {%>
+					<li><h3><a href="/<%=year%>/<%=month%>"><%=moment(site.dates[year][month].date.split("/").join("-")).format('MMMM')%></h3>
+						<ul class="archive-posts">
+							<%for (file in site.dates[year][month].files) {
+								var post = site.dates[year][month].files[file]%>
+								<li>
+									<h4 class="archive-title"><a href="<%=post.permalink%>"><%=post.title%></a></h4>
+								</li>
+							<%}%>
+						</ul>
+					</li>
+				<%}%>
+			</ul>
+		</li>
+	<%}%>
+	<ul>
+<%}%>

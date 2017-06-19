@@ -1,0 +1,25 @@
+<%if (typeof categories !=="undefined" || typeof tags !=="undefined") {
+    %>
+    <div class="taxnms">
+        <%if (typeof categories !=="undefined") {%>
+            <%for (category of categories) {
+                safecategory = site.categories[category].nicename%>
+                <a href="/categories/<%=safecategory%>">
+                    <div class="categories">
+                        <%=category%>
+                    </div>
+                </a>
+            <%}%>
+        <%}%>
+        <%if (typeof tags !=="undefined") {%>
+            <%for (tag of tags) {
+                safetag = site.tags[tag].nicename%>
+                <a href="/tags/<%=safetag%>">
+                    <div class="tags">
+                        <%=tag%>
+                    </div>
+                </a>
+            <%}%>
+        <%}%>
+    </div>
+<%}%>

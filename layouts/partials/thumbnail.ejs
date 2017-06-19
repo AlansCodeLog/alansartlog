@@ -1,0 +1,59 @@
+<%if (typeof thumbnail_url !== "undefined") {%>
+    <%if (typeof opts.small_thumbs !== "undefined" && opts.small_thumbs == true && typeof thumbnail_sizes !== "undefined" && typeof thumbnail_sizes[0] !== "undefined") {
+        var width = thumbnail_sizes[0].replace(/(.*?)x(.*)/g, "$1") || undefined
+        var height = thumbnail_sizes[0].replace(/(.*?)x(.*)/g, "$2") || undefined
+        if (typeof height == "undefined" || typeof width == "undefined") {
+            throw "thumbnail size problem at " + title
+        }
+        var thumbnail = thumbnail_url.replace(/(.*)(\..*?)/, "$1-"+thumbnail_sizes[0]+"$2")
+        
+    } else {
+        var width;
+        var height;
+        var image_size
+        try {
+            image_size = probe.sync(fs.readFileSync(thumbnail_url.slice(1, thumbnail_url.length)))
+        } catch (err) {
+            if (err) {
+                console.log("error with thumbnail" + thumbnail_url)
+                width = "0"
+                height = "0"
+            } else {
+                width = image_size.width;
+                height= image_size.height;
+            }
+        }
+        var thumbnail = thumbnail_url
+    }
+    %>
+    <figure class="thumb"/>
+        <%if (typeof opts.is_single == "undefined" || opts.is_single == false) {%>
+            <a href="<%=permalink%>">
+        <%}%>
+            <div class="lazy-wrapper">
+                <%if (typeof opts.thumb_title !== "undefined" && opts.thumb_title == true) {%>
+                    <div aria-hidden="true" class="title"><%=title%></div>
+                <%}%>
+                <img data-src="<%=thumbnail%>" src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 <%=width%> <%=height%>'%2F%3E" width="<%=width%>" height="<%=height%>" 
+                <%if (typeof thumbnail_alt !== "undefined") {%>
+                alt="Thumbnail for <%= title%>, image is of <%=thumbnail_alt%>"
+                <%} else {%>
+                alt="Thumbnail for <%= title%>"
+                <%}%>
+                    class="lazy"/>
+                    <noscript><img src="<%=thumbnail%>" width="<%=width%>" height="<%=height%>" class="lazy"/></noscript>
+            </div>
+        <%if (typeof opts.is_single == "undefined" || opts.is_single == false) {%>
+            </a>
+        <%}%>
+        <div class="hover"></div>
+        <%if ((typeof opts.small_thumbs == "undefined" || opts.small_thumbs == "false") && typeof thumbnail_caption !== "undefined") {//TODO%>
+            <figcaption>
+                <%if (thumbnail_caption.includes("\n")) { //in markdown use | then indents as > does not seem to add new lines //TODO add to exporter
+                    thumbnail_caption = thumbnail_caption.replace(/(\n)+/g, "</p><p>")
+                }%>
+                <%- thumbnail_caption%>
+            </figcaption>
+        <%}%>
+    </figure>
+<%}%>

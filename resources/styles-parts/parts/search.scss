@@ -1,0 +1,108 @@
+
+.search {
+    background: $value0;
+    display: inline-block;
+    position: relative;
+    .search-box {
+      display: inline;
+      padding: ($interior_margin / 3);
+      padding-right: 0;
+      text-align: center;
+      .icon-search {
+         margin-right: 15px;
+         &:hover {
+            color: $link-hover;
+            cursor: pointer;
+         }
+         &:active {
+            color: $link-active;
+         }
+      }
+      input {
+         padding: 2px 5px;
+         font-size: $text-multiplier * 1rem;
+         font-family: Open Sans;
+         // margin-right:($interior_margin / 3);
+         background: $value0;
+         color: $value6;
+         border: 2px solid $value6;
+         &:focus {
+            border: 2px solid $link-color;
+         }
+      }
+   }
+   .search-hide {
+      input {
+         display: none;
+      }
+   }
+}
+.search-results {
+   max-height: 500px;
+   background: $value0;
+   overflow-y: auto;
+   display: none;
+   border-top: 3px solid $value2;
+   border-bottom: 3px solid $value2;
+   @include media(before, 500px) {
+         max-height: 350px;
+   }
+   .no-results {
+      text-align: center;
+      font-weight: bold;
+      margin: $interior_margin;
+   }
+   .search-match {
+      margin: $interior_margin;
+      @include media(before, 500px) {
+         margin: $interior_margin ($interior_margin / 2);
+      }
+      .search-match-title {
+         font-size: 1rem + $headers-steps;
+         font-weight: bold;
+         a {
+            color: $link-color;
+         }
+         .search-match-highlight {
+            background: $search-higlight-color;
+            color: mix($alwaysvalue6, $link-color);
+         }
+      }
+      .search-match-contents {
+         .contents, .taxnms {
+            font-size: $code-multiplier * 1rem;
+            //margin: ($interior_margin / 3) 0 ($interior_margin / 3) $interior_margin;
+            margin: ($interior_margin / 2) 0;
+         }
+         .search-match-highlight {
+            background: $search-higlight-color;
+            color: $alwaysvalue6;
+         }
+         .more-matches {
+            font-weight: bold;
+            background: $search-higlight-color;
+            color: $alwaysvalue6;
+         }
+      }
+   }
+   .taxnms {
+      margin: 0 -5px;
+      div {
+            display: inline-block;
+            margin: 5px;
+            //background: white;
+            padding: 3px 5px;
+            border-radius: $border-radius;
+            font-size: 0.8rem;
+            //box-shadow: 0px 0px 3px 1px gray inset;
+            border: 1px solid $value2;
+            &::before {
+               content: "#";
+               color: $value3;
+            }
+      }
+      a {
+            color: $value5;
+      }
+   }
+}

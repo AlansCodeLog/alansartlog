@@ -1,0 +1,9 @@
+<%if (typeof site.project_links !== "undefined") {%>
+    <ul>
+    <%for (project in site.project_links) {%>
+        <li><a href="<%=site.project_links[project].href%>"><%=project%></a></li>
+    <%}%>
+    </ul>
+<%} else {%>
+    <%-original_contents%>
+<%}%>

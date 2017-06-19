@@ -1,0 +1,11 @@
+node_modules
+public
+nodemon.json
+.vscode
+cache.shortcodes.json
+cache.lazyloader.json
+npm-debug.log
+resources/styles/*.css
+resources/styles/*.css
+src/drafts/*.md
+unused_images

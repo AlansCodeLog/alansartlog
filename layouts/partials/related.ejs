@@ -1,0 +1,10 @@
+<%if (typeof related !== "undefined") {%>
+    <div class="related">
+        <h1>You Might Also Like:</h1>
+        <ul class="related-list">
+            <%for (file of related) {%>
+                <li><a href="<%=file.permalink%>"><%=file.title%></a></li>
+            <%}%>
+        </ul>
+    </div>
+<%}%>

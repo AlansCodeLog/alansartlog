@@ -1,0 +1,46 @@
+{
+  "name": "alansartlog",
+  "version": "1.0.0",
+  "private": true,
+  "description": "My art blog.",
+  "author": "Alan North",
+  "dependencies": {
+    "autoprefixer": "^7.1.1",
+    "ejs": "^2.5.6",
+    "fs-extra": "2.1.2",
+    "image-size": "^0.5.5",
+    "klaw": "^2.0.0",
+    "metalsmith": "^2.2.0",
+    "metalsmith-autoprefixer": "^1.1.1",
+    "metalsmith-layouts": "^1.6.5",
+    "metalsmith-layouts-add-extension": "^1.0.0",
+    "metalsmith-lazyloader": "^1.0.4",
+    "metalsmith-organizer": "^1.1.0",
+    "metalsmith-related-posts": "^1.0.0",
+    "metalsmith-sass": "^1.4.0",
+    "metalsmith-shortcodes-replace": "^1.0.3",
+    "metalsmith-showdown": "^1.2.0",
+    "metalsmith-uglify": "^1.5.2",
+    "moment": "^2.18.1",
+    "probe-image-size": "^3.1.0",
+    "search": "file:local_plugins\\search",
+    "showdown": "^1.7.1",
+    "sync-request": "^4.1.0"
+  },
+  "main": "build.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node .",
+    "dev": "set NODE_ENV=dev&&node .",
+    "watch-public": "watch-http-server public",
+    "watch-sass": "node-sass  --watch resources/styles-parts/style.scss -o resources/styles/",
+    "fontello": "fontello-cli --config resources/styles/fontello-config.json install --css resources/styles/fontello/css --font resources/styles/fontello/font",
+    "postcss-autoprefixer": "postcss resources/styles/style.css -d public/resources/styles --watch --use autoprefixer",
+    "watch-css": "npm run watch-sass && npm run postcss-autoprefixer && wait",
+    "all": "concurrently --kill-others \"npm run watch-sass\" \"npm run postcss-autoprefixer\""
+  },
+  "browserslist": [
+    "> 0.1%",
+    "last 2 versions"
+  ]
+}

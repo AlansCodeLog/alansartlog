@@ -1,0 +1,31 @@
+<article class="list-item">
+	<%- include ../partials/thumbnail.ejs %>
+	<div class="inner <%if (typeof thumbnail_url !== "undefined") {%>has-thumb<%}%>">
+		<header>
+			<div class="info">
+				<time datetime="<%=moment(date)%>">
+					<span>Posted on: </span>
+					<a href="/posts/<%=moment(date).format("YYYY/MM")%>"><%=moment(date).format("LL")%></a>
+				</time>
+				<div class="actions">
+					<div class="share a2a_kit a2a_kit_size_32" data-a2a-url="http://alanscodelog.com<%=permalink%>" data-a2a-title="<%=title%>"> <%//TODO%>
+						<a class="a2a_dd" href="https://www.addtoany.com/share">
+							<i class="fontello icon-share" aria-hidden="true"></i>
+						</a>
+					</div>
+					<div class="comment-link">
+						<a href="<%=permalink%>#disqus_thread">
+							<i class="fontello icon-comment" aria-hidden="true"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+			<h1 class="title">
+				<a href="<%=permalink%>"><%=title%></a>
+			</h1>
+		</header>
+		<footer>
+			<%- include ../partials/taxonomies.ejs %>
+		</footer>
+	</div>
+</article>

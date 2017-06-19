@@ -1,0 +1,25 @@
+<%var opts = {}
+opts.is_single = true
+opts.no_info_header = true;
+%>
+<%- include partials/head.ejs %>
+<%- include partials/header.ejs %>
+<main class="container page no-info-header">
+<article class="page-archive">
+    <div class="inner">
+        <header>
+            <h1 class="title">
+            <%if (typeof opts.is_single == "undefined") {%>
+                <a href="<%=permalink%>"><%=title%></a>
+            <%} else {%>
+                <%=title%>
+            <%}%>
+            </h1>
+        </header>
+        <div class="content">
+            <%- include partials/archive-list.ejs %>
+        </div>
+    </div>
+</article>
+</main>
+<%- include partials/footer.ejs %>

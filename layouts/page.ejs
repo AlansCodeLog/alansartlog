@@ -1,0 +1,26 @@
+<%var opts = {}
+opts.is_single = true
+opts.no_info_header = true;
+%>
+<%- include partials/head.ejs %>
+<%- include partials/header.ejs %>
+<main class="container <%if (typeof slug !=="undefined" && slug !== "404"){%>page-<%=slug%><%} else if (typeof slug !=="undefined" && slug =="404") {%>page-error<%}%> page no-info-header">
+    <article class="page-post">
+        <div class="inner">
+            <header>
+                <h1 class="title">
+                <%if (typeof opts.is_single == "undefined") {%>
+                    <a href="<%=permalink%>"><%=title%></a>
+                <%} else {%>
+                    <%=title%>
+                <%}%>
+                </h1>
+            </header>
+            <%- include partials/thumbnail.ejs %>
+            <div class="content">
+                <%- original_contents%>
+            </div>
+        </div>
+    </article>
+</main>
+<%- include partials/footer.ejs %>

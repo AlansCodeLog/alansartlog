@@ -1,0 +1,23 @@
+<%var opts = {}
+opts.has_share = true;
+opts.template = "list-item";
+opts.small_thumbs = true;
+%>
+<%- include partials/head.ejs %>
+<%- include partials/header.ejs %>
+<main class="container">
+	<header class="term-header">
+	<% if (exposed.split("/").length > 1) {%>
+		<h1 class="term-title">Year: <%= exposed%></h1>
+	<%} else {%>
+		<h1 class="term-title">Month: <%= exposed%></h1>
+	<%}%>
+	</header>
+	<% if (typeof pagination !=="undefined") {%>
+		<% pagination.files.forEach(file => {
+			file.opts = opts%>
+		   <%- include("content/list-item.ejs", file)%>
+	   <% }) %>
+	<% } %>
+</main>
+<%- include partials/footer.ejs %>

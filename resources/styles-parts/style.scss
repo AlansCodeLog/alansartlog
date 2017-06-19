@@ -1,0 +1,20 @@
+@import "configuration.scss";
+
+//MIXINS
+@import "mixins.scss";
+
+//BASICS
+@import "basics.scss";
+
+//THEME PARTS   
+@import "parts/header+main.scss";
+@import "parts/article-default.scss";
+@import "parts/article-post.scss"; 
+@import "parts/article-list-item.scss"; 
+@import "parts/article-masonry-thumb.scss";  
+@import "parts/page.scss";  
+@import "parts/page-archive.scss";    
+//@import "sass/parts/gallery-slick+zoom.scss";
+@import "parts/gallery+zoom.scss";       
+@import "parts/search.scss";       
+@import "parts/contact.scss";     
