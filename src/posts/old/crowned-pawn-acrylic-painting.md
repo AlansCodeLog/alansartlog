@@ -1,11 +1,11 @@
 ---
-title: "Crowned Pawn" - Acrylic Painting
+title: "\"Crowned Pawn\" - Acrylic Painting"
 date: 2016-09-02T16:07:50Z
 type: post
 thumbnail_url: /resources/uploads/crowned-pawn.jpg
 thumbnail_caption: |
     Crowned Pawn
-    Reference (from morgueFile): [Image](http://mrg.bz/0ca100) by svklimkin
+    Reference (from morgueFile: [Image](http://mrg.bz/0ca100)by svklimkin
 thumbnail_sizes: [ 300x225 ]
 tags: ["acrylics","artwork","for sale","videos"]
 ---

@@ -4,7 +4,7 @@ slug: figure-drawing
 date: 2015-06-13T00:00:00Z
 type: post
 thumbnail_url: /resources/uploads/figure-drawing-practice.jpg
-thumbnail_caption: Figure Drawing Practice - Reference: [Croquis Cafe](https://www.youtube.com/user/onairvideo)
+thumbnail_caption: "Figure Drawing Practice - Reference: [Croquis Cafe](https://www.youtube.com/user/onairvideo)"
 thumbnail_sizes: [ 300x89 ]
 tags: ["anatomy","artwork","digital"]
 ---

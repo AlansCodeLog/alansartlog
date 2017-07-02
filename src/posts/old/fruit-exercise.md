@@ -3,7 +3,7 @@ title: Fruit Exercise
 date: 2015-05-11T04:00:00Z
 type: post
 thumbnail_url: /resources/uploads/fruit-practice.jpg
-thumbnail_caption: Fruit Painting Exercise - Reference: [CG Cookie Exercise 39](https://cgcookie.com/exercise/exercise-39-sliced-fruit/)
+thumbnail_caption: "Fruit Painting Exercise - Reference: [CG Cookie Exercise 39](https://cgcookie.com/exercise/exercise-39-sliced-fruit/)"
 thumbnail_sizes: [ 300x269 ]
 tags: ["artwork","digital"]
 ---
