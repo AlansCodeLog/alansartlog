@@ -3,7 +3,7 @@ title: Some Notes on Ears
 date: 2015-11-04T00:00:00Z
 type: post
 thumbnail_url: /resources/uploads/full-size-some-notes-on-ears.jpg
-thumbnail_caption: * = Optional
+thumbnail_caption: "* = Optional"
 thumbnail_sizes: [ 300x300 ]
 tags: ["anatomy","artwork","digital","tools/software"]
 ---

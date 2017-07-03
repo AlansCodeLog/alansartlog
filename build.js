@@ -20,7 +20,11 @@ const title_svg_content = fs.readJsonSync("./resources/styles-parts/styles svgs/
 const sass = require('metalsmith-sass');
 const probe = require("probe-image-size");
 const search = require("search");//TODO
-// const clean_images = require("clean-images");
+const path = require("path")
+//const clean_images = require("clean-images");
+// const sitemap = require("metalsmith-sitemap")
+// const rssfeed = require("metalsmith-rssfeed")
+
 var include_drafts = false;
 if (process.env.NODE_ENV == "dev") {
     include_drafts = true;
@@ -49,6 +53,8 @@ metalsmith(__dirname)
         title: 'Alan\'s Art Log',
         show_title: true,
         description: "Paintings, sketches, tutorials, videos, and art related DIY projects.",
+        rss_category: "Art",
+        favicon: "/resources/images/pencil-logo-icon-150x150.jpg",
         show_description: true,
         author: "Alan North",
         email: "alansartlog@gmail.com",
@@ -111,15 +117,22 @@ metalsmith(__dirname)
 })
 .source('./src')
 .destination('./pre-public')
+.ignore(function(filepath, stats) {
+    if (filepath.match(/.*?\.cat5/) !== null) {
+        return true
+    } else {
+        return false
+    }
+})
 .use(related ({
-  min_tags: 2,
-  max_posts: 5,
-  min_posts: 2,
+    min_tags: 2,
+    max_posts: 5,
+    min_posts: 2,
 }))
 .use(shortcodes(shortcodes_config))
 .use(showdown({//markdown
-  convert : ["thumbnail_caption", "contents"],
-  options: {
+    convert : ["thumbnail_caption", "contents"],
+    options: {
     omitExtraWLInCodeBlocks: true,
     strikethrough: true,
     tables: true,
@@ -133,13 +146,13 @@ metalsmith(__dirname)
 //     ignore: ["pencil-logo-icon"]
 // }))
 .use(lazyloader({
-  clean_cache: false,
-  after: "</div>",
-  before: "<div class=\"lazy-wrapper\">",
-  lazy_attribute: "data-src",
-  svg: true,
-  add_noscript: true,
-  fetch_size: true
+    clean_cache: false,
+    after: "</div>",
+    before: "<div class=\"lazy-wrapper\">",
+    lazy_attribute: "data-src",
+    svg: true,
+    add_noscript: true,
+    fetch_size: true
 }))
 .use(organizer({
     delete_originals: true,
@@ -154,6 +167,7 @@ metalsmith(__dirname)
             date_page_layout: "index-list-item/index-list-item",
             num_format: "page/{num}",
             per_page: 10,
+            add_prop: [{search: true}],
         },
         index: {
             type: "post",
@@ -167,13 +181,6 @@ metalsmith(__dirname)
             page_layout: "index",
             //page_layout: "page-tags", ???
             expose: "tags",
-            path: "{group}/{expose}/{num}",
-            num_format: "page/{num}",
-            per_page:10,
-        },
-        category: {
-            type: "post",
-            expose: "categories",
             path: "{group}/{expose}/{num}",
             num_format: "page/{num}",
             per_page:10,
@@ -198,7 +205,30 @@ metalsmith(__dirname)
             override_permalink_group: true,
             no_folder: true
         },
-	 }
+        rss: {
+            type: "post",
+            path: "{group}",
+            change_extension: ".xml",
+            page_layout: "rss",
+            page_only: true
+        },
+        tag_rss: {
+            type: "post",
+            page_layout: "rss",
+            expose: "tags",
+            path: "tag/{expose}",
+            page_only: true,
+            change_extension: ".xml"
+        },
+        sitemap: {
+            page_layout: "sitemap",
+            path: "{group}",
+            page_only: true,
+            change_extension: ".xml",
+            no_folder: true,
+            //override_permalink_group: true
+        },
+	}
 }))
 .use(search({
     path: "resources/index.json",
@@ -227,13 +257,18 @@ metalsmith(__dirname)
     default: 'post.ejs',
     partials: "layouts/partials",
     partialExtension: ".ejs",
-    rename: true,
+    //rename: true,
     moment: moment,
     sizeOf: sizeOf,
     fs: fs,
     probe: probe
     //exposeConsolidate: {debug: true}
 }))
+// .use(sitemap({
+//     hostname: "http://alansartlog.com/",
+//     modifiedProperty: "mod-date",
+//     omitExtension: true
+// }))
 // .use(htmlMinifier("*.html", {
 //     //removeComments: true,
 // }))
@@ -258,6 +293,7 @@ metalsmith(__dirname)
 
 function rest_of_copies() {
     fs.copySync("README.md", "./public/README.md")
+    fs.copySync("./src_other/", "./public/")
     metalsmith(__dirname)
     .source('./resources/styles')
     .use(sass())

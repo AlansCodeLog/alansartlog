@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+xmlns:media="http://search.yahoo.com/mrss/"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:atom="http://www.w3.org/2005/Atom">
+<%var opts = {}
+opts.rss_permalink = permalink
+%>
+    <channel>
+        <%if (group == "rss"){%>
+            <atom:link href="<%=site.url%><%=permalink%>" rel="self" type="application/rss+xml" />
+        <%} else {%>
+            <atom:link href="<%=site.url%>/<%=group.slice(0,-4)%>/index.xml" rel="self" type="application/rss+xml" />
+        <%}%>
+        <language>en-us</language>
+        <title><%=site.title%></title>
+        <link><%=site.url%></link>
+        <description><%=site.description%></description>
+        <category><%=site.rss_category%></category>
+        <managingEditor><%=site.email%> (<%=site.author%>)</managingEditor>
+        <webMaster><%=site.email%> (<%=site.author%>)</webMaster>
+        <% var date_formated = moment(new Date()).utc().format('ddd, DD MMM YYYY HH:mm:ss [GMT]')%>
+        <lastBuildDate><%=date_formated%></lastBuildDate>
+        <image>
+            <url><%=site.url%><%=site.favicon%></url>
+            <title><%=site.title%></title>
+            <link><%=site.url%></link>
+        </image>
+        <% pagination.files.forEach(file => {
+            file.opts = opts%>
+            <%- include("content/rss-item.ejs", file)%>
+        <% }) %>
+        <%if (typeof site.copyright_start_year !== "undefined") {%>
+            <%var year = new Date().getFullYear()%>
+            <copyright>© Copyright <%= site.copyright_start_year%>-<%= year%> <%= site.author%> - <%= site.copyright_notice%></copyright>
+        <%}%>
+    </channel>
+</rss>

@@ -1,0 +1,34 @@
+<item>
+<%if (typeof thumbnail_url !== "undefined"){%>
+    <media:thumbnail url="<%=site.url%>/<%=thumbnail_url%>"/>
+    <%if (typeof thumbnail_caption !== "undefined"){%>
+        <media:description type="plain">This was some really bizarre band I listened to as a young lad.</media:description>
+    <%}%>
+<%}%>
+    <title><%=title%></title>
+    <link><%=site.url%><%=permalink%></link>
+    <guid><%=site.url%><%=permalink%></guid>
+    <%if (typeof description !== "undefined"){%>
+        <description><%=description%></description>
+    <%}%>
+    <%if (original_contents.includes("<!--more-->")) {
+        let excerpt = original_contents.toString()
+        excerpt = excerpt.substring(0, excerpt.indexOf("<!--more-->"))
+        //excerpt = excerpt.replace
+        %>
+        <content:encoded><![CDATA[excerpt<%- excerpt%>]]></content:encoded>
+    <%} else {%>
+        <content:encoded><![CDATA[content<%- original_contents%>]]></content:encoded>
+    <%}%>
+    <comments><%=site.url%><%=permalink%>#disqus_thread</comments>
+    <%for (tag of tags) {%>
+		<category><%=tag%></category>
+	<%}%>
+    <%if (group == "rss"){%>
+        <source url="<%=site.url%><%=opts.rss_permalink%>"><%=site.title%></source>
+    <%} else {%>
+        <source url="<%=site.url%>/<%=group.slice(0,-4)%>/index.xml"><%=group%></source>
+    <%}%>
+    <%var date_formated = moment(date).utc().format('ddd, DD MMM YYYY HH:mm:ss [GMT]')%>
+    <pubDate><%=date_formated%></pubDate>
+</item>

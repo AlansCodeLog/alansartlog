@@ -7,14 +7,10 @@ cache:
 install:
   - cd local_plugins/search
   - npm link search
-  - cd ../../
+  - cd ../../ #important
   - npm install
 script:
   - node .
-before_deploy:
-  - cd public
-  - echo "alansartlog.com" > CNAME
-  - cd ../ #they are indeed important
 deploy:
   provider: pages
   skip_cleanup: true

@@ -9,10 +9,10 @@
 	template-<%= opts.template%>
 <%}%>
 ">
-<head>
 	<%var year = new Date().getFullYear()
 	//console.log(year, title, site.title, site.description)
 	%>
+	<link rel="canonical" href="<%=site.url%><%=permalink%>" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<%if (typeof redirect_path !== "undefined") {%>
 		<meta http-equiv="refresh" content="0; URL='<%-redirect_path%>'" />
@@ -32,7 +32,7 @@
 		<% } else if (typeof site.description !== "undefined") {%>
 			<%= site.description%>
 		<%}%>"/>
-		<link rel="icon" href="/resources/images/pencil-logo-icon-150x150.jpg">
+		<link rel="icon" href="<%=site.favicon%>">
 		<%if (typeof pagination !== "undefined" && typeof pagination.files !== "undefined") {
 			for (file of pagination.files) {
 				if (file.contents.includes("<pre>")) {

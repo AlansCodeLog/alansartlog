@@ -1,4 +1,4 @@
-<% if (typeof site.dates !== "undefiend") {%>
+<% if (typeof site.dates !== "undefined") {%>
 	<ul class="archive-years archive">
 	<%
 	var years = Object.keys(site.dates).map(year=>{
@@ -12,7 +12,7 @@
 		obj[year] = months
 		return obj
 	}).sort((a,b)=>{
-		return Object.keys(a)[0] - Object.keys(b)[0]
+		return Object.keys(b)[0] - Object.keys(a)[0]
 	})
 	for (yearindex of years) {
 		var year = Object.keys(yearindex)[0]
