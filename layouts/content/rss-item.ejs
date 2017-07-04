@@ -25,9 +25,13 @@
 		<category><%=tag%></category>
 	<%}%>
     <%if (group == "rss"){%>
-        <source url="<%=site.url%><%=opts.rss_permalink%>"><%=site.title%></source>
+        <source url="<%=site.url%>/<%=path%>"><%=site.title%></source>
     <%} else {%>
-        <source url="<%=site.url%>/<%=group.slice(0,-4)%>/index.xml"><%=group%></source>
+        <%if (path.includes("tag/artwork")) {%>
+            <source url="<%=site.url%>/<%=path.slice(4, path.length)%>"><%=site.title%>HERE - Tag:<%=exposed_value%></source>
+        <%} else {%>
+            <source url="<%=site.url%>/<%=path%>"><%=site.title%> - Tag:<%=exposed_value%></source>
+        <%}%>
     <%}%>
     <%var date_formated = moment(date).utc().format('ddd, DD MMM YYYY HH:mm:ss [GMT]')%>
     <pubDate><%=date_formated%></pubDate>

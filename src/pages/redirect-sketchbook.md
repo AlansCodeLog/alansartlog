@@ -2,5 +2,5 @@
 title: sketchbook
 layout: page-redirect
 type: page
-redirect_path: /category/artwork
+redirect_path: /artwork
 ---

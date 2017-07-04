@@ -7,7 +7,7 @@ thumbnail_caption: |
     Color Swatches
     Brick wall & tree.
 thumbnail_sizes: [ 212x300 ]
-tags: ["artwork","watercolors"]
+tags: ["watercolors"]
 ---
 I’ve heard of artists keeping a notebook with just random color swatches as an exercise in observing color and I found that interesting. Also like I mentioned this is one of the things I most enjoy about painting, matching the colors. So I gave it a try.
 

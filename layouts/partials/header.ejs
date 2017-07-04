@@ -47,13 +47,16 @@
 			<div class="icon-links">
 				<%for (item in site.social_links) {%>
 					<a href="<%= site.social_links[item].href%>"
-				<%if (typeof site.social_links[item].alt !== "undefined") {%>
-					id="<%= site.social_links[item].alt%>"
-					aria-label="<%= site.social_links[item].alt%>"
-				<%} else {%>
-					id="<%= item%>"
-					aria-label="<%= item%>"
-				<%}%>
+					<%if (item == "rss") {%>
+						type="application/rss+xml"
+					<%}%>
+					<%if (typeof site.social_links[item].alt !== "undefined") {%>
+						id="<%= site.social_links[item].alt%>"
+						aria-label="<%= site.social_links[item].alt%>"
+					<%} else {%>
+						id="<%= item%>"
+						aria-label="<%= item%>"
+					<%}%>
 					class="clicks">
 						<%if (typeof site.social_links[item].icon !== "undefined") {%>
 							<i class="fontello <%=site.social_links[item].icon%>" aria-hidden="true"></i>

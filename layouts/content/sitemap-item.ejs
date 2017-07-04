@@ -1,1 +1,19 @@
-<url><loc><%=site.url%><%=permalink%></loc></url>
+<%if (!permalink.includes("404") && layout !== "page-redirect" && !permalink.includes("message-sent")) {%>
+<url>
+    <loc><%=site.url%><%=permalink%></loc>
+<%if (original_contents.includes("youtube")) {
+    var video_list = []
+    original_contents.toString().replace(/youtube\.com\/embed\/(.*?)\"/g , function(match, src) {
+        var autoplay = src.indexOf("?autoplay")
+        var id = src.slice(0,autoplay)
+        video_list.push(id)
+    })
+    for (video of video_list){%>
+    <video:video>
+        <video:thumbnail_loc>http://img.youtube.com/vi/<%=video%>/default.jpg</video:thumnail_loc>
+        <video:player_loc allow_embed="yes"https://www.youtube.com/watch?v=<%=video%></video:player_loc>
+    <video:video>
+    <%}
+}%>
+</url>
+<%}%>

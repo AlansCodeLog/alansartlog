@@ -21,7 +21,7 @@ const sass = require('metalsmith-sass');
 const probe = require("probe-image-size");
 const search = require("search");//TODO
 const path = require("path")
-//const clean_images = require("clean-images");
+// const clean_images = require("clean-images");
 // const sitemap = require("metalsmith-sitemap")
 // const rssfeed = require("metalsmith-rssfeed")
 
@@ -97,10 +97,11 @@ metalsmith(__dirname)
                 href: "http://feeds.specificfeeds.com/alansartlog?subParam=followPub",
                 alt: "Subscribe through Email"
             },
-            // Feed: {
-            //     href: "http://alansartlog.com/feed",
-            //     alt: "Subscribe through RSS"
-            // },
+            RSS: {
+                icon: "icon-rss",
+                href: "http://alansartlog.com/rss",
+                alt: "Subscribe through RSS"
+            },
             // Reddit: {
             //     href: "https://www.reddit.com/user/alansartlog/",
             // },
@@ -159,8 +160,8 @@ metalsmith(__dirname)
     permalink_group: "posts",
     drafts: include_drafts,
     //make_safe
-    groups: {
-        posts: {
+    groups: [
+        {   group_name: "posts",
             type: "post",
             path: "{date}/{num}/{title}",
             date_format: "YYYY/MM",
@@ -169,14 +170,14 @@ metalsmith(__dirname)
             per_page: 10,
             add_prop: [{search: true}],
         },
-        index: {
+        {   group_name: "index",
             type: "post",
             page_layout: "index",
             path: "{num}",
             num_format: "page/{num}",
             per_page:10,
         },
-        tag: {
+        {   group_name: "tag",
             type: "post",
             page_layout: "index",
             //page_layout: "page-tags", ???
@@ -185,42 +186,42 @@ metalsmith(__dirname)
             num_format: "page/{num}",
             per_page:10,
         },
-        artwork: {
-            categories: "artwork",
+        {   group_name: "artwork",
+            tags: "artwork",
             thumbnail_url: true,
-            expose: "categories",
+            expose: "tags",
             page_layout: "index-masonry-thumb",
             path: "{group}/{num}",
             num_format: "page/{num}",
             per_page: 30,
         },
-        pages: {
+        {   group_name: "pages",
             type: "page",
             path: "{title}",
             override_permalink_group: true,
         },
-        error: {
+        {   group_name: "error",
             type: "error",
             path: "{title}",
             override_permalink_group: true,
             no_folder: true
         },
-        rss: {
+        {   group_name: "rss",
             type: "post",
             path: "{group}",
             change_extension: ".xml",
             page_layout: "rss",
             page_only: true
         },
-        tag_rss: {
+        {   group_name: "tag_rss",
             type: "post",
             page_layout: "rss",
             expose: "tags",
-            path: "tag/{expose}",
+            path: "tag/{expose}/rss",
             page_only: true,
             change_extension: ".xml"
         },
-        sitemap: {
+        {   group_name: "sitemap",
             page_layout: "sitemap",
             path: "{group}",
             page_only: true,
@@ -228,7 +229,7 @@ metalsmith(__dirname)
             no_folder: true,
             //override_permalink_group: true
         },
-	}
+	]
 }))
 .use(search({
     path: "resources/index.json",
@@ -364,5 +365,13 @@ function rest_of_copies() {
     } else {
         console.log("no uploads folder");
     }
-
+    //delete extra files
+    var redirected_artwork = fs.readdirSync("./public/tag/artwork")
+    for (file of redirected_artwork) {
+        if (file !== "index.html" && file !== "rss") {
+            fs.removeSync("./public/tag/artwork/"+file)
+        } else if (file == "rss") {
+            fs.moveSync("./public/tag/artwork/"+file, "./public/artwork/"+file)
+        }
+    }
 }

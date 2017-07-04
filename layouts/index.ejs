@@ -3,10 +3,17 @@ opts.has_share = true%>
 <%- include partials/head.ejs %>
 <%- include partials/header.ejs %>
 <main class="container">
-	<%if (typeof categories !== "undefined" || typeof tags !== "undefined") {
+	<%if (typeof exposed_value !== "undefined") {
 		%>
 		<header class="term-header">
-			<h1 class="term-title"><%= typeof categories !== "undefined" ? categories : tags%></h1>
+			<%if (exposed == "tags") {
+				var safetag = site.tags[exposed_value].nicename
+				%>
+				<h1 class="term-title">Tag: <%=exposed_value%><a href="<%=site.url%>/tag/<%=safetag%>/rss" type="application/rss+xml"><i class="fontello icon-rss" aria-hidden="true"></i></a>
+				</h1>
+			<%} else {%>
+				<h1 class="term-title"><%=exposed_value%></h1>
+			<%}%>
 		</header>
 	<%}%>
 	<% if (typeof pagination !=="undefined") {%>

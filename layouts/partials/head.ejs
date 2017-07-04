@@ -12,34 +12,38 @@
 	<%var year = new Date().getFullYear()
 	//console.log(year, title, site.title, site.description)
 	%>
-	<link rel="canonical" href="<%=site.url%><%=permalink%>" />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<%if (typeof redirect_path !== "undefined") {%>
-		<meta http-equiv="refresh" content="0; URL='<%-redirect_path%>'" />
-		<link rel="stylesheet" href="/resources/styles/redirect.css"/>
-	<%} else {%>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta charset="utf-8">
-		<title>
-			<% if (typeof title !== "undefined") {%>
-				<%= title%>
-			<% } else if (typeof site.title !== "undefined") {%>
-				<%= site.title%>
-			<%}%>
-		</title>
-		<meta name="description"
-		content="<% if (typeof description !== "undefined") { %>
-			<%= description %>
-		<% } else if (typeof site.description !== "undefined") {%>
-			<%= site.description%>
-		<%}%>"/>
+		<title><% if (typeof title !== "undefined") {%><%= title%><% } else if (typeof site.title !== "undefined") {%><%= site.title%><%}%></title>
+		<meta name="description" content="<% if (typeof description !== "undefined") { %><%= description %><% } else if (typeof site.description !== "undefined") {%><%= site.description%><%}%>"/>
+		<meta name="author" content="<%=site.author%>" />
+		<meta name="contact" content="<%=site.email%>" />
+		<meta name="copyright" content="© Copyright <%= site.copyright_year%>-<%= year%> <%=site.footer%>"/>
+<%if (typeof redirect_path !== "undefined") {%>
+		<meta http-equiv="refresh" content="0; URL='<%=site.url%><%-redirect_path%>'" />
+		<link rel="stylesheet" href="/resources/styles/redirect.css"/>
+		<link rel="canonical" href="<%=site.url%><%-redirect_path%>" />
+	</head>
+<%} else {%>
+		<link rel="canonical" href="<%=site.url%><%=permalink%>" />
 		<link rel="icon" href="<%=site.favicon%>">
+		<%if (typeof group == "undefined" || (group !=="tag" && group !=="artwork")){%>
+			<link href="<%=site.url%>" rel="alternate feed" type="application/rss+xml" title="<%=site.title%>" />
+		<%} else if (typeof exposed !== "undefined" && group == "tag") {%>
+			<link href="<%=site.url%>/<%=group%>/<%=exposed_value%>/index.xml" rel="alternate feed" type="application/rss+xml" title="<%=site.title%> - <%=group%>" />
+		<%}else if (group == "artwork") {%>
+			<link href="<%=site.url%>/tag/<%=group%>/index.xml" rel="alternate feed" type="application/rss+xml" title="<%=site.title%> - <%=group%>" />
+		<%}%>
 		<%if (typeof pagination !== "undefined" && typeof pagination.files !== "undefined") {
 			for (file of pagination.files) {
-				if (file.contents.includes("<pre>")) {
-					var contains_code = true;
-				}
-				if (file.contents.includes("class=\"math\"")) {
-					var contains_math = true;
+				if (opts.is_single !== "undefined" && opts.is_single == true){
+					if (file.contents.includes("<pre>")) {
+						var contains_code = true;
+					}
+					if (file.contents.includes("class=\"math\"")) {
+						var contains_math = true;
+					}
 				}
 				if (file.contents.includes("class=\"gallery\"")) {
 					var contains_gallery = true;
@@ -47,15 +51,17 @@
 			}
 		}%>
 		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<%if ((typeof contains_code !== "undefined" && contains_code == true) || contents.includes("<pre>")){
-			//Loads highlightjs if mathjax exists
-			var contains_code = true;%>
-			<script async type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/highlight.min.js"></script>
-		<%}%>
-		<%if ((typeof contains_math !== "undefined" && contains_code == true) || contents.includes("class=\"math\"")){//Loads mathjax if mathjax exists
-			var contains_math = true;%>
-			<script async type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML">
-			</script>
+		<%if (opts.is_single !== "undefined" && opts.is_single == true){%>
+			<%if ((typeof contains_code !== "undefined" && contains_code == true) || contents.includes("<pre>")){
+				//Loads highlightjs if mathjax exists
+				var contains_code = true;%>
+				<script async type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/highlight.min.js"></script>
+			<%}%>
+			<%if ((typeof contains_math !== "undefined" && contains_code == true) || contents.includes("class=\"math\"")){//Loads mathjax if mathjax exists
+				var contains_math = true;%>
+				<script async type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML">
+				</script>
+			<%}%>
 		<%}%>
 		<%if (typeof test !== "undefined" && (typeof contains_gallery !== "undefined" && contains_gallery == true) || contents.includes("class=\"gallery\"")){
 			//Loads slick-carousel if gallery exists
@@ -65,7 +71,7 @@
 		<%}%>
 		<script async type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery.lazyloadxt/1.1.0/jquery.lazyloadxt.extra.min.js"></script>
 		<%if(typeof opts.template !== "undefined" && opts.template.includes("masonry")) {%>
-			<script async type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.0/masonry.pkgd.min.js"></script>
+			<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.0/masonry.pkgd.min.js"></script>
 		<%}%>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.min.js"></script>
 		<script type="text/javascript" src="/resources/js/main.js"></script>
@@ -97,33 +103,30 @@
 		<%if (typeof site.google_tag_manager !=="undefined") {%>
 			<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','<%=site.google_tag_manager%>');</script>
 	    <%}%>
-	<%}%>
-	<meta name="author" content="<%=site.author%>" />
-	<meta name="contact" content="<%=site.email%>" />
-	<meta name="copyright" content="© Copyright <%= site.copyright_year%>-<%= year%> <%=site.footer%>"/>
-</head>
-<body class="body <%if (typeof opts.dark !== "undefined" && opts.dark == true){%>dark<%}%>">
-	<%if (typeof site.google_tag_manager !=="undefined") {%>
-		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=<%=site.google_tag_manager%>" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-	<%}%>
-	<%if (contains_gallery == true && typeof test !== "undefined"){%>
-		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.css">
-		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.css">
-	<%}%>
-	<link rel="stylesheet" href="/resources/styles/style.css"/>
-	<noscript><style>.lazy img {display:none}</style></noscript>
-	<%if (contains_code !== "undefined") {%>
-		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/styles/monokai.min.css" />
-		<!--link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/styles/github.min.css" /-->
-	<%}%>
+	</head>
+	<body class="body <%if (typeof opts.dark !== "undefined" && opts.dark == true){%>dark<%}%>">
+		<%if (typeof site.google_tag_manager !=="undefined") {%>
+			<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=<%=site.google_tag_manager%>" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<%}%>
+		<%if (contains_gallery == true && typeof test !== "undefined"){%>
+			<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.css">
+			<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.css">
+		<%}%>
+		<link rel="stylesheet" href="/resources/styles/style.css"/>
+		<noscript><style>.lazy img {display:none}</style></noscript>
+		<%if (contains_code !== "undefined") {%>
+			<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/styles/monokai.min.css" />
+			<!--link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/styles/github.min.css" /-->
+		<%}%>
 
-<%if (contains_gallery == true){%>
-	<div id="fullscreen-gallery">
-		<div class="container">
-			<figure>
-			<div class="fontello icon-left-open left" aria-hidden="true"></div>
-			<div class="fontello icon-right-open right" aria-hidden="true"></div>
-			</figure>
+	<%if (contains_gallery == true){%>
+		<div id="fullscreen-gallery">
+			<div class="container">
+				<figure>
+				<div class="fontello icon-left-open left" aria-hidden="true"></div>
+				<div class="fontello icon-right-open right" aria-hidden="true"></div>
+				</figure>
+			</div>
 		</div>
-	</div>
+	<%}%>
 <%}%>

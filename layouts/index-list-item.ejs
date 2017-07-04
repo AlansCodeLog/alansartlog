@@ -7,10 +7,10 @@ opts.small_thumbs = true;
 <%- include partials/header.ejs %>
 <main class="container">
 	<header class="term-header">
-	<% if (exposed.split("/").length > 1) {%>
-		<h1 class="term-title">Year: <%= exposed%></h1>
+	<% if (exposed_value.split("/").length > 1) {%>
+		<h1 class="term-title"><%= moment(exposed_value, "YYYY/mm").format("MMMM YYYY")%></h1>
 	<%} else {%>
-		<h1 class="term-title">Month: <%= exposed%></h1>
+		<h1 class="term-title"><%= exposed_value%></h1>
 	<%}%>
 	</header>
 	<% if (typeof pagination !=="undefined") {%>
