@@ -11,14 +11,19 @@
     <%if (typeof description !== "undefined"){%>
         <description><%=description%></description>
     <%}%>
-    <%if (original_contents.includes("<!--more-->")) {
-        let excerpt = original_contents.toString()
+    <%//original_contents.replace()
+    var fixed_contents = original_contents.toString()
+    .replace(/<div class="videowrapper">.*?data-src="(.*?)"[\S\s]*?div><.div>/gm, "<iframe src=\"$1\" frameborder=\"0\" allowfullscreen></iframe>")
+    .replace(/data-src="(.*?)"(.*?)src=".*?"/gm, "src=\"$1\" $2")
+    %>
+    <%if (fixed_contents.includes("<!--more-->")) {
+        let excerpt = fixed_contents.toString()
         excerpt = excerpt.substring(0, excerpt.indexOf("<!--more-->"))
-        //excerpt = excerpt.replace
+        excerpt = excerpt + "<p><a class=\"read-more\" href=\""+permalink+"\">Read More…</a></p>"
         %>
         <content:encoded><![CDATA[excerpt<%- excerpt%>]]></content:encoded>
     <%} else {%>
-        <content:encoded><![CDATA[content<%- original_contents%>]]></content:encoded>
+        <content:encoded><![CDATA[content<%- fixed_contents%>]]></content:encoded>
     <%}%>
     <comments><%=site.url%><%=permalink%>#disqus_thread</comments>
     <%for (tag of tags) {%>

@@ -2,6 +2,7 @@ const fs = require('fs-extra');
 const request = require('sync-request');
 const showdown = require('metalsmith-showdown');
 const md = new showdown.expose.Converter({flavor:"github"})
+//RSS FEED MUST BE CHANGED IF CHANGES TO RETURN ARE MADE
 module.exports = {
     clean_cache: false,
     shortcodes: [
