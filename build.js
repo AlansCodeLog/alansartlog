@@ -13,7 +13,7 @@ const lazyloader = require('metalsmith-lazyloader');
 const request = require('sync-request');
 const showdown = require('metalsmith-showdown');
 const md = new showdown.expose.Converter({flavor:"github"})
-const uglify = require('metalsmith-uglify');
+//const uglify = require('metalsmith-uglify');
 const related = require ('metalsmith-related-posts');
 const sizeOf = require('image-size');
 const title_svg_content = fs.readJsonSync("./resources/styles-parts/styles svgs/logos.json")
@@ -22,8 +22,10 @@ const probe = require("probe-image-size");
 const search = require("search");//TODO
 const path = require("path")
 // const clean_images = require("clean-images");
-// const sitemap = require("metalsmith-sitemap")
-// const rssfeed = require("metalsmith-rssfeed")
+const minify = require('html-minifier').minify;
+// const CleanCSS = require("clean-css")
+const UglifyJS = require("uglify-js")
+const FileHound = require('filehound');
 
 var include_drafts = false;
 if (process.env.NODE_ENV == "dev") {
@@ -46,7 +48,7 @@ metalsmith(__dirname)
 .metadata({
     site: {
         //url:"localhost:8080",
-        url: "http://alansartlog.com",
+        url: "https://alansartlog.com",
         debug: false,
         big_header: true,
         title_svg: title_svg_content.mix_optimized,
@@ -384,7 +386,7 @@ function rest_of_copies() {
         } else if (file == "rss") {
             fs.moveSync("./public/tag/artwork/"+file, "./public/artwork/"+file)
         }
-        }
+    }
     //minify everything
     var files_html = FileHound.create()
     .paths('public')
