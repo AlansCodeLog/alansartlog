@@ -17,6 +17,6 @@ I had actually planned on sketching the faces and everything as well with the fi
 
 Here’s the original image for comparison:
 
-![Two People Fencing](https://farm4.staticflickr.com/3150/3072383175_3e648b04cd_z.jpg)
+[![Two People Fencing](/resources/uploads/flickr-two-people-fencing.jpg)](https://flic.kr/p/5FuLtH)
 
 The second one is more similar to the original because I wasn’t quite sure where to stop. I didn’t draw their faces, but everything else was covered and therefore you don’t get the same effect from just drawing the clothing / inanimate objects.

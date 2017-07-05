@@ -172,7 +172,7 @@ It also has an option to display overexposed areas with those zebra stripes.
 
 [figure]
 
-![Focus Peak/Zebra Luma](http://wiki.magiclantern.fm/_media/beertje6.jpg)
+[![Focus Peak/Zebra Luma](/resources/uploads/magic-lantern-focus-peak-zebra-luma.jpg)](http://wiki.magiclantern.fm/_media/beertje6.jpg)
 
 [caption] [Image]( http://wiki.magiclantern.fm/_media/beertje6.jpg ) by [Magic Lantern](http://wiki.magiclantern.fm)/used under [CC-BY-SA](https://creativecommons.org/licenses/by-sa/3.0/)[/caption]
 

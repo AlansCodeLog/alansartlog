@@ -47,8 +47,8 @@ if (fs.existsSync("./public")) {
 metalsmith(__dirname)
 .metadata({
     site: {
-        //url:"localhost:8080",
-        url: "https://alansartlog.com",
+        url:"localhost:8080",
+        //url: "http://alansartlog.com",
         debug: false,
         big_header: true,
         title_svg: title_svg_content.mix_optimized,
