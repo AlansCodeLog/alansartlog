@@ -9,7 +9,7 @@ opts.has_share = true%>
 			<%if (exposed == "tags") {
 				var safetag = site.tags[exposed_value].nicename
 				%>
-				<h1 class="term-title">Tag: <%=exposed_value%><a href="<%=site.url%>/tag/<%=safetag%>/rss" type="application/rss+xml"><i class="fontello icon-rss" aria-hidden="true"></i></a>
+				<h1 class="term-title">Tag: <%=exposed_value%><a href="<%=site.url%>/tags/<%=safetag%>/rss" type="application/rss+xml"><i class="fontello icon-rss" aria-hidden="true"></i></a>
 				</h1>
 			<%} else {%>
 				<h1 class="term-title"><%=exposed_value%></h1>

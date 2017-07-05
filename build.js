@@ -179,7 +179,7 @@ metalsmith(__dirname)
             num_format: "page/{num}",
             per_page:10,
         },
-        {   group_name: "tag",
+        {   group_name: "tags",
             type: "post",
             page_layout: "index",
             //page_layout: "page-tags", ???
@@ -219,7 +219,7 @@ metalsmith(__dirname)
             type: "post",
             page_layout: "rss",
             expose: "tags",
-            path: "tag/{expose}/rss",
+            path: "tags/{expose}/rss",
             page_only: true,
             change_extension: ".xml"
         },
@@ -379,12 +379,12 @@ function rest_of_copies() {
         console.log("no uploads folder");
     }
     //delete extra files
-    var redirected_artwork = fs.readdirSync("./public/tag/artwork")
+    var redirected_artwork = fs.readdirSync("./public/tags/artwork")
     for (file of redirected_artwork) {
         if (file !== "index.html" && file !== "rss") {
-            fs.removeSync("./public/tag/artwork/"+file)
+            fs.removeSync("./public/tags/artwork/"+file)
         } else if (file == "rss") {
-            fs.moveSync("./public/tag/artwork/"+file, "./public/artwork/"+file)
+            fs.moveSync("./public/tags/artwork/"+file, "./public/artwork/"+file)
         }
     }
     //minify everything

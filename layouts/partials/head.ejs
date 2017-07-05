@@ -43,7 +43,7 @@
 		<%} else if (typeof exposed !== "undefined" && group == "tag") {%>
 			<link href="<%=site.url%>/<%=group%>/<%=exposed_value%>/index.xml" rel="alternate feed" type="application/rss+xml" title="<%=site.title%> - <%=group%>" />
 		<%}else if (group == "artwork") {%>
-			<link href="<%=site.url%>/tag/<%=group%>/index.xml" rel="alternate feed" type="application/rss+xml" title="<%=site.title%> - <%=group%>" />
+			<link href="<%=site.url%>/tags/<%=group%>/index.xml" rel="alternate feed" type="application/rss+xml" title="<%=site.title%> - <%=group%>" />
 		<%}%>
 		<%if (typeof pagination !== "undefined" && typeof pagination.files !== "undefined") {
 			for (file of pagination.files) {

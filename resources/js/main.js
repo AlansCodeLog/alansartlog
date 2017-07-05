@@ -245,7 +245,7 @@ $(document).ready(function () {
                                         var tag_index = newlist[tag].toLowerCase().indexOf(query.toLowerCase())
                                         newlist[tag] = newlist[tag].slice(0, tag_index )+"<span class=\"search-match-highlight\">"+newlist[tag].slice(tag_index ,tag_index  +query.length)+"</span>"+newlist[tag].slice(tag_index +query.length, newlist[tag].length)
                                     }
-                                    newlist[tag] = "<a href=\""+"/tag/"+newlist[tag].replace(/(-|\/)/g, "").replace(/(\'|\"|\(|\)|\[|\]|\?|\+)/g, "").replace(/(\s)+/g, "-").toLowerCase()+"\"><div class=\"tags\">"+newlist[tag]+"</div></a>"
+                                    newlist[tag] = "<a href=\""+"/tags/"+newlist[tag].replace(/(-|\/)/g, "").replace(/(\'|\"|\(|\)|\[|\]|\?|\+)/g, "").replace(/(\s)+/g, "-").toLowerCase()+"\"><div class=\"tags\">"+newlist[tag]+"</div></a>"
                                 }
                                 if (newlist.indexOf("match-highlight") !== -1) {
                                     entry = entry + newlist.join("")

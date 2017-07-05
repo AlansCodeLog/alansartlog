@@ -27,7 +27,7 @@
     <link rel="service.post" type="text/html" href="<%=site.url%><%=permalink%>#disqus_thread" title="Comment"/>
     <%for (tag of tags) {
         var safetag = site.tags[tag].nicename%>
-        <category term="<%=site.url%>/tag/<%=safetag%>" label="<%=tag%>"></category>
+        <category term="<%=site.url%>/tags/<%=safetag%>" label="<%=tag%>"></category>
     <%}%>
     <%var date_formated = moment(date).utc().format("YYYY-MM-DDTHH:mm:ssZ")%>
     <updated><%=date_formated%></updated>

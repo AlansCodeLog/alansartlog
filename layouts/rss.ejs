@@ -9,7 +9,7 @@ xmlns="http://www.w3.org/2005/Atom">
         <link type="text/html" href="<%=site.url%>" rel="alternate"/>
         <id><%=site.url%>/</id>
     <%} else {%>
-        <%if (path.includes("tag/artwork")) {%>
+        <%if (path.includes("tags/artwork")) {%>
             <link href="<%=site.url%>/<%=path.slice(4, path.length)%>" rel="self" type="application/atom+xml"  />
             <title><%=site.title%> - Tag:<%=exposed_value%></title>
             <link type="text/html" href="<%=site.url%>/<%=path.slice(4, path.length - 14)%>" rel="alternate"/>
