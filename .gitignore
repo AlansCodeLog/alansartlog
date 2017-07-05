@@ -1,6 +1,5 @@
 node_modules
 public
-nodemon.json
 .vscode
 cache.shortcodes.json
 cache.lazyloader.json

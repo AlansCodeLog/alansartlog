@@ -22,7 +22,17 @@
 		<meta name="copyright" content="© Copyright <%= site.copyright_year%>-<%= year%> <%=site.footer%>"/>
 <%if (typeof redirect_path !== "undefined") {%>
 		<meta http-equiv="refresh" content="0; URL='<%=site.url%><%-redirect_path%>'" />
-		<link rel="stylesheet" href="/resources/styles/redirect.css"/>
+		<style>
+			.redirect {
+				font-family:Arial;
+				font-size:1.5rem;
+				position: absolute;
+				top:50%;
+				left:50%;
+				transform: translate(-50%, -50%);
+				text-align:center;
+			}
+		</style>
 		<link rel="canonical" href="<%=site.url%><%-redirect_path%>" />
 	</head>
 <%} else {%>
@@ -73,7 +83,6 @@
 		<%if(typeof opts.template !== "undefined" && opts.template.includes("masonry")) {%>
 			<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.0/masonry.pkgd.min.js"></script>
 		<%}%>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.min.js"></script>
 		<script type="text/javascript" src="/resources/js/main.js"></script>
 		<%if (typeof opts.has_share !== "undefined") {%>
 		    <!--script type="text/javascript">

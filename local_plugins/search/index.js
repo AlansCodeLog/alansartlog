@@ -3,17 +3,12 @@ const elasticlunr = require("elasticlunr");
 module.exports = plugin;
 
 function plugin(opts){
-    var index = elasticlunr(function () {
-        for (field of opts.fields) {
-            this.addField(field);
-        }
-        this.setRef(opts.ref);
-    });
-    opts.filter = opts.filter || true
+    opts.filter = opts.filter || function(file){return true}
         return function(files, metalsmith, done){
+            var files_index = {}
             for (file in files) {
                 if (opts.filter(files[file])) {
-                    var post = {}
+                   let post = {}
                     for (field of opts.fields) {
                         if (field == "contents") {
                             var content = files[file][field].toString()
@@ -26,11 +21,12 @@ function plugin(opts){
                         post[field] = content
                     }
                     post[opts.ref] = files[file][opts.ref]
-                    index.addDoc(post)
+                    let id = files[file][opts.ref]
+                    files_index[id] = post
                 }
             }
-            index = JSON.stringify(index)
-            files[opts.path] = {contents: index}
+            files_index = JSON.stringify(files_index)
+            files[opts.path] = {contents: files_index}
             done()
         }
     }

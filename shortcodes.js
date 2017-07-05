@@ -19,7 +19,7 @@ module.exports = {
             return match.replace("figure", "figure thumb=\"true\"")
         },
     },
-    {
+    {   
         name: "figure",
         replace: function figure (params, match, metalsmith) {
             var dir = metalsmith._metadata.site.uploads.slice(1, metalsmith._metadata.site.uploads.length)
@@ -47,13 +47,13 @@ module.exports = {
                     var replacement = "<img src=\""+src+"\""
                 }
                 if (typeof alt !=="undefined") {
-                    replacement = replacement + " alt=\""+alt+"\""
+                    replacement = replacement + " alt=\""+encodeURI(alt)+"\""
                 } else {
                     replacement = replacement + " alt=\"\""
                 }
                 if (typeof title !=="undefined") {
                     title = title.trim()
-                    replacement = replacement + " title="+ title //alt contains quotation marks already
+                    replacement = replacement + " title="+ encodeURI(title) //alt contains quotation marks already
                 }
                 replacement = replacement + "/>"
                 return replacement

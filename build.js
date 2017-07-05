@@ -239,10 +239,15 @@ metalsmith(__dirname)
         } else {return file_prop}
     },
     filter: function(file) {
-        if (file.type == "post") {
-            return true
+        if (include_drafts) {
+            var condition = file.type !== "post" || (post.draft == true || post.draft == "true" || post.published == false || post.published == "false" || post.status == "draft")
         } else {
+            var condition = file.type !== "post"
+        }
+        if (condition) {
             return false
+        } else {
+            return true
         }
     },
     fields: ["title", "contents", "tags"],
@@ -262,8 +267,8 @@ metalsmith(__dirname)
     moment: moment,
     sizeOf: sizeOf,
     fs: fs,
-    probe: probe
-    //exposeConsolidate: {debug: true}
+    probe: probe,
+    exposeConsolidate: {debug: true, delimiter: "%", rmWhitespace: true}
 }))
 // .use(sitemap({
 //     hostname: "http://alansartlog.com/",
@@ -305,6 +310,9 @@ function rest_of_copies() {
             console.log(err);
         }
         else {
+            // var css_file_main = fs.readFileSync("public/resources/styles/style.css").toString()
+            // css_file_main = new CleanCSS().minify(css_file_main);
+            // fs.writeFileSync("public/resources/styles/style.css", css_file_main, {overwrite:true})
             console.log('Styles');
         }
     });
@@ -334,14 +342,17 @@ function rest_of_copies() {
     metalsmith(__dirname)
     .source('./resources/js')
     .destination('./public/resources/js')
-    .use(uglify({
-        nameTemplate:'[name].[ext]'
-    }))
+    // .use(uglify({
+    //     nameTemplate:'[name].[ext]'
+    // }))
     .build(function (err) {
         if (err) {
             console.log(err);
         }
         else {
+            var javascript_file = fs.readFileSync("public/resources/js/main.js", "utf8")
+            javascript_file = UglifyJS.minify(javascript_file, {compress: true, mangle: true}).code
+            fs.writeFileSync("public/resources/js/main.js", javascript_file, {overwrite:true})
             console.log('JS');
         }
     });
@@ -373,5 +384,17 @@ function rest_of_copies() {
         } else if (file == "rss") {
             fs.moveSync("./public/tag/artwork/"+file, "./public/artwork/"+file)
         }
+        }
+    //minify everything
+    var files_html = FileHound.create()
+    .paths('public')
+    .ext('html')
+    .findSync();
+    for (file of files_html) {
+        var content = fs.readFileSync(file).toString()
+        content = minify(content)
+        fs.writeFileSync(file, content, {overwrite:true})
     }
+
+
 }
