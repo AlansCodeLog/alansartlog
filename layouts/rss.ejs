@@ -1,45 +1,40 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0"
-xmlns:media="http://search.yahoo.com/mrss/"
+<?xml version="1.0" encoding="utf-8"?>
+<feed xml:lang="en-US" 
+xmlns:media="http://search.yahoo.com/mrss/" 
 xmlns:content="http://purl.org/rss/1.0/modules/content/"
-xmlns:atom="http://www.w3.org/2005/Atom">
-<%var opts = {}
-%>
-    <channel>
-        <%if (group == "rss"){%>
-            <atom:link href="<%=site.url%>/<%=path%>" rel="self" type="application/rss+xml" />
-            <title><%=site.title%></title>
-            <link><%=site.url%></link>
+xmlns="http://www.w3.org/2005/Atom">
+    <%if (group == "rss"){%>
+        <link href="<%=site.url%>/<%=path%>" rel="self" type="application/atom+xml" />
+        <title type="text" xml:lang="en"><%=site.title%></title>
+        <link type="text/html" href="<%=site.url%>" rel="alternate"/>
+        <id><%=site.url%>/</id>
+    <%} else {%>
+        <%if (path.includes("tag/artwork")) {%>
+            <link href="<%=site.url%>/<%=path.slice(4, path.length)%>" rel="self" type="application/atom+xml"  />
+            <title><%=site.title%> - Tag:<%=exposed_value%></title>
+            <link type="text/html" href="<%=site.url%>/<%=path.slice(4, path.length - 14)%>" rel="alternate"/>
+            <id><%=site.url%>/<%=path.slice(4, path.length - 14)%></id>
         <%} else {%>
-            <%if (path.includes("tag/artwork")) {%>
-                <atom:link href="<%=site.url%>/<%=path.slice(4, path.length)%>" rel="self" type="application/rss+xml" />
-                <title><%=site.title%> - Tag:<%=exposed_value%></title>
-                <link><%=site.url%>/<%=path.slice(4, path.length - 14)%></link>
-            <%} else {%>
-                <atom:link href="<%=site.url%>/<%=path%>" rel="self" type="application/rss+xml" />
-                <title><%=site.title%> - Tag:<%=exposed_value%></title>
-                <link><%=site.url%>/<%=path.slice(0, -14)%></link>
-            <%}%>
+            <link href="<%=site.url%>/<%=path%>" rel="self" type="application/atom+xml"  />
+            <title><%=site.title%> - Tag:<%=exposed_value%></title>
+            <link type="text/html" href="<%=site.url%>/<%=path.slice(0, -14)%>" rel="alternate"/>
+            <id><%=site.url%>/<%=path.slice(0, -14)%></id
         <%}%>
-        <language>en-us</language>
-        <description><%=site.description%></description>
-        <category><%=site.rss_category%></category>
-        <managingEditor><%=site.email%> (<%=site.author%>)</managingEditor>
-        <webMaster><%=site.email%> (<%=site.author%>)</webMaster>
-        <% var date_formated = moment(new Date()).utc().format('ddd, DD MMM YYYY HH:mm:ss [GMT]')%>
-        <lastBuildDate><%=date_formated%></lastBuildDate>
-        <image>
-            <url><%=site.url%><%=site.favicon%></url>
-            <title><%=site.title%></title>
-            <link><%=site.url%></link>
-        </image>
-        <% pagination.files.forEach(file => {
-            file.opts = opts%>
-            <%- include("content/rss-item.ejs", file)%>
-        <% }) %>
-        <%if (typeof site.copyright_start_year !== "undefined") {%>
-            <%var year = new Date().getFullYear()%>
-            <copyright>© Copyright <%= site.copyright_start_year%>-<%= year%> <%= site.author%> - <%= site.copyright_notice%></copyright>
-        <%}%>
-    </channel>
-</rss>
+    <%}%>
+    <subtitle><%=site.description%></subtitle>
+    <category term="<%=site.rss_category%>"></category>
+    <icon><%=site.url%><%=site.favicon%></icon>
+    <% var date_formated = moment(new Date()).utc().format("YYYY-MM-DDTHH:mm:ssZ")%>
+    <updated><%=date_formated%></updated>
+    <author>
+        <name><%=site.author%></name>
+        <email><%=site.email%></email>
+    </author>
+<%if (typeof site.copyright_start_year !== "undefined") {%>
+    <%var year = new Date().getFullYear()%>
+    <rights>© Copyright <%= site.copyright_start_year%>-<%= year%> <%= site.author%> - <%= site.copyright_notice%></rights>
+<%}%>
+    <% pagination.files.forEach(file => {%>
+        <%- include("content/rss-item.ejs", file)%>
+    <% }) %>
+</feed>

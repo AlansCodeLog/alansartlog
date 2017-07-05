@@ -1,18 +1,17 @@
-<item>
-<%if (typeof thumbnail_url !== "undefined"){%>
-    <media:thumbnail url="<%=site.url%>/<%=thumbnail_url%>"/>
-    <%if (typeof thumbnail_caption !== "undefined"){%>
-        <media:description type="plain">This was some really bizarre band I listened to as a young lad.</media:description>
+<entry>
+    <%if (typeof thumbnail_url !== "undefined"){%>
+        <media:thumbnail url="<%=site.url%>/<%=thumbnail_url%>"/>
+        <%if (typeof thumbnail_caption !== "undefined"){%>
+            <media:description type="html"><%=thumbnail_caption%></media:description>
+        <%}%>
     <%}%>
-<%}%>
     <title><%=title%></title>
-    <link><%=site.url%><%=permalink%></link>
-    <guid><%=site.url%><%=permalink%></guid>
+    <link href="<%=site.url%><%=permalink%>"/>
+    <id><%=site.url%><%=permalink%></id>
     <%if (typeof description !== "undefined"){%>
-        <description><%=description%></description>
+        <summary><%=description%></summary>
     <%}%>
-    <%//original_contents.replace()
-    var fixed_contents = original_contents.toString()
+    <%var fixed_contents = original_contents.toString()
     .replace(/<div class="videowrapper">.*?data-src="(.*?)"[\S\s]*?div><.div>/gm, "<iframe src=\"$1\" frameborder=\"0\" allowfullscreen></iframe>")
     .replace(/data-src="(.*?)"(.*?)src=".*?"/gm, "src=\"$1\" $2")
     %>
@@ -21,23 +20,15 @@
         excerpt = excerpt.substring(0, excerpt.indexOf("<!--more-->"))
         excerpt = excerpt + "<p><a class=\"read-more\" href=\""+permalink+"\">Read More…</a></p>"
         %>
-        <content:encoded><![CDATA[excerpt<%- excerpt%>]]></content:encoded>
+        <content type="html"><![CDATA[<%- excerpt%>]]></content>
     <%} else {%>
-        <content:encoded><![CDATA[content<%- fixed_contents%>]]></content:encoded>
+        <content type="html"><![CDATA[<%- fixed_contents%>]]></content>
     <%}%>
-    <comments><%=site.url%><%=permalink%>#disqus_thread</comments>
-    <%for (tag of tags) {%>
-		<category><%=tag%></category>
-	<%}%>
-    <%if (group == "rss"){%>
-        <source url="<%=site.url%>/<%=path%>"><%=site.title%></source>
-    <%} else {%>
-        <%if (path.includes("tag/artwork")) {%>
-            <source url="<%=site.url%>/<%=path.slice(4, path.length)%>"><%=site.title%>HERE - Tag:<%=exposed_value%></source>
-        <%} else {%>
-            <source url="<%=site.url%>/<%=path%>"><%=site.title%> - Tag:<%=exposed_value%></source>
-        <%}%>
+    <link rel="service.post" type="text/html" href="<%=site.url%><%=permalink%>#disqus_thread" title="Comment"/>
+    <%for (tag of tags) {
+        var safetag = site.tags[tag].nicename%>
+        <category term="<%=site.url%>/tag/<%=safetag%>" label="<%=tag%>"></category>
     <%}%>
-    <%var date_formated = moment(date).utc().format('ddd, DD MMM YYYY HH:mm:ss [GMT]')%>
-    <pubDate><%=date_formated%></pubDate>
-</item>
+    <%var date_formated = moment(date).utc().format("YYYY-MM-DDTHH:mm:ssZ")%>
+    <updated><%=date_formated%></updated>
+</entry>
