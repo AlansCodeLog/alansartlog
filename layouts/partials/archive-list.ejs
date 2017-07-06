@@ -17,15 +17,15 @@
 	for (yearindex of years) {
 		var year = Object.keys(yearindex)[0]
 		%>
-		<li><h2><a href="/<%=year%>"><%=year%></a></h2>
+		<li><h2><a href="<%=site.url%>/<%=year%>"><%=year%></a></h2>
 			<ul class="archive-months">
 				<%for (month of yearindex[year]) {%>
-					<li><h3><a href="/<%=year%>/<%=month%>"><%=moment(site.dates[year][month].date.split("/").join("-")).format('MMMM')%></h3>
+					<li><h3><a href="<%=site.url%>/<%=year%>/<%=month%>"><%=moment(site.dates[year][month].date.split("/").join("-")).format('MMMM')%></h3>
 						<ul class="archive-posts">
 							<%for (file in site.dates[year][month].files) {
 								var post = site.dates[year][month].files[file]%>
 								<li>
-									<h4 class="archive-title"><a href="<%=post.permalink%>"><%=post.title%></a></h4>
+									<h4 class="archive-title"><a href="<%=site.url%><%=post.permalink%>"><%=post.title%></a></h4>
 								</li>
 							<%}%>
 						</ul>

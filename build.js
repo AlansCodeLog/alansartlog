@@ -27,6 +27,12 @@ const minify = require('html-minifier').minify;
 const UglifyJS = require("uglify-js")
 const FileHound = require('filehound');
 
+if (typeof process.env.TRAVIS == "undefined") {
+    var YTAPI = require("./env_variables.js").YTAPI
+} else {
+    var YTAPI = process.env.YTAPI
+}
+
 var include_drafts = false;
 if (process.env.NODE_ENV == "dev") {
     include_drafts = true;
@@ -155,7 +161,8 @@ metalsmith(__dirname)
     lazy_attribute: "data-src",
     svg: true,
     add_noscript: true,
-    fetch_size: true
+    fetch_size: true,
+    force_absolute: true
 }))
 .use(organizer({
     delete_originals: true,
@@ -270,6 +277,8 @@ metalsmith(__dirname)
     sizeOf: sizeOf,
     fs: fs,
     probe: probe,
+    request: request,
+    YTAPI: YTAPI,
     exposeConsolidate: {debug: true, delimiter: "%", rmWhitespace: true}
 }))
 // .use(sitemap({

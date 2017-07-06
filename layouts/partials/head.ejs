@@ -37,7 +37,7 @@
 	</head>
 <%} else {%>
 		<link rel="canonical" href="<%=site.url%><%=permalink%>" />
-		<link rel="icon" href="<%=site.favicon%>">
+		<link rel="icon" href="<%=site.url%><%=site.favicon%>">
 		<%if (typeof group == "undefined" || (group !=="tag" && group !=="artwork")){%>
 			<link href="<%=site.url%>" rel="alternate feed" type="application/rss+xml" title="<%=site.title%>" />
 		<%} else if (typeof exposed !== "undefined" && group == "tag") {%>
@@ -83,7 +83,7 @@
 		<%if(typeof opts.template !== "undefined" && opts.template.includes("masonry")) {%>
 			<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.0/masonry.pkgd.min.js"></script>
 		<%}%>
-		<script type="text/javascript" src="/resources/js/main.js"></script>
+		<script type="text/javascript" src="<%=site.url%>/resources/js/main.js"></script>
 		<%if (typeof opts.has_share !== "undefined") {%>
 		    <!--script type="text/javascript">
 		        // function my_addtoany_onready() {
@@ -118,14 +118,14 @@
 			<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=<%=site.google_tag_manager%>" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<%}%>
 		<%if (contains_gallery == true && typeof test !== "undefined"){%>
-			<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.css">
-			<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.css">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.css">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.css">
 		<%}%>
-		<link rel="stylesheet" href="/resources/styles/style.css"/>
+		<link rel="stylesheet" href="<%=site.url%>/resources/styles/style.css"/>
 		<noscript><style>.lazy img {display:none}</style></noscript>
 		<%if (contains_code !== "undefined") {%>
-			<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/styles/monokai.min.css" />
-			<!--link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/styles/github.min.css" /-->
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/styles/monokai.min.css" />
+			<!--link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/styles/github.min.css" /-->
 		<%}%>
 
 	<%if (contains_gallery == true){%>

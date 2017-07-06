@@ -3,8 +3,10 @@
         <div id="disqus_thread" ></div>
         <script>
         var disqus_config = function () {
-            this.page.url = <%=site.url%><%=permalink%>
-            //this.page.identifier = PAGE_IDENTIFIER;
+            <%var this_permalink = site.url + permalink%>
+            this.page.url = "<%=this_permalink%>"
+            this.page.title = "<%=title%>"
+            this.page.identifier = "<%=this_permalink%>"
         };
         (function() { // DON'T EDIT BELOW THIS LINE
             var d = document, s = d.createElement('script');

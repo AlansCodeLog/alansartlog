@@ -16,7 +16,7 @@
     "metalsmith-autoprefixer": "^1.1.1",
     "metalsmith-layouts": "^1.6.5",
     "metalsmith-layouts-add-extension": "^1.0.0",
-    "metalsmith-lazyloader": "^1.0.4",
+    "metalsmith-lazyloader": "^1.1.0",
     "metalsmith-organizer": "^2.0.0-beta",
     "metalsmith-related-posts": "^1.0.0",
     "metalsmith-sass": "^1.4.0",

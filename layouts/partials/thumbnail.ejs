@@ -26,9 +26,9 @@
         var thumbnail = thumbnail_url
     }
     %>
-    <figure class="thumb"/>
+    <figure class="thumb">
         <%if (typeof opts.is_single == "undefined" || opts.is_single == false) {%>
-            <a href="<%=permalink%>">
+            <a href="<%=site.url%><%=permalink%>">
         <%}%>
             <div class="lazy-wrapper">
                 <%if (typeof opts.thumb_title !== "undefined" && opts.thumb_title == true) {%>

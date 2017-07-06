@@ -9,7 +9,7 @@ opts.no_info_header = true%>
             <header>
                 <h1 class="title">
                 <%if (typeof opts.is_single == "undefined") {%>
-                    <a href="<%=permalink%>"><%=title%></a>
+                    <a href="<%=site.url%><%=permalink%>"><%=title%></a>
                 <%} else {%>
                     <%=title%>
                 <%}%>

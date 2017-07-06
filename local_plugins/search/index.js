@@ -1,5 +1,3 @@
-const elasticlunr = require("elasticlunr");
-
 module.exports = plugin;
 
 function plugin(opts){

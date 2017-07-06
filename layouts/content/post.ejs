@@ -6,7 +6,7 @@
 		<header>
 			<h1 class="title">
 				<%if (typeof opts.is_single == "undefined") {%>
-					<a href="<%=permalink%>"><%=title%></a>
+					<a href="<%=site.url%><%=permalink%>"><%=title%></a>
 				<%} else {%>
 					<%=title%>
 				<%}%>
@@ -15,7 +15,7 @@
 				<%if (typeof date !== "undefined") {%>
 					<time type="text" class="time" datetime="<%=moment(date)%>">
 						<span>Posted on: </span>
-						<a href="/posts/<%=moment(date).format("YYYY/MM")%>"><%=moment(date).format("LL")%></a>
+						<a href="<%=site.url%>/<%=moment(date).format("YYYY/MM")%>"><%=moment(date).format("LL")%></a>
 					</time>
 				<%} else {console.log(title, "has no date")}%>
 				<div class="actions">
@@ -26,7 +26,7 @@
 					</div>
 					<div class="comment-link">
 						<%if (typeof opts.is_single == "undefined") {%>
-						<a href="<%=permalink%>#disqus_thread" aria-label="comments">
+						<a href="<%=site.url%><%=permalink%>#disqus_thread" aria-label="comments">
 						<%} else {%>
 						<a href="#disqus_thread" aria-label="comments"> 
 						<%}%>
@@ -44,7 +44,7 @@
 				let excerpt = original_contents.toString()
 				excerpt = excerpt.substring(0, excerpt.indexOf("<!--more-->"))%>
 				<%- excerpt%>
-				<p><a class="read-more" href="<%=permalink%>">Read More…</a></p>
+				<p><a class="read-more" href="<%=site.url%><%=permalink%>">Read More…</a></p>
 			<%} else {%>
 				<%- original_contents%>
 			<%}%>

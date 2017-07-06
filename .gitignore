@@ -8,3 +8,4 @@ resources/styles/*.css
 resources/styles/*.css
 src/drafts/*.md
 unused_images
+env_variables.js

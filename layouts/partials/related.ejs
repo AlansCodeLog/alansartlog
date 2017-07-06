@@ -3,7 +3,7 @@
         <h1>You Might Also Like:</h1>
         <ul class="related-list">
             <%for (file of related) {%>
-                <li><a href="<%=file.permalink%>"><%=file.title%></a></li>
+                <li><a href="<%=site.url%><%=file.permalink%>"><%=file.title%></a></li>
             <%}%>
         </ul>
     </div>
