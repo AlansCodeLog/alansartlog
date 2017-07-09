@@ -21,7 +21,35 @@
             console.log("no video: " + id, html)
             continue
         }
+        var vid_title = html.items[0].snippet.title
+        var vid_description = html.items[0].snippet.description
+        if (vid_description.length > 2000) { //because spaces
+            var vid_description = vid_description.slice(0,2030).replace(/(\r|\r\n|\n)+/gm, " ") + "..."
+        } else {
+            var vid_description = vid_description.replace(/(\r|\r\n|\n)+/gm, " ")
+        }
+        if (vid_description.length > 2036) {//2048 limit - cdata stuff
+            throw vid_description.length + "video description too long with added paragraphs: " + vid_title +" " + video
+        }
+        var vid_published = html.items[0].snippet.publishedAt
+        var vid_thumbnail_url = html.items[0].snippet.thumbnails.default.url
+        var vid_tags = html.items[0].snippet.tags
+        console.log(typeof vid_title, typeof vid_description, typeof vid_published, typeof vid_thumbnail_url, typeof vid_tags)
+        //console.log(vid_title, vid_description, vid_published, vid_thumbnail_url, vid_tags)
         %>
+        <video:video>
+            <video:thumbnail_loc><%=vid_thumbnail_url%></video:thumbnail_loc>
+            <video:title><%=vid_title%></video:title>
+            <video:description><![CDATA[<%-vid_description%>]]></video:description>
+            <video:player_loc allow_embed="yes">https://www.youtube.com/watch?v=<%=id%></video:player_loc>
+            <video:publication_date><%=vid_published%></video:publication_date>
+            <%for (var i = 0; i < 31; i++) {%>
+                <video:tag><%=vid_tags[i]%></video:tag>
+            <%}%>
+            <%if (vid_tags.includes("art")){%>
+                <video:category>Art</video:category>
+            <%}%>
+        </video:video>
     <%}%>
 <%}%>
 </url>
