@@ -39,7 +39,9 @@
     "fontello": "fontello-cli --config resources/styles/fontello-config.json install --css resources/styles/fontello/css --font resources/styles/fontello/font",
     "postcss-autoprefixer": "postcss resources/styles/style.css -d public/resources/styles --watch --use autoprefixer",
     "watch-css": "npm run watch-sass && npm run postcss-autoprefixer && wait",
-    "all": "concurrently --kill-others \"npm run watch-sass\" \"npm run postcss-autoprefixer\""
+    "all": "concurrently --kill-others \"npm run watch-sass\" \"npm run postcss-autoprefixer\"",
+    "tags":"node tagslist.js",
+    "import": "node local_plugins/image-importer/index.js images-to-import resources/uploads"
   },
   "browserslist": [
     "> 0.1%",

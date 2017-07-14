@@ -66,7 +66,8 @@ module.exports = {
         name: "gallery",
         replace: function gallery (params, match) {
             var inner = params.inner.replace(/(\n|\n\n|\r\n|\r)+/gm, "")
-            return "\n\n<div class=\"gallery\">"+inner+"</div>\n\n"
+            var classname = typeof params.number !== "undefined" ? " force"+params.number+"" : ""
+            return "\n\n<div class=\"gallery"+classname+"\">"+inner+"</div>\n\n"
         },
     },
     {

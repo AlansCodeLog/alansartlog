@@ -57,7 +57,7 @@ $link-color: #0065ce;//rgb(0, 141, 193);
 $link-hover: lighten($link-color, 20%);//overlay($value3, $link-color);
 $link-active: lighten($link-color, 40%);
 //code
-$code-color: $value1;// #272822;// #f8f8f8; monokai / github
+$code-color: #f8f8f8;//$value1;// #272822;// #f8f8f8; monokai / github
 @if (lightness($code-color) > 50) {
     $non-hjs-code-color: $alwaysvalueoff6 !global;
 } @else {

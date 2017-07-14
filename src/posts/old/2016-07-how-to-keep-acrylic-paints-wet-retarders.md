@@ -6,7 +6,7 @@ tags: ["acrylics","art supplies","diy","videos"]
 ---
 
 
-[youtube]fwyQ2nxvzl4[/youtube]
+[youtube]lBqsvsB-MHw[/youtube]
 
 The adhesion test video is in the next post.
 

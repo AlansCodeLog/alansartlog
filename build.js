@@ -33,9 +33,12 @@ if (typeof process.env.TRAVIS == "undefined") {
     var YTAPI = process.env.YTAPI
 }
 
-var include_drafts = false;
+var include_drafts = false
+var website_root = "https://alansartlog.com"
 if (process.env.NODE_ENV == "dev") {
     include_drafts = true;
+    website_root = ""
+    //also clear caches 
 }
 if (fs.existsSync("./public")) {
     // delete all but images
@@ -53,8 +56,7 @@ if (fs.existsSync("./public")) {
 metalsmith(__dirname)
 .metadata({
     site: {
-        //url:"localhost:8080",
-        url: "https://alansartlog.com",
+        url: website_root,
         debug: false,
         big_header: true,
         title_svg: title_svg_content.mix_optimized,

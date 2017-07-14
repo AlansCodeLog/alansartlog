@@ -48,7 +48,6 @@ function plugin(opts){
                      for (list_item of full_list) {
                         if (list_item.indexOf(src) !== -1 && in_use.indexOf(list_item) == -1) {
                            in_use.push(list_item)
-                           //console.log(list_item);
                         }
                      }
                   }
