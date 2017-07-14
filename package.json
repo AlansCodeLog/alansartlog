@@ -6,6 +6,7 @@
   "author": "Alan North",
   "dependencies": {
     "autoprefixer": "^7.1.1",
+    "clean-css": "^4.1.7",
     "ejs": "^2.5.6",
     "filehound": "^1.16.1",
     "fs-extra": "2.1.2",
@@ -40,7 +41,7 @@
     "postcss-autoprefixer": "postcss resources/styles/style.css -d public/resources/styles --watch --use autoprefixer",
     "watch-css": "npm run watch-sass && npm run postcss-autoprefixer && wait",
     "all": "concurrently --kill-others \"npm run watch-sass\" \"npm run postcss-autoprefixer\"",
-    "tags":"node tagslist.js",
+    "tags": "node tagslist.js",
     "import": "node local_plugins/image-importer/index.js images-to-import resources/uploads"
   },
   "browserslist": [

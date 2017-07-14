@@ -8,7 +8,6 @@ thumbnail_sizes: [ 300x230 ]
 tags: ["acrylics","art supplies","artwork","portfolio"]
 ---
 
-
 [gallery]
 
 [figure]

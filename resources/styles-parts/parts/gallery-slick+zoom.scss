@@ -1,32 +1,32 @@
 //slick carousel
 .gallery {
-  margin: $margin 20px; //for navigation arrows
-  .slick-list {
-      overflow: hidden;
-      .slick-slide{
-          height:400px;
-          @include media (before, 600px) {
-            height:300px;
-          }
-          img {
-              height:370px;
-              @include media (before, 600px) {
+    margin: $margin 20px; //for navigation arrows
+    .slick-list {
+        overflow: hidden;
+        .slick-slide{
+            height:400px; 
+            @include media (before, 600px) {
                 height:300px;
-              }
-          }
-          @include media (before, 600px) {
-            figcaption {
-              display: none;
             }
-          }
-          figcaption p {
-              text-align: center;
-          }
-      }
-  }
-  .slick-prev:before, .slick-next:before {
-      color: $valueoff6;
-  }
+            img {
+                height:370px;
+                @include media (before, 600px) {
+                    height:300px;
+                }
+            }
+            @include media (before, 600px) {
+                figcaption {
+                display: none;
+                }
+            }
+            figcaption p { 
+                text-align: center;
+            }
+        }
+    }
+    .slick-prev:before, .slick-next:before {
+        color: $valueoff6;
+    }
 }
 #fullscreen-gallery {
     display:none;

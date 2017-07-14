@@ -5,7 +5,6 @@ const addExtension = require('metalsmith-layouts-add-extension')
 const organizer = require('metalsmith-organizer')
 const ejs = require('ejs')
 const autoprefixer = require('metalsmith-autoprefixer');
-//const htmlMinifier = require("metalsmith-html-minifier");
 const moment = require('moment');
 const shortcodes = require('metalsmith-shortcodes-replace');
 const shortcodes_config = require('./shortcodes.js')
@@ -13,7 +12,6 @@ const lazyloader = require('metalsmith-lazyloader');
 const request = require('sync-request');
 const showdown = require('metalsmith-showdown');
 const md = new showdown.expose.Converter({flavor:"github"})
-//const uglify = require('metalsmith-uglify');
 const related = require ('metalsmith-related-posts');
 const sizeOf = require('image-size');
 const title_svg_content = fs.readJsonSync("./resources/styles-parts/styles svgs/logos.json")
@@ -23,7 +21,7 @@ const search = require("search");//TODO
 const path = require("path")
 // const clean_images = require("clean-images");
 const minify = require('html-minifier').minify;
-// const CleanCSS = require("clean-css")
+const CleanCSS = require("clean-css")
 const UglifyJS = require("uglify-js")
 const FileHound = require('filehound');
 
@@ -283,14 +281,6 @@ metalsmith(__dirname)
     YTAPI: YTAPI,
     exposeConsolidate: {debug: true, delimiter: "%", rmWhitespace: true}
 }))
-// .use(sitemap({
-//     hostname: "http://alansartlog.com/",
-//     modifiedProperty: "mod-date",
-//     omitExtension: true
-// }))
-// .use(htmlMinifier("*.html", {
-//     //removeComments: true,
-// }))
 .build(function (err) {
     if (err) {
         console.log(err);
@@ -323,9 +313,10 @@ function rest_of_copies() {
             console.log(err);
         }
         else {
-            // var css_file_main = fs.readFileSync("public/resources/styles/style.css").toString()
-            // css_file_main = new CleanCSS().minify(css_file_main);
-            // fs.writeFileSync("public/resources/styles/style.css", css_file_main, {overwrite:true})
+            var css_file_main = fs.readFileSync("public/resources/styles/style.css").toString()
+            css_file_main = new CleanCSS({inline: ['none']}).minify(css_file_main);
+            console.log("clean-css", css_file_main.stats);
+            fs.writeFileSync("public/resources/styles/style.css", css_file_main.styles, {overwrite:true})
             console.log('Styles');
         }
     });
@@ -355,9 +346,6 @@ function rest_of_copies() {
     metalsmith(__dirname)
     .source('./resources/js')
     .destination('./public/resources/js')
-    // .use(uglify({
-    //     nameTemplate:'[name].[ext]'
-    // }))
     .build(function (err) {
         if (err) {
             console.log(err);

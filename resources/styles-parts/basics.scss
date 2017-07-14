@@ -26,13 +26,13 @@ figure {
     margin: 0;
 }
 //CODE
-p code, pre {
-  background: $code-color;
-  color: $non-hjs-code-color;
-  padding: 2px 5px;
-  border-radius: 3px;
-  white-space: pre-wrap;
-  font-size: (1rem * $code-multiplier);
+p code, pre { 
+    background: $code-color;
+    color: $non-hjs-code-color;
+    padding: 2px 5px;
+    border-radius: 3px;
+    white-space: pre-wrap;
+    font-size: (1rem * $code-multiplier);
 }
 code {
     font-family:$code-font

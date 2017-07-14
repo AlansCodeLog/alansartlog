@@ -11,9 +11,9 @@ opts.input_path = process.argv[2] || "images-to-import"
 opts.output_path = process.argv[3] || "temporary"
 opts.main = 1000
 opts.force_lowercase = true
-opts.before = process.argv[4] || false
-opts.overwrite = JSON.parse(process.argv[5]) || false
-opts.delete = JSON.parse(process.argv[6]) || false
+opts.before = typeof process.argv[4] !== "undefined" ? process.argv[4] : false
+opts.overwrite = typeof process.argv[5] !== "undefined" ? JSON.parse(process.argv[5]) : false
+opts.delete = typeof process.argv[6] !== "undefined" ? JSON.parse(process.argv[6]) : false
 console.log(opts);
 fs.ensureDirSync(opts.output_path)
 var allowed = ["png","jpg","jpeg", "webp", "tiff", "gif", "svg"]
