@@ -1,41 +1,41 @@
 .page-archive {
-    ul.archive { //archive-years
-        list-style-type: none;
-        padding:0;
-        margin:0;
-        h2 {
-            font-size: 1rem + ($headers-steps * 2);
-            background: rgba(adjust-color($link-color, $hue: 25deg, $saturation: 100), 0.1);
-            padding: 5px 10px;
+   ul.archive { //archive-years
+      list-style-type: none;
+      padding:0;
+      margin:0;
+      h2 {
+         font-size: 1rem + ($headers-steps * 2);
+         background: rgba(adjust-color($link-color, $hue: 25deg, $saturation: 100), 0.1);
+         padding: 5px 10px;
+         border-radius: 5px;
+      }
+      ul.archive-months {
+         padding-left: 0;
+         list-style-type: none;
+         h3 {
+            font-weight: normal;
+            font-size: 1rem + $headers-steps;
+            border-bottom: 2px solid rgba(adjust-color($link-color, $hue: 25deg, $saturation: 100), 0.4);
+            padding: 5px; 
             border-radius: 5px;
-        }
-        ul.archive-months {
-            padding-left: 0;
-            list-style-type: none;
-            h3 {
-                font-weight: normal;
-                font-size: 1rem + $headers-steps;
-                border-bottom: 2px solid rgba(adjust-color($link-color, $hue: 25deg, $saturation: 100), 0.4);
-                padding: 5px; 
-                border-radius: 5px;
-                text-align: center;
-                margin: 0 60px;
-            }
-        }
-        a {
-            color: mix($link-color, $valueoff6, 10%);
-        }
-        ul.archive-posts {
-            list-style-type: none;
-            margin-left: $interior_margin;
-            margin:($interior_margin * 2) $interior_margin ;
-            h4 {
-                font-weight: normal;
-                font-size: 1rem;
-            }
-            a {
-                color: mix($link-color, $valueoff6, 70%);
-            }
-        }
-    }
+            text-align: center;
+            margin: 0 60px;
+         }
+      }
+      a {
+         color: mix($link-color, $valueoff6, 10%);
+      }
+      ul.archive-posts {
+         list-style-type: none;
+         margin-left: $interior_margin;
+         margin:($interior_margin * 2) $interior_margin ;
+         h4 {
+            font-weight: normal;
+            font-size: 1rem;
+         }
+         a {
+            color: mix($link-color, $valueoff6, 70%);
+         }
+      }
+   }
 }

@@ -6,8 +6,8 @@
 //@import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Exo+2:300,600|Open+Sans'); 
 
 @font-face {
-    font-family: "Fontello";
-    src: url("fontello/font/fontello.ttf") format("truetype");
+   font-family: "Fontello";
+   src: url("fontello/font/fontello.ttf") format("truetype");
 }
 @import "fontello/css/fontello.css";
 @import "fontello/css/animation.css";
@@ -16,16 +16,16 @@
 $header-image-color: mixed; //light, dark, mixed (based on theme with background box)
 $value0: white;//switch
 @if (lightness($value0) > 50) {
-    $offvalue: 3% !global;
-    $offhighvalue: (100% - 10%) !global;
-    //$value0: rgb(253, 253, 253) !global;
-    $value6: black !global;
-    //box shadows
+   $offvalue: 3% !global;
+   $offhighvalue: (100% - 10%) !global;
+   //$value0: rgb(253, 253, 253) !global;
+   $value6: black !global;
+   //box shadows
 } @else {
-    $offvalue: 10% !global;
-    $offhighvalue: (100% - $offvalue) !global;
-    //$value0: rgb(12, 12, 12) !global;
-    $value6: white !global;
+   $offvalue: 10% !global;
+   $offhighvalue: (100% - $offvalue) !global;
+   //$value0: rgb(12, 12, 12) !global;
+   $value6: white !global;
 }
 $valueoff0: mix($value6, $value0, $offvalue);
 $value1: mix($value6, $value0, 16.6%);
@@ -52,20 +52,20 @@ $mix-titles: false;
 //links 
 $link-color: #0065ce;//rgb(0, 141, 193);
 @if (lightness($value0) < 50) { 
-    $link-color: lighten($link-color, 30%) !global;
+   $link-color: lighten($link-color, 30%) !global;
 }
 $link-hover: lighten($link-color, 20%);//overlay($value3, $link-color);
 $link-active: lighten($link-color, 40%);
 //code
 $code-color: #f8f8f8;//$value1;// #272822;// #f8f8f8; monokai / github
 @if (lightness($code-color) > 50) {
-    $non-hjs-code-color: $alwaysvalueoff6 !global;
+   $non-hjs-code-color: $alwaysvalueoff6 !global;
 } @else {
-    $non-hjs-code-color: $alwaysvalueoff0 !global;
+   $non-hjs-code-color: $alwaysvalueoff0 !global;
 }
 $search-higlight-color: yellow;
 @if (lightness($value0) < 50) {
-    $search-higlight-color: darken($search-higlight-color, 10%) !global;
+   $search-higlight-color: darken($search-higlight-color, 10%) !global;
 }
 
 
@@ -79,9 +79,9 @@ $loading-size: 60; //px
 $box-shadow-main-imgs: true; 
 $darken_and_zoom: false; 
 @if (lightness($value0) > 50) {
-    $box-shadow: rgba($alwaysvalue6, 0.7) !global;
+   $box-shadow: rgba($alwaysvalue6, 0.7) !global;
 } @else {
-    $box-shadow: $alwaysvalue6 !global;
+   $box-shadow: $alwaysvalue6 !global;
 }
 
 //Main Colors
@@ -125,23 +125,23 @@ $border-radius:3px;
 $first-paragraph-large: false;
 
 .fontello {
-    transition: $transition-speed;
+   transition: $transition-speed;
 }
 .icon-youtube:hover {
-    color: #f30000 ;
+   color: #f30000 ;
 }
 .icon-twitter:hover {
-    color: #00ceff;
+   color: #00ceff;
 }
 .icon-patreon:hover {
-    color: #ff8300 ;
+   color: #ff8300 ;
 }
 .icon-facebook-squared:hover {
-    color: #1e1eff;
+   color: #1e1eff;
 }
 .icon-instagram-1:hover {
-    color: #ff4566;
+   color: #ff4566;
 }
 .icon-mail:hover {
-    color: #ff9b00;
+   color: #ff9b00;
 } 

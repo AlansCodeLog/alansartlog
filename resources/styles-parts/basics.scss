@@ -1,434 +1,434 @@
 //Basic Styles
 html {
-  font-size: (1rem * $text-multiplier);
+   font-size: (1rem * $text-multiplier);
 }
 body {
-    margin:0;
-    font-family: $text-font;
-    background: $background-color;
-    @if ($mix-background == true) {
-        background: mix($value1, $accent-color);
-    }
-    color: $valueoff6;
-    // @media $til320 { //fix overflowing content on small devices
-    //      width: 500px;
-    // }
-}
-p {
-    line-height: $line-height;
-}
-blockquote {
-    border-left: 5px solid gray;
-    margin: 0;
-    padding-left: 15px;
-}
-figure {
-    margin: 0;
-}
-//CODE
-p code, pre { 
-    background: $code-color;
-    color: $non-hjs-code-color;
-    padding: 2px 5px;
-    border-radius: 3px;
-    white-space: pre-wrap;
-    font-size: (1rem * $code-multiplier);
-}
-code {
-    font-family:$code-font
-}
-a {
-    text-decoration: none;
-    color: $link-color;
-    transition: color $transition-speed;
-    &:hover {
-        color: $link-hover !important;
-    }
-    &:active {
-        transition: color 0s;
-        color: $link-active !important;
-    }
-    &:link {
-        -webkit-tap-highlight-color: transparent;
-    }
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: $headers-font;
-    font-weight: $headers-weight;
-}
-h1 {
-    font-size: (1rem + ($headers-steps * 5));
-}
-h2 {
-    font-size: (1rem + ($headers-steps * 4));
-}
-h3 {
-    font-size: (1rem + ($headers-steps * 3));
-}
-h4 {
-    font-size: (1rem + ($headers-steps * 2));
-}
-
-h5 {
-    font-size: (1rem + ($headers-steps * 1));
-}
-
-h6 {
-    font-size: 1rem;
-}
-ul, ol {
-    //padding-left: 1rem;
-    padding-left: $interior_margin;
-}
-ul {
-    list-style-type: disc;
-}
-li {
-    margin: 1rem 0;
-}
-// ul ul, ul ol, ol ul { //inner spacing
-//     padding-left: 2rem;
-// }
-table {
-    width: 100%;
-    background: $valueoff0;
-    border-collapse: collapse; //fix no border showing
-    border-radius: 7px;
-    overflow:hidden;
-}
-tr {
-    border-bottom: 2px solid $value2;
-    &:nth-child(even) {
-        background: $valueoff0;
-    }
-    &:hover {
-        background: $value1;
-    }
-    &:last-child {
-        border:none;
-    }
-}
-th, td {
-    text-align: left;
-    padding: 20px;
-    border-right: 2px solid $value2;
-    &:last-child {
-        border-right:none;
-    }
-}
-thead {
-    border-bottom: 2px solid $value3;
-    & tr {
-        border:none;
-    }
-    & th {
-        border-color: $value3;
-    }
-}
-img {
-    width:auto;
-    height:auto;
-    margin: $interior_margin auto;
-    display: block;
-    max-width: calc(100% - #{$interior_side_margin});
-    &.inline {
-        display: inline-block;
-        margin: 0;
-    }
-}
-figure {
-    margin: $interior_margin auto;
-    img {
-        margin:0;
-    }
-}
-img, figure {
-    outline:none;
-}
-//MY DEFAULT STYLES
-//BUTTONS
-.button {
-    display: inline-block;
-    padding: 5px 10px;
-    color: $value4;
-    border: 2px solid $value4;
-    border-radius: 2px;
-    &:not(.inactive):hover {
-        color: $link-hover;
-        border-color:  $link-hover;
-        @if ($mix-background == true) {
-            border-color: darken($accent-color, 40%);
-            color: darken($accent-color, 40%);
-        }
-        box-shadow: 0px 0px 4px 1px $box-shadow;
-    }
-    &:not(.inactive):active {
-        color: $link-active;
-        border-color:  $link-active;
-        @if ($mix-background == true) {
-            border-color: darken($accent-color, 30%);
-            color: darken($accent-color, 30%);
-        }
-        box-shadow: 0px 0px 7px 1px $box-shadow inset;
-    }
-}
-
-.inactive {
-    border-color: $value1;
-    color: $value1;
-    @if ($mix-background == true) {
-        border-color:  mix($accent-color, $value3);
-        color: mix($accent-color, $value3);
-    }
-    box-shadow: none;
-}
-//PAGE NAVIGATION
-.nav-links {
-    color: $value5;
-    position: relative;
-    @include flexapart(nowrap);
-    div {
-        white-space: nowrap;
-    }
-    .nav-pages {
-        padding: 10px;
-    }
-    .nav-current::after {
-        content:" /";
-    }
-    a {
-        @if ($mix-background == true) {
-            color: darken($accent-color, 50%);
-        } 
-        &:hover {
-            @if ($mix-background == true) {
-                color: darken($accent-color, 40%) !important;
-            }
-        }
-        &:active {
-            @if ($mix-background == true) {
-                color: darken($accent-color, 30%) !important;
-            }
-        }
-    }
-}
-//EMBEDS
-main {
-    twitterwidget, .gist, .instagram-media, .imgur-embed-iframe-pub, iframe:not(.youtube) { //if iframe styles are not wrapped in some div inside body, weird stuff happens with iframes inserted by addons etc.
-        margin:30px auto !important;
-        max-width: calc(100% - #{$interior_side_margin}) !important;
-        display: block !important;
-    }
-    iframe:not(.youtube) {
-        width: 100%;
-        min-height: 300px;
-        border: none;
-    }
-    .videowrapper {
-        position: relative;
-        padding-bottom: 53%;
-        /* 16:9 */
-        //padding-top: 25px;
-        height: 0;
-        box-sizing: border-box;
-        margin: $interior_margin $interior_side_margin !important;
-    }
-    .videowrapper iframe {
-        @include absolutecenter;
-        width: 100%;
-        height: 100%;
-    }
-    //Lazy Youtube Mine
-    .lazy-youtube {
-      width: 100%;
-      padding-bottom: 53%;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-    }
-    .lazy-youtube button {
-        background:none;
-        border:none;
-        margin:0;
-        padding:0;
-        position: absolute;
-        width:68px;
-        height:68px;
-        top:50%;
-        left:50%;
-        margin-left: -34px;
-        margin-top: -24px;
-        background-image: url($youtube-no-hover);
-        background-position: center;
-        background-size: 100%;
-        background-repeat: no-repeat;
-        border: none;
-    }
-    .lazy-youtube button:hover {
-        cursor: pointer;
-        background-image:url($youtube-hover)
-    }
-}
-//MASONRY
-.masonry {
-    margin:0 auto;
-    padding: $masonry-gutter / 2;
-    .masonry-item {
-      width:calc(100% - #{$masonry-gutter}); //masonry-gutter / 2 * 2
-        max-width: $max-width / 2;
-        margin-bottom: $masonry-gutter / 2;
-    }
-    .gutter {
-        width:$masonry-gutter / 2;
-    } 
-    max-width: ($max-width / 2);
-    @for $i from 2 through $masonry-limit {
-        $width: (($max-width / 2) * $i) + ($masonry-gutter * ($i - 1)); //elements + gutter
-        $query: $width + ($masonry-gutter * 2) + $masonry-gutter + 1; //inside + container margin/padding + fix with gutter + 1px ? idk it works
-        @include media(after, $query) {
-            max-width: $width;
-            @if $i == 2 {//on more than 1 column use default gutter, else shrink (above)
-              padding: $masonry-gutter;
-              .masonry-item {
-                width:calc(100% - #{$masonry-gutter * 2});
-                margin-bottom: $masonry-gutter;
-              }
-              .gutter {
-                  width:$masonry-gutter;
-              }
-            }
-        }
-    }
-}
-//
-form {
-    max-width: $max-width * 2 / 3;
-    margin:$interior_margin auto;
-    .dropdown-extra {
-      display:none;
-    }
-    text-align: center;
-    input, textarea, select, button, option {
-        outline: none;
-        text-align: left;
-        text-align-last: left;
-        font-family: $text-font;
-        padding: $interior_margin / 3;
-        margin: ($interior_margin / 3) 0;
-        width:100%;
-        font-size: 1rem;
-        border: 2px solid $value3;
-        border-radius: 5px;
-        box-sizing: border-box;
-        &:focus {
-          border-color: $link-color;
-        }
-    }
-    select {
-        // -webkit-appearance: none;
-        // -moz-appearance: none;
-        //text-indent: 1rem; //for text align center
-        // text-overflow: '';
-        border-color: $value4;
-    }
-    button {
-      text-align-last: center;
-      margin: $interior_margin auto;
-      cursor: pointer;
-      color: $valueoff6;
-      background: $value2;
-      &:active {
-        border-color: $link-active;
-      }
-    }
-    button:hover {
-      color: $valueoff0;
-      background: $value5;
-    }
-    option {
-        text-align: left;
-        margin-left: 5px;
-    }
-    .form-textarea {
-        min-height: 100px;
-    }
-    ::-webkit-input-placeholder {
-        padding:2px;
-        text-align: center;
-    }
-    #file {
-      display: none;
-    }
-    .form-attachment {
-      padding: $interior_margin / 3;
-      margin: ($interior_margin / 3) 0;
-    }
-    .form-attachment:hover {
-      cursor: pointer;
+   margin:0;
+   font-family: $text-font;
+   background: $background-color;
+   @if ($mix-background == true) {
+      background: mix($value1, $accent-color);
+   }
+   color: $valueoff6;
+   // @media $til320 { //fix overflowing content on small devices
+      //      width: 500px;
+      // }
+   }
+   p {
+      line-height: $line-height;
+   }
+   blockquote {
+      border-left: 5px solid gray;
+      margin: 0;
+      padding-left: 15px;
+   }
+   figure {
+      margin: 0;
+   }
+   //CODE
+   p code, pre { 
+      background: $code-color;
+      color: $non-hjs-code-color;
+      padding: 2px 5px;
+      border-radius: 3px;
+      white-space: pre-wrap;
+      font-size: (1rem * $code-multiplier);
+   }
+   code {
+      font-family:$code-font
+   }
+   a {
+      text-decoration: none;
       color: $link-color;
-    }
-    .form-attachment i::before {
-      font-size: 1rem + $headers-steps;
-      margin-right: $interior_margin / 2;
-    }
-    .limit, .info {
-      font-size: 1rem - $headers-steps;
-      color: $value3;
-    }
-}
-/*FOOTER*/
-html {
-	position: relative;
-	min-height: 100%;
-    body > footer {
-    	width: 100%;
-    	text-align: center;
-    	bottom:0;
-    	position: absolute;
-        small {
-    	    color: $value4;
-        }
-    }
-}
-#disqus_thread > div {
-    margin-top: -300px;
-    padding-bottom: 300px;
-}
-.clear {
-  clear:both;
-}
-.dark {
-    background:mix($value5, $value6);  
-    .button {
-        color: $value1;
-        border: 2px solid $value1;
-        &:not(.inactive):hover {
+      transition: color $transition-speed;
+      &:hover {
+         color: $link-hover !important;
+      }
+      &:active {
+         transition: color 0s;
+         color: $link-active !important;
+      }
+      &:link {
+         -webkit-tap-highlight-color: transparent;
+      }
+   }
+   
+   h1, h2, h3, h4, h5, h6 {
+      font-family: $headers-font;
+      font-weight: $headers-weight;
+   }
+   h1 {
+      font-size: (1rem + ($headers-steps * 5));
+   }
+   h2 {
+      font-size: (1rem + ($headers-steps * 4));
+   }
+   h3 {
+      font-size: (1rem + ($headers-steps * 3));
+   }
+   h4 {
+      font-size: (1rem + ($headers-steps * 2));
+   }
+   
+   h5 {
+      font-size: (1rem + ($headers-steps * 1));
+   }
+   
+   h6 {
+      font-size: 1rem;
+   }
+   ul, ol {
+      //padding-left: 1rem;
+      padding-left: $interior_margin;
+   }
+   ul {
+      list-style-type: disc;
+   }
+   li {
+      margin: 1rem 0;
+   }
+   // ul ul, ul ol, ol ul { //inner spacing
+      //     padding-left: 2rem;
+      // }
+      table {
+         width: 100%;
+         background: $valueoff0;
+         border-collapse: collapse; //fix no border showing
+         border-radius: 7px;
+         overflow:hidden;
+      }
+      tr {
+         border-bottom: 2px solid $value2;
+         &:nth-child(even) {
+            background: $valueoff0;
+         }
+         &:hover {
+            background: $value1;
+         }
+         &:last-child {
+            border:none;
+         }
+      }
+      th, td {
+         text-align: left;
+         padding: 20px;
+         border-right: 2px solid $value2;
+         &:last-child {
+            border-right:none;
+         }
+      }
+      thead {
+         border-bottom: 2px solid $value3;
+         & tr {
+            border:none;
+         }
+         & th {
+            border-color: $value3;
+         }
+      }
+      img {
+         width:auto;
+         height:auto;
+         margin: $interior_margin auto;
+         display: block;
+         max-width: calc(100% - #{$interior_side_margin});
+         &.inline {
+            display: inline-block;
+            margin: 0;
+         }
+      }
+      figure {
+         margin: $interior_margin auto;
+         img {
+            margin:0;
+         }
+      }
+      img, figure {
+         outline:none;
+      }
+      //MY DEFAULT STYLES
+      //BUTTONS
+      .button {
+         display: inline-block;
+         padding: 5px 10px;
+         color: $value4;
+         border: 2px solid $value4;
+         border-radius: 2px;
+         &:not(.inactive):hover {
             color: $link-hover;
             border-color:  $link-hover;
             @if ($mix-background == true) {
-                border-color: darken($accent-color, 40%);
-                color: darken($accent-color, 40%);
-            } 
-        }
-        &:not(.inactive):active {
+               border-color: darken($accent-color, 40%);
+               color: darken($accent-color, 40%);
+            }
+            box-shadow: 0px 0px 4px 1px $box-shadow;
+         }
+         &:not(.inactive):active {
             color: $link-active;
             border-color:  $link-active;
             @if ($mix-background == true) {
-                border-color: darken($accent-color, 30%);
-                color: darken($accent-color, 30%);
+               border-color: darken($accent-color, 30%);
+               color: darken($accent-color, 30%);
             }
-        }
-    }
-    .inactive {
-        border-color: $value3;
-        color: $value3;
-        @if ($mix-background == true) {
+            box-shadow: 0px 0px 7px 1px $box-shadow inset;
+         }
+      }
+      
+      .inactive {
+         border-color: $value1;
+         color: $value1;
+         @if ($mix-background == true) {
             border-color:  mix($accent-color, $value3);
             color: mix($accent-color, $value3);
-        }
-    }
-    .nav-links {
-        color:  $value2;
-    }
-}
+         }
+         box-shadow: none;
+      }
+      //PAGE NAVIGATION
+      .nav-links {
+         color: $value5;
+         position: relative;
+         @include flexapart(nowrap);
+         div {
+            white-space: nowrap;
+         }
+         .nav-pages {
+            padding: 10px;
+         }
+         .nav-current::after {
+            content:" /";
+         }
+         a {
+            @if ($mix-background == true) {
+               color: darken($accent-color, 50%);
+            } 
+            &:hover {
+               @if ($mix-background == true) {
+                  color: darken($accent-color, 40%) !important;
+               }
+            }
+            &:active {
+               @if ($mix-background == true) {
+                  color: darken($accent-color, 30%) !important;
+               }
+            }
+         }
+      }
+      //EMBEDS
+      main {
+         twitterwidget, .gist, .instagram-media, .imgur-embed-iframe-pub, iframe:not(.youtube) { //if iframe styles are not wrapped in some div inside body, weird stuff happens with iframes inserted by addons etc.
+            margin:30px auto !important;
+            max-width: calc(100% - #{$interior_side_margin}) !important;
+            display: block !important;
+         }
+         iframe:not(.youtube) {
+            width: 100%;
+            min-height: 300px;
+            border: none;
+         }
+         .videowrapper {
+            position: relative;
+            padding-bottom: 53%;
+            /* 16:9 */
+            //padding-top: 25px;
+            height: 0;
+            box-sizing: border-box;
+            margin: $interior_margin $interior_side_margin !important;
+         }
+         .videowrapper iframe {
+            @include absolutecenter;
+            width: 100%;
+            height: 100%;
+         }
+         //Lazy Youtube Mine
+         .lazy-youtube {
+            width: 100%;
+            padding-bottom: 53%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+         }
+         .lazy-youtube button {
+            background:none;
+            border:none;
+            margin:0;
+            padding:0;
+            position: absolute;
+            width:68px;
+            height:68px;
+            top:50%;
+            left:50%;
+            margin-left: -34px;
+            margin-top: -24px;
+            background-image: url($youtube-no-hover);
+            background-position: center;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            border: none;
+         }
+         .lazy-youtube button:hover {
+            cursor: pointer;
+            background-image:url($youtube-hover)
+         }
+      }
+      //MASONRY
+      .masonry {
+         margin:0 auto;
+         padding: $masonry-gutter / 2;
+         .masonry-item {
+            width:calc(100% - #{$masonry-gutter}); //masonry-gutter / 2 * 2
+            max-width: $max-width / 2;
+            margin-bottom: $masonry-gutter / 2;
+         }
+         .gutter {
+            width:$masonry-gutter / 2;
+         } 
+         max-width: ($max-width / 2);
+         @for $i from 2 through $masonry-limit {
+            $width: (($max-width / 2) * $i) + ($masonry-gutter * ($i - 1)); //elements + gutter
+            $query: $width + ($masonry-gutter * 2) + $masonry-gutter + 1; //inside + container margin/padding + fix with gutter + 1px ? idk it works
+            @include media(after, $query) {
+               max-width: $width;
+               @if $i == 2 {//on more than 1 column use default gutter, else shrink (above)
+                  padding: $masonry-gutter;
+                  .masonry-item {
+                     width:calc(100% - #{$masonry-gutter * 2});
+                     margin-bottom: $masonry-gutter;
+                  }
+                  .gutter {
+                     width:$masonry-gutter;
+                  }
+               }
+            }
+         }
+      }
+      //
+      form {
+         max-width: $max-width * 2 / 3;
+         margin:$interior_margin auto;
+         .dropdown-extra {
+            display:none;
+         }
+         text-align: center;
+         input, textarea, select, button, option {
+            outline: none;
+            text-align: left;
+            text-align-last: left;
+            font-family: $text-font;
+            padding: $interior_margin / 3;
+            margin: ($interior_margin / 3) 0;
+            width:100%;
+            font-size: 1rem;
+            border: 2px solid $value3;
+            border-radius: 5px;
+            box-sizing: border-box;
+            &:focus {
+               border-color: $link-color;
+            }
+         }
+         select {
+            // -webkit-appearance: none;
+            // -moz-appearance: none;
+            //text-indent: 1rem; //for text align center
+            // text-overflow: '';
+            border-color: $value4;
+         }
+         button {
+            text-align-last: center;
+            margin: $interior_margin auto;
+            cursor: pointer;
+            color: $valueoff6;
+            background: $value2;
+            &:active {
+               border-color: $link-active;
+            }
+         }
+         button:hover {
+            color: $valueoff0;
+            background: $value5;
+         }
+         option {
+            text-align: left;
+            margin-left: 5px;
+         }
+         .form-textarea {
+            min-height: 100px;
+         }
+         ::-webkit-input-placeholder {
+            padding:2px;
+            text-align: center;
+         }
+         #file {
+            display: none;
+         }
+         .form-attachment {
+            padding: $interior_margin / 3;
+            margin: ($interior_margin / 3) 0;
+         }
+         .form-attachment:hover {
+            cursor: pointer;
+            color: $link-color;
+         }
+         .form-attachment i::before {
+            font-size: 1rem + $headers-steps;
+            margin-right: $interior_margin / 2;
+         }
+         .limit, .info {
+            font-size: 1rem - $headers-steps;
+            color: $value3;
+         }
+      }
+      /*FOOTER*/
+      html {
+         position: relative;
+         min-height: 100%;
+         body > footer {
+            width: 100%;
+            text-align: center;
+            bottom:0;
+            position: absolute;
+            small {
+               color: $value4;
+            }
+         }
+      }
+      #disqus_thread > div {
+         margin-top: -300px;
+         padding-bottom: 300px;
+      }
+      .clear {
+         clear:both;
+      }
+      .dark {
+         background:mix($value5, $value6);  
+         .button {
+            color: $value1;
+            border: 2px solid $value1;
+            &:not(.inactive):hover {
+               color: $link-hover;
+               border-color:  $link-hover;
+               @if ($mix-background == true) {
+                  border-color: darken($accent-color, 40%);
+                  color: darken($accent-color, 40%);
+               } 
+            }
+            &:not(.inactive):active {
+               color: $link-active;
+               border-color:  $link-active;
+               @if ($mix-background == true) {
+                  border-color: darken($accent-color, 30%);
+                  color: darken($accent-color, 30%);
+               }
+            }
+         }
+         .inactive {
+            border-color: $value3;
+            color: $value3;
+            @if ($mix-background == true) {
+               border-color:  mix($accent-color, $value3);
+               color: mix($accent-color, $value3);
+            }
+         }
+         .nav-links {
+            color:  $value2;
+         }
+      }

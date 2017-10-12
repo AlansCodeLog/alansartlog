@@ -1,157 +1,158 @@
 $width: $max-width / 4 - ($interior_margin / 2);
 .gallery {
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-    margin: $interior_margin ($interior_margin / -3);
-    border: 3px solid lighten(mix($accent-color, $background-color), 20%);
-    border-radius: 5px;
-    figure {
-        flex: 1 0 ($width - 1);
-        margin:($interior_margin / 4);
-        //height: $width; //calc(#{$width} + 3rem);
-        overflow: hidden;
-        position: relative;
-        //max-width: ($width * 2);
-        img {
-            height: ($width);
+   display:flex;
+   flex-wrap:wrap;
+   justify-content:center;
+   margin: $interior_margin ($interior_margin / -3);
+   border: 3px solid lighten(mix($accent-color, $background-color), 20%);
+   border-radius: 5px;
+   figure {
+      flex: 1 0 ($width - 1);
+      margin:($interior_margin / 4);
+      //height: $width; //calc(#{$width} + 3rem);
+      overflow: hidden;
+      position: relative;
+      //max-width: ($width * 2);
+      img {
+         height: ($width);
+         width:100%;
+         object-fit:cover;
+         border-radius:2px;
+      }
+      @include media(before, (($width * 2) + ($interior_margin * 2))) {
+         flex: 1 0 ($width / 2 / 2 * 3);
+         margin:($interior_margin / 4 / 2);
+         height: calc(#{($width / 2 / 2 * 3)} + 3rem);
+         //max-width: $width;
+         img {
+            height: ($width / 2 / 2 * 3);
+         }
+      }
+      // @include media(before, 600px) {
+         //     flex: 1 0 ($width / 2);
+         //     margin:($interior_margin / 4 / 2);
+         //     height: calc(#{$width / 2} + 3rem);
+         //     max-width: 100px;
+         //     img {
+            //         height: ($width / 2);
+            //     }
+            // }
+            figcaption {
+               padding: 0;
+               display: block;
+               position:relative;
+               height:2.2rem;
+               p {
+                  margin:10px 0;
+                  padding:0;
+                  font-size: 0.7rem;
+                  line-height: 1rem;
+               }
+               &::after {
+                  content: '';
+                  width: 100%;
+                  height: 100%;
+                  position: absolute;
+                  left: 0;
+                  top: 0;
+                  background: linear-gradient(transparent 30%, $value0 90%);
+                  height:2.2rem;
+               }
+            }
+            &:hover {
+               cursor:pointer;
+            }
+            
+         }
+      }
+      @for $i from 1 through 5 {
+         .force#{$i} {
+            figure {
+               $leti: $i + 1;
+               flex: 1 0 calc(100% / #{$leti}); 
+            }
+         }
+      }
+      #fullscreen-gallery {
+         position: fixed;
+         top:0;
+         bottom:0;
+         left:0;
+         right:0;
+         background: rgba($value0, 0.9);
+         z-index: 1000;
+         display: flex;
+         display:none;
+         .container {
+            top: 50%;
+            transform: translate(0,-50%);
+            position: absolute;
             width:100%;
-            object-fit:cover;
-            border-radius:2px;
-        }
-        @include media(before, (($width * 2) + ($interior_margin * 2))) {
-            flex: 1 0 ($width / 2 / 2 * 3);
-            margin:($interior_margin / 4 / 2);
-            height: calc(#{($width / 2 / 2 * 3)} + 3rem);
-            //max-width: $width;
-            img {
-                height: ($width / 2 / 2 * 3);
-            }
-        }
-        // @include media(before, 600px) {
-        //     flex: 1 0 ($width / 2);
-        //     margin:($interior_margin / 4 / 2);
-        //     height: calc(#{$width / 2} + 3rem);
-        //     max-width: 100px;
-        //     img {
-        //         height: ($width / 2);
-        //     }
-        // }
-        figcaption {
-            padding: 0;
-            display: block;
-            position:relative;
-            height:2.2rem;
-            p {
-                margin:10px 0;
-                padding:0;
-                font-size: 0.7rem;
-                line-height: 1rem;
-            }
-            &::after {
-                content: '';
-                width: 100%;
-                height: 100%;
-                position: absolute;
-                left: 0;
-                top: 0;
-                background: linear-gradient(transparent 30%, $value0 90%);
-                height:2.2rem;
-            }
-        }
-        &:hover {
-            cursor:pointer;
-        }
-
-    }
-}
-@for $i from 1 through 5 {
-    .force#{$i} {
-        figure {
-            $leti: $i + 1;
-            flex: 1 0 calc(100% / #{$leti}); 
-        }
-    }
-}
-#fullscreen-gallery {
-    position: fixed;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    background: rgba($value0, 0.9);
-    z-index: 1000;
-    display: flex;
-    display:none;
-    .container {
-        top: 50%;
-        transform: translate(0,-50%);
-        position: absolute;
-        width:100%;
-    }
-    .lazy-wrapper, .lazy-wrapper-loaded {
-        max-height: inherit;
-    }
-    figure {
-        max-height: calc(100vh); 
-        margin: 0 auto;
-        box-sizing: border-box;
-        img {
+         }
+         .lazy-wrapper, .lazy-wrapper-loaded {
             max-height: inherit;
-            object-fit: contain;
+         }
+         figure {
+            max-height: calc(100vh); 
             margin: 0 auto;
-            padding: $interior_margin / 2;
             box-sizing: border-box;
-        }
-        // .lazy-hidden {
-        //     opacity:0;
-        //     transition: opacity 1s;
-        // }
-        // .lazy-loaded {
-        //     opacity:1;
-        // }
-        &:hover {
-            .left, .right {
-                opacity: 1;
+            img {
+               max-height: inherit;
+               object-fit: contain;
+               margin: 0 auto;
+               padding: $interior_margin / 2;
+               box-sizing: border-box;
             }
-        }
-    }
-    figcaption {
-        text-align: center;
-        p:first-child {
-            margin-top:0;
-            padding-top: $interior_margin / 2;
-        }
-        p:last-child {
-            margin-bottom:0;
-            padding-bottom: $interior_margin / 2;
-        }
-    }
-    .left, .right {
-        cursor: pointer;
-        opacity:0;
-        transition: opacity 1s;
-        position: absolute;
-        top: 50%;
-        color: red;
-        transform: translate(0,-50%);
-        font-size: 2rem;
-        color: $value6;
-        &::before {
-            text-shadow: 0px 1px 5px $box-shadow;
-        }
-    }
-    .right {
-        right: $interior_margin;
-    }
-    .left {
-        left: $interior_margin;
-    }
-}
-.has_touch {
-    #fullscreen-gallery {
-        .left, .right {
-            opacity:1;
-        }
-    }
-}
+            // .lazy-hidden {
+               //     opacity:0;
+               //     transition: opacity 1s;
+               // }
+               // .lazy-loaded {
+                  //     opacity:1;
+                  // }
+                  &:hover {
+                     .left, .right {
+                        opacity: 1;
+                     }
+                  }
+               }
+               figcaption {
+                  text-align: center;
+                  p:first-child {
+                     margin-top:0;
+                     padding-top: $interior_margin / 2;
+                  }
+                  p:last-child {
+                     margin-bottom:0;
+                     padding-bottom: $interior_margin / 2;
+                  }
+               }
+               .left, .right {
+                  cursor: pointer;
+                  opacity:0;
+                  transition: opacity 1s;
+                  position: absolute;
+                  top: 50%;
+                  color: red;
+                  transform: translate(0,-50%);
+                  font-size: 2rem;
+                  color: $value6;
+                  &::before {
+                     text-shadow: 0px 1px 5px $box-shadow;
+                  }
+               }
+               .right {
+                  right: $interior_margin;
+               }
+               .left {
+                  left: $interior_margin;
+               }
+            }
+            .has_touch {
+               #fullscreen-gallery {
+                  .left, .right {
+                     opacity:1;
+                  }
+               }
+            }
+            

@@ -1,81 +1,81 @@
 .masonry-thumb {
-    margin:0;
-    padding:0;
-    .thumb {
-        margin:0;
-        padding:0;
-        overflow: visible;
-        box-shadow:none;
-        transition: opacity $transition-speed;
-        .hover {
-            @if ($darken_and_zoom == true) {
-                    opacity: 0;
-            }
-        }
-        a:hover ~ .hover {
-             @if ($darken_and_zoom == true) {
-                opacity: 0.8;
-                @include fixedcenter;
-                z-index: 99;
-                background:black;
-            }
-        }
-        &:hover {
-            .title {
-                opacity:1;
-                transition: opacity $transition-speed;
-            }
-        }
-        .title {
+   margin:0;
+   padding:0;
+   .thumb {
+      margin:0;
+      padding:0;
+      overflow: visible;
+      box-shadow:none;
+      transition: opacity $transition-speed;
+      .hover {
+         @if ($darken_and_zoom == true) {
             opacity: 0;
-            transition: opacity 1s;
-            position: absolute;
-            font-family: Kalam;
-            text-align: center;
-            padding: 5px;
-            top: 0;
-            right: 0;
-            left: 0;
-            background: rgba(0, 0, 0, 0.8);
-            color: white;
-        }
-        img {
-            box-shadow: none;
-            opacity: 0;
-            transition: transform $transition-speed, opacity $transition-speed;
-            @if ($darken_and_zoom == true) {
-                transform-origin: top center;
-            }
-            &.lazy-loaded {
-                opacity: 1;
-                @if ($box-shadow-main-imgs == true) {
-                    box-shadow: 0 0 5px 1px $box-shadow;
-                }
-                &:hover {
-                    @if ($box-shadow-main-imgs == true) {
-                        box-shadow: 0 0 5px 1px $link-color;
-                    }
-                }
+         }
+      }
+      a:hover ~ .hover {
+         @if ($darken_and_zoom == true) {
+            opacity: 0.8;
+            @include fixedcenter;
+            z-index: 99;
+            background:black;
+         }
+      }
+      &:hover {
+         .title {
+            opacity:1;
+            transition: opacity $transition-speed;
+         }
+      }
+      .title {
+         opacity: 0;
+         transition: opacity 1s;
+         position: absolute;
+         font-family: Kalam;
+         text-align: center;
+         padding: 5px;
+         top: 0;
+         right: 0;
+         left: 0;
+         background: rgba(0, 0, 0, 0.8);
+         color: white;
+      }
+      img {
+         box-shadow: none;
+         opacity: 0;
+         transition: transform $transition-speed, opacity $transition-speed;
+         @if ($darken_and_zoom == true) {
+            transform-origin: top center;
+         }
+         &.lazy-loaded {
+            opacity: 1;
+            @if ($box-shadow-main-imgs == true) {
+               box-shadow: 0 0 5px 1px $box-shadow;
             }
             &:hover {
-                @if ($darken_and_zoom == true) {
-                    transform: scale(1.5);
-                    z-index: 100;
-                    position: relative;
-                }
+               @if ($box-shadow-main-imgs == true) {
+                  box-shadow: 0 0 5px 1px $link-color;
+               }
             }
-        }
-    }
-    @if ($darken_and_zoom == true) {
-        &:nth-child(-n + 3) img:hover {
-            transform: scale(1.5) translate(0, -$margin);
-        }
-    }
+         }
+         &:hover {
+            @if ($darken_and_zoom == true) {
+               transform: scale(1.5);
+               z-index: 100;
+               position: relative;
+            }
+         }
+      }
+   }
+   @if ($darken_and_zoom == true) {
+      &:nth-child(-n + 3) img:hover {
+         transform: scale(1.5) translate(0, -$margin);
+      }
+   }
 }
 @include media(after, 750px) {//really big devices
-    .has_touch {//hover img already off in article default
-        .hover {
-            display: none;
-        }
-    }
+   .has_touch {//hover img already off in article default
+      .hover {
+         display: none;
+      }
+   }
 }

@@ -1,61 +1,61 @@
 //slick carousel
 .gallery {
-    margin: $margin 20px; //for navigation arrows
-    .slick-list {
-        overflow: hidden;
-        .slick-slide{
-            height:400px; 
+   margin: $margin 20px; //for navigation arrows
+   .slick-list {
+      overflow: hidden;
+      .slick-slide{
+         height:400px; 
+         @include media (before, 600px) {
+            height:300px;
+         }
+         img {
+            height:370px;
             @include media (before, 600px) {
-                height:300px;
+               height:300px;
             }
-            img {
-                height:370px;
-                @include media (before, 600px) {
-                    height:300px;
-                }
+         }
+         @include media (before, 600px) {
+            figcaption {
+               display: none;
             }
-            @include media (before, 600px) {
-                figcaption {
-                display: none;
-                }
-            }
-            figcaption p { 
-                text-align: center;
-            }
-        }
-    }
-    .slick-prev:before, .slick-next:before {
-        color: $valueoff6;
-    }
+         }
+         figcaption p { 
+            text-align: center;
+         }
+      }
+   }
+   .slick-prev:before, .slick-next:before {
+      color: $valueoff6;
+   }
 }
 #fullscreen-gallery {
-    display:none;
-    position: fixed;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    background: rgba(0, 0, 0, 0.89);
-    z-index: 1000;
-    figure {
-        display: block;
-        width:100%;
-        margin:0;
-        padding: $margin;
-        box-sizing:border-box;
-        height: auto;
-        position: fixed;
-        transform: translate(-50%, -50%);
-        top: 50%;
-        left: 50%;
-        img {
-            height:100%;
-            width:100%;
-            object-fit:contain;
-            max-height: calc(100vh - #{$margin * 4});
-        }
-        p {
-            text-align:center;
-        }
-    }
+   display:none;
+   position: fixed;
+   top:0;
+   bottom:0;
+   left:0;
+   right:0;
+   background: rgba(0, 0, 0, 0.89);
+   z-index: 1000;
+   figure {
+      display: block;
+      width:100%;
+      margin:0;
+      padding: $margin;
+      box-sizing:border-box;
+      height: auto;
+      position: fixed;
+      transform: translate(-50%, -50%);
+      top: 50%;
+      left: 50%;
+      img {
+         height:100%;
+         width:100%;
+         object-fit:contain;
+         max-height: calc(100vh - #{$margin * 4});
+      }
+      p {
+         text-align:center;
+      }
+   }
 }

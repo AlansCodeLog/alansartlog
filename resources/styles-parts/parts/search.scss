@@ -1,9 +1,9 @@
 
 .search {
-    background: $value0;
-    display: inline-block;
-    position: relative;
-    .search-box {
+   background: $value0;
+   display: inline-block;
+   position: relative;
+   .search-box {
       display: inline;
       padding: ($interior_margin / 3);
       padding-right: 0;
@@ -45,7 +45,7 @@
    border-top: 3px solid $value2;
    border-bottom: 3px solid $value2;
    @include media(before, 500px) {
-         max-height: 350px;
+      max-height: 350px;
    }
    .no-results {
       text-align: center;
@@ -88,21 +88,21 @@
    .taxnms {
       margin: 0 -5px;
       div {
-            display: inline-block;
-            margin: 5px;
-            //background: white;
-            padding: 3px 5px;
-            border-radius: $border-radius;
-            font-size: 0.8rem;
-            //box-shadow: 0px 0px 3px 1px gray inset;
-            border: 1px solid $value2;
-            &::before {
-               content: "#";
-               color: $value3;
-            }
+         display: inline-block;
+         margin: 5px;
+         //background: white;
+         padding: 3px 5px;
+         border-radius: $border-radius;
+         font-size: 0.8rem;
+         //box-shadow: 0px 0px 3px 1px gray inset;
+         border: 1px solid $value2;
+         &::before {
+            content: "#";
+            color: $value3;
+         }
       }
       a {
-            color: $value5;
+         color: $value5;
       }
    }
 }

@@ -1,31 +1,31 @@
 .page {
-    .content {
-        & > p:first-child {
-            font-size: (1rem * $text-multiplier);
-        }
-        & > p:first-child:first-letter{
-            float: none;
-            padding: initial;
-            font-size: (1rem * $text-multiplier);
-            font-weight: normal;
-            line-height: initial;
-        }
-    }
+   .content {
+      & > p:first-child {
+         font-size: (1rem * $text-multiplier);
+      }
+      & > p:first-child:first-letter{
+         float: none;
+         padding: initial;
+         font-size: (1rem * $text-multiplier);
+         font-weight: normal;
+         line-height: initial;
+      }
+   }
 }
 .page-error {
-    .inner {
-        p:first-child {
-            text-align: center;
-        }
-        p:nth-child(2) {
-            text-align: justify;
-        }
-    }
+   .inner {
+      p:first-child {
+         text-align: center;
+      }
+      p:nth-child(2) {
+         text-align: justify;
+      }
+   }
 }
 .page-message-sent {
-    .inner {
-        p { 
-            text-align: center;
-        }
-    }
+   .inner {
+      p { 
+         text-align: center;
+      }
+   }
 }
