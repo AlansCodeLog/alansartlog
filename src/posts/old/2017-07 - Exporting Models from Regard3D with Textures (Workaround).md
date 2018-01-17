@@ -4,6 +4,9 @@ date: 2017-07-07 15:43:03
 type: post
 tags: [3d, 3d model, photogrammetry, regard3d, tools/software, tutorials, videos]
 ---
+
+**EDIT: This post is outdated. The bug has been fixed.**
+
 [youtube]fsi9OTTa-Ng[/youtube]
 
 If you saw my previous post/video about scanning objects into 3d models you'll know the current version of the program I used, [Regard3D](http://www.regard3d.org/), has a bug with exporting objects with image textures.

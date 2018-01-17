@@ -17,7 +17,7 @@ Also please note the cleanup process was aimed at getting it ready for sculpting
 Lastly, I would love to share the project file so you can see what I tested but it's HUGE (15GB) and I'm not sharing the 3d model just yet because it's an original character of mine so I'm working on a generic version for practicing lighting the face, [the first version is now available for patreons](https://www.patreon.com/posts/16456416).
 
 
-#Intro
+# Intro
 
 So there are free programs out there like Autodesk 123D Catch (which was a bit limited when I checked it out) and there are some open source programs like VisualSFM but I wanted something that was both open source, and therefore free (w/ no patent issues) AND allowed for commercial use, and the only program that seemed to satisfy that requirement was Regard3D. Also it's the only one of the open source programs that takes you from the photos to the finished model. Otherwise you might have needed 2-3 different programs as this [blog post](https://pfalkingham.wordpress.com/2016/09/14/trying-all-the-free-photogrammetry/) illustrates.
 
@@ -31,7 +31,7 @@ Regard 3D Pros:
    - Allows Exporting (of sparse and dense point clouds as well as models)
 
 Cons:
-   - ~Texture bug ([solution](/2017/02/how-to-export-models-from-Regard3D-with-textures))~. Has been fixed. 
+   - ~~Texture bug ([solution](/2017/02/how-to-export-models-from-Regard3D-with-textures))~~. Has been fixed. 
    - Resource intensive, but then most photogrammetry programs are.
 
 # The Pictures
@@ -47,8 +47,6 @@ Unless your object is made of glass (in which case you'll have to coat it in som
 ## Texture
 
 Even if the surface is matte though you need some texture else you won't get any matches. For this you can splatter some ink, or watercolors, or something (test the pigment will not stain first). This will help a lot if your object is a sculpt like mine with minimal texture. Without it the software has no good reference as to where anything is in space.
-
-**Edit: Checkout the [new post](/2018/01/) for testing different lighting setups and other tricks to get a better scan.**
 
 ## How many pictures to take?
 
@@ -76,8 +74,6 @@ Then just name your picture set something and add all the images.
 
 Now the Regard3D documentation, link below, goes more in depth into some of the options. I'm not going to go over everything, just cover some of the stuff it doesn't cover or what I learned worked best for me from experience.
 
-**EDIT: From here on some of this is slightly off/outdated? With more tries on my newer much more powerful desktop, I've come to understand the different settings better. So I recommend you just go to the [new post](TODO). Anything there overrides what I've said here. Though I've tried to edit any differences here.**
-
 Here the default settings work pretty well. I found on my laptop (specs at the end) setting `keypoint sensitivity` too high would cause it to crash (EDIT: this no longer happens on my new better desktop). Setting the `keypoint matching ratio` to high though and the `keypoint sensitivity` to low improved some of my results without crashing.
 
 ![Computing Matches Dialog](/resources/uploads/scanning-compute-matches.jpg)
@@ -104,7 +100,7 @@ Check `Show Keypoints` to actually show the matches. Even then you might not qui
 
 To see matches between pairs, in the lower half click `Show Matches`. It might take a second to load. And if you took your pictures right you should see just a bunch of lines, to the point you can't even see the images well.
 
-![Matches](/images-to-import/scanning-image-matches.jpg)
+![Matches Dialog](/resources/uploads/scanning-image-matches.jpg)
 
 ## Triangulation
 
@@ -130,7 +126,6 @@ Finally you'll be able to see some points on the screen. If you load some other 
 
 You can also make the points bigger by moving the `Point size` slider in the top right. You should now be able to see a bunch of little green dots. Those are the cameras it captured. And in the lower left there's a field that tells you how many cameras were captured out of the total. Usually ~80/90% or more is enough.
 
-
 ## Densification
 
 From your triangulation click `Create dense pointcloud...`. 
@@ -151,8 +146,6 @@ Here you basically have two options `CMVS/PMVS` and `MVE`.
 
 `Min. image num`: If a point only appeared in 2 images but this is set to 3 it won't use it, so I suggest lowering this to 2 for the amount of photos I recommended.
 
-Edit: See new video where I go over the parameters more in depth.
-
 Now I prefer MVE because I could not get Level 1 to work for me, only Level 2 and it looks worse than the defaults for MVE which do work for me.
 
 This one does take a lot less time though (couple of minutes). And it seems to produce nicer point clouds with less artifacts but the end model did not look as nice as with MVE.
@@ -163,9 +156,9 @@ BUT you loose the option later to do a Floating Surface Reconstruction.
 
 `Scale`: The resolution with a lower number being a higher resolution.
 
-The problem with MVE is that anything but the defaults seems to create a lot of weird artifacts and nothing but the defaults seemed to work (Edit: I have figured it out).
+The problem with MVE is that anything but the defaults seems to create a lot of weird artifacts and nothing but the defaults seemed to work.
 
-It also takes a lot longer (2-3h). if your computer isn't very powerful you might get out of memory errors. Try closing all your programs and just leaving it to run for a while or overnight, sometimes it will recover and finish.
+It also takes a lot longer (2-3h) Edit: On my new computer it's now 10-30min. If your computer isn't very powerful you might get out of memory errors. Try closing all your programs and just leaving it to run for a while or overnight, sometimes it will recover and finish.
 
 But it does allow you do do Floating Surface Reconstructions later.
 
@@ -181,6 +174,8 @@ Click `Create Surface`.
 
 We get the two options, one I already mentioned...
 
+![Surface Reconstruction Dialog](/resources/uploads/scanning-surface-reconstruction.jpg) 
+
 ### Floating Surface Reconstruction
 
 `Levels`: Like the resolution except now a higher value = more resolution.
@@ -189,15 +184,15 @@ This one can take ~1h sometimes for Level 0 which is the lowest so I was not abl
 
 ### Possion Surface Reconstruction
 
-Edit: As I have been informed, this is not at all pronounced how I read it, lol. 
+PS: Sorry for the mispronunciation in the video, I literally read this as Poison.
 
-This is my prefered method.
+This is my preferred method.
 
 `Depth`: Like the resolution except now a higher value = more resolution. Don't go too high (9-10) or you'll get a lot of artifacts.
 
 `Samples per Node`: Turning this up helps get rid of artifacts.
 
-As for the other two settings, the defaults work well, turning them up just seems to make the base a bit neater. (Edit: These work a little bit different than I thought).
+As for the other two settings, the defaults work well, turning them up just seems to make the base a bit neater.
 
 ### Colorization
 
@@ -211,7 +206,7 @@ Now the bug is fixed I do not recommend `Colored Vertices` unless you don't care
 
 If you use `Textures` you can toggle them off in the sidebar to the right.
 
-## Export
+## Exporting
 
 From here we'll need to export our model for cleanup in other programs. You can use either Meshlab, it's free  (you can also do the surface reconstruction of point clouds from there) but it's very hard to understand and the newest version does not work for me, or Blender.
 
@@ -225,7 +220,7 @@ I could not record the cleanup because the mesh was so huge and freezing my comp
 
 [Blender](https://www.blender.org/)
 
-If your object is particularly small I recommend you look at [this part of the tutorial I wrote on magic lantern](http://alansartlog.com/2015/08/magic-lantern-on-my-canon-rebel-t31100d#link-focus-stacking) (you don't need it to apply the concepts descriped but it's helpful if you have an DSLR camera).
+If your object is particularly small I recommend you look at [this part of the tutorial I wrote on magic lantern](http://alansartlog.com/2015/08/magic-lantern-on-my-canon-rebel-t31100d#link-focus-stacking) (you don't need it to apply the concepts described but it's helpful if you have an DSLR camera).
 
 PS: To give you an idea of the type how long it might take on your computer, or what type of computer you need, I'm using a laptop with an Intel i5, 8GB of RAM, and a NVIDIA 650M GPU.
 
