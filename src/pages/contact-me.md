@@ -20,3 +20,5 @@ file_placeholder: "Attach a file..."
 <center>Email: [alansartlog@gmail.com](mailto:alansartlog@gmail.com)</center>
 
 <center>...or use the form below:</center>
+
+<center>Note: If you submitted a form between October - December 2018, please send it again, it probably got accidently caught by my spam filter.</center>
