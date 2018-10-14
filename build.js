@@ -24,6 +24,7 @@ const minify = require('html-minifier').minify;
 const CleanCSS = require("clean-css")
 const UglifyJS = require("uglify-js")
 const FileHound = require('filehound');
+const youtube_video_info = require("./local_plugins/youtube-video-info")
 
 if (typeof process.env.TRAVIS == "undefined") {
    var YTAPI = require("./env_variables.js").YTAPI
@@ -278,7 +279,8 @@ no_folder: true,
    fs: fs,
    probe: probe,
    request: request,
-   YTAPI: YTAPI,
+	YTAPI: YTAPI,
+	youtube_video_info: youtube_video_info,
    exposeConsolidate: {debug: true, delimiter: "%", rmWhitespace: true}
 }))
 .build(function (err) {

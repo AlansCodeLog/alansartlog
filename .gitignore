@@ -2,6 +2,7 @@ node_modules
 public
 .vscode
 cache.shortcodes.json
+cache.youtube_video_info.json
 cache.lazyloader.json
 npm-debug.log
 resources/styles/*.css
