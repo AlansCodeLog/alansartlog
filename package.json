@@ -10,14 +10,14 @@
       "prestart": "npm install",
       "start": "node .",
       "dev": "set NODE_ENV=dev&&node .",
-      "watch-public": "watch-http-server public",
+      "watch-public": "serve public",
       "watch-sass": "node-sass  --watch resources/styles-parts/style.scss -o resources/styles/",
       "fontello": "fontello-cli --config resources/styles/fontello-config.json install --css resources/styles/fontello/css --font resources/styles/fontello/font",
       "postcss-autoprefixer": "postcss resources/styles/style.css -d public/resources/styles --watch --use autoprefixer",
       "watch-css": "npm run watch-sass && npm run postcss-autoprefixer && wait",
       "all": "concurrently --kill-others \"npm run watch-sass\" \"npm run postcss-autoprefixer\"",
       "tags": "node tagslist.js",
-		"import": "node local_plugins/image-importer/index.js images-to-import resources/uploads"
+      "import": "node local_plugins/image-importer/index.js images-to-import resources/uploads"
    },
    "browserslist": [
       "> 0.1%",
@@ -46,10 +46,10 @@
       "moment": "^2.22.2",
       "probe-image-size": "^4.0.0",
       "search": "file:local_plugins\\search",
+      "serve": "^10.0.2",
       "showdown": "^1.8.6",
       "sync-request": "^6.0.0",
       "uglify-js": "^3.4.9",
-      "watch-http-server": "^0.7.6",
       "youtube-sitemap": "file:local_plugins/youtube-video-info"
    }
 }
