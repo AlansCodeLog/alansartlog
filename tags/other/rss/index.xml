@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xml:lang="en-US" 
+xmlns:media="http://search.yahoo.com/mrss/" 
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns="http://www.w3.org/2005/Atom">
+    
+        
+            <link href="https://alansartlog.com/tags/other/rss/index.xml" rel="self" type="application/atom+xml"  />
+            <title>Alan&#39;s Art Log - Tag:other</title>
+            <link type="text/html" href="https://alansartlog.com/tags/other" rel="alternate"/>
+            <id>https://alansartlog.com/tags/other</id
+        
+    
+    <subtitle>Paintings, sketches, tutorials, videos, and art related DIY projects.</subtitle>
+    <category term="Art"></category>
+    <icon>https://alansartlog.com/resources/images/pencil-logo-icon-150x150.jpg</icon>
+    
+    <updated>2019-02-16T23:35:34+00:00</updated>
+    <author>
+        <name>Alan North</name>
+        <email>alansartlog@gmail.com</email>
+    </author>
+
+    
+    <rights>© Copyright 2017-2019 Alan North - All rights reserved unless otherwise stated.</rights>
+
+    
+        <entry>
+    
+    <title>So... YouTube Enabled Unskippable Ads Without Asking Me</title>
+    <link href="https://alansartlog.com/2018/11/so...-youtube-enabled-unskippable-ads-without-asking-me"/>
+    <id>https://alansartlog.com/2018/11/so...-youtube-enabled-unskippable-ads-without-asking-me</id>
+    
+    
+    
+        <content type="html"><![CDATA[<p>I'm furious. </p>
+<p>I never wanted to add unskippable ads. </p>
+<p>Don't know exactly when this happened. Worst part is there's no option to batch remove the ads, so I had to go one by one to disable them. I think I got them all but <strong>if you find a video of mine with unskippable* ads please contact me so I can remove them.</strong></p>
+<p>I only found out because I was turning off monetization for an outdated video and noticed it was on. I had seen lately that there had been a drop in views/revenues lately which I thought was a bit odd, but put it down to one of those random fluctuations, or maybe because I wasn't posting as frequently, but looking at my timeline now it's quite clear it was the unskippable ads.</p>
+<p>So, sorry for everyone who suffered through that.</p>
+<p>Hopefully in the future I can make enough of patreons and donations that I can disable them completely, but for now, unfortunately, I need the money to buy materials for projects, etc.</p>
+<p>*I believe "unskippable" ads below the 5 second skip timer don't count. It's if they're longer than that.</p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2018/11/so...-youtube-enabled-unskippable-ads-without-asking-me#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/other" label="other"></category>
+    
+    
+    <updated>2018-11-08T00:00:00+00:00</updated>
+</entry>
+
+    
+</feed>

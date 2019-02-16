@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xml:lang="en-US" 
+xmlns:media="http://search.yahoo.com/mrss/" 
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns="http://www.w3.org/2005/Atom">
+    
+        
+            <link href="https://alansartlog.com/tags/photography/rss/index.xml" rel="self" type="application/atom+xml"  />
+            <title>Alan&#39;s Art Log - Tag:photography</title>
+            <link type="text/html" href="https://alansartlog.com/tags/photography" rel="alternate"/>
+            <id>https://alansartlog.com/tags/photography</id
+        
+    
+    <subtitle>Paintings, sketches, tutorials, videos, and art related DIY projects.</subtitle>
+    <category term="Art"></category>
+    <icon>https://alansartlog.com/resources/images/pencil-logo-icon-150x150.jpg</icon>
+    
+    <updated>2019-02-16T23:35:34+00:00</updated>
+    <author>
+        <name>Alan North</name>
+        <email>alansartlog@gmail.com</email>
+    </author>
+
+    
+    <rights>© Copyright 2017-2019 Alan North - All rights reserved unless otherwise stated.</rights>
+
+    
+        <entry>
+    
+    <title>Magic Lantern on My Canon Rebel T3/1100D</title>
+    <link href="https://alansartlog.com/2015/08/magic-lantern-on-my-canon-rebel-t31100d"/>
+    <id>https://alansartlog.com/2015/08/magic-lantern-on-my-canon-rebel-t31100d</id>
+    
+    
+    
+        <content type="html"><![CDATA[<h1 id="magiclantern">Magic Lantern</h1>
+<p>When I first got my camera I knew next to zero about photography. I had heard about magic lantern but I was too afraid to break something so I never got it and eventually forgot about it. Lately though I’ve been wanting to push the limits on my camera It’s been broken in, I know more about photography, and I’ve finally gotten some vital accessories like a tripod and a remote control.</p>
+<p>I really like macro photography and I’m also interested in doing small stop motion animations with the ship models I plan to build so I was looking up ways to increase the depth of field (increasing the depth of field is what makes them not look like miniatures). I’d come up with the idea of taking several pictures at different focuses (focus stacking, though I didn’t know this was an actual thing that had a name) but that hadn’t worked well without a tripod. Now that I had a tripod I thought I’d test it again. It worked better, but there was no way to adjust it the same every single time the way I needed.</p>
+<p>My mind was already working away in the background suggesting all kinds of complex jigs, when I finally thought I should probably do a Google search to see if this is possible with the Canon software that lets you control the camera from your computer. It’s not, but apparently there were other programs that could do this very thing. Well I searched around some more because I was also interested in finding if there was some way to improve the video (there isn’t, or at least it’s not noticeable), and magic lantern came up. Turns out it had a focus stacking feature. It was also much easier to install than I anticipated.</p>
+<p><a class="read-more" href="/2015/08/magic-lantern-on-my-canon-rebel-t31100d">Read More…</a></p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2015/08/magic-lantern-on-my-canon-rebel-t31100d#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/photography" label="photography"></category>
+    
+        <category term="https://alansartlog.com/tags/recordingediting-tools" label="recording/editing tools"></category>
+    
+        <category term="https://alansartlog.com/tags/toolssoftware" label="tools/software"></category>
+    
+    
+    <updated>2015-08-06T00:00:00+00:00</updated>
+</entry>
+
+    
+</feed>

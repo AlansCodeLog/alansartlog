@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xml:lang="en-US" 
+xmlns:media="http://search.yahoo.com/mrss/" 
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns="http://www.w3.org/2005/Atom">
+    
+        
+            <link href="https://alansartlog.com/tags/art-books/rss/index.xml" rel="self" type="application/atom+xml"  />
+            <title>Alan&#39;s Art Log - Tag:art books</title>
+            <link type="text/html" href="https://alansartlog.com/tags/art-books" rel="alternate"/>
+            <id>https://alansartlog.com/tags/art-books</id
+        
+    
+    <subtitle>Paintings, sketches, tutorials, videos, and art related DIY projects.</subtitle>
+    <category term="Art"></category>
+    <icon>https://alansartlog.com/resources/images/pencil-logo-icon-150x150.jpg</icon>
+    
+    <updated>2019-02-16T23:35:34+00:00</updated>
+    <author>
+        <name>Alan North</name>
+        <email>alansartlog@gmail.com</email>
+    </author>
+
+    
+    <rights>© Copyright 2017-2019 Alan North - All rights reserved unless otherwise stated.</rights>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/Imaginitve-Realism-Cover.jpg"/>
+        
+            <media:description type="html">&lt;p&gt;Imaginative Realism: How to Paint What Doesn&#39;t Exist by James Gurney
+224 Pages - Paperback&lt;/p&gt;</media:description>
+        
+    
+    <title>Review of Imaginitive Realism by James Gurney</title>
+    <link href="https://alansartlog.com/2016/11/book-review-imaginitive-realism"/>
+    <id>https://alansartlog.com/2016/11/book-review-imaginitive-realism</id>
+    
+    
+    
+        <content type="html"><![CDATA[<iframe src="https://www.youtube.com/embed/GZIWGMqte2A?autoplay=1" frameborder="0" allowfullscreen></iframe>
+<p>So this book has been on my wishlist for a while and I recently discovered bookdepository which is significantly cheaper for me where I live so I decided to try it out.</p>
+<h2 id="bookdepository">Book Depository</h2>
+<p>First of all you might want to know that the "free" part of the Book depository shipping is actually included in the price and differs depending on where you buy it from. I only realized this because I had someone in the US buy it for me and they told me they actually paid even less than the price I was seeing (which was still ~10 dollars less than amazon). They had no problem putting in my address here in Argentina though. Apparently it's just where the site is seeing you coming from so you could probably use a secure VPN to get around this, but I have no idea how legal that might be or if that breaks their terms of use or something.</p>
+<p>They said 15 days max to arrive, but there are crazy import restrictions in my country, so it probably got delayed by customs. It took nearly a month and a half to arrive since they shipped it out. If you're in Argentina I&nbsp;<em>still</em> had to go pick it up and pay $50 pesos, so door-to-door is still not working properly. At least they did not open the package or anything.</p>
+<h3 id="packaging">Packaging</h3>
+<p>It was pretty nicely packed in the box you see in the video. In fact I've been struggling without how I'm going to ship paintings if I make them on stretched canvas and I'm going to copy their idea in part&nbsp;because it doesn't require me to buy a box. It's basically made out of one long strip of cardboard cut like the diagram below.</p>
+<p><a class="read-more" href="/2016/11/book-review-imaginitive-realism">Read More…</a></p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2016/11/book-review-imaginitive-realism#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/art-books" label="art books"></category>
+    
+        <category term="https://alansartlog.com/tags/reviews" label="reviews"></category>
+    
+        <category term="https://alansartlog.com/tags/videos" label="videos"></category>
+    
+    
+    <updated>2016-11-03T18:07:40+00:00</updated>
+</entry>
+
+    
+</feed>

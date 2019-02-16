@@ -1,0 +1,2482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xml:lang="en-US" 
+xmlns:media="http://search.yahoo.com/mrss/" 
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns="http://www.w3.org/2005/Atom">
+    
+        <link href="https://alansartlog.com/rss/index.xml" rel="self" type="application/atom+xml" />
+        <title type="text" xml:lang="en">Alan&#39;s Art Log</title>
+        <link type="text/html" href="https://alansartlog.com" rel="alternate"/>
+        <id>https://alansartlog.com/</id>
+    
+    <subtitle>Paintings, sketches, tutorials, videos, and art related DIY projects.</subtitle>
+    <category term="Art"></category>
+    <icon>https://alansartlog.com/resources/images/pencil-logo-icon-150x150.jpg</icon>
+    
+    <updated>2019-02-16T23:35:29+00:00</updated>
+    <author>
+        <name>Alan North</name>
+        <email>alansartlog@gmail.com</email>
+    </author>
+
+    
+    <rights>© Copyright 2017-2019 Alan North - All rights reserved unless otherwise stated.</rights>
+
+    
+        <entry>
+    
+    <title>So... YouTube Enabled Unskippable Ads Without Asking Me</title>
+    <link href="https://alansartlog.com/2018/11/so...-youtube-enabled-unskippable-ads-without-asking-me"/>
+    <id>https://alansartlog.com/2018/11/so...-youtube-enabled-unskippable-ads-without-asking-me</id>
+    
+    
+    
+        <content type="html"><![CDATA[<p>I'm furious. </p>
+<p>I never wanted to add unskippable ads. </p>
+<p>Don't know exactly when this happened. Worst part is there's no option to batch remove the ads, so I had to go one by one to disable them. I think I got them all but <strong>if you find a video of mine with unskippable* ads please contact me so I can remove them.</strong></p>
+<p>I only found out because I was turning off monetization for an outdated video and noticed it was on. I had seen lately that there had been a drop in views/revenues lately which I thought was a bit odd, but put it down to one of those random fluctuations, or maybe because I wasn't posting as frequently, but looking at my timeline now it's quite clear it was the unskippable ads.</p>
+<p>So, sorry for everyone who suffered through that.</p>
+<p>Hopefully in the future I can make enough of patreons and donations that I can disable them completely, but for now, unfortunately, I need the money to buy materials for projects, etc.</p>
+<p>*I believe "unskippable" ads below the 5 second skip timer don't count. It's if they're longer than that.</p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2018/11/so...-youtube-enabled-unskippable-ads-without-asking-me#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/other" label="other"></category>
+    
+    
+    <updated>2018-11-08T00:00:00+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+    <title>How to Scan Objects into 3D Models II - Settings and Setup Comparisons</title>
+    <link href="https://alansartlog.com/2018/11/how-to-scan-objects-into-3d-models-ii-settings-and-setup-comparisons"/>
+    <id>https://alansartlog.com/2018/11/how-to-scan-objects-into-3d-models-ii-settings-and-setup-comparisons</id>
+    
+    
+    
+        <content type="html"><![CDATA[<p>This is a follow up to my previous <a href="https://www.youtube.com/watch?v=GaYfpGcXxmA">video</a>/<a href="/2017/02/how-to-turnscan-objects-into-3d-models-with-just-a-camera">post</a>* on how to scan object into 3d models with just a camera using Regard3d (a free Photogrammetry program).</p>
+<p>In this video I go in depth into Regard 3Ds settings with visual comparisons and compare different scanning/lighting setups, to show you how you can get the cleanest scan possible.</p>
+<iframe src="https://www.youtube.com/embed/7pGJ8rWiecw?autoplay=1" frameborder="0" allowfullscreen></iframe>
+<p>*It's not really necessary to have seen the previous video unless you get confused in the program about where to click or how to do something.</p>
+<p>In fact, quite a few things didn't work for one reason or another in that video, anything I say here overrides whatever I said in that one, specifically the following:</p>
+<ul>
+<li>Using a Turntable - It is in fact the best and easiest way to scan things.</li>
+<li>Ink Stains - Seems like they might actually cause more problems sometimes.</li>
+<li>The Incremental Reconstruction Engine - It works for me now, and it so much better than the Global Reconstruction.</li>
+<li>The Texture Bug - If you did not know already, it has been fixed, so it's no longer a problem.</li>
+</ul>
+<h2 id="presentation">Presentation</h2>
+<p>You can find the presentation below (or <a href="https://alanscodelog.github.io/presentation-regard3d">direct link</a>). This is what I will keep updated.</p>
+<iframe src="https://alanscodelog.github.io/presentation-regard3d"></iframe>
+<h3 id="updates">Updates</h3>
+<p>I do not have the time at the moment to convert the presentation to a write up. So in case anything else pops up in the future, if anybody finds better settings or something, I will keep a list here, detailing changes/updates to the presentation.</p>
+<h2 id="testpicturesets">Test Picture Sets</h2>
+<p>You can find the test picture sets (all CC-BY licensed) along with other potentially useful links here: <a href="https://github.com/AlansCodeLog/photogrammetry-test-sets">Photogrammetry Test Sets</a>. </p>
+<p>If you use the picture sets for a video or blog post and/or find something interesting about the settings, I'd love to know, feel free to leave a comment or send me an email.</p>
+<p>Additionally if you have any picture sets you're willing to contribute, mine are all hosted in individual repos in a gitlab group, so it's easy to add other's repos to it, see the Contributing section in the link above.</p>
+<h2 id="links">Links</h2>
+<p><a href="http://www.regard3d.org/">Regard3d</a></p>
+<p><a href="http://mion.faireal.net/BES/">BES</a></p>
+<p>For the point cloud comparisons I used a free program called <a href="https://www.danielgm.net/cc/">CloudCompare</a>.</p>
+<p>If you're interested in sculpting, you can see how I made the <a href="/2017/11/sculpting-and-painting-a-skull">skull sculpt here</a>.</p>
+<h2 id="othernews3dprinterlifeperspectivevideos">Other News (3D Printer, Life, Perspective Videos)</h2>
+<p><a class="read-more" href="/2018/11/how-to-scan-objects-into-3d-models-ii-settings-and-setup-comparisons">Read More…</a></p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2018/11/how-to-scan-objects-into-3d-models-ii-settings-and-setup-comparisons#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/3d" label="3d"></category>
+    
+        <category term="https://alansartlog.com/tags/3d-model" label="3d model"></category>
+    
+        <category term="https://alansartlog.com/tags/toolssoftware" label="tools/software"></category>
+    
+        <category term="https://alansartlog.com/tags/tutorials" label="tutorials"></category>
+    
+        <category term="https://alansartlog.com/tags/videos" label="videos"></category>
+    
+    
+    <updated>2018-11-07T00:00:00+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+    <title>How to Remote Debug Blender with VS Code</title>
+    <link href="https://alansartlog.com/2018/01/how-to-remote-debug-blender-with-vs-code"/>
+    <id>https://alansartlog.com/2018/01/how-to-remote-debug-blender-with-vs-code</id>
+    
+    
+    
+        <content type="html"><![CDATA[<iframe src="https://www.youtube.com/embed/UVDf2VSmRvk?autoplay=1" frameborder="0" allowfullscreen></iframe>
+<p>In this video I'll show you how to setup everything so you can remote debug Blender from VS Code to make it easier to develop and debug addons and the source code by adding breakpoints and stepping through your code.</p>
+<p>If you're a programmer and you're semi-familiar with Python, VS Code, and the command line, you can probably just read the documentation on github and it'll make sense, but I know I would have been stumped as a beginner and I really think the extra setup is well worth it, even more so if you're a beginner. I only got started messing with Blender addons a few weeks ago and this has made it so much easier to code.</p>
+<h1 id="links">Links</h1>
+<p><strong><a href="https://www.python.org/">Python</a></strong></p>
+<p><strong><a href="https://github.com/alanscodelog/blender-debugger-for-vscode">Blender Debugger for VS Code Addon + Documentation</a></strong></p>
+<p>I would have put this on my coding blog, but I don't really have that set up properly yet or active, I'll put a link when I do.</p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2018/01/how-to-remote-debug-blender-with-vs-code#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/3d" label="3d"></category>
+    
+        <category term="https://alansartlog.com/tags/videos" label="videos"></category>
+    
+        <category term="https://alansartlog.com/tags/programming" label="programming"></category>
+    
+        <category term="https://alansartlog.com/tags/toolssoftware" label="tools/software"></category>
+    
+        <category term="https://alansartlog.com/tags/random" label="random"></category>
+    
+    
+    <updated>2018-01-23T00:00:00+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/skull-sculpt.jpg"/>
+        
+            <media:description type="html"></media:description>
+        
+    
+    <title>Sculpting and Painting a Skull</title>
+    <link href="https://alansartlog.com/2017/11/sculpting-and-painting-a-skull"/>
+    <id>https://alansartlog.com/2017/11/sculpting-and-painting-a-skull</id>
+    
+    
+    
+        <content type="html"><![CDATA[<iframe src="https://www.youtube.com/embed/Gwoz0pMSmjo?autoplay=1" frameborder="0" allowfullscreen></iframe>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2017/11/sculpting-and-painting-a-skull#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/acrylics" label="acrylics"></category>
+    
+        <category term="https://alansartlog.com/tags/anatomy" label="anatomy"></category>
+    
+        <category term="https://alansartlog.com/tags/artwork" label="artwork"></category>
+    
+        <category term="https://alansartlog.com/tags/sculpting" label="sculpting"></category>
+    
+        <category term="https://alansartlog.com/tags/studies" label="studies"></category>
+    
+        <category term="https://alansartlog.com/tags/videos" label="videos"></category>
+    
+    
+    <updated>2017-11-13T00:00:00+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/skull-studies.jpg"/>
+        
+            <media:description type="html"></media:description>
+        
+    
+    <title>Skull Studies</title>
+    <link href="https://alansartlog.com/2017/11/skull-studies"/>
+    <id>https://alansartlog.com/2017/11/skull-studies</id>
+    
+    
+    
+        <content type="html"><![CDATA[<iframe src="https://www.youtube.com/embed/U8ap2fyUcfs?autoplay=1" frameborder="0" allowfullscreen></iframe>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2017/11/skull-studies#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/anatomy" label="anatomy"></category>
+    
+        <category term="https://alansartlog.com/tags/studies" label="studies"></category>
+    
+        <category term="https://alansartlog.com/tags/videos" label="videos"></category>
+    
+        <category term="https://alansartlog.com/tags/artwork" label="artwork"></category>
+    
+    
+    <updated>2017-11-04T00:00:00+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+    <title>First Computer Build!</title>
+    <link href="https://alansartlog.com/2017/10/first-computer-build"/>
+    <id>https://alansartlog.com/2017/10/first-computer-build</id>
+    
+    
+    
+        <content type="html"><![CDATA[<iframe src="https://www.youtube.com/embed/tr7eYLNtlJY?autoplay=1" frameborder="0" allowfullscreen></iframe>
+<h2 id="update">Update</h2>
+<p>So I haven't been posting any videos for several reasons but mainly because my laptop's fan started making a lot of noise. It sounded like it was on the verge of dying, so I didn't want to leave anything rendering on it. Initially I just planned to replace it but the only place that could get me the right model gave me a ridiculous quote (like $60) for what was probably a third party $5 chinese fan and I didn't want to go through the trouble of importing it myself.</p>
+<p>I thought, to hell with it, I'd rather save up and switch to a desktop, their parts are actually priced reasonably (by which I mean ~1.5 x US prices instead of 2-2.5 like nearly everything else, <del>kill me</del>) and it's easier to upgrade/repair. Also it's not like I move around as much as I used to when I bought the laptop. The only thing it really had going for it at this point was the battery because there's a lot of power outages where I live, but then battery started to die for the third time now, so even more reason to replace it. The only thing I'm sad about is that the 16GB RAM sticks I had ordered for it finally arrived (along with quite a few other art supplies and stuff I hope to be reviewing soon). I tested those for a while and I just cannot go back to just 8GBs anymore.</p>
+<h2 id="parts">Parts</h2>
+<p>This is technically my first build. I have completely disassembled/reassembled laptops for cleaning/fixing, and I've changed parts on PCs, but never from scratch. I read up a bit before doing it, got stuck a few times with the cables, but all in all it was honestly the easiest part. If you've never built a PC there's plenty of videos showing you how to connect everything step by step, I won't even bother. I think it was harder to choose the parts and make sure they were all compatible and had what I needed more than anything else. There's websites like <a href="https://pcpartpicker.com/list/">PC Parts Picker</a> that can help you, but just because the parts are compatible doesn't mean that's they're best you can buy for the money or that all the parts are taking full advantage of each other.</p>
+<h3 id="motherboardandcpu">Motherboard and CPU</h3>
+<p>A great example of that is the motherboard and the CPU. Sure you could get the cheapest motherboard that supports the cheapest CPU that meets your needs, but that probably wouldn't be the best idea.</p>
+<p>For example, Intel's 7400 i5 is about the same price here as AMD's Ryzen 1500X. Before Ryzen, AMD vs Intel was a no-brainer, but now, Ryzen chips are better for the price at nearly everything except gaming. But supposing they were the same, that specific i5 (the cheapest) is also locked, while the Ryzen isn't which means it can be overclocked. And there's the plus that AMD doesn't plan to change the AM4 socket for 4 years (Intel changes their's every 2 years).</p>
+<p>Here's where picking a motherboard can get tricky. Motherboards have three main compatibility criteria:</p>
+<ul>
+<li><strong>Form Factor</strong> - which just means the size (this only matters if you want a small case)</li>
+<li><strong>Socket</strong> - which has to match the CPU</li>
+<li><strong>Chipset</strong> - which is like the brain's of the motherboard and determines what the motherboard does/doesn't support in terms of overclocking, CrossFire/SLI (multiple graphics cards), and a few other things that usually aren't too important (e.g. max number of SATA and USB connections, RAID support, etc).</li>
+</ul>
+<h4 id="ryzenchipsets">Ryzen Chipsets</h4>
+<table>
+<thead>
+<tr>
+<th>Chipset</th>
+<th>A320</th>
+<th>B350</th>
+<th>X370</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Overclocking</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Crossfire</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>SLI</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<p>As you can see to take advantage of the Ryzen 1500X and overclock it I needed to get at least the B350. The X370 is overkill for me because I won't be able to afford a 1070 (the minimum needed to SLI) anytime soon, let alone two, and looking at benchmarks a single 1080 still seems to do better than two 1070s.</p>
+<p>I didn't even bother comparing the Intel chipsets because the difference between just a locked/unlocked i5 was much greater than the difference between the A320 and the B350 motherboards for the Ryzen.</p>
+<p>After looking at several B350 motherboards I ended up going with a <a href="https://www.gigabyte.com/Motherboard/GA-AB350M-Gaming-3-rev-10#kf">GA-AB350M-Gaming 3</a> because it was cheap and has a dual bios and bios flashes are always dangerous and I knew it was likely to need a few updates and I've had a motherboard die trying to upgrade the BIOS to support a new graphics card. It had some bad reviews, but most of them were complaining about problems with the BIOS and since it's fairly new that's to be expected. I updated and everything is working fine. It's best to do this manually through a USB btw instead of from within an OS through an app, check your motherboard for specific instructions. </p>
+<p>I was able to overclock just fine. Also my RAM auto-overclocked itself to 2400MHz without having to enable X.M.P. or anything. More on that below.</p>
+<h4 id="overclockingthecpu">Overclocking the CPU</h4>
+<p>I tried two different ways to overclock, through the BIOS and through AMD's Ryzen Master. I initially had the same problems with Ryzen Master. At one point it wouldn't reset to defaults, and even the defaults when applied felt a little bit different than the real defaults (after restart/uninstalling). So I went to the BIOS, disabled Core Performance Boost, Global C-State Controls, and Cool'n'Quiet as recommended and I got a stable (w/ 1 hour stress test) overclock at 3.8GHz @ 1.38V (+1.26 offset) with max temps of 67°C. I could get 3.9GHz but at 1.45V (+2.00 offset) with temps reaching 76°C, which I would not leave for long term use. Btw I used HWiNFO to get the voltage reading because it looked like the most accurate (and Ryzen would not read voltage when overclocked from the BIOS).</p>
+<p>I then went to enable Global C-State Controls and Cool'n'Quiet again (not Core Performance Boost!) to see if I could get the CPU to downclock when idle. It was stable but it wouldn't lower the frequency, just the voltage, not sure what that means? So I switched back to using Ryzen Master because it downclocks properly. The only problem with it is it doesn't apply the overclock on startup, you have to apply it manually, it's not too much of a bother, it's kind of nice I can only turn it on if I know I'll need it.</p>
+<h3 id="ram">RAM</h3>
+<p>Like I mentioned after trying 16GB I could not got back to 8GB. Photoshop especially can handle much larger canvases than it used to and now I can run 3-4 large programs and 20 Chrome tabs at the same time and have yet to reach 100%, it's great.</p>
+<p>I got a single Kingston Fury DDR4 2400Mhz 16GB stick that "auto-overclocked" itself to 2400Mhz from the start (on the BIOS it came with, version F4). I say "auto-overclocked" because the advertized speed is already an overclock, it's like the speed it's been tested to be stable at, but some memories need to be manually enabled in the BIOS by enabling X.M.P. to run above 2133Mhz.</p>
+<p>It should be possible to overclock it further, but I have not tried it yet.</p>
+<h3 id="graphicscard">Graphics Card</h3>
+<p>I got a 1050 Ti with 4GBof VRAM and I got the best one I could find, a Zotac OC edition with dual fans. I was tempted to get a 1060 3GB but I only I had enough money to "push" one thing (RAM, CPU, or GPU) and I chose RAM because of the reasons I said and also because any graphics card would be an improvement over what I was using. I reasoned if I found it lacking, I would then save up for something a lot better (at least the 6GB 1060).</p>
+<p>In the video though I'm using an old 545 just because the graphics card hadn't arrived yet. I was going to sell it, but the 1050 Ti makes the screen freeze a bit when rendering because the Ryzen doesn't have built-in graphics, so I might just keep it to drive the display.</p>
+<h3 id="powersupply">Power Supply</h3>
+<p>So the market here for power supplies is 90% cheap Senteys, then 18% were known brand names (Thermaltake, etc) but they were often overpriced for the quality of the PSU (look up Tier lists online). They were all Tier 4, which is better than an untiered unrated Sentey anyday, but it's usually recommended you get something better if you're overclocking.</p>
+<p>There were no Tier 1 PSUs available, but there a few (2%) Tier 2 PSUs: Seasonic's (S12II and M12II) but they were 520W (Bronze rated, non-modular) and 620W (Bronze, modular) respectively, and for a little bit less than the 620W one there was an XFX XTR 650W which was Gold rated and modular. Although the computer doesn't need anything near even 500W, I got the XFX because it was the best value for the price and basically future proof. Unlike the graphics card which is easy to sell, I imagine it's a bit harder to sell a used PSU. Also, now that I might use both graphic's card, I'm even more glad I got it.</p>
+<p>If you know nothing about Power Supplies, like I said, look at a Tier list and get the best you can afford. A basic White 80 Plus rating is a must, but that doesn't guarantee quality. The rating is just how power efficient the PSU is, though of course because you need better components to achieve better efficiency the higher ratings have some correlation with quality (if the PSU you find happens to not be tiered). Apart from quality though, it's good to get a high rating if you'll be leaving things to render overnight, etc.</p>
+<h3 id="case">Case</h3>
+<p>Much like with the PSU, 80% of the market is Sentey cases, with the rest being way overpriced because they tend to import the nicest brand name models. Unlike the PSU though there isn't as much of a problem going cheaper so long as you shop around, and I found this nice <a href="http://www.sentey.com/es/optimus-black-gs-6000">Sentey GS-6000</a> model that came with 4 fans (one of which is a huge 120mm side fan), a dust filter, an SD card reader, and 4 HDD bays for 3.5" and 2.5" drives. Ph and a fan controller, but I didn't use it.</p>
+<p>Now it had it's problems, the frontal HDD fan didn't work (but I had everything built by then and couldn't care to replace it), and the HDD bays were badly designed. They did not fit 2.5" drives as advertised which is something I wanted because I have three 2.5" drives. Well technically they did fit, you can screw them in, but they're so far in, you can't connect them to the power supply or the data cables. I had to drill holes along the edge of the bracket, add masking tape where the circuitry touched the metal, and secure the back with masking tape as well. </p>
+<p>But I was kind of expecting something to go wrong so I don't regret it. In the end it worked just fine. The drives have been fine with my fix, and apart from the SSD (which didn't need any masking tape or anything because it's all plastic), I will probably replace the drives for 3.5" drives in the future. I will replace that frontal fan someday when it needs cleaning, otherwise the other fans have worked great, they're nice and silent (compared to a cheaper Sentey case I've heard), there's good ventilation, and all the other buttons/connections/LEDs work.</p>
+<h3 id="monitor">Monitor</h3>
+<p>Lastly I want to take a moment to rant about monitors for a second. On my laptop I had a monitor that covered of the ~95% NTSC color gamut. The colors on it were great. As far as I know it's a TN panel and it's viewing angles are superb. I love it.</p>
+<p>Now there aren't any affordable monitors here with a similar color gamut, so it was either a cheap TN or a cheap IPS, so I thought ok, I'll get an IPS, I heard they were great. Well I honestly don't understand how people can say that (well I can see it compared to a cheap TN panel, but not a good one).</p>
+<p>I got an LG 24MP48HQ-P and at first I didn't notice the IPS glow. Something seemed off about the colors, the black and grays seemed off, I thought it was just a transition from a good monitor to an ok one, I kept fiddling with the settings and couldn't make it look right. Then I put it next to my monitor and I noticed the viewing angles were just awful. All the viewing angles were way worse because of the IPS glow. Even compared to other TN monitors around the house, even compared to the old Dell one I ended up using which has the worst viewing angles. Once I saw the glow I could not unsee the glow.</p>
+<p>Now I do sit very close (~40cm) because that's what I'm used to and also I'm having some eye problems and that's the farthest I can see with my glasses, but the monitor needed at least a meter for the glow to go away which is a ridiculous distance and this was WITH ambient light. I don't know if higher quality monitors (like a Dell Ultrasharp) are better, but I still find reports about IPS glow for even expensive monitors, so I don't want to buy anything else without seeing it and here it's very rare for monitors to be on display for some reason and there are NO return policies. I have seen a few TN monitors on display but they were clearly bad quality. I'm stuck now trying to resell this thing and don't want to be stuck with another. There are a few AMVA panel monitors, but I can't find much info on how the blacks compare to a good TN panel, only how they're better than IPS, but how much better? If anybody knows I'd love to hear. It's either that or I'm considering getting the more expensive 144Hz TN monitors used for gaming because on reviews they seem to have decent viewing angles like my laptop's monitor. </p>
+<p>Also anybody know why some TN monitors can achieve better viewing angles? I remember I used to own one of those convertible tablet PCs and the TN screen had horrible viewing angles, it was only 12" but if you didn't look at it dead on, the colors distorted A LOT. So when I was shopping for my laptop I made sure to get a screen that had good viewing angles and it did.</p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2017/10/first-computer-build#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/recordingediting-tools" label="recording/editing tools"></category>
+    
+        <category term="https://alansartlog.com/tags/toolssoftware" label="tools/software"></category>
+    
+        <category term="https://alansartlog.com/tags/reviews" label="reviews"></category>
+    
+        <category term="https://alansartlog.com/tags/random" label="random"></category>
+    
+    
+    <updated>2017-10-11T00:00:00+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+    <title>How to Export Models from Regard3D with Textures</title>
+    <link href="https://alansartlog.com/2017/07/how-to-export-models-from-regard3d-with-textures"/>
+    <id>https://alansartlog.com/2017/07/how-to-export-models-from-regard3d-with-textures</id>
+    
+    
+    
+        <content type="html"><![CDATA[<p><strong>EDIT: This post is outdated. The bug has been fixed.</strong></p>
+<iframe src="https://www.youtube.com/embed/fsi9OTTa-Ng?autoplay=1" frameborder="0" allowfullscreen></iframe>
+<p>If you saw my previous post/video about scanning objects into 3d models you'll know the current version of the program I used, <a href="http://www.regard3d.org/">Regard3D</a>, has a bug with exporting objects with image textures.</p>
+<p>The <a href="https://github.com/rhiestan/Regard3D/issues/4">developer is aware of it</a> and it should get fixed eventually, but in the meantime, a viewer sent me an email with a better workaround so I thought I'd go over it.</p>
+<p>In the video I mentioned one way to get around it, and that is to use colored vertices, but as was pointed out to me, this creates much fuzzier textures at equal resolutions whereas an image texture will retain it's detail no matter the resolution of the model. I personally did not care about them so I didn't really investigate further, but the solution is embarrassingly simple if I would have thought about it more than two seconds.</p>
+<p>We know the program saves everything as it creates it to the project directory and it can correctly make and read textured models from there so the files in the project folder must be fine, the bug occurs only when a model is exported.</p>
+<h2 id="steps">Steps</h2>
+<p>So what we can do is once we created our surface model with image textures (<code>Colorization Type</code> should say <code>Textures</code>), instead of exporting it, note down it's path in our project tree. For the picture set, just count which it is from 0.</p>
+<figure>
+<div class="lazy-wrapper"><img src="https://alansartlog.com/resources/uploads/3d-scan-texture-path.jpg"  width="928" height="759"  alt="Project%20Tree%20in%20Regard%203D"/></div>
+</figure>
+<p>Then open up the project folder in your computer and navigate to the path (e.g. <code>Project Folder &gt; pictureset_1 &gt; matching_0 &gt; triangulation_0 &gt; densification_1 &gt; surface_0</code>). Once there you'll see a bunch of files. We need the <strong>obj</strong> file (our model), the <strong>mtl</strong> or material library file (tells programs where to look for the textures), and the texture <strong>images</strong>. Copy them manually wherever you wanted to export them to.</p>
+<figure>
+<div class="lazy-wrapper"><img src="https://alansartlog.com/resources/uploads/3d-scan-files-to-export.jpg"  width="1328" height="678"  alt="Project%20Tree%20in%20Regard%203D"/></div>
+</figure>
+<p>Now we can import these into Blender (make sure your import extension for obj files is on) and they should work import automatically. If the textures aren't showing up just make sure you're using the Blender render engine and that you're in the texture view. This is how Blender imports them by default. To use them with a different rendering engine you'll have to connect the textures manually.</p>
+<h2 id="proscons">Pros &amp; Cons</h2>
+<table>
+<thead>
+<tr>
+<th>Colored Vertices</th>
+<th>Image Textures</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fuzzy Textures</td>
+<td>Detailed Textures</td>
+</tr>
+<tr>
+<td>Smaller File Size at Same Detail</td>
+<td>Much Larger but…</td>
+</tr>
+<tr>
+<td>Looks Much Worse at Low Resolutions*</td>
+<td>Same Texture Detail at Low Resolutions*</td>
+</tr>
+<tr>
+<td>Computes Faster (2x +)</td>
+<td>Computes Slower (but again ^)</td>
+</tr>
+<tr>
+<td>Duller/Less Reflective</td>
+<td>Captures more lighting artifacts.**</td>
+</tr>
+</tbody>
+</table>
+<p>*This is because with colored vertices the amount of detail is tied to the amount of points, whereas with image textures, the texture is always the same resolution so it preserves it's details no matter the mesh's resolution.</p>
+<p>This is why in the image below, even though we're at the same mesh resolution, the colored vertices make the texture look fuzzy.</p>
+<figure>
+<div class="lazy-wrapper"><img src="https://alansartlog.com/resources/uploads/3d-scan-resolution-comparison-both-at-d8.jpg"  width="1747" height="1000"  alt="Both%20at%20Depth%208"/></div>
+</figure>
+<p>**By less reflective I mean that you don't get a lot of weird really light areas, especially if you had uneven lighting or scanned the model by turning it instead of turning the camera around the model. This causes lighting artifacts which are more noticeable when using image textures. I'm not 100% sure why that is, but it means using colored vertices might still be the better option if you don't care about the textures of your objects, just the color, and you want the scan to process faster.</p>
+<p>For example, if you were scanning a smooth multi-colored toy, you'd need to add texture to it somehow like I did with this model by spraying it with ink. So you'd have to paint the model by hand anyways if you wanted textures, so you'd only really need a rough reference of the object's colors, image textures would be overkill.</p>
+<p>Anyways, here are some more examples for comparison.</p>
+<div class="gallery force3"><figure><div class="lazy-wrapper"><img is_thumb="true" src="https://alansartlog.com/resources/uploads/3d-scan-resolution-comparison-base-meshes-524x300.jpg"  width="524" height="300"  alt="The%20Base%20Meshes%20at%20Depth%208%20&%206"/></div></figure><figure><div class="lazy-wrapper"><img is_thumb="true" src="https://alansartlog.com/resources/uploads/3d-scan-resolution-comparison-w-colored-vertices-524x300.jpg"  width="524" height="300"  alt="Colored%20Vertices%20at%20Depth%208%20&%206"/></div></figure><figure><div class="lazy-wrapper"><img is_thumb="true" src="https://alansartlog.com/resources/uploads/3d-scan-resolution-comparison-w-image-textures-524x300.jpg"  width="524" height="300"  alt="Image%20Textures%20at%20Depth%208%20&%206"/></div></figure></div>
+<p>And here are some closeups, you can see how much detail the second one appears to hold even though the mesh is quite simple. If you have a keen eye you'll notice the textures aren't 100% the same, that's just because the program pieces them together slightly different at the different resolutions, but you can see the amount of detail is the same.</p>
+<div class="gallery force4"><figure><div class="lazy-wrapper"><img is_thumb="true" src="https://alansartlog.com/resources/uploads/3d-scan-d8-colored-vertices-300x300.jpg"  width="300" height="300"  alt="Depth%208%20w/%20Colored%20Vertices%20Closeup"/></div><figcaption><p>Depth 8 w/ Colored Vertices</p></figcaption></figure><figure><div class="lazy-wrapper"><img src="https://alansartlog.com/resources/uploads/3d-scan-d6-colored-vertices.jpg"  width="500" height="500"  alt="Depth%206%20w/%20Colored%20Vertices%20Closeup"/></div><figcaption><p>Depth 6 w/ Colored Vertices</p></figcaption></figure><figure><div class="lazy-wrapper"><img is_thumb="true" src="https://alansartlog.com/resources/uploads/3d-scan-d8-textured-300x300.jpg"  width="300" height="300"  alt="Depth%208%20w/%20Texture%20Images%20Closeup"/></div><figcaption><p>Depth 8 w/ Texture Images</p></figcaption></figure><figure><div class="lazy-wrapper"><img src="https://alansartlog.com/resources/uploads/3d-scan-d6-textured.jpg"  width="500" height="500"  alt="Depth%206%20w/%20Texture%20Images%20Closeup"/></div><figcaption><p>Depth 6 w/ Texture Images</p></figcaption></figure></div>
+<h2 id="othernotes">Other Notes</h2>
+<p>For those who might be wondering if it's possible to salvage the exported raw file, I did think it might be a simple bug, maybe an extra line or symbol or something that could be corrected by just editing the raw file, but the file is missing a lot of coordinates. Still I can open it in Meshlab and all the points are there, so if for some reason you lost all the files by this one, you could use the points to do the poisson surface reconstruction from there, though of course, you wouldn't be able to salvage the textures.</p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2017/07/how-to-export-models-from-regard3d-with-textures#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/3d" label="3d"></category>
+    
+        <category term="https://alansartlog.com/tags/3d-model" label="3d model"></category>
+    
+        <category term="https://alansartlog.com/tags/photogrammetry" label="photogrammetry"></category>
+    
+        <category term="https://alansartlog.com/tags/regard3d" label="regard3d"></category>
+    
+        <category term="https://alansartlog.com/tags/toolssoftware" label="tools/software"></category>
+    
+        <category term="https://alansartlog.com/tags/tutorials" label="tutorials"></category>
+    
+        <category term="https://alansartlog.com/tags/videos" label="videos"></category>
+    
+    
+    <updated>2017-07-07T15:43:03+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/teapot.jpg"/>
+        
+            <media:description type="html">&lt;p&gt;&lt;a href=&#34;http://mrg.bz/9d7ea9&#34;&gt;Reference from mourguefile&lt;/a&gt;&lt;/p&gt;</media:description>
+        
+    
+    <title>Teapot - Quick Oil Study</title>
+    <link href="https://alansartlog.com/2017/03/teapot-quick-oil-study"/>
+    <id>https://alansartlog.com/2017/03/teapot-quick-oil-study</id>
+    
+    
+    
+        <content type="html"><![CDATA[<iframe src="https://www.youtube.com/embed/gPh4Ht9H-xA?autoplay=1" frameborder="0" allowfullscreen></iframe>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2017/03/teapot-quick-oil-study#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/artwork" label="artwork"></category>
+    
+        <category term="https://alansartlog.com/tags/oils" label="oils"></category>
+    
+        <category term="https://alansartlog.com/tags/studies" label="studies"></category>
+    
+        <category term="https://alansartlog.com/tags/videos" label="videos"></category>
+    
+    
+    <updated>2017-03-28T00:00:00+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/beach.jpg"/>
+        
+            <media:description type="html">&lt;p&gt;Reference (used under &lt;a href=&#34;https://creativecommons.org/licenses/by/2.0/&#34;&gt;CC-BY license&lt;/a&gt;: &lt;a href=&#34;http://flickr.com/photo.gne?id=29867528681&#34;&gt;Aquarelle marine 3 by E. D&#39;Ascoli Photographies&lt;/a&gt;&lt;/p&gt;</media:description>
+        
+    
+    <title>Beach - Quick Color Study</title>
+    <link href="https://alansartlog.com/2017/03/beach-quick-color-study"/>
+    <id>https://alansartlog.com/2017/03/beach-quick-color-study</id>
+    
+    
+    
+        <content type="html"><![CDATA[<iframe src="https://www.youtube.com/embed/Z91Vs1Ts6i8?autoplay=1" frameborder="0" allowfullscreen></iframe>
+<p>Here's the initial thumb sized study:</p>
+<p><div class="lazy-wrapper"><img src="https://alansartlog.com/resources/uploads/beach-thumb.jpg"  width="500" height="366"  alt="Beach Thumb" /></div></p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2017/03/beach-quick-color-study#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/artwork" label="artwork"></category>
+    
+        <category term="https://alansartlog.com/tags/acrylics" label="acrylics"></category>
+    
+        <category term="https://alansartlog.com/tags/studies" label="studies"></category>
+    
+        <category term="https://alansartlog.com/tags/videos" label="videos"></category>
+    
+    
+    <updated>2017-03-20T00:00:00+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+    <title>How to Turn/Scan Objects Into 3D Models With Just a Camera</title>
+    <link href="https://alansartlog.com/2017/02/how-to-turnscan-objects-into-3d-models-with-just-a-camera"/>
+    <id>https://alansartlog.com/2017/02/how-to-turnscan-objects-into-3d-models-with-just-a-camera</id>
+    
+    
+    
+        <content type="html"><![CDATA[<iframe src="https://www.youtube.com/embed/GaYfpGcXxmA?autoplay=1" frameborder="0" allowfullscreen></iframe>
+<p>In this video I'll be showing you how you can turn almost any object into a 3D model with just your camera and some free software.</p>
+<p>Now I'm not an expert at any of this. I've tried as best as possible to read through all the documentation, at least the parts I understand, and condense that into a video.</p>
+<p>Also please note the cleanup process was aimed at getting it ready for sculpting. I know that people like to scan objects to then 3d print them, but I don't have a 3d printer, so you'll have to look somewhere else for the details on how to do that properly.</p>
+<p>Lastly, I would love to share the project file so you can see what I tested but it's HUGE (15GB) and I'm not sharing the 3d model just yet because it's an original character of mine so I'm working on a generic version for practicing lighting the face, <a href="https://www.patreon.com/posts/16456416">the first version is now available for patreons</a>.</p>
+<h1 id="intro">Intro</h1>
+<p>So there are free programs out there like Autodesk 123D Catch (which was a bit limited when I checked it out) and there are some open source programs like VisualSFM but I wanted something that was both open source, and therefore free (w/ no patent issues) AND allowed for commercial use, and the only program that seemed to satisfy that requirement was Regard3D. Also it's the only one of the open source programs that takes you from the photos to the finished model. Otherwise you might have needed 2-3 different programs as this <a href="https://pfalkingham.wordpress.com/2016/09/14/trying-all-the-free-photogrammetry/">blog post</a> illustrates.</p>
+<p>Regard 3D Pros:</p>
+<ul>
+<li>Open source</li>
+<li>All-In-One Solution</li>
+<li>Advanced options. (but also works well out of the box)</li>
+<li>Simple Nice UI.</li>
+<li>Branching (saves past parameters)</li>
+<li>File "Autosaves" Crashes only loose what was computing.</li>
+<li>Allows Exporting (of sparse and dense point clouds as well as models)</li>
+</ul>
+<p>Cons:</p>
+<ul>
+<li><del>Texture bug (<a href="/2017/02/how-to-export-models-from-Regard3D-with-textures">solution</a>)</del>. Has been fixed. </li>
+<li>Resource intensive, but then most photogrammetry programs are.</li>
+</ul>
+<h1 id="thepictures">The Pictures</h1>
+<p>The ideal way would be to have the camera rotate around the object with plenty of soft lights. Alas, I could not do that, so my setup was more like two desk lamps which I diffused as much as possible with a piece of paper and a blank white background. I then rotated the object instead of the camera.</p>
+<p><div class="lazy-wrapper"><img src="https://alansartlog.com/resources/uploads/scanning-camera-setup.gif"  width="720" height="393"  alt="Camera Setup" /></div></p>
+<p>The moving highlights and shadows can cause some problems, but I was able to get a decent scan this way anyways.</p>
+<p>Unless your object is made of glass (in which case you'll have to coat it in something so it's matte), and not too glossy it should work.</p>
+<h2 id="texture">Texture</h2>
+<p>Even if the surface is matte though you need some texture else you won't get any matches. For this you can splatter some ink, or watercolors, or something (test the pigment will not stain first). This will help a lot if your object is a sculpt like mine with minimal texture. Without it the software has no good reference as to where anything is in space.</p>
+<h2 id="howmanypicturestotake">How many pictures to take?</h2>
+<p>More is always better, but there is also a point where this will just slow down your computer. I recommend 4 different height angles and about ~16 photos each round. In total I took about 74 photos for this not including the extras.</p>
+<p>Also if possible your photos should all be with the same camera at the same focal length.</p>
+<h1 id="regard3d">Regard 3D</h1>
+<h2 id="addingimages">Adding Images</h2>
+<p>First create a project: <code>File &gt; New Project</code>. Select where it's going to store the files (it can take up many GBs, mine was ~15GBs by the end of this with so many tries) and the name.</p>
+<p>In the lower left you'll see a button that says <code>Add Picture Set...</code></p>
+<p><div class="lazy-wrapper"><img src="https://alansartlog.com/resources/uploads/scanning-adding-images.jpg"  width="1272" height="757"  alt="Adding Images Dialog" /></div></p>
+<p>Here you can add all your image files. It might take a few seconds for them to load all the metadata. Make sure the camera model, focal length, and sensor size are set. If the sensor size is not set in the newest version you can now set it manually (right click) if the program could not find your camera model in it's database. Just google for your camera model and sensor size. If the focal length isn't set you can also set it manually but you'll have to know what focal length you used.</p>
+<p>Then just name your picture set something and add all the images.</p>
+<p><strong>NOTE: Do not move the images after you've added them or you will get an error trying to open the project. This can be fixed by opening the <code>.r3d</code> file in the project folder with notepad or some other text editor and finding and replacing the incorrect paths, but be warned.</strong></p>
+<h2 id="computingmatches">Computing Matches</h2>
+<p>Now the Regard3D documentation, link below, goes more in depth into some of the options. I'm not going to go over everything, just cover some of the stuff it doesn't cover or what I learned worked best for me from experience.</p>
+<p>Here the default settings work pretty well. I found on my laptop (specs at the end) setting <code>keypoint sensitivity</code> too high would cause it to crash (EDIT: this no longer happens on my new better desktop). Setting the <code>keypoint matching ratio</code> to high though and the <code>keypoint sensitivity</code> to low improved some of my results without crashing.</p>
+<p><div class="lazy-wrapper"><img src="https://alansartlog.com/resources/uploads/scanning-compute-matches.jpg"  width="674" height="275"  alt="Computing Matches Dialog" /></div></p>
+<p>This can take a while, up to an hour for me at least (EDIT: Takes me 5-15 min on my new computer!).</p>
+<h3 id="treestructure">Tree Structure</h3>
+<p>So at this point you'll notice the tree view in the sidebar has started branching out. Here's what a finished project looks like for example:</p>
+<p><div class="lazy-wrapper"><img src="https://alansartlog.com/resources/uploads/scanning-left-sidebar.jpg"  width="878" height="502"  alt="Project Tree" /></div></p>
+<p>At any point you can go back and check the parameters you used, how much time it took, etc, and each level will give you different options depending on what stage you're on.</p>
+<p>You can also export point clouds and models to other programs from here if that stage allows for it.</p>
+<h3 id="arethereenoughmatches">Are there enough matches?</h3>
+<p>If you click on your matches you should now see several options in the lower left: </p>
+<p>If you click <code>Show matching results...</code> you'll get a dialog showing you the matches. At first you won't see anything different.</p>
+<p>Check <code>Show Keypoints</code> to actually show the matches. Even then you might not quite see them. So to zoom in you can <code>Open Preview Window</code> and you should now be able to see a bunch of little circles around the ink splatters.</p>
+<p>To see matches between pairs, in the lower half click <code>Show Matches</code>. It might take a second to load. And if you took your pictures right you should see just a bunch of lines, to the point you can't even see the images well.</p>
+<p><div class="lazy-wrapper"><img src="https://alansartlog.com/resources/uploads/scanning-image-matches.jpg"  width="1191" height="650"  alt="Matches Dialog" /></div></p>
+<h2 id="triangulation">Triangulation</h2>
+<p>Next you're going to want to triangulate these matches. Basically in photogrammetry there's two point clouds you need to create, a sparse and a dense point cloud. This will create the first.</p>
+<p>Click <code>Triangulation</code>.</p>
+<p>There's two options here, <code>Incremental Structure from Motion</code> and <code>Global Structure from Motion</code>.</p>
+<p><div class="lazy-wrapper"><img src="https://alansartlog.com/resources/uploads/scanning-triangulation.jpg"  width="953" height="457"  alt="Triangulation Options Dialog" /></div> </p>
+<p>I could not get the first to work, it just crashes (EDIT: This no longer happens to me on my new computer and it works better sometimes).</p>
+<p>So I use Global. </p>
+<p>As to the other options, some match a few more cameras than others, but they didn't make much of a difference.</p>
+<p>This shouldn't take that long to compute, just a few minutes.</p>
+<p>Finally you'll be able to see some points on the screen. If you load some other model and want to get back to this you can always just <code>Show Triangulated Points</code>.</p>
+<p><div class="lazy-wrapper"><img src="https://alansartlog.com/resources/uploads/scanning-showing-triangulation.jpg"  width="1272" height="757"  alt="Triangulation Dialog" /></div> </p>
+<p>You can also make the points bigger by moving the <code>Point size</code> slider in the top right. You should now be able to see a bunch of little green dots. Those are the cameras it captured. And in the lower left there's a field that tells you how many cameras were captured out of the total. Usually ~80/90% or more is enough.</p>
+<h2 id="densification">Densification</h2>
+<p>From your triangulation click <code>Create dense pointcloud...</code>. </p>
+<p>Here you basically have two options <code>CMVS/PMVS</code> and <code>MVE</code>.</p>
+<p><div class="lazy-wrapper"><img src="https://alansartlog.com/resources/uploads/scanning-densification.jpg"  width="1272" height="757"  alt="Densification Dialog" /></div> </p>
+<h3 id="cmvspmvs">CMVS/PMVS</h3>
+<p><code>Use visibility information</code> : Uncheck this if you don't have that many images (~70 is not many) can produce better results because it will use more cameras.</p>
+<p><code>Levels</code> : This is like the resolution. With a lower number being a higher resolution.</p>
+<p><code>Threshold</code> : Increasing this can help reduce artifacts.</p>
+<p><code>Cell size</code> : Related to the resolution, works similar to <code>Level</code>.</p>
+<p><code>Min. image num</code>: If a point only appeared in 2 images but this is set to 3 it won't use it, so I suggest lowering this to 2 for the amount of photos I recommended.</p>
+<p>Now I prefer MVE because I could not get Level 1 to work for me, only Level 2 and it looks worse than the defaults for MVE which do work for me.</p>
+<p>This one does take a lot less time though (couple of minutes). And it seems to produce nicer point clouds with less artifacts but the end model did not look as nice as with MVE.</p>
+<p>BUT you loose the option later to do a Floating Surface Reconstruction.</p>
+<h3 id="mve">MVE</h3>
+<p><code>Scale</code>: The resolution with a lower number being a higher resolution.</p>
+<p>The problem with MVE is that anything but the defaults seems to create a lot of weird artifacts and nothing but the defaults seemed to work.</p>
+<p>It also takes a lot longer (2-3h) Edit: On my new computer it's now 10-30min. If your computer isn't very powerful you might get out of memory errors. Try closing all your programs and just leaving it to run for a while or overnight, sometimes it will recover and finish.</p>
+<p>But it does allow you do do Floating Surface Reconstructions later.</p>
+<h2 id="thedensepointcloud">The Dense Point Cloud</h2>
+<p>The view might lag quite a bit at this point. You should see something that looks like your object with a few artifacts close to the surface depending on what method you chose. As long as there isn't a large cloud of them, you can still get good results. </p>
+<p>For my case MVE at defaults turned out the better result.</p>
+<h2 id="creatingthesurface">Creating the Surface</h2>
+<p>Click <code>Create Surface</code>.</p>
+<p>We get the two options, one I already mentioned…</p>
+<p><div class="lazy-wrapper"><img src="https://alansartlog.com/resources/uploads/scanning-surface-reconstruction.jpg"  width="602" height="827"  alt="Surface Reconstruction Dialog" /></div> </p>
+<h3 id="floatingsurfacereconstruction">Floating Surface Reconstruction</h3>
+<p><code>Levels</code>: Like the resolution except now a higher value = more resolution.</p>
+<p>This one can take ~1h sometimes for Level 0 which is the lowest so I was not able to try it out much and am not 100% confident as to what some of the other parameters do. I do know though that if you get blobs floating around the model, turning <code>Confidence Threshold</code> and <code>Minimum Component Size</code> up a bit will help get rid of those artifacts.</p>
+<h3 id="possionsurfacereconstruction">Possion Surface Reconstruction</h3>
+<p>PS: Sorry for the mispronunciation in the video, I literally read this as Poison.</p>
+<p>This is my preferred method.</p>
+<p><code>Depth</code>: Like the resolution except now a higher value = more resolution. Don't go too high (9-10) or you'll get a lot of artifacts.</p>
+<p><code>Samples per Node</code>: Turning this up helps get rid of artifacts.</p>
+<p>As for the other two settings, the defaults work well, turning them up just seems to make the base a bit neater.</p>
+<h3 id="colorization">Colorization</h3>
+<p>As part of the surface reconstruction textures are created.</p>
+<p>There used to be a bug with the <code>Textures</code> option, the newest version has fixed it.</p>
+<p><code>Textures</code> are more detailed since it will produce image textures, while <code>Colored Vertices</code> depends on the resolution of the mesh but it also a bit faster.</p>
+<p>Now the bug is fixed I do not recommend <code>Colored Vertices</code> unless you don't care about the textures at all. unfortunately you can't preview the surface without the textures if you used <code>Colored Vertices</code> so it kind of negates that instance too.</p>
+<p>If you use <code>Textures</code> you can toggle them off in the sidebar to the right.</p>
+<h2 id="exporting">Exporting</h2>
+<p>From here we'll need to export our model for cleanup in other programs. You can use either Meshlab, it's free  (you can also do the surface reconstruction of point clouds from there) but it's very hard to understand and the newest version does not work for me, or Blender.</p>
+<p>I could not record the cleanup because the mesh was so huge and freezing my computer, but at the end of the video I try to illustrate the basic steps I took with a simple sphere.</p>
+<h2 id="links">LINKS</h2>
+<p><a href="http://www.Regard3D.org/">Regard3D + Tutorial/Documentation</a></p>
+<p><a href="http://www.meshlab.net/">Meshlab</a>&nbsp;(I was using 1.3.4BETA)</p>
+<p><a href="https://www.blender.org/">Blender</a></p>
+<p>If your object is particularly small I recommend you look at <a href="http://alansartlog.com/2015/08/magic-lantern-on-my-canon-rebel-t31100d#link-focus-stacking">this part of the tutorial I wrote on magic lantern</a> (you don't need it to apply the concepts described but it's helpful if you have an DSLR camera).</p>
+<p>PS: To give you an idea of the type how long it might take on your computer, or what type of computer you need, I'm using a laptop with an Intel i5, 8GB of RAM, and a NVIDIA 650M GPU.</p>
+<p>Edit: And my new computer is a desktop with a Ryzen 1500x, 16GB of DDR4 RAM, and an NVIDIA 1050Ti so you can see why it no longer struggles.</p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2017/02/how-to-turnscan-objects-into-3d-models-with-just-a-camera#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/3d" label="3d"></category>
+    
+        <category term="https://alansartlog.com/tags/3d-model" label="3d model"></category>
+    
+        <category term="https://alansartlog.com/tags/sculpting" label="sculpting"></category>
+    
+        <category term="https://alansartlog.com/tags/toolssoftware" label="tools/software"></category>
+    
+        <category term="https://alansartlog.com/tags/tutorials" label="tutorials"></category>
+    
+        <category term="https://alansartlog.com/tags/videos" label="videos"></category>
+    
+    
+    <updated>2017-02-03T23:19:42+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+    <title>Polymer Clay Basics Part III</title>
+    <link href="https://alansartlog.com/2016/12/polymer-clay-basics-part-iii"/>
+    <id>https://alansartlog.com/2016/12/polymer-clay-basics-part-iii</id>
+    
+    
+    
+        <content type="html"><![CDATA[<iframe src="https://www.youtube.com/embed/PVCMBBy-K_s?autoplay=1" frameborder="0" allowfullscreen></iframe>
+<p>This is the third and last part of the polymer clay basics tutorial. I will be covering the different tools I use, blending clay, and doing some real time demonstrations. Because so much of this part is visual I won't be transcribing it to a post.</p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2016/12/polymer-clay-basics-part-iii#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/art-supplies" label="art supplies"></category>
+    
+        <category term="https://alansartlog.com/tags/sculpting" label="sculpting"></category>
+    
+        <category term="https://alansartlog.com/tags/tutorials" label="tutorials"></category>
+    
+        <category term="https://alansartlog.com/tags/videos" label="videos"></category>
+    
+    
+    <updated>2016-12-22T18:37:27+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+    <title>Polymer Clay Basics - Part II</title>
+    <link href="https://alansartlog.com/2016/12/polymer-clay-basics-part-ii"/>
+    <id>https://alansartlog.com/2016/12/polymer-clay-basics-part-ii</id>
+    
+    
+    
+        <content type="html"><![CDATA[<iframe src="https://www.youtube.com/embed/g5m9kNVKDhQ?autoplay=1" frameborder="0" allowfullscreen></iframe>
+<p>This is part two of the polymer clay basics tutorial.&nbsp;See <a href="http://alansartlog.com/2016/12/polymer-clay-basics-part-ii">Part I</a> here.</p>
+<h2 id="armatures">Armatures</h2>
+<p>My first tip is to use a sturdy bulked out armature that's a attached or can be easily attached to some sort of base. You do not want to try sculpting anything complex without an armature because you'll never find a place to grip it without ruining a different part.</p>
+<p><div class="lazy-wrapper"><img src="https://alansartlog.com/resources/uploads/Polymer-Clay-Basics-2-Armature-Feet.jpg"  width="1000" height="273"  alt="" /></div></p>
+<p>For a figure you can run the main wires through the base of a piece of wood like this.&nbsp;</p>
+<p>And on the top and bottom I used a special 2 part epoxy clay to secure it, more on that in a bit.</p>
+<p><a class="read-more" href="/2016/12/polymer-clay-basics-part-ii">Read More…</a></p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2016/12/polymer-clay-basics-part-ii#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/art-supplies" label="art supplies"></category>
+    
+        <category term="https://alansartlog.com/tags/sculpting" label="sculpting"></category>
+    
+        <category term="https://alansartlog.com/tags/toolssoftware" label="tools/software"></category>
+    
+        <category term="https://alansartlog.com/tags/tutorials" label="tutorials"></category>
+    
+        <category term="https://alansartlog.com/tags/videos" label="videos"></category>
+    
+    
+    <updated>2016-12-09T17:22:11+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+    <title>Polymer Clay Softening Experiments</title>
+    <link href="https://alansartlog.com/2016/12/polymer-clay-softening-experiments"/>
+    <id>https://alansartlog.com/2016/12/polymer-clay-softening-experiments</id>
+    
+    
+    
+        <content type="html"><![CDATA[<p>This is an extension of&nbsp;<a href="http://alansartlog.com/2016/12/polymer-clay-basics-part-i">Polymer Clay Basics - Part I</a>.</p>
+<h2 id="firstsecondtest">First &amp; Second Test</h2>
+<p>I initially did a&nbsp;few rough experiments myself though with different substances. I only thought of a few things I had on hand (not baby oil), then I redid part of the test with the baby oil but I didn't bake it exactly the same (the first test you see in the pictures was slightly overcooked). So it was a bit of a mess but it told me that in a pinch you could use just about anything. At normal cooking temperatures there was very little difference in coloration. There were some differences in flexibility but Fimo is so flexible no piece broke from the bending.</p>
+<p><a class="read-more" href="/2016/12/polymer-clay-softening-experiments">Read More…</a></p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2016/12/polymer-clay-softening-experiments#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/art-supplies" label="art supplies"></category>
+    
+        <category term="https://alansartlog.com/tags/sculpting" label="sculpting"></category>
+    
+        <category term="https://alansartlog.com/tags/toolssoftware" label="tools/software"></category>
+    
+    
+    <updated>2016-12-04T14:52:39+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+    <title>Polymer Clay Basics - Part I</title>
+    <link href="https://alansartlog.com/2016/12/polymer-clay-basics-part-i"/>
+    <id>https://alansartlog.com/2016/12/polymer-clay-basics-part-i</id>
+    
+    
+    
+        <content type="html"><![CDATA[<iframe src="https://www.youtube.com/embed/iPBNeFi3P8g?autoplay=1" frameborder="0" allowfullscreen></iframe>
+<p>So since I read the Imaginative Realism book that I reviewed I started on a head sculpt to have as reference. I had been working on a 3d model of a head before that, but it's not done yet. I thought I'd take the chance to get back into sculpting, plus it's faster than 3d modeling for me still and it's always nice to have something physical. I don't have a 3d printer, so I can't print any 3d models I make, but it's possible to turn a sculpt like this into a 3d model with just a camera and the right software.</p>
+<p><div class="lazy-wrapper"><img src="https://alansartlog.com/resources/uploads/polymer-clay-basics-test-3d-scan.jpg"  width="1000" height="577"  alt="" /></div></p>
+<p><a class="read-more" href="/2016/12/polymer-clay-basics-part-i">Read More…</a></p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2016/12/polymer-clay-basics-part-i#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/3d-model" label="3d model"></category>
+    
+        <category term="https://alansartlog.com/tags/sculpting" label="sculpting"></category>
+    
+        <category term="https://alansartlog.com/tags/tutorials" label="tutorials"></category>
+    
+        <category term="https://alansartlog.com/tags/videos" label="videos"></category>
+    
+    
+    <updated>2016-12-03T15:55:13+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/Head-Sculpt-Thumb.jpg"/>
+        
+    
+    <title>Head Sculpt Timelapse</title>
+    <link href="https://alansartlog.com/2016/11/head-sculpt-timelapse"/>
+    <id>https://alansartlog.com/2016/11/head-sculpt-timelapse</id>
+    
+    
+    
+        <content type="html"><![CDATA[<iframe src="https://www.youtube.com/embed/VVaQoLw6byI?autoplay=1" frameborder="0" allowfullscreen></iframe>
+<p>So this was just a test recording to see how well I could record me sculpting and it didn't turn out too well but I didn't want to just delete all this footage and the video I had planned got delayed for various reasons so I thought I'd post this anyway.</p>
+<p><a class="read-more" href="/2016/11/head-sculpt-timelapse">Read More…</a></p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2016/11/head-sculpt-timelapse#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/artwork" label="artwork"></category>
+    
+        <category term="https://alansartlog.com/tags/sculpting" label="sculpting"></category>
+    
+        <category term="https://alansartlog.com/tags/videos" label="videos"></category>
+    
+    
+    <updated>2016-11-25T16:58:37+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+    <title>Quick Tip - How to Tighten Tripod Legs</title>
+    <link href="https://alansartlog.com/2016/11/tripod-quick-tip"/>
+    <id>https://alansartlog.com/2016/11/tripod-quick-tip</id>
+    
+    
+    
+        <content type="html"><![CDATA[<iframe src="https://www.youtube.com/embed/qLNLrjWVCGo?autoplay=1" frameborder="0" allowfullscreen></iframe>
+<p>I didn't finish the video I really wanted to do (on sculpting with polymer clay) so this is just a quick tip. It won't work for all tripods, but it should work for most of the ones that use hinges to tighten the legs.</p>
+<p><a class="read-more" href="/2016/11/tripod-quick-tip">Read More…</a></p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2016/11/tripod-quick-tip#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/diy" label="diy"></category>
+    
+        <category term="https://alansartlog.com/tags/lifehacks" label="lifehacks"></category>
+    
+        <category term="https://alansartlog.com/tags/recordingediting-tools" label="recording/editing tools"></category>
+    
+        <category term="https://alansartlog.com/tags/toolssoftware" label="tools/software"></category>
+    
+    
+    <updated>2016-11-17T17:38:57+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/Imaginitve-Realism-Cover.jpg"/>
+        
+            <media:description type="html">&lt;p&gt;Imaginative Realism: How to Paint What Doesn&#39;t Exist by James Gurney
+224 Pages - Paperback&lt;/p&gt;</media:description>
+        
+    
+    <title>Review of Imaginitive Realism by James Gurney</title>
+    <link href="https://alansartlog.com/2016/11/book-review-imaginitive-realism"/>
+    <id>https://alansartlog.com/2016/11/book-review-imaginitive-realism</id>
+    
+    
+    
+        <content type="html"><![CDATA[<iframe src="https://www.youtube.com/embed/GZIWGMqte2A?autoplay=1" frameborder="0" allowfullscreen></iframe>
+<p>So this book has been on my wishlist for a while and I recently discovered bookdepository which is significantly cheaper for me where I live so I decided to try it out.</p>
+<h2 id="bookdepository">Book Depository</h2>
+<p>First of all you might want to know that the "free" part of the Book depository shipping is actually included in the price and differs depending on where you buy it from. I only realized this because I had someone in the US buy it for me and they told me they actually paid even less than the price I was seeing (which was still ~10 dollars less than amazon). They had no problem putting in my address here in Argentina though. Apparently it's just where the site is seeing you coming from so you could probably use a secure VPN to get around this, but I have no idea how legal that might be or if that breaks their terms of use or something.</p>
+<p>They said 15 days max to arrive, but there are crazy import restrictions in my country, so it probably got delayed by customs. It took nearly a month and a half to arrive since they shipped it out. If you're in Argentina I&nbsp;<em>still</em> had to go pick it up and pay $50 pesos, so door-to-door is still not working properly. At least they did not open the package or anything.</p>
+<h3 id="packaging">Packaging</h3>
+<p>It was pretty nicely packed in the box you see in the video. In fact I've been struggling without how I'm going to ship paintings if I make them on stretched canvas and I'm going to copy their idea in part&nbsp;because it doesn't require me to buy a box. It's basically made out of one long strip of cardboard cut like the diagram below.</p>
+<p><a class="read-more" href="/2016/11/book-review-imaginitive-realism">Read More…</a></p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2016/11/book-review-imaginitive-realism#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/art-books" label="art books"></category>
+    
+        <category term="https://alansartlog.com/tags/reviews" label="reviews"></category>
+    
+        <category term="https://alansartlog.com/tags/videos" label="videos"></category>
+    
+    
+    <updated>2016-11-03T18:07:40+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+    <title>Inktober Sketches and Drawings</title>
+    <link href="https://alansartlog.com/2016/10/inktober-sketches-and-drawings"/>
+    <id>https://alansartlog.com/2016/10/inktober-sketches-and-drawings</id>
+    
+    
+    
+        <content type="html"><![CDATA[<iframe src="https://www.youtube.com/embed/ScRYvdB_H90?autoplay=1" frameborder="0" allowfullscreen></iframe>
+<p>These are all the drawings I managed to do for inktober. You can see me flip through the sketchbook and talk a little about them in the video below. I also made a <a href="https://www.youtube.com/playlist?list=PLZcWAAGgTGfovgtQWtlf0wwD_wcgA8hM1">playlist</a> with all the drawings I recorded. They're silent, but I added some details about the process for each in the description.</p>
+<p>You can also go through all the drawings and any preparatory sketches I posted below.</p>
+<p><a class="read-more" href="/2016/10/inktober-sketches-and-drawings">Read More…</a></p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2016/10/inktober-sketches-and-drawings#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/inkmarker" label="ink/marker"></category>
+    
+        <category term="https://alansartlog.com/tags/studies" label="studies"></category>
+    
+        <category term="https://alansartlog.com/tags/videos" label="videos"></category>
+    
+    
+    <updated>2016-10-29T18:27:21+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/september-comparison.jpg"/>
+        
+            <media:description type="html">&lt;p&gt;Comparison of my arms before and after this month&#39;s practice.
+Before was with ref, after was done without.&lt;/p&gt;</media:description>
+        
+    
+    <title>September&#39;s Daily Sketches</title>
+    <link href="https://alansartlog.com/2016/09/septembers-daily-sketches"/>
+    <id>https://alansartlog.com/2016/09/septembers-daily-sketches</id>
+    
+    
+    
+        <content type="html"><![CDATA[<iframe src="https://www.youtube.com/embed/yvv6pV3jXlg?autoplay=1" frameborder="0" allowfullscreen></iframe>
+<p>In this video I go through all the sketches I did this month and some new methods I used to practice.</p>
+<p>If you have a tablet and are interested in trying 3d sculpting, I would suggest Sculptris which is free and very easy to use (also look out for Zbrush Core which is supposed to be an easier affordable version of Zbrush, all 3 are from the same company, Pixologic). Just note it's not meant for point modeling (that is for very geometric shapes like the rib cage). It's more like sculpting with clay, for point modeling you need something like Blender but it has a huge frustrating learning curve.</p>
+<p><a class="read-more" href="/2016/09/septembers-daily-sketches">Read More…</a></p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2016/09/septembers-daily-sketches#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/3d-model" label="3d model"></category>
+    
+        <category term="https://alansartlog.com/tags/anatomy" label="anatomy"></category>
+    
+        <category term="https://alansartlog.com/tags/graphite" label="graphite"></category>
+    
+        <category term="https://alansartlog.com/tags/studies" label="studies"></category>
+    
+    
+    <updated>2016-09-30T18:13:02+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/neuschwanstein-castle.jpg"/>
+        
+            <media:description type="html">&lt;p&gt;Neuschwanstein-Castle
+Reference&amp;nbsp;(from morgueFile): &lt;a href=&#34;http://mrg.bz/cd97c9&#34;&gt;Image&lt;/a&gt;&amp;nbsp;by pedrojperez&lt;/p&gt;</media:description>
+        
+    
+    <title>Ink Drawing of Neuschwanstein Castle</title>
+    <link href="https://alansartlog.com/2016/09/ink-drawing-of-neuschwanstein-castle"/>
+    <id>https://alansartlog.com/2016/09/ink-drawing-of-neuschwanstein-castle</id>
+    
+    
+    
+        <content type="html"><![CDATA[<iframe src="https://www.youtube.com/embed/Z-QM3CxkP9c?autoplay=1" frameborder="0" allowfullscreen></iframe>
+<p>For this video I changed things up and did an ink drawing because I was a bit tired of painting, and also because I'm going to attempt to do inktober.</p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2016/09/ink-drawing-of-neuschwanstein-castle#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/artwork" label="artwork"></category>
+    
+        <category term="https://alansartlog.com/tags/inkmarker" label="ink/marker"></category>
+    
+    
+    <updated>2016-09-24T17:31:35+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/animal-skull.jpg"/>
+        
+            <media:description type="html">&lt;p&gt;Animal Skull
+Reference&amp;nbsp;(from morgueFile): &lt;a href=&#34;http://mrg.bz/fd66e2&#34;&gt;Image&lt;/a&gt;&amp;nbsp;by tinabel&lt;/p&gt;</media:description>
+        
+    
+    <title>Painting an Animal Skull in Acrylics</title>
+    <link href="https://alansartlog.com/2016/09/painting-an-animal-skull-in-acrylics"/>
+    <id>https://alansartlog.com/2016/09/painting-an-animal-skull-in-acrylics</id>
+    
+    
+    
+        <content type="html"><![CDATA[<iframe src="https://www.youtube.com/embed/u--wJckjQ9k?autoplay=1" frameborder="0" allowfullscreen></iframe>
+<p>In this video I talk you through my painting of an animal skull and how I tried to emphasize the colors.</p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2016/09/painting-an-animal-skull-in-acrylics#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/acrylics" label="acrylics"></category>
+    
+        <category term="https://alansartlog.com/tags/artwork" label="artwork"></category>
+    
+        <category term="https://alansartlog.com/tags/for-sale" label="for sale"></category>
+    
+    
+    <updated>2016-09-09T17:52:39+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/crowned-pawn.jpg"/>
+        
+            <media:description type="html">&lt;p&gt;Crowned Pawn
+Reference&amp;nbsp;(from morgueFile: &lt;a href=&#34;http://mrg.bz/0ca100&#34;&gt;Image&lt;/a&gt;by svklimkin&lt;/p&gt;</media:description>
+        
+    
+    <title>&#34;Crowned Pawn&#34; - Acrylic Painting</title>
+    <link href="https://alansartlog.com/2016/09/crowned-pawn-acrylic-painting"/>
+    <id>https://alansartlog.com/2016/09/crowned-pawn-acrylic-painting</id>
+    
+    
+    
+        <content type="html"><![CDATA[<iframe src="https://www.youtube.com/embed/RSx2Zh06xjM?autoplay=1" frameborder="0" allowfullscreen></iframe>
+<p>In this video I talk about trying to keep the the painting lose and a few things I tried to help that.</p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2016/09/crowned-pawn-acrylic-painting#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/acrylics" label="acrylics"></category>
+    
+        <category term="https://alansartlog.com/tags/artwork" label="artwork"></category>
+    
+        <category term="https://alansartlog.com/tags/for-sale" label="for sale"></category>
+    
+        <category term="https://alansartlog.com/tags/videos" label="videos"></category>
+    
+    
+    <updated>2016-09-02T16:07:50+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/highclere-castle.jpg"/>
+        
+            <media:description type="html">&lt;p&gt;Highclere Castle
+Reference&amp;nbsp;(from morgueFile): &lt;a href=&#34;http://mrg.bz/312f23&#34;&gt;Image&lt;/a&gt;&amp;nbsp;by johninportland&lt;/p&gt;</media:description>
+        
+    
+    <title>Palette Knife Painting of Highclere Castle</title>
+    <link href="https://alansartlog.com/2016/08/palette-knife-painting-of-highclere-castle"/>
+    <id>https://alansartlog.com/2016/08/palette-knife-painting-of-highclere-castle</id>
+    
+    
+    
+        <content type="html"><![CDATA[<p>In this video I experiment with a palette knife for the first time, and talk about how that helped force me to simply details, and also how to flatten warped canvas paper for when you need to make straight lines.</p>
+<p>I really like painting and drawing buildings so two of the reference photos I had printed are castles. This one is Highclere Castle which most of you will probably recognize from Downton Abbey&nbsp;from Downton Abbey. It's on my ever growing list of places to go see. &nbsp;If it looks amazing in photos I can't imagine in real life.</p>
+<iframe src="https://www.youtube.com/embed/s9DRbB6auio?autoplay=1" frameborder="0" allowfullscreen></iframe>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2016/08/palette-knife-painting-of-highclere-castle#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/acrylics" label="acrylics"></category>
+    
+        <category term="https://alansartlog.com/tags/artwork" label="artwork"></category>
+    
+        <category term="https://alansartlog.com/tags/for-sale" label="for sale"></category>
+    
+        <category term="https://alansartlog.com/tags/videos" label="videos"></category>
+    
+    
+    <updated>2016-08-25T22:16:33+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/water-lily.jpg"/>
+        
+            <media:description type="html">&lt;p&gt;Water Lily
+Reference&amp;nbsp;(from morgueFile): &lt;a href=&#34;http://mrg.bz/17eeea&#34;&gt;Image&lt;/a&gt;&amp;nbsp;by morethanordinary&lt;/p&gt;</media:description>
+        
+    
+    <title>Painting a Water Lily in Acrylics</title>
+    <link href="https://alansartlog.com/2016/08/painting-a-water-lily-in-acrylics"/>
+    <id>https://alansartlog.com/2016/08/painting-a-water-lily-in-acrylics</id>
+    
+    
+    
+        <content type="html"><![CDATA[<iframe src="https://www.youtube.com/embed/RmxlxopPzlo?autoplay=1" frameborder="0" allowfullscreen></iframe>
+<p>This painting is for sale, contact me if you're interested.</p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2016/08/painting-a-water-lily-in-acrylics#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/acrylics" label="acrylics"></category>
+    
+        <category term="https://alansartlog.com/tags/artwork" label="artwork"></category>
+    
+        <category term="https://alansartlog.com/tags/for-sale" label="for sale"></category>
+    
+        <category term="https://alansartlog.com/tags/portfolio" label="portfolio"></category>
+    
+        <category term="https://alansartlog.com/tags/videos" label="videos"></category>
+    
+    
+    <updated>2016-08-08T23:42:30+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+    <title>How to Make a Stay Wet Palette to Keep Your Paints Wet</title>
+    <link href="https://alansartlog.com/2016/08/how-to-make-a-stay-wet-palette-to-keep-your-paints-wet"/>
+    <id>https://alansartlog.com/2016/08/how-to-make-a-stay-wet-palette-to-keep-your-paints-wet</id>
+    
+    
+    
+        <content type="html"><![CDATA[<iframe src="https://www.youtube.com/embed/wac6PYpG9JM?autoplay=1" frameborder="0" allowfullscreen></iframe>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2016/08/how-to-make-a-stay-wet-palette-to-keep-your-paints-wet#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/acrylics" label="acrylics"></category>
+    
+        <category term="https://alansartlog.com/tags/art-supplies" label="art supplies"></category>
+    
+        <category term="https://alansartlog.com/tags/diy" label="diy"></category>
+    
+        <category term="https://alansartlog.com/tags/videos" label="videos"></category>
+    
+    
+    <updated>2016-08-06T23:09:18+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/full-size-adhesion-tests.jpg"/>
+        
+    
+    <title>How to Keep Acrylic Paints Wet - Adhesion Tests</title>
+    <link href="https://alansartlog.com/2016/07/how-to-keep-acrylic-paints-wet-adhesion-tests"/>
+    <id>https://alansartlog.com/2016/07/how-to-keep-acrylic-paints-wet-adhesion-tests</id>
+    
+    
+    
+        <content type="html"><![CDATA[<iframe src="https://www.youtube.com/embed/Z17Q9eTHJOc?autoplay=1" frameborder="0" allowfullscreen></iframe>
+<p>The links were in the last post but I put them here again: <a href="http://willkempartschool.com/getting-started-how-to-choose-what-to-paint-on/">The first set of instructions I'd found on Will Kemp's blog in reply to him</a>&nbsp;and <a href="http://oldsite.goldenpaints.com/justpaint/jp13article1.php">the ones I found later on Golden's site on a page about testing surfaces in general</a>.</p>
+<p>Above&nbsp;is the scanned pieces of tape,&nbsp;right click &gt; open image in new tab,&nbsp;to see them in full size.</p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2016/07/how-to-keep-acrylic-paints-wet-adhesion-tests#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/acrylics" label="acrylics"></category>
+    
+        <category term="https://alansartlog.com/tags/art-supplies" label="art supplies"></category>
+    
+        <category term="https://alansartlog.com/tags/toolssoftware" label="tools/software"></category>
+    
+        <category term="https://alansartlog.com/tags/videos" label="videos"></category>
+    
+    
+    <updated>2016-07-29T23:05:03+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+    <title>How to Keep Acrylic Paints Wet - Retarders</title>
+    <link href="https://alansartlog.com/2016/07/how-to-keep-acrylic-paints-wet-retarders"/>
+    <id>https://alansartlog.com/2016/07/how-to-keep-acrylic-paints-wet-retarders</id>
+    
+    
+    
+        <content type="html"><![CDATA[<iframe src="https://www.youtube.com/embed/lBqsvsB-MHw?autoplay=1" frameborder="0" allowfullscreen></iframe>
+<p>The adhesion test video is in the next post.</p>
+<p>This was the chart I kept for the drying tests. Temperatures were around 12 C for those days like I mentioned in the video. Probably around 20 C inside, maybe less (heater is off at night).</p>
+<iframe  width="100%" height="500px" src="https://docs.google.com/spreadsheets/d/12bUVXSpKfcfQCfM-nRmwihCF_hj48uhKCzD9H3okfFU/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+<p>Regarding the "watercolors" I know I called them a watercolor substitute, but it's more like they've substituted watercolors for me specifically because they're slower drying, portable, and won't crack. But they're more like something between gouache and oils and yet they have a distinct sticky feel (like warm honey). They're more opaque then watercolors, but they stay wet longer, and yet they have that tendency to stay in that sticky watercolor stage on paper. My mix is about 1:1, more and they flow too much, less and they'd dry in the box because it's not airtight (if the box were airtight I could use less).</p>
+<p>I also like them because I can paint at the consistency they're at without accidently over diluting them with water like I usually do watercolors. For example, for a sky, I'll outline the object, then I'll go back on the paper and spread the color around with a water-brush there.</p>
+<p>One thing I forgot to mention is that you should use professional grade acrylics for them if you want them to keep their opacity. Additionally if you like gouache you can mix in a bit of titanium white with all your colors to make the even more opaque.</p>
+<p>I will do a video with them in the future.</p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2016/07/how-to-keep-acrylic-paints-wet-retarders#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/acrylics" label="acrylics"></category>
+    
+        <category term="https://alansartlog.com/tags/art-supplies" label="art supplies"></category>
+    
+        <category term="https://alansartlog.com/tags/diy" label="diy"></category>
+    
+        <category term="https://alansartlog.com/tags/videos" label="videos"></category>
+    
+    
+    <updated>2016-07-22T23:11:31+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/skull-finished-painting.jpg"/>
+        
+            <media:description type="html">&lt;p&gt;Skull Finished Painting&lt;/p&gt;</media:description>
+        
+    
+    <title>Skull Painting Narrated Timelapse (Acrylics on Plastic)</title>
+    <link href="https://alansartlog.com/2016/07/skull-painting-narrated-timelapse-acrylics-on-plastic"/>
+    <id>https://alansartlog.com/2016/07/skull-painting-narrated-timelapse-acrylics-on-plastic</id>
+    
+    
+    
+        <content type="html"><![CDATA[<div class="gallery"><figure><div class="lazy-wrapper"><img is_thumb="true" src="https://alansartlog.com/resources/uploads/skull-initial-sketch-300x227.jpg"  width="300" height="227"  alt="Skull%20Initial%20Sketch"/></div><figcaption><p>Initial Sketch</p></figcaption></figure><figure><div class="lazy-wrapper"><img is_thumb="true" src="https://alansartlog.com/resources/uploads/skull-underpainting-300x225.jpg"  width="300" height="225"  alt="Skull%20Underpainting"/></div><figcaption><p>Underpainting</p></figcaption></figure><figure><div class="lazy-wrapper"><img is_thumb="true" src="https://alansartlog.com/resources/uploads/skull-finished-painting-300x230.jpg"  width="300" height="230"  alt="Skull%20Finished%20Painting"/></div><figcaption><p>Skull Finished Painting</p></figcaption></figure></div>
+<iframe src="https://www.youtube.com/embed/HjDBcx8UK1I?autoplay=1" frameborder="0" allowfullscreen></iframe>
+<p>I did a lot of research several tests before trying the techniques I tried here. And the painting seems to be stable for now, but <strong>I can’t guarantee anything, please do your own tests with your own materials and draw your own conclusions.</strong> Usually if there are problems it tends to happen within the first few days. As of now (two weeks), the painting is stable enough. The paint has not cracked or peeled (not even from purposely trying to peel it with tape), and the plastic (it’s HIPS plastic) is in great condition (the medium heat from the blow dryer did not bend it out of shape). Update: I did do a swab test (softly rubbing a wet cotton swab on the surface) at two weeks and I did get some very minor lifting in the background, but still nothing with the tape and nothing where I then painted the light in with gray over that red background. So I don’t think it’s something to worry about as long as I add an isolation layer of pure medium over everything. Whatever lose pigments remain from the under-bound paint look like they’re easily contained by another proper layer of paint. Overall it satisfies me. I’ll report back further once I add this layer.The only thing is I painted all the way to the edge and the paint is kind of ragged there, liable to being accidentally peeled from handling roughly. Before I didn’t paint to the edges because I used the edges to handle the canvas paper. I kept doing that for a while even though I started to secure my pages because they were already marked for it. But for this I thought there was no point, well now I realize it’s probably better to continue that habit.</p>
+<p>Also all the water made the plastic stick to the paper I was using to hang it from. I managed to unstick it and rub it off with just some water, but some of the gesso came off. I repainted it, and it’s all fine. Not really the fault of the plastic (just the sheer amount of water would have ruined a painting in canvas paper), but more bad planning on my part.</p>
+<p><a class="read-more" href="/2016/07/skull-painting-narrated-timelapse-acrylics-on-plastic">Read More…</a></p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2016/07/skull-painting-narrated-timelapse-acrylics-on-plastic#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/acrylics" label="acrylics"></category>
+    
+        <category term="https://alansartlog.com/tags/art-supplies" label="art supplies"></category>
+    
+        <category term="https://alansartlog.com/tags/artwork" label="artwork"></category>
+    
+        <category term="https://alansartlog.com/tags/portfolio" label="portfolio"></category>
+    
+    
+    <updated>2016-07-15T00:00:00+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+    <title>Art Supply Haul + Updates</title>
+    <link href="https://alansartlog.com/2016/07/art-supply-haul-updates"/>
+    <id>https://alansartlog.com/2016/07/art-supply-haul-updates</id>
+    
+    
+    
+        <content type="html"><![CDATA[<iframe src="https://www.youtube.com/embed/r5HkRKTgaYw?autoplay=1" frameborder="0" allowfullscreen></iframe>
+<p>Sorry for the lateness I had a lot of trouble uploading because it was so long. There might be some audio gap/jumps because I had to split the video into parts to upload and the youtube editor is horrible for stitching them back together.</p>
+<h3 id="tutoriallinks">Tutorial Links</h3>
+<p><a href="/2015/10/bottle-cap-palette">Bottle Cap Palette Containers Tutorial</a></p>
+<p><a href="/2016/07/how-to-keep-acrylic-paints-wet-retarders">Keeping Your Acrylic Paints Wet - Retarders</a></p>
+<p><a href="/2016/08/how-to-make-a-stay-wet-palette-to-keep-your-paints-wet">Keeping Your Acrylic Paints Wet - Stay Wet Palette</a></p>
+<p><a href="/2016/07/skull-painting-narrated-timelapse-acrylics-on-plastic">First Painting with New Setup</a></p>
+<p>Springy Sketching Pen (Coming Soon)</p>
+<p>Torso Tutorial (Planned)</p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2016/07/art-supply-haul-updates#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/acrylics" label="acrylics"></category>
+    
+        <category term="https://alansartlog.com/tags/art-supplies" label="art supplies"></category>
+    
+        <category term="https://alansartlog.com/tags/toolssoftware" label="tools/software"></category>
+    
+        <category term="https://alansartlog.com/tags/videos" label="videos"></category>
+    
+    
+    <updated>2016-07-06T00:00:00+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/canyon-oil-painting.jpg"/>
+        
+            <media:description type="html">&lt;p&gt;Painting of :&amp;nbsp;&lt;a href=&#34;http://flickr.com/photo.gne?id=15562063855&#34;&gt;Bryce Canyon by Anna Panáková&lt;/a&gt;&amp;nbsp;/ used under &lt;a href=&#34;https://creativecommons.org/licenses/by/2.0/&#34;&gt;CC-BY&lt;/a&gt;&lt;/p&gt;</media:description>
+        
+    
+    <title>Canyon Painting (Oils)</title>
+    <link href="https://alansartlog.com/2016/06/canyon-painting-oils"/>
+    <id>https://alansartlog.com/2016/06/canyon-painting-oils</id>
+    
+    
+    
+        <content type="html"><![CDATA[<iframe src="https://www.youtube.com/embed/XIVznrsju_Q?autoplay=1" frameborder="0" allowfullscreen></iframe>
+<p>As I mentioned in the video I ended up using the painting to test some glazing techniques. You can see it's been divided into three sections. These were all done after the painting as touch dry. From left to right, my notes were as follows. Not the most precise, but they were meant as more of a starting point.</p>
+<ol start="3">
+<li><p>One part titanium white to 3-4 parts liquin. Can be wiped nearly clean (compared to 3). Canvas texture smoother (compared to 3)</p></li>
+<li><p>A bit of titanium white, couple drops of turps, and a bit of liquin, mixed to kind of a milky consistency. Tends to really sink into the canvas but smoothes fine with a brush, and ended up with the least texture. Can be wiped nearly clean (compared to 3).</p></li>
+<li><p>Pure titanium white. Doing it with just a brush was impossible (might be possible with zinc white) so I used my thumb and that also helped reduce the canvas texture. And afterwards I wiped away the excess paint with a rag but it's hard to wipe away completely.</p></li>
+</ol>
+<p>To avoid using turps I think the best solution would be to just prime and sand the canvas smooth so that paint doesn't get stuck in the canvas texture. With that even pure titanium white could probably be laid very thinly.</p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2016/06/canyon-painting-oils#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/artwork" label="artwork"></category>
+    
+        <category term="https://alansartlog.com/tags/oils" label="oils"></category>
+    
+        <category term="https://alansartlog.com/tags/uncategorized" label="uncategorized"></category>
+    
+        <category term="https://alansartlog.com/tags/videos" label="videos"></category>
+    
+    
+    <updated>2016-06-24T23:41:35+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/lighthouse.jpg"/>
+        
+            <media:description type="html">&lt;p&gt;Lighthouse
+Reference:&amp;nbsp;&lt;a href=&#34;http://flickr.com/photo.gne?id=5937150545&#34;&gt;The Kish by PaulODonell&lt;/a&gt;&amp;nbsp;/ used under &lt;a href=&#34;https://creativecommons.org/licenses/by/2.0/&#34;&gt;CC-BY&lt;/a&gt;&lt;/p&gt;</media:description>
+        
+    
+    <title>Limited Palette and Thick Watercolors Test Painting</title>
+    <link href="https://alansartlog.com/2016/06/limited-palette-and-thick-watercolors-test-painting"/>
+    <id>https://alansartlog.com/2016/06/limited-palette-and-thick-watercolors-test-painting</id>
+    
+    
+    
+        <content type="html"><![CDATA[<iframe src="https://www.youtube.com/embed/iwGOpJv4nT8?autoplay=1" frameborder="0" allowfullscreen></iframe>
+<p>Previous: Experimenting with Limited Palettes</p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2016/06/limited-palette-and-thick-watercolors-test-painting#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/artwork" label="artwork"></category>
+    
+        <category term="https://alansartlog.com/tags/videos" label="videos"></category>
+    
+        <category term="https://alansartlog.com/tags/watercolors" label="watercolors"></category>
+    
+    
+    <updated>2016-06-17T23:36:36+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/color-wheel-1.jpg"/>
+        
+            <media:description type="html">&lt;p&gt;3 Color Palettes
+From Left to Right:
+[Red, Yellow, Pthalo Blue (Green Shade)/Ultramarine]
+[Red, Yellow/Yellow Ochre]
+[Indian Red (IMIT), Yellow Ochre, Pthalo Blue GS/Ultramarine]&lt;/p&gt;</media:description>
+        
+    
+    <title>Experimenting with Limited Palettes</title>
+    <link href="https://alansartlog.com/2016/06/experimenting-with-limited-palettes"/>
+    <id>https://alansartlog.com/2016/06/experimenting-with-limited-palettes</id>
+    
+    
+    
+        <content type="html"><![CDATA[<figure>
+
+<div class="lazy-wrapper"><img src="https://alansartlog.com/resources/uploads/color-wheel-2.jpg"  width="1000" height="708"  alt="Color%20Wheel%202"/></div><figcaption><p>4 Color Palettes From Left to Right: [Red, Yellow, Pthalo Blue GS, Ultramarine] [Quinacridone Magenta, Hansa Yellow Medium, Pthalo Blue GS, Pthalo Green (Blue Shade)]</p></figcaption></figure>
+<iframe src="https://www.youtube.com/embed/AUxt8C90f1w?autoplay=1" frameborder="0" allowfullscreen></iframe>
+<p>Their are way more limited palettes then what I covered. These are just the ones I wanted to try. Technically their are as many combinations of three colors as you could think of although only a couple dozen are very useful and common. You could even use a two color palette to great effect. James Gourney has some great examples of two palette paintings, <a href="http://gurneyjourney.blogspot.com.ar/2015/07/experiments-with-limited-palette.html">this one I think is one of the most striking</a>. The Zorn palette is technically two color, but I see it more as a three color palette because the black serves as a substitute blue.</p>
+<p>I also want to mention if you didn’t see the annotation I made, that it’s often much cheaper to buy a set if you can.</p>
+<p>There’s also a lot of small sets to choose from, but for example with Golden, the small ones are around $0.16 per ml, while the big sets are only $0.11 per ml. Prices calculated from Amazon/Dick Blick.</p>
+<p>There’s also different series/pigment prices to consider but the video was long enough. I’ll make a note to do a video on deciphering paint tubes.</p>
+<p><a href="/2016/06/limited-palette-and-thick-watercolors-test-painting">Next: Palette and Thick Watercolors Test Painting</a></p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2016/06/experimenting-with-limited-palettes#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/art-supplies" label="art supplies"></category>
+    
+        <category term="https://alansartlog.com/tags/artwork" label="artwork"></category>
+    
+    
+    <updated>2016-06-08T00:00:00+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/glass-jar.jpg"/>
+        
+    
+    <title>Glass Jar Still Life</title>
+    <link href="https://alansartlog.com/2016/05/glass-jar-graphite"/>
+    <id>https://alansartlog.com/2016/05/glass-jar-graphite</id>
+    
+    
+    
+        <content type="html"><![CDATA[<iframe src="https://www.youtube.com/embed/5a4JP60UhCs?autoplay=1" frameborder="0" allowfullscreen></iframe>
+<p>The pencils I use are Lyra ArtDesign if you’re interested. I found them the smoothest of the ones I tried.</p>
+<p>The eraser pencil is from Faber-Castel but to be honest if other brands exist I’d try those instead. I find the Faber-Castel one a bit too harsh and yet not hard enough to really keep a sharp tip. It feels and looks similar to a pink school eraser. I’ve not had mine stain that I can remember but there have been reviews complaining about that.</p>
+<p>The book I mentioned is called Course in Pencil Sketching by Ernest Watson. I’ve mentioned it briefly before <a href="http://alansartlog.com/2016/01/two-landscapes">here</a> and <a href="http://alansartlog.com/2016/02/first-sketch-from-a-course-in-pencil-sketching">here</a>.</p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2016/05/glass-jar-graphite#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/artwork" label="artwork"></category>
+    
+        <category term="https://alansartlog.com/tags/graphite" label="graphite"></category>
+    
+        <category term="https://alansartlog.com/tags/videos" label="videos"></category>
+    
+    
+    <updated>2016-05-22T00:00:00+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+    <title>How to Clean Paint Stuck in the Ferrule of a Paintbrush</title>
+    <link href="https://alansartlog.com/2016/05/how-to-clean-paint-stuck-in-the-ferrule-of-a-paintbrush"/>
+    <id>https://alansartlog.com/2016/05/how-to-clean-paint-stuck-in-the-ferrule-of-a-paintbrush</id>
+    
+    
+    
+        <content type="html"><![CDATA[<iframe src="https://www.youtube.com/embed/bAPX2LKFHe8?autoplay=1" frameborder="0" allowfullscreen></iframe>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2016/05/how-to-clean-paint-stuck-in-the-ferrule-of-a-paintbrush#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/art-supplies" label="art supplies"></category>
+    
+        <category term="https://alansartlog.com/tags/diy" label="diy"></category>
+    
+        <category term="https://alansartlog.com/tags/toolssoftware" label="tools/software"></category>
+    
+        <category term="https://alansartlog.com/tags/videos" label="videos"></category>
+    
+    
+    <updated>2016-05-15T23:35:23+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/rotating-cube-gif.gif"/>
+        
+    
+    <title>Three Perspective Videos</title>
+    <link href="https://alansartlog.com/2016/05/three-perspective-videos"/>
+    <id>https://alansartlog.com/2016/05/three-perspective-videos</id>
+    
+    
+    
+        <content type="html"><![CDATA[<h1 id="howtodrawperfectsquaresin12pointperspective">How to Draw Perfect Squares in 1 &amp; 2 Point Perspective</h1>
+<iframe src="https://www.youtube.com/embed/h0HrmywKzFk?autoplay=1" frameborder="0" allowfullscreen></iframe>
+<p>Please note that this method is accurate so far as I’ve been able to compare it with 3d models, and also this was one of the methods used in a book I was reading, but as cover in the next video below there’s something off about using this to construct perfect cubes so I’m not sure if there might be some minor error or there’s something I’m not taking into consideration when constructing perfect cubes.</p>
+<h1 id="howtodrawperfectcubesin2pointperspective">How to Draw Perfect Cubes in 2 Point Perspective</h1>
+<iframe src="https://www.youtube.com/embed/1sCd7av2rVk?autoplay=1" frameborder="0" allowfullscreen></iframe>
+<h1 id="howtorotateobjectsinperspective">How to Rotate Objects in Perspective</h1>
+<iframe src="https://www.youtube.com/embed/b_luMHmlCio?autoplay=1" frameborder="0" allowfullscreen></iframe>
+<p>Patreons can get access to the 3d models I made and the PSD for the animation <a href="https://www.patreon.com/posts/patreon-only-for-5419096">here</a>.</p>
+<p>If you have any questions or there’s something else you have trouble with concerning perspective leave me a comment and I’ll try and help.</p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2016/05/three-perspective-videos#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/artwork" label="artwork"></category>
+    
+        <category term="https://alansartlog.com/tags/digital" label="digital"></category>
+    
+        <category term="https://alansartlog.com/tags/patreon-only-content" label="patreon only content"></category>
+    
+        <category term="https://alansartlog.com/tags/videos" label="videos"></category>
+    
+    
+    <updated>2016-05-09T00:00:00+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/figure-drawing-thumb.jpg"/>
+        
+    
+    <title>Week&#39;s Worth of Figure Drawing Practice</title>
+    <link href="https://alansartlog.com/2016/04/weeks-worth-of-figure-drawing-practice"/>
+    <id>https://alansartlog.com/2016/04/weeks-worth-of-figure-drawing-practice</id>
+    
+    
+    
+        <content type="html"><![CDATA[<p>The image is just the thumb. I'm not scanning 100 pages. I go through them all in the video.</p>
+<iframe src="https://www.youtube.com/embed/Pqoqua2Vj8s?autoplay=1" frameborder="0" allowfullscreen></iframe>
+<p>For the references I used a mix of <a href="http://artists.pixelovely.com/practice-tools/figure-drawing/">pixelovely</a>, <a href="http://www.quickposes.com/gestures/timed">quickposes</a>, and <a href="http://www.characterdesigns.com/">characterdesigns</a>, hence why unfortunately I did not have very early poses that repeat later. I have saved a few of my favorite poses for next time so hopefully there will be more to compare.</p>
+<p>The anatomy book I like to use is Classic Human Anatomy by Valerie L. Winslow. If you can only afford one book get this one. The only downside is it's all drawn but I have found no other book so well done.</p>
+<p>As for Michael Hampton who I mentioned, he has a wonderful <a href="http://www.figuredrawing.info/">blog</a> full of sketches that I found very helpful. He often shows his reference and I recommend you first attempt to do the pose from the reference, then look at his approach for help/comparison. He also has a book (Figure Drawing - Design and Invention) that looks very good.</p>
+<p>The lightning bold figure drawing method I mentioned can be found <a href="https://www.youtube.com/watch?v=mBq7rtnES0A">here</a>.</p>
+<p>Oh also, this is kind of unrelated, but I fixed the noise on my microphone! I'm using an iPhone with a mic app plugged into my computer and I thought the noise was just a side-effect of the cable or being so close to my fan, but turns out it was all Windows. I had microphone boost turned on because otherwise I couldn't use the computer mic before without it, turns out this just seems to introduce hideous amounts of noise.</p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2016/04/weeks-worth-of-figure-drawing-practice#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/anatomy" label="anatomy"></category>
+    
+        <category term="https://alansartlog.com/tags/artwork" label="artwork"></category>
+    
+        <category term="https://alansartlog.com/tags/graphite" label="graphite"></category>
+    
+    
+    <updated>2016-04-17T23:31:39+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/boat-on-the-shore.jpg"/>
+        
+            <media:description type="html">&lt;p&gt;Inspired by:&amp;nbsp;&lt;a href=&#34;http://flickr.com/photo.gne?id=5558933741&#34;&gt;Willy Lott&#39;s Cottage as painted in The Hay Wain by Karen Roe&lt;/a&gt; / used under &lt;a href=&#34;https://creativecommons.org/licenses/by/2.0/&#34;&gt;CC-BY&lt;/a&gt;&lt;/p&gt;</media:description>
+        
+    
+    <title>Boat on the Shore</title>
+    <link href="https://alansartlog.com/2016/04/boat-on-the-shore"/>
+    <id>https://alansartlog.com/2016/04/boat-on-the-shore</id>
+    
+    
+    
+        <content type="html"><![CDATA[<iframe src="https://www.youtube.com/embed/jhdB2v3kUbo?autoplay=1" frameborder="0" allowfullscreen></iframe>
+<p>Okay it seems I won't be able to do daily drawings. It's too much work editing and uploading. By Friday I felt so horrible I was practically useless all day and that kind of reverberated through the weekend. I can draw daily, it's just the rest that kills me. So I'm thinking of like doing a weekly progress thing or every few days post whatever I've been working on like here.</p>
+<p>This took 2-3 days and 3 hours total.</p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2016/04/boat-on-the-shore#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/artwork" label="artwork"></category>
+    
+        <category term="https://alansartlog.com/tags/colored-pencil" label="colored pencil"></category>
+    
+        <category term="https://alansartlog.com/tags/videos" label="videos"></category>
+    
+    
+    <updated>2016-04-14T23:28:53+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/mountains.jpg"/>
+        
+            <media:description type="html">&lt;p&gt;Painting of:&amp;nbsp;&lt;a href=&#34;http://flickr.com/photo.gne?id=15062743340&#34;&gt;Old man of Storr by Luls Ascenso&lt;/a&gt; /used under &lt;a href=&#34;https://creativecommons.org/licenses/by/2.0/&#34;&gt;CC-BY&lt;/a&gt;&lt;/p&gt;</media:description>
+        
+    
+    <title>Mountains Oil Painting</title>
+    <link href="https://alansartlog.com/2016/04/mountains-oil-painting"/>
+    <id>https://alansartlog.com/2016/04/mountains-oil-painting</id>
+    
+    
+    
+        <content type="html"><![CDATA[<iframe src="https://www.youtube.com/embed/54joSbwW9oE?autoplay=1" frameborder="0" allowfullscreen></iframe>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2016/04/mountains-oil-painting#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/uncategorized" label="uncategorized"></category>
+    
+    
+    <updated>2016-04-06T23:26:44+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/cemetery-oil-painting.jpg"/>
+        
+            <media:description type="html">&lt;p&gt;Painting of: &lt;a href=&#34;http://flickr.com/photo.gne?id=4351467124&#34;&gt;Fog 7 by Tim Green&lt;/a&gt; / used under &lt;a href=&#34;https://creativecommons.org/licenses/by/2.0/&#34;&gt;CC-BY&lt;/a&gt;&lt;/p&gt;</media:description>
+        
+    
+    <title>Cemetery Oil Painting</title>
+    <link href="https://alansartlog.com/2016/04/cemetery-oil-painting"/>
+    <id>https://alansartlog.com/2016/04/cemetery-oil-painting</id>
+    
+    
+    
+        <content type="html"><![CDATA[<iframe src="https://www.youtube.com/embed/ADWWYZ9yMWo?autoplay=1" frameborder="0" allowfullscreen></iframe>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2016/04/cemetery-oil-painting#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/artwork" label="artwork"></category>
+    
+        <category term="https://alansartlog.com/tags/oils" label="oils"></category>
+    
+        <category term="https://alansartlog.com/tags/portfolio" label="portfolio"></category>
+    
+    
+    <updated>2016-04-04T23:23:18+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/three-sketches.jpg"/>
+        
+            <media:description type="html">&lt;p&gt;References (all used under &lt;a href=&#34;https://creativecommons.org/licenses/by/2.0/&#34;&gt;CC-BY&lt;/a&gt;):
+&lt;a href=&#34;https://www.flickr.com/photos/brent_nashville/207554886&#34;&gt;Cool house in Washington, D.C. (Logan Circle) by Brent Moore&lt;/a&gt;
+&lt;a href=&#34;http://flickr.com/photo.gne?id=52158537&#34;&gt;Bodiam Castle, East Sussex, England, 11 October 2005 by Phillip Capper&lt;/a&gt;
+&lt;a href=&#34;http://flickr.com/photo.gne?id=81647366&#34;&gt;Castle by Richard Leonard&lt;/a&gt;&lt;/p&gt;</media:description>
+        
+    
+    <title>Pen &amp; Marker Sketches</title>
+    <link href="https://alansartlog.com/2016/04/pen-marker-sketches"/>
+    <id>https://alansartlog.com/2016/04/pen-marker-sketches</id>
+    
+    
+    
+        <content type="html"><![CDATA[<p>I made a camera rig (you can see it in the first video below) for filming traditional sketches. It’s a bulky solution but it works well regardless of how comical it looks. I don’t think it’s worth an instructable. All I did was stick a wall hook in the ceiling and then mess around with the rope until I got something that worked. It’s surprisingly secure. It also doesn’t cast any bothersome shadows or anything.</p>
+<p>The original plan was to just hang the camera but it moved to much even if I tied it to the shelf, plus it cast a horrible shadow.</p>
+<p>In the future I’m thinking I will hang it, but making some sort of arm that sticks out from the shelf to properly stabilize the camera. It doesn’t need to be bulky since it won’t bear any weight and to not get a shadow I just have to get the camera in the right position.</p>
+<p>I thought about making an overhead arm for the tripod but I’m not sure how I’d attach the camera. The ways I’ve seen it done would mean that the camera would end up in portrait mode (because there’s only space to the sides for the counterweight) and you wouldn’t be able to modify it’s tilt at all.</p>
+<p>If anybody has any ideas or suggestions leave me a comment.</p>
+<iframe src="https://www.youtube.com/embed/AFIczkB4nj0?autoplay=1" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/TDYoARSh_q4?autoplay=1" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/j95yD2R-Tx8?autoplay=1" frameborder="0" allowfullscreen></iframe>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2016/04/pen-marker-sketches#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/artwork" label="artwork"></category>
+    
+        <category term="https://alansartlog.com/tags/inkmarker" label="ink/marker"></category>
+    
+    
+    <updated>2016-04-03T00:00:00+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/drawing-some-hands.jpg"/>
+        
+    
+    <title>Drawing Some Hands</title>
+    <link href="https://alansartlog.com/2016/03/drawing-some-hands"/>
+    <id>https://alansartlog.com/2016/03/drawing-some-hands</id>
+    
+    
+    
+        <content type="html"><![CDATA[<iframe src="https://www.youtube.com/embed/dNeOheqcG6o?autoplay=1" frameborder="0" allowfullscreen></iframe>
+<p>I’m trying out something slightly different. I want to do more video but the editing always takes so long I avoid it. So I’m thinking of doing videos like this one, possibly even more concentrated (one hand at a time) because it’s so much easier to edit. Then maybe once I get the hang of it (and a proper mic - 50% of is getting the iPhone audio bits in sync) I’ll start making longer ones. Anyways enjoy.</p>
+<p><a href="https://www.patreon.com/posts/4823730">Patreon Only Full Size PSD</a></p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2016/03/drawing-some-hands#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/anatomy" label="anatomy"></category>
+    
+        <category term="https://alansartlog.com/tags/artwork" label="artwork"></category>
+    
+        <category term="https://alansartlog.com/tags/digital" label="digital"></category>
+    
+        <category term="https://alansartlog.com/tags/videos" label="videos"></category>
+    
+    
+    <updated>2016-03-12T00:00:00+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+    <title>New Years Resolutions?</title>
+    <link href="https://alansartlog.com/2016/02/new-years-resolutions"/>
+    <id>https://alansartlog.com/2016/02/new-years-resolutions</id>
+    
+    
+    
+        <content type="html"><![CDATA[<p>I’ve never done new year’s resolutions. I find them a bit silly in general because no one really goes through with them, and then personally I would find it depressing having to set goals at some arbitrary time every year that I might not be able to accomplish (and it won’t be for lack of trying). Not that I think setting goals is bad idea, in fact, I think it’s a really good idea, but not like this. I have to want or need them.</p>
+<p><a class="read-more" href="/2016/02/new-years-resolutions">Read More…</a></p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2016/02/new-years-resolutions#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/random" label="random"></category>
+    
+        <category term="https://alansartlog.com/tags/uncategorized" label="uncategorized"></category>
+    
+    
+    <updated>2016-02-15T00:00:00+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/blog-brainstorm-2.jpg"/>
+        
+    
+    <title>Final Site Design Brainstorm</title>
+    <link href="https://alansartlog.com/2016/02/final-site-design-brainstorm"/>
+    <id>https://alansartlog.com/2016/02/final-site-design-brainstorm</id>
+    
+    
+    
+        <content type="html"><![CDATA[<p>Because the first brainstorm ended up not being used (design wise) I did another one. This time I put more thought into how the mobile side would function.</p>
+<p>Sometimes as designers we’re tempted to include things in our designs that look nice or can be attractive on a desktop interface, but just slow down the site and make it annoying on mobile platforms.</p>
+<p>So I only left stuff to the top that I felt was useful for users. You’re usually not going to try to go through a blog’s archive tree from mobile for example. But at the same time it’s not completely inaccessible (there’s a link to the page). I think decreased functionality is just as bad as interfering functionality. By interfering functionality I mean things like the following. These are just things that annoy me as a user. Yes most phones are getting bigger screens but some of us are still stuck with 3.5 inch screens.</p>
+<ul>
+<li><p>Fixed Search/Menu Header - They are really annoying on screens smaller than 3.5 inches (original iPhone size).</p></li>
+<li><p>Popups - Don’t, just no, don’t do it.</p></li>
+<li><p>Lightboxes - I have mixed opinions about these. If they’re super fast they’re great, but otherwise they suck. It’s a fine line. I ended up using inline thumbnails and pictures with easy links to the full image.</p></li>
+<li><p>Un-hoverable Menus - Make sure if you have menus they “hover” when tapped once on mobile devices instead of going straight to the link or appearing then disappearing.</p></li>
+<li><p>Infinite Scrolling - I would strongly advice against it. 90% of sites with infinite scrolling still crash my iPod Touch (4th gen). Even on a desktop this is a bad idea if users are likely to scroll past the 3rd-4th page (who doesn’t want their users to read a lot?). Each page that you load is added to the memory and therefore slows down the site. There will be a point at which it becomes sluggish on almost any device. The only way you might get away with infinite scrolling is if you only have text.</p></li>
+<li><p>No Next/Previous Gestures - I don’t know who thought this was a good idea, but some blogs allow you to “turn” to the next post. But all that happens is that you accidently turn a page when you don’t want to.</p></li>
+<li><p>Anything that messes with the font size when rotating the device.</p></li>
+</ul>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2016/02/final-site-design-brainstorm#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/artwork" label="artwork"></category>
+    
+        <category term="https://alansartlog.com/tags/graphite" label="graphite"></category>
+    
+        <category term="https://alansartlog.com/tags/random" label="random"></category>
+    
+    
+    <updated>2016-02-11T00:00:00+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/two-people-fencing-x-2.jpg"/>
+        
+            <media:description type="html">&lt;p&gt;Sketches of:
+&lt;a href=&#34;https://www.flickr.com/photos/powerhouse_museum/3072383175&#34;&gt;Scene of two men fencing&lt;/a&gt;
+and
+&lt;a href=&#34;https://www.flickr.com/photos/george_eastman_house/3334087942&#34;&gt;Two women fencing&lt;/a&gt;&lt;/p&gt;</media:description>
+        
+    
+    <title>Two Fencing Sketches</title>
+    <link href="https://alansartlog.com/2016/02/two-fencing-sketches"/>
+    <id>https://alansartlog.com/2016/02/two-fencing-sketches</id>
+    
+    
+    
+        <content type="html"><![CDATA[<p>Flickr has a large collection of photos from museums and such that are out of copyright or with no known copyright restrictions. You could go to the individual museums but it’s much easier to search them through Flickr. Anyways, I will occasionally search such images. They’re usually old and rather boring but occasionally there will be some interesting ones like the two above.</p>
+<p>I had actually planned on sketching the faces and everything as well with the first sketch, but I had started with the shirts, finished those first, and I just loved how they looked without hands/faces so I left them like that. Both sketches were also drawn with the figures closer than they actually were which I think gives them a strange dynamic. I like how it ended up so much I’m thinking of doing a painting in a similar style.</p>
+<p>Here’s the original image for comparison:</p>
+<p><a href="https://flic.kr/p/5FuLtH"><div class="lazy-wrapper"><img src="https://alansartlog.com/resources/uploads/flickr-two-people-fencing.jpg"  width="500" height="384"  alt="Two People Fencing" /></div></a></p>
+<p>The second one is more similar to the original because I wasn’t quite sure where to stop. I didn’t draw their faces, but everything else was covered and therefore you don’t get the same effect from just drawing the clothing / inanimate objects.</p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2016/02/two-fencing-sketches#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/artwork" label="artwork"></category>
+    
+        <category term="https://alansartlog.com/tags/graphite" label="graphite"></category>
+    
+    
+    <updated>2016-02-04T02:32:49+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/course-in-pencil-sketching-1.jpg"/>
+        
+            <media:description type="html">&lt;p&gt;Course in Pencil Sketching - Exercise&lt;/p&gt;</media:description>
+        
+    
+    <title>First Sketch from a Course in Pencil Sketching</title>
+    <link href="https://alansartlog.com/2016/02/first-sketch-from-a-course-in-pencil-sketching"/>
+    <id>https://alansartlog.com/2016/02/first-sketch-from-a-course-in-pencil-sketching</id>
+    
+    
+    
+        <content type="html"><![CDATA[<p>A sketch from the book I mentioned two posts ago, <a href="https://openlibrary.org/works/OL4302170W/Course_in_pencil_sketching">Course in Pencil Sketching by Ernest Watson</a>.</p>
+<p>The sketches are all from the same image for the first exercise. I was experimenting with different techniques.</p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2016/02/first-sketch-from-a-course-in-pencil-sketching#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/artwork" label="artwork"></category>
+    
+        <category term="https://alansartlog.com/tags/graphite" label="graphite"></category>
+    
+    
+    <updated>2016-02-02T01:32:49+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/logo-brainstorming.jpg"/>
+        
+    
+    <title>Logo Brainstorming</title>
+    <link href="https://alansartlog.com/2016/01/logo-brainstorming"/>
+    <id>https://alansartlog.com/2016/01/logo-brainstorming</id>
+    
+    
+    
+        <content type="html"><![CDATA[<p>The many ideas I played around with before settling for the current logo.</p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2016/01/logo-brainstorming#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/artwork" label="artwork"></category>
+    
+        <category term="https://alansartlog.com/tags/graphite" label="graphite"></category>
+    
+    
+    <updated>2016-01-24T00:00:00+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/blog-brainstorm-1.jpg"/>
+        
+    
+    <title>First Site Design Brainstorm</title>
+    <link href="https://alansartlog.com/2016/01/first-site-design-brainstorm"/>
+    <id>https://alansartlog.com/2016/01/first-site-design-brainstorm</id>
+    
+    
+    
+        <content type="html"><![CDATA[<p>These ended up being unused for the most part because I forgot flexboxes couldn't really do some of the things I was expecting from them with a double column layout.</p>
+<p>Still, the pre-planned media queries came in handy for the two columns.</p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2016/01/first-site-design-brainstorm#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/artwork" label="artwork"></category>
+    
+        <category term="https://alansartlog.com/tags/graphite" label="graphite"></category>
+    
+        <category term="https://alansartlog.com/tags/random" label="random"></category>
+    
+    
+    <updated>2016-01-23T00:00:00+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/modified-andy-drawers.jpg"/>
+        
+    
+    <title>Modifying IKEA Andy Drawers</title>
+    <link href="https://alansartlog.com/2016/01/modifying-ikea-andy-drawers"/>
+    <id>https://alansartlog.com/2016/01/modifying-ikea-andy-drawers</id>
+    
+    
+    
+        <content type="html"><![CDATA[<p>You can also find this post as an <a href="http://www.instructables.com/id/Modifying-IKEA-Andy-Drawers/">instructable</a>.</p>
+<p>I’ve had four Andy Drawers (two red, two grey) for years. They’re great. I really like them because they’re really light and portable but at the same time they do have some problems. The first is the dust. This wasn’t so bad before but now I live somewhere really dusty and I had to stop storing any sort of paper in them because they’d get all gross. The second is that if you happened to get the ones with a matte finish (grey), the drawers don’t slide nearly as nicely as with the glossy ones.</p>
+<p>Lastly, only two really fit under my desk, I can’t see anything when I go search for something, I bump into them with my chair all the time, and the other two are always in the way when I don’t need them, and too far when I do. So apart from fixing the first two problems I’ve also decided to put them one on top of the other both to save space and fix the light problem.</p>
+<p><a class="read-more" href="/2016/01/modifying-ikea-andy-drawers">Read More…</a></p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2016/01/modifying-ikea-andy-drawers#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/diy" label="diy"></category>
+    
+    
+    <updated>2016-01-21T00:00:00+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/color-swatches.jpg"/>
+        
+            <media:description type="html">&lt;p&gt;Color Swatches
+Brick wall &amp;amp; tree.&lt;/p&gt;</media:description>
+        
+    
+    <title>Color Swatches</title>
+    <link href="https://alansartlog.com/2016/01/color-swatches"/>
+    <id>https://alansartlog.com/2016/01/color-swatches</id>
+    
+    
+    
+        <content type="html"><![CDATA[<p>I’ve heard of artists keeping a notebook with just random color swatches as an exercise in observing color and I found that interesting. Also like I mentioned this is one of the things I most enjoy about painting, matching the colors. So I gave it a try.</p>
+<p>I used quality printer paper which is quite fine for pencil sketches but it doesn’t take paint well so I’ll probably be making a tiny watercolor notebook just for this in the future because I really enjoyed it.</p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2016/01/color-swatches#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/watercolors" label="watercolors"></category>
+    
+    
+    <updated>2016-01-19T00:32:49+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/two-landscapes.jpg"/>
+        
+            <media:description type="html">&lt;p&gt;Sketches of:
+&lt;a href=&#34;https://www.flickr.com/photos/davidstanleytravel/24422355826&#34;&gt;Lake Boukou at Ounianga Serir by David Stanley&lt;/a&gt;/ used under &lt;a href=&#34;https://creativecommons.org/licenses/by/2.0/&#34;&gt;CC-BY&lt;/a&gt;
+and
+&lt;a href=&#34;https://www.flickr.com/photos/flashcurd/23805691904&#34;&gt;DSC&lt;em&gt;0648&lt;/em&gt;20090402 by Dom Crossley&lt;/a&gt;&amp;nbsp;/ used under &lt;a href=&#34;https://creativecommons.org/licenses/by/2.0/&#34;&gt;CC-BY&lt;/a&gt;&lt;/p&gt;</media:description>
+        
+    
+    <title>Two Landscapes</title>
+    <link href="https://alansartlog.com/2016/01/two-landscapes"/>
+    <id>https://alansartlog.com/2016/01/two-landscapes</id>
+    
+    
+    
+        <content type="html"><![CDATA[<p>Okay, sketches from now on have accurate dates. Before I only used the month or the date I edited them. Still, I’ve changed the post date so that they don’t sink below the sketchdump.</p>
+<p>Anyways, as you can see I’ve made more notes. I’m trying to keep all my sketches clean and presentable like I talked about in my resolutions post.</p>
+<p>Now I struggled a bit with the dark shading in the tree sketch and I want to mention this because it just so happened I had started to read a <a href="https://openlibrary.org/works/OL4302170W/Course_in_pencil_sketching">Course in Pencil Sketching by Ernest Watson</a>, and it mentioned something interesting that I’d never considered and that is the surface on which you’re drawing and whether it’s hard/soft. I would usually draw on a hard surface because you can get more precise lines, but as the book explains this is a horrible surface for shading.</p>
+<p>So those blocks of shading at the bottom are me experimenting with different surfaces and pencil combinations. My favorite where the last two. I used a 4B (Lyra) pencil and did two passes over two surfaces (4 &amp; 2 paper towels thick). The order didn’t seem to matter. I’m not going to do that for all sketches, but it’s something to keep in mind for large areas of black like the grass. For general sketches I’ve moved over to drawing over a plastic folder filled with paper (where I keep my sketches).</p>
+<p>I still have to try those notes/to-do’s I left myself.</p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2016/01/two-landscapes#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/artwork" label="artwork"></category>
+    
+        <category term="https://alansartlog.com/tags/graphite" label="graphite"></category>
+    
+    
+    <updated>2016-01-17T22:32:49+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/push-stick-01.jpg"/>
+        
+    
+    <title>Better Table Saw Push Stick from Scrap Wood</title>
+    <link href="https://alansartlog.com/2016/01/better-table-saw-push-stick-from-scrap-wood"/>
+    <id>https://alansartlog.com/2016/01/better-table-saw-push-stick-from-scrap-wood</id>
+    
+    
+    
+        <content type="html"><![CDATA[<p>You can also find this post as an <a href="http://www.instructables.com/id/Better-Table-Saw-Push-Stick-From-Scrap-Wood/">instructable</a>.</p>
+<p>I’ve also submitted this instructable to the <a href="http://www.instructables.com/contest/leftovers/">Leftovers Challenge contest</a> over there, so please vote for it if you like it.</p>
+<p><a class="read-more" href="/2016/01/better-table-saw-push-stick-from-scrap-wood">Read More…</a></p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2016/01/better-table-saw-push-stick-from-scrap-wood#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/diy" label="diy"></category>
+    
+        <category term="https://alansartlog.com/tags/toolssoftware" label="tools/software"></category>
+    
+        <category term="https://alansartlog.com/tags/woodworking" label="woodworking"></category>
+    
+    
+    <updated>2016-01-07T00:00:00+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/full-size-ear-notes-2.jpg"/>
+        
+    
+    <title>Some Notes on Ears - Part 2</title>
+    <link href="https://alansartlog.com/2015/12/some-notes-on-ears-part-2"/>
+    <id>https://alansartlog.com/2015/12/some-notes-on-ears-part-2</id>
+    
+    
+    
+        <content type="html"><![CDATA[<p>You can also find this post as an <a href="http://www.instructables.com/id/How-to-Draw-Ears-Part-1-Structure/">Instructable</a>.</p>
+<p>I finally got around to complete Part 2 of the Ears video. I’m still having some recording issues. If you have any questions please comment. Feedback is appreciated. I worked on cutting down the time to 15 minutes this time. Currently working on trying to sound less monotone.</p>
+<p><a href="/2015/11/some-notes-on-ears">First Part: How to Draw Ears - Part 1 - Structure</a></p>
+<iframe src="https://www.youtube.com/embed/lhXwGYl1vIA?autoplay=1" frameborder="0" allowfullscreen></iframe>
+<p>The two ears used for reference in the video where:</p>
+<p>“<a href="https://www.flickr.com/photos/vimages/3001597218/">Mean me</a>” by <a href="https://www.flickr.com/photos/vimages/">Pierre Vignaue</a> used under a <a href="https://creativecommons.org/licenses/by/2.0/">CC-BY 2.0 License</a> / Cropped</p>
+<p>“<a href="https://www.flickr.com/photos/30832972@N02/8472064978/">Backlight 2</a>” by <a href="https://www.flickr.com/photos/30832972@N02/">Travis Pawlewski</a> used under a <a href="https://creativecommons.org/licenses/by/2.0/">CC-BY 2.0 License</a> / Cropped</p>
+<p><a class="read-more" href="/2015/12/some-notes-on-ears-part-2">Read More…</a></p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2015/12/some-notes-on-ears-part-2#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/anatomy" label="anatomy"></category>
+    
+        <category term="https://alansartlog.com/tags/artwork" label="artwork"></category>
+    
+        <category term="https://alansartlog.com/tags/digital" label="digital"></category>
+    
+        <category term="https://alansartlog.com/tags/videos" label="videos"></category>
+    
+    
+    <updated>2015-12-20T00:00:00+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/modified-can.jpg"/>
+        
+    
+    <title>Easily Pour Paint from Small Cans</title>
+    <link href="https://alansartlog.com/2015/12/easily-pour-paint-from-small-cans"/>
+    <id>https://alansartlog.com/2015/12/easily-pour-paint-from-small-cans</id>
+    
+    
+    
+        <content type="html"><![CDATA[<p>You can also find this post as an <a href="http://www.instructables.com/id/Easily-Pour-Paint-From-Small-Cans/">Instructable</a></p>
+<h1 id="smallupdate">Small Update</h1>
+<p>I’d hoped to have my drawers done by now but they’ve taken longer than planned even though I’ve been working an average of one hour a day for a month, which is incredibly productive given my state. The structure is finished but it’s the little details that are taking a long time. I don’t want to stop posting completely though so in the meantime I’ll be making a few posts about the things I did to make the project easier on myself. These will technically be posted in reverse order that I made them because I only have the prototypes now, I didn’t actually make the finished tools.</p>
+<p>Also since figuring out a method to get paid I’ve been working on creating a Patreon, and getting a YouTube channel set up and everything so I’ve been very busy. It’s not done yet, but if you want to support me check it out&nbsp;and/or share my posts.</p>
+<h1 id="paintcans">Paint Cans</h1>
+<p>We all know what a pain it is to pour paint out. I tried to google to see if there was some sort of life hack for this but found none so I made my own. I honestly don’t even know why we still use cans shaped like they are. I get not using plastic because the metal is probably easier to recycle and more resistant (plus it keeps out light), but surely they could add better lids. This isn’t so much a problem on big cans for me, so this solution doesn’t work for them. With bigger cans you usually need to use large amounts at once and you tend to use the can all at once (say to paint a room) so controlling the amount isn’t such a problem. But with small cans this works great and I’m sure you could modify this to something larger if you find a large enough bottle, or you could pour larger cans into smaller empty ones and reuse them if say you bought something in bulk but only use a small amount at a time.</p>
+<p><a class="read-more" href="/2015/12/easily-pour-paint-from-small-cans">Read More…</a></p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2015/12/easily-pour-paint-from-small-cans#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/diy" label="diy"></category>
+    
+        <category term="https://alansartlog.com/tags/lifehacks" label="lifehacks"></category>
+    
+        <category term="https://alansartlog.com/tags/toolssoftware" label="tools/software"></category>
+    
+    
+    <updated>2015-12-12T00:00:00+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/varnished-chest.jpg"/>
+        
+    
+    <title>Varnished Chest</title>
+    <link href="https://alansartlog.com/2015/11/varnished-chest"/>
+    <id>https://alansartlog.com/2015/11/varnished-chest</id>
+    
+    
+    
+        <content type="html"><![CDATA[<p>I’ve been busy with a big project so in the meantime, here’s the chest again. I finally varnished it with a polyurethane matt (or semi-gloss?) varnish. I thinned it down and gave it two coats. It came out really nice except for in a few places there was extra glue I hadn’t seen and wiped off so the varnish looks white there. You can’t really tell, but it’s something I’m keeping in mind for my next project and others that require a lot of glue.</p>
+<figure>
+
+<div class="lazy-wrapper"><img is_thumb="true" src="https://alansartlog.com/resources/uploads/varnished-chest-before-and-after-300x119.jpg"  width="300" height="119"  alt="Varnished%20Chest%20Before%20and%20After"/></div><figcaption><p>Before/After</p></figcaption></figure>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2015/11/varnished-chest#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/diy" label="diy"></category>
+    
+        <category term="https://alansartlog.com/tags/woodworking" label="woodworking"></category>
+    
+    
+    <updated>2015-11-18T00:00:00+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/full-size-some-notes-on-ears.jpg"/>
+        
+            <media:description type="html">&lt;ul&gt;
+&lt;li&gt;= Optional&lt;/li&gt;
+&lt;/ul&gt;</media:description>
+        
+    
+    <title>Some Notes on Ears</title>
+    <link href="https://alansartlog.com/2015/11/some-notes-on-ears"/>
+    <id>https://alansartlog.com/2015/11/some-notes-on-ears</id>
+    
+    
+    
+        <content type="html"><![CDATA[<iframe src="https://www.youtube.com/embed/EyBEEiOc2hI?autoplay=1" frameborder="0" allowfullscreen></iframe>
+<p>I was doing a very realistic portrait from scratch and I was having some trouble with the ear so I thought I’d do some ear studies and record it while I’m at it. The best way really to learn how to draw something is to draw it until you can draw it without reference. There’s no way around the hard boring work that studies can be. Looking at videos and posts will help guide you on what to observe and pay attention to, and mistakes to avoid, but nothing can replace practice.</p>
+<p>A great place to get reference images for studies is <a href="http://morguefile.com/">morgueFile</a>. You could also look around Flickr and such for CC licensed images but if you’ll be posting your work anywhere, those require crediting. morgueFile was made with artists in mind, as long as you modify the image you can do whatever you want with your work and that can be useful so you can just worry about doing your study and not whether you can share it later or you have to attach a giant list of credits.</p>
+<h1 id="updatenbsppart2isup201512somenotesonearspart2"><a href="/2015/12/some-notes-on-ears-part-2">Update:&nbsp;Part 2 is up!</a></h1>
+<p>I planned on talking about how to paint the ear and how it can be lit up from behind (subsurface scattering), but the video was too long already. I’ll do a second one and repost this post when I upload it. I’ve got some cool stuff ready for that video.</p>
+<p>I think, I hope. This video was kind of nightmare to make. My computer was throwing blue screens. Turns out the damn video cache was in the wrong place. Also my internet sucks and the files are huge. Just want to mention this because I discovered this cool site called <a href="https://clipchamp.com/">clipchamp</a> that compresses your videos extremely well. I mean, it’s kind of astonishing. Even set on high quality it shrunk a 380MB file to 60MB! (ignore the estimate they give it’s way off). And you can queue the YouTube upload, so you can leave it to do the whole process overnight. I’m sure Premiere can probably compress as well, but I’m not very familiar with all the export settings and this is super easy.</p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2015/11/some-notes-on-ears#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/anatomy" label="anatomy"></category>
+    
+        <category term="https://alansartlog.com/tags/artwork" label="artwork"></category>
+    
+        <category term="https://alansartlog.com/tags/digital" label="digital"></category>
+    
+        <category term="https://alansartlog.com/tags/toolssoftware" label="tools/software"></category>
+    
+    
+    <updated>2015-11-04T00:00:00+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/bottle-cap-palette-1.jpg"/>
+        
+    
+    <title>Bottle Cap Palette</title>
+    <link href="https://alansartlog.com/2015/10/bottle-cap-palette"/>
+    <id>https://alansartlog.com/2015/10/bottle-cap-palette</id>
+    
+    
+    
+        <content type="html"><![CDATA[<p>This post is also available as an <a href="http://www.instructables.com/id/Bottle-Cap-Palette-Save-Keep-Paints-Wet/">instructble</a>.</p>
+<p><div class="lazy-wrapper"><img src="https://alansartlog.com/resources/uploads/bottle-cap-palette-1.jpg"  width="1000" height="667"  alt="Bottle Cap Palette 1" /></div></p>
+<p>I added a piece of paper so you can see the glass better.&nbsp;I plan on adding contact paper and painting the back gray.</p>
+<p><a class="read-more" href="/2015/10/bottle-cap-palette">Read More…</a></p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2015/10/bottle-cap-palette#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/acrylics" label="acrylics"></category>
+    
+        <category term="https://alansartlog.com/tags/art-supplies" label="art supplies"></category>
+    
+        <category term="https://alansartlog.com/tags/diy" label="diy"></category>
+    
+        <category term="https://alansartlog.com/tags/toolssoftware" label="tools/software"></category>
+    
+    
+    <updated>2015-10-21T00:00:00+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/finished-closed.jpg"/>
+        
+    
+    <title>Wooden Chest</title>
+    <link href="https://alansartlog.com/2015/09/wooden-chest"/>
+    <id>https://alansartlog.com/2015/09/wooden-chest</id>
+    
+    
+    
+        <content type="html"><![CDATA[<p>In this post I'll be showing you how I made the wooden chest.</p>
+<p><a class="read-more" href="/2015/09/wooden-chest">Read More…</a></p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2015/09/wooden-chest#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/3d" label="3d"></category>
+    
+        <category term="https://alansartlog.com/tags/3d-model" label="3d model"></category>
+    
+        <category term="https://alansartlog.com/tags/diy" label="diy"></category>
+    
+        <category term="https://alansartlog.com/tags/woodworking" label="woodworking"></category>
+    
+    
+    <updated>2015-09-11T00:00:00+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/tripod-easel.jpg"/>
+        
+            <media:description type="html">&lt;p&gt;Tripod Easel&lt;/p&gt;</media:description>
+        
+    
+    <title>Converting a Camera Tripod into an Easel</title>
+    <link href="https://alansartlog.com/2015/09/converting-a-camera-tripod-into-an-easel"/>
+    <id>https://alansartlog.com/2015/09/converting-a-camera-tripod-into-an-easel</id>
+    
+    
+    
+        <content type="html"><![CDATA[<p>I’m poor and cheap so there's no way I would ever spend money on an art easel. I might make one someday, but I’ve never actually worked on one. I was just curious as to the experience, so yet another reason to not spend a bunch of money on something I might never use again.</p>
+<p>Plus I have an easel looking thing, what other reason do I need to mess with my tripod?</p>
+<p>Perhaps I shouldn’t say that. No tripods were harmed in this process.</p>
+<p><a class="read-more" href="/2015/09/converting-a-camera-tripod-into-an-easel">Read More…</a></p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2015/09/converting-a-camera-tripod-into-an-easel#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/diy" label="diy"></category>
+    
+        <category term="https://alansartlog.com/tags/toolssoftware" label="tools/software"></category>
+    
+        <category term="https://alansartlog.com/tags/woodworking" label="woodworking"></category>
+    
+    
+    <updated>2015-09-04T00:00:00+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+    <title>How to Export Kindle Highlights (Personal Documents Included)</title>
+    <link href="https://alansartlog.com/2015/08/how-to-export-kindle-highlights-personal-documents-included"/>
+    <id>https://alansartlog.com/2015/08/how-to-export-kindle-highlights-personal-documents-included</id>
+    
+    
+    
+        <content type="html"><![CDATA[<h4 id="editamazonhasfinallyaddedtheabilitytoexportnotesandhighlightsbyemailthispostisoutdated">EDIT: Amazon has finally added the ability to export notes and highlights by email. This post is outdated.</h4>
+<p><a class="read-more" href="/2015/08/how-to-export-kindle-highlights-personal-documents-included">Read More…</a></p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2015/08/how-to-export-kindle-highlights-personal-documents-included#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/outdated" label="outdated"></category>
+    
+        <category term="https://alansartlog.com/tags/random" label="random"></category>
+    
+        <category term="https://alansartlog.com/tags/toolssoftware" label="tools/software"></category>
+    
+    
+    <updated>2015-08-19T00:00:00+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+    <title>Magic Lantern on My Canon Rebel T3/1100D</title>
+    <link href="https://alansartlog.com/2015/08/magic-lantern-on-my-canon-rebel-t31100d"/>
+    <id>https://alansartlog.com/2015/08/magic-lantern-on-my-canon-rebel-t31100d</id>
+    
+    
+    
+        <content type="html"><![CDATA[<h1 id="magiclantern">Magic Lantern</h1>
+<p>When I first got my camera I knew next to zero about photography. I had heard about magic lantern but I was too afraid to break something so I never got it and eventually forgot about it. Lately though I’ve been wanting to push the limits on my camera It’s been broken in, I know more about photography, and I’ve finally gotten some vital accessories like a tripod and a remote control.</p>
+<p>I really like macro photography and I’m also interested in doing small stop motion animations with the ship models I plan to build so I was looking up ways to increase the depth of field (increasing the depth of field is what makes them not look like miniatures). I’d come up with the idea of taking several pictures at different focuses (focus stacking, though I didn’t know this was an actual thing that had a name) but that hadn’t worked well without a tripod. Now that I had a tripod I thought I’d test it again. It worked better, but there was no way to adjust it the same every single time the way I needed.</p>
+<p>My mind was already working away in the background suggesting all kinds of complex jigs, when I finally thought I should probably do a Google search to see if this is possible with the Canon software that lets you control the camera from your computer. It’s not, but apparently there were other programs that could do this very thing. Well I searched around some more because I was also interested in finding if there was some way to improve the video (there isn’t, or at least it’s not noticeable), and magic lantern came up. Turns out it had a focus stacking feature. It was also much easier to install than I anticipated.</p>
+<p><a class="read-more" href="/2015/08/magic-lantern-on-my-canon-rebel-t31100d">Read More…</a></p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2015/08/magic-lantern-on-my-canon-rebel-t31100d#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/photography" label="photography"></category>
+    
+        <category term="https://alansartlog.com/tags/recordingediting-tools" label="recording/editing tools"></category>
+    
+        <category term="https://alansartlog.com/tags/toolssoftware" label="tools/software"></category>
+    
+    
+    <updated>2015-08-06T00:00:00+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/lower-kananaskis-lake.jpg"/>
+        
+            <media:description type="html">&lt;p&gt;Reference: &lt;a href=&#34;https://www.flickr.com/photos/davebloggs007/15223201038/in/photostream/&#34;&gt;Lower Kananaskis Lake by davebloggs007&lt;/a&gt;/ used under &lt;a href=&#34;https://creativecommons.org/licenses/by/2.0/&#34;&gt;CC-BY&lt;/a&gt;&lt;/p&gt;</media:description>
+        
+    
+    <title>Lower Kananaskis Lake</title>
+    <link href="https://alansartlog.com/2015/08/lower-kananaskis-lake"/>
+    <id>https://alansartlog.com/2015/08/lower-kananaskis-lake</id>
+    
+    
+    
+        <content type="html"><![CDATA[<p>Messing around with thick strokes. Keep in mind this is a very small painting (~5x10cm).</p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2015/08/lower-kananaskis-lake#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/acrylics" label="acrylics"></category>
+    
+        <category term="https://alansartlog.com/tags/artwork" label="artwork"></category>
+    
+    
+    <updated>2015-08-01T00:00:00+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/cornish-habour.jpg"/>
+        
+            <media:description type="html">&lt;p&gt;Cornish Harbour
+Following this tutorial: &lt;a href=&#34;http://willkempartschool.com/how-to-paint-a-cornish-harbour-in-acrylics-video-tutorial/&#34;&gt;How to Paint a Cornish Harbour in Acrlics by Will Kemp&lt;/a&gt;&lt;/p&gt;</media:description>
+        
+    
+    <title>Cornish Harbour</title>
+    <link href="https://alansartlog.com/2015/07/cornish-harbour"/>
+    <id>https://alansartlog.com/2015/07/cornish-harbour</id>
+    
+    
+    
+        <content type="html"><![CDATA[<p>I really like watching Will Kemp’s tutorials and thought I’d try a recent one he did because the colors and style really appealed to me. I ended up not to happy with the above at first. I lean towards realism so it’s hard for me to be loose with details. Also my canvas was smaller than it should have been looking back now.</p>
+<p>I was going to give it another try and got halfway through:</p>
+<figure>
+
+<div class="lazy-wrapper"><img src="https://alansartlog.com/resources/uploads/cornish-harbour-2.jpg"  width="1000" height="746"  alt="Cornish%20Harbour%202"/></div><figcaption><p>Cornish Harbour - Second Abandoned Try</p></figcaption></figure>
+<p>But then I left the paintings sitting for a bit and I ended up liking the first more so I left the second alone. I’m posting it because it’s interesting seeing that in-between step.</p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2015/07/cornish-harbour#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/acrylics" label="acrylics"></category>
+    
+        <category term="https://alansartlog.com/tags/artwork" label="artwork"></category>
+    
+        <category term="https://alansartlog.com/tags/portfolio" label="portfolio"></category>
+    
+    
+    <updated>2015-07-31T04:00:00+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+    <title>My Ideas for the Blog and Current Projects</title>
+    <link href="https://alansartlog.com/2015/07/my-ideas-for-the-blog-and-current-projects"/>
+    <id>https://alansartlog.com/2015/07/my-ideas-for-the-blog-and-current-projects</id>
+    
+    
+    
+        <content type="html"><![CDATA[<p>I’ve moved rooms which means I’ll be organizing and redoing furniture, etc, and I thought it was the perfect way to start the blog. I’ve tried several times, unsuccessfully, to keep some sort of blog or social media account, but I never quite got the hang of it. I also didn’t have enough energy at the time to keep up with one because of some medical issues, but lately I’ve improved and wanted to start up again.</p>
+<p>I also started keeping a sort of log notebook. Keeping a journal never did it for me, but sometimes it’s hard to do something just because (e.g. sketches just for practice that will never be seen) and then have nothing to show for it. It created the strange illusion that even though I was feeling better, I hadn’t gotten anything done, when in fact I just went through a series of “invisible” (e.g. learning how to program, etc.) and/or failed projects. So I dug out this old Moleskine I’d never truly found a use. For years I couldn’t get myself to use it. I finally decided to hell with it and started using it almost a year ago to record ideas when I went out, but it’s sat mostly unfilled. But anyways I took it and just started to write down everything I did each day. It’s been two months, which is dozens of times longer than I’ve managed to stay with any other sort of journal like thing, and it’s evolved quite nicely. I’ve added a small to-do list in the back and there’s a series of symbols so I can also write down notes, ideas, and supply places/prices. The last one might sound kind of strange, but it serves two purposes. First, where I live there’s super high inflation and it’s very hard to find art related supplies. Just in the time I’ve started using the thing for notes which is less than a year, there’s evidence in there of colored pencil prices doubling. Second, some of the names for materials/tools are very different, they might go by the technical name, by a brand specific to my country, or the translation might just seem illogical to me, and in a lot of places, everything is behind the counter, something which I wasn’t used to, so you have to know what to ask for.</p>
+<p><a class="read-more" href="/2015/07/my-ideas-for-the-blog-and-current-projects">Read More…</a></p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2015/07/my-ideas-for-the-blog-and-current-projects#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/3d" label="3d"></category>
+    
+        <category term="https://alansartlog.com/tags/3d-model" label="3d model"></category>
+    
+        <category term="https://alansartlog.com/tags/diy" label="diy"></category>
+    
+        <category term="https://alansartlog.com/tags/fanart" label="fanart"></category>
+    
+        <category term="https://alansartlog.com/tags/woodworking" label="woodworking"></category>
+    
+    
+    <updated>2015-07-26T00:00:00+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/random-building.jpg"/>
+        
+            <media:description type="html">&lt;p&gt;Random Building&lt;/p&gt;</media:description>
+        
+    
+    <title>Random Building</title>
+    <link href="https://alansartlog.com/2015/07/random-building"/>
+    <id>https://alansartlog.com/2015/07/random-building</id>
+    
+    
+    
+        <content type="html"><![CDATA[<p>I take my notebook everywhere, mostly for writing, but occasionally there will a nice view from wherever I’m waiting.</p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2015/07/random-building#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/artwork" label="artwork"></category>
+    
+        <category term="https://alansartlog.com/tags/inkmarker" label="ink/marker"></category>
+    
+    
+    <updated>2015-07-08T00:00:00+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/random-head.jpg"/>
+        
+    
+    <title>Random Head</title>
+    <link href="https://alansartlog.com/2015/07/random-head"/>
+    <id>https://alansartlog.com/2015/07/random-head</id>
+    
+    
+    
+        <content type="html"><![CDATA[<p>I was fooling around with MyPaint and this just sort of happened. It might look pretty rough because I drew it very small. It’s more the size you see in the sketchbook thumb. The infinite canvas in MyPaint is really cool, but it also makes it hard to judge at what resolution you’re sketching so when you export drawings they might be bigger at 72-300 ppi than you were expecting.</p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2015/07/random-head#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/artwork" label="artwork"></category>
+    
+        <category term="https://alansartlog.com/tags/digital" label="digital"></category>
+    
+    
+    <updated>2015-07-08T00:00:00+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/random-floating-bus.jpg"/>
+        
+    
+    <title>Random Floating Bus Concept</title>
+    <link href="https://alansartlog.com/2015/07/random-bus-concept"/>
+    <id>https://alansartlog.com/2015/07/random-bus-concept</id>
+    
+    
+    
+        <content type="html"><![CDATA[]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2015/07/random-bus-concept#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/artwork" label="artwork"></category>
+    
+        <category term="https://alansartlog.com/tags/graphite" label="graphite"></category>
+    
+    
+    <updated>2015-07-07T04:00:00+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/figure-drawing-practice.jpg"/>
+        
+            <media:description type="html">&lt;p&gt;Figure Drawing Practice - Reference: &lt;a href=&#34;https://www.youtube.com/user/onairvideo&#34;&gt;Croquis Cafe&lt;/a&gt;&lt;/p&gt;</media:description>
+        
+    
+    <title>Figure Drawing Practice</title>
+    <link href="https://alansartlog.com/2015/06/figure-drawing"/>
+    <id>https://alansartlog.com/2015/06/figure-drawing</id>
+    
+    
+    
+        <content type="html"><![CDATA[<p>I don’t remember which Croquis Cafe number it was, sorry. If you’ve never heard of Croquis Cafe it’s a <a href="https://www.youtube.com/user/onairvideo">youtube channel</a> that films live models so people at home can practice “live” figure drawing.</p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2015/06/figure-drawing#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/anatomy" label="anatomy"></category>
+    
+        <category term="https://alansartlog.com/tags/artwork" label="artwork"></category>
+    
+        <category term="https://alansartlog.com/tags/digital" label="digital"></category>
+    
+    
+    <updated>2015-06-13T00:00:00+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/random-head-angles-practice.jpg"/>
+        
+            <media:description type="html">&lt;p&gt;Random Head Angles Practice&lt;/p&gt;</media:description>
+        
+    
+    <title>Random Head Angles Practice</title>
+    <link href="https://alansartlog.com/2015/05/random-head-angles-practice"/>
+    <id>https://alansartlog.com/2015/05/random-head-angles-practice</id>
+    
+    
+    
+        <content type="html"><![CDATA[<p>I wasn’t using any reference so some might look odd. I was just practicing drawing them from memory. …and then got a bit carried away and started painting one.</p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2015/05/random-head-angles-practice#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/artwork" label="artwork"></category>
+    
+        <category term="https://alansartlog.com/tags/digital" label="digital"></category>
+    
+    
+    <updated>2015-05-13T00:00:00+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/random-robot-sketches.jpg"/>
+        
+            <media:description type="html">&lt;p&gt;Random Robot Sketches&lt;/p&gt;</media:description>
+        
+    
+    <title>Random Robots</title>
+    <link href="https://alansartlog.com/2015/05/random-robots"/>
+    <id>https://alansartlog.com/2015/05/random-robots</id>
+    
+    
+    
+        <content type="html"><![CDATA[<p>Fooling around in&nbsp;Photoshop.</p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2015/05/random-robots#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/artwork" label="artwork"></category>
+    
+        <category term="https://alansartlog.com/tags/digital" label="digital"></category>
+    
+    
+    <updated>2015-05-12T00:00:00+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/fruit-practice.jpg"/>
+        
+            <media:description type="html">&lt;p&gt;Fruit Painting Exercise - Reference: &lt;a href=&#34;https://cgcookie.com/exercise/exercise-39-sliced-fruit/&#34;&gt;CG Cookie Exercise 39&lt;/a&gt;&lt;/p&gt;</media:description>
+        
+    
+    <title>Fruit Exercise</title>
+    <link href="https://alansartlog.com/2015/05/fruit-exercise"/>
+    <id>https://alansartlog.com/2015/05/fruit-exercise</id>
+    
+    
+    
+        <content type="html"><![CDATA[<p>I love doing exercises like this where it’s just about painting and getting the colors right (I did not use the included color picks) and I don’t really have to think about the drawing part. I find it very relaxing. You can download the file <a href="https://cgcookie.com/exercise/exercise-39-sliced-fruit/">here</a>&nbsp;if you want to try it yourself.</p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2015/05/fruit-exercise#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/artwork" label="artwork"></category>
+    
+        <category term="https://alansartlog.com/tags/digital" label="digital"></category>
+    
+    
+    <updated>2015-05-11T04:00:00+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/local-coffee-shop.jpg"/>
+        
+            <media:description type="html">&lt;p&gt;Ink Sketch of the Interior of a Local Coffee Shop&lt;/p&gt;</media:description>
+        
+    
+    <title>Local Coffee Shop</title>
+    <link href="https://alansartlog.com/2015/05/local-coffee-shop"/>
+    <id>https://alansartlog.com/2015/05/local-coffee-shop</id>
+    
+    
+    
+        <content type="html"><![CDATA[<p>I did a quick pencil sketch first, then experimented with a water soluble watercolor crayon and a waterbrush. Wish I'd had a bit more time to add in more of the background.</p>
+<p>~2015-05 Exact date unknown.</p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2015/05/local-coffee-shop#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/artwork" label="artwork"></category>
+    
+        <category term="https://alansartlog.com/tags/inkmarker" label="ink/marker"></category>
+    
+    
+    <updated>2015-05-01T05:00:00+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/random-sketches-mostly-boats.jpg"/>
+        
+            <media:description type="html">&lt;p&gt;Random Sketches (Mostly Boats) - Reference Images from Morguefile&lt;/p&gt;</media:description>
+        
+    
+    <title>Random Sketches (Mostly Boats)</title>
+    <link href="https://alansartlog.com/2015/05/random-sketches-mostly-boats"/>
+    <id>https://alansartlog.com/2015/05/random-sketches-mostly-boats</id>
+    
+    
+    
+        <content type="html"><![CDATA[<p>Sketches where done with ink, then colored in with water-soluble colored pencils and smoothed/disslolved with a waterbrush.</p>
+<p>~2015-05 Exact date unknown.</p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2015/05/random-sketches-mostly-boats#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/artwork" label="artwork"></category>
+    
+        <category term="https://alansartlog.com/tags/inkmarker" label="ink/marker"></category>
+    
+        <category term="https://alansartlog.com/tags/watercolors" label="watercolors"></category>
+    
+    
+    <updated>2015-05-01T04:00:00+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/practice-sketches-of-loomis-skulls.jpg"/>
+        
+            <media:description type="html">&lt;p&gt;Practice Sketches of Loomis Skulls&lt;/p&gt;</media:description>
+        
+    
+    <title>Loomis Head Practice</title>
+    <link href="https://alansartlog.com/2015/01/loomis-head-practice"/>
+    <id>https://alansartlog.com/2015/01/loomis-head-practice</id>
+    
+    
+    
+        <content type="html"><![CDATA[<p>~2015 Exact date unknown.</p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2015/01/loomis-head-practice#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/artwork" label="artwork"></category>
+    
+        <category term="https://alansartlog.com/tags/graphite" label="graphite"></category>
+    
+    
+    <updated>2015-01-01T04:00:00+00:00</updated>
+</entry>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/barn-in-the-snow.jpg"/>
+        
+            <media:description type="html">&lt;p&gt;&lt;a href=&#34;https://www.flickr.com/photos/davebloggs007/8583642518&#34;&gt;Old Barn by davebloggs007&lt;/a&gt;&lt;/p&gt;</media:description>
+        
+    
+    <title>Barn in the Snow</title>
+    <link href="https://alansartlog.com/2015/01/barn-in-the-snow"/>
+    <id>https://alansartlog.com/2015/01/barn-in-the-snow</id>
+    
+    
+    
+        <content type="html"><![CDATA[<p>~2015 Exact date unknown.</p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2015/01/barn-in-the-snow#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/artwork" label="artwork"></category>
+    
+        <category term="https://alansartlog.com/tags/portfolio" label="portfolio"></category>
+    
+        <category term="https://alansartlog.com/tags/watercolors" label="watercolors"></category>
+    
+    
+    <updated>2015-01-01T00:00:00+00:00</updated>
+</entry>
+
+    
+</feed>

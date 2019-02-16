@@ -1,0 +1,2924 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+
+    
+<url>
+    <loc>https://alansartlog.com/2018/11/so...-youtube-enabled-unskippable-ads-without-asking-me</loc>
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2018/11/how-to-scan-objects-into-3d-models-ii-settings-and-setup-comparisons</loc>
+
+    
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/7pGJ8rWiecw/default.jpg</video:thumbnail_loc>
+            <video:title>How to Scan Objects into 3D Models II - Settings and Setup Comparisons</video:title>
+            <video:description><![CDATA[In this followup video, I go in depth into Regard 3Ds settings and different lighting/surface setups with visual comparisons to show you how you can get the cleanest scan possible. + FREE Test Images (Several Sets!) PS: It's not really necessary to have seen previous one.  LINKS The Blog Post (which I will keep updated): https://alansartlog.com/2018/11/how-to-scan-objects-into-3d-models-ii-settings-and-setup-comparisons FREE Photogrammetry Images / Test Sets https://github.com/AlansCodeLog/photogrammetry-test-sets Regard3d + Tutorial/Documentation: http://www.regard3d.org/ BES - http://mion.faireal.net/BES/ For the point cloud comparisons I used a free program called CloudCompare. CloudCompare: https://www.danielgm.net/cc/ - - - Website/Sketchbook: http://alansartlog.com/ Patreon: https://www.patreon.com/alansartlog Instagram:  https://www.instagram.com/alansartlog/ Twitter: https://twitter.com/alansartlog Facebook: https://www.facebook.com/alansartlog Instructables: http://www.instructables.com/member/alansartlog/ TABLE OF CONTENTS 0:00 Intro 0:56 Questions 2:06 Picture Sets 2:42 First Object Scanned (Skull Sculpt) 3:59 Second Object Scanned (Plastic Dice) 4:16 Scan Settings (Steps) 4:22 Compute Matches 6:06 Triangulation 7:55 Densification 8:29 Densification - MVE 10:43 Densification - CMVS/PMVS 11:46 Densification - CMVS/PMVS - Level and Cell Size 12:12 Densification - CMVS/PMVS - Threshold 12:53 Densification - CMVS/PMVS - Min. Image Number 13:20 Densification - CMVS/PMVS - wsize 13:43 Densification - CMVS/PMVS - Visibility 14:22 Surface Reconstruction - Intro 15:37 Surface Reconstruction - Textures - Outlier Remover 16:32 Surface Reconstruction - Textures - Other Options 17:35 Surface Reconstruction - Poisson - Depth 18:13 Surface Reconstruction - Poisson - Depth and Samples per Node 19:03 Surface Reconstruction - Poisson - Trim Threshold 20:33 Surface Reconstruction - Poisson - Point Weight 21:29 Surface Reconstruction - Floating Scale 21:50 Surface Reconstruction - Floating S...]]></video:description>
+            <video:player_loc allow_embed="yes">https://www.youtube.com/watch?v=7pGJ8rWiecw</video:player_loc>
+            <video:publication_date>2018-11-08T17:03:17.000Z</video:publication_date>
+            
+                <video:tag>3d</video:tag>
+            
+                <video:tag>3d scanner</video:tag>
+            
+                <video:tag>3d scanning</video:tag>
+            
+                <video:tag>archeology</video:tag>
+            
+                <video:tag>art</video:tag>
+            
+                <video:tag>best settings</video:tag>
+            
+                <video:tag>clean scan</video:tag>
+            
+                <video:tag>cmvs</video:tag>
+            
+                <video:tag>cmvs/pmvs</video:tag>
+            
+                <video:tag>comparison</video:tag>
+            
+                <video:tag>densification</video:tag>
+            
+                <video:tag>free</video:tag>
+            
+                <video:tag>how to</video:tag>
+            
+                <video:tag>mve</video:tag>
+            
+                <video:tag>narrated</video:tag>
+            
+                <video:tag>open source</video:tag>
+            
+                <video:tag>photogrammetry</video:tag>
+            
+                <video:tag>photogrammetry software</video:tag>
+            
+                <video:tag>photogrammetry tutorial</video:tag>
+            
+                <video:tag>pmvs</video:tag>
+            
+                <video:tag>point clouds</video:tag>
+            
+                <video:tag>programs</video:tag>
+            
+                <video:tag>regard 3d photogrammetry</video:tag>
+            
+                <video:tag>regard3d</video:tag>
+            
+                <video:tag>scan</video:tag>
+            
+                <video:tag>scanning</video:tag>
+            
+                <video:tag>sculpt</video:tag>
+            
+                <video:tag>sculpting</video:tag>
+            
+                <video:tag>sculpture</video:tag>
+            
+                <video:tag>settings</video:tag>
+            
+                <video:tag>sfm</video:tag>
+            
+                <video:tag>step by step</video:tag>
+            
+                <video:tag>structure from motion</video:tag>
+            
+                <video:tag>triangulation</video:tag>
+            
+                <video:tag>tutorial</video:tag>
+            
+                <video:tag>tutorials</video:tag>
+            
+                <video:tag>visual guide</video:tag>
+            
+                <video:tag>visualsfm</video:tag>
+            
+                <video:tag>3d scan</video:tag>
+            
+                <video:tag>regard 3d</video:tag>
+            
+                <video:tag>photo to 3d model</video:tag>
+            
+            
+                <video:category>Art</video:category>
+            
+        </video:video>
+		
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2018/01/how-to-remote-debug-blender-with-vs-code</loc>
+
+    
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/UVDf2VSmRvk/default.jpg</video:thumbnail_loc>
+            <video:title>How to Remote Debug Blender with VS Code</video:title>
+            <video:description><![CDATA[In this video I'll show you how to setup everything so you can remote debug Blender from VS Code to make it easier to develop and debug addons and the source code by adding breakpoints and stepping through your code. UPDATE: ptvsd no longer needs to be 3.0.0 in newer VS Code versions! so you can just pip install ptvsd LINKS Python: https://www.python.org/ Blender Debugger for VS Code Addon + Documentation: https://github.com/alanscodelog/blender-debugger-for-vscode Website: http://alansartlog.com/category Patreon: https://www.patreon.com/alansartlog Instagram:  https://www.instagram.com/alansartlog/ Twitter: https://twitter.com/alansartlog Facebook: https://www.facebook.com/alansartlog Instructables: http://www.instructables.com/member/alansartlog/ -~-~~-~~~-~~-~- Checkout my Latest Video: "How to Scan Objects into 3D Models II - Settings and Setup Comparisons"  https://www.youtube.com/watch?v=7pGJ8rWiecw -~-~~-~~~-~~-~-]]></video:description>
+            <video:player_loc allow_embed="yes">https://www.youtube.com/watch?v=UVDf2VSmRvk</video:player_loc>
+            <video:publication_date>2018-01-23T19:18:27.000Z</video:publication_date>
+            
+                <video:tag>tutorial</video:tag>
+            
+                <video:tag>how to</video:tag>
+            
+                <video:tag>remote debugger</video:tag>
+            
+                <video:tag>remote debugging</video:tag>
+            
+                <video:tag>debug</video:tag>
+            
+                <video:tag>debugging</video:tag>
+            
+                <video:tag>breakpoint</video:tag>
+            
+                <video:tag>blender</video:tag>
+            
+                <video:tag>3d</video:tag>
+            
+                <video:tag>blender tutorial</video:tag>
+            
+                <video:tag>visual studio code</video:tag>
+            
+                <video:tag>code</video:tag>
+            
+                <video:tag>python</video:tag>
+            
+                <video:tag>vs code</video:tag>
+            
+                <video:tag>blender3d</video:tag>
+            
+                <video:tag>blender 3d</video:tag>
+            
+                <video:tag>b3d</video:tag>
+            
+                <video:tag>blender addon</video:tag>
+            
+                <video:tag>blenders addons</video:tag>
+            
+                <video:tag>plugins</video:tag>
+            
+                <video:tag>extensions</video:tag>
+            
+                <video:tag>ptvsd</video:tag>
+            
+                <video:tag>setup</video:tag>
+            
+                <video:tag>installation</video:tag>
+            
+                <video:tag>install</video:tag>
+            
+                <video:tag>pip</video:tag>
+            
+                <video:tag>server</video:tag>
+            
+                <video:tag>remote debugger visual studio</video:tag>
+            
+            
+        </video:video>
+		
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2017/11/sculpting-and-painting-a-skull</loc>
+
+    
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/Gwoz0pMSmjo/default.jpg</video:thumbnail_loc>
+            <video:title>Sculpting and Painting a Skull</video:title>
+            <video:description><![CDATA[I talk about the new sculpt I made for a new video testing the limits of 3d scanning (it has holes, it's glossy, it doesn't have much texture in some areas, etc) and also, as I talked about in the previous video, to help cement the information I learned from the sketching studies. - - - Website/Sketchbook: http://alansartlog.com/category/artwork/ Patreon: https://www.patreon.com/alansartlog Instagram:  https://www.instagram.com/alansartlog/ Twitter: https://twitter.com/alansartlog Facebook: https://www.facebook.com/alansartlog -~-~~-~~~-~~-~- Checkout my Latest Video: "How to Scan Objects into 3D Models II - Settings and Setup Comparisons"  https://www.youtube.com/watch?v=7pGJ8rWiecw -~-~~-~~~-~~-~-]]></video:description>
+            <video:player_loc allow_embed="yes">https://www.youtube.com/watch?v=Gwoz0pMSmjo</video:player_loc>
+            <video:publication_date>2017-11-13T21:27:54.000Z</video:publication_date>
+            
+                <video:tag>art</video:tag>
+            
+                <video:tag>how to</video:tag>
+            
+                <video:tag>narrated</video:tag>
+            
+                <video:tag>tutorial</video:tag>
+            
+                <video:tag>tutorials</video:tag>
+            
+                <video:tag>painting</video:tag>
+            
+                <video:tag>sketches</video:tag>
+            
+                <video:tag>traditional art</video:tag>
+            
+                <video:tag>timelapse</video:tag>
+            
+                <video:tag>paint</video:tag>
+            
+                <video:tag>sculpt</video:tag>
+            
+                <video:tag>sculpting</video:tag>
+            
+                <video:tag>sculptor</video:tag>
+            
+                <video:tag>art studies</video:tag>
+            
+                <video:tag>studies</video:tag>
+            
+                <video:tag>skull</video:tag>
+            
+                <video:tag>sculpey</video:tag>
+            
+                <video:tag>clay types</video:tag>
+            
+                <video:tag>clay</video:tag>
+            
+                <video:tag>base</video:tag>
+            
+                <video:tag>cold porcelain</video:tag>
+            
+                <video:tag>cheap</video:tag>
+            
+                <video:tag>anatomy</video:tag>
+            
+                <video:tag>skeleton</video:tag>
+            
+                <video:tag>practice</video:tag>
+            
+            
+                <video:category>Art</video:category>
+            
+        </video:video>
+		
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2017/11/skull-studies</loc>
+
+    
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/U8ap2fyUcfs/default.jpg</video:thumbnail_loc>
+            <video:title>Skull Studies - Learning Structure</video:title>
+            <video:description><![CDATA[I go over a bunch of skull studies I did in preparation for a skull sculpt (video and scan coming soon). - - - You can get the skull sketcher app I mentioned here: http://anatomy360.info/skull-sketcher-v2/ Website/Sketchbook: http://alansartlog.com/category/artwork/ Patreon: https://www.patreon.com/alansartlog Instagram:  https://www.instagram.com/alansartlog/ Twitter: https://twitter.com/alansartlog Facebook: https://www.facebook.com/alansartlog -~-~~-~~~-~~-~- Checkout my Latest Video: "How to Scan Objects into 3D Models II - Settings and Setup Comparisons"  https://www.youtube.com/watch?v=7pGJ8rWiecw -~-~~-~~~-~~-~-]]></video:description>
+            <video:player_loc allow_embed="yes">https://www.youtube.com/watch?v=U8ap2fyUcfs</video:player_loc>
+            <video:publication_date>2017-11-04T20:12:00.000Z</video:publication_date>
+            
+                <video:tag>art</video:tag>
+            
+                <video:tag>drawing</video:tag>
+            
+                <video:tag>how to</video:tag>
+            
+                <video:tag>narrated</video:tag>
+            
+                <video:tag>tutorial</video:tag>
+            
+                <video:tag>tutorials</video:tag>
+            
+                <video:tag>painting</video:tag>
+            
+                <video:tag>sketch</video:tag>
+            
+                <video:tag>sketches</video:tag>
+            
+                <video:tag>sketchbook</video:tag>
+            
+                <video:tag>traditional art</video:tag>
+            
+                <video:tag>timelapse</video:tag>
+            
+                <video:tag>skull</video:tag>
+            
+                <video:tag>skulls</video:tag>
+            
+                <video:tag>skeleton</video:tag>
+            
+                <video:tag>anatomy</video:tag>
+            
+                <video:tag>draw</video:tag>
+            
+                <video:tag>drawings</video:tag>
+            
+                <video:tag>face</video:tag>
+            
+                <video:tag>facial</video:tag>
+            
+                <video:tag>head</video:tag>
+            
+                <video:tag>perspective</video:tag>
+            
+                <video:tag>learn</video:tag>
+            
+                <video:tag>learning</video:tag>
+            
+                <video:tag>study</video:tag>
+            
+                <video:tag>studies</video:tag>
+            
+                <video:tag>studying</video:tag>
+            
+                <video:tag>pencil</video:tag>
+            
+                <video:tag>charcoal</video:tag>
+            
+                <video:tag>carbon</video:tag>
+            
+                <video:tag>graphite</video:tag>
+            
+            
+                <video:category>Art</video:category>
+            
+        </video:video>
+		
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2017/10/first-computer-build</loc>
+
+    
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/tr7eYLNtlJY/default.jpg</video:thumbnail_loc>
+            <video:title>First Computer Build!</video:title>
+            <video:description><![CDATA[I talk about the parts for my new computer, along with a quick update, and some occasional tips. - - - You can find even more details about how and why I picked the components, overclocking the CPU, etc, in this blog post: https://alansartlog.com/2017/10/first-pc-build Patreon: https://www.patreon.com/alansartlog Instagram:  https://www.instagram.com/alansartlog/ Twitter: https://twitter.com/alansartlog Facebook: https://www.facebook.com/alansartlog -~-~~-~~~-~~-~- Checkout my Latest Video: "How to Scan Objects into 3D Models II - Settings and Setup Comparisons"  https://www.youtube.com/watch?v=7pGJ8rWiecw -~-~~-~~~-~~-~-]]></video:description>
+            <video:player_loc allow_embed="yes">https://www.youtube.com/watch?v=tr7eYLNtlJY</video:player_loc>
+            <video:publication_date>2017-10-22T19:24:24.000Z</video:publication_date>
+            
+                <video:tag>how to</video:tag>
+            
+                <video:tag>narrated</video:tag>
+            
+                <video:tag>tutorial</video:tag>
+            
+                <video:tag>tutorials</video:tag>
+            
+                <video:tag>timelapse</video:tag>
+            
+                <video:tag>computer</video:tag>
+            
+                <video:tag>build</video:tag>
+            
+                <video:tag>pc</video:tag>
+            
+                <video:tag>ryzen</video:tag>
+            
+                <video:tag>gigabyte</video:tag>
+            
+                <video:tag>gaming 3</video:tag>
+            
+                <video:tag>ab350m</video:tag>
+            
+                <video:tag>b350</video:tag>
+            
+                <video:tag>chipset</video:tag>
+            
+                <video:tag>ryzen master</video:tag>
+            
+                <video:tag>overclocking</video:tag>
+            
+                <video:tag>overclock</video:tag>
+            
+                <video:tag>case</video:tag>
+            
+                <video:tag>mod</video:tag>
+            
+                <video:tag>fix</video:tag>
+            
+                <video:tag>hdd bays</video:tag>
+            
+                <video:tag>2.5</video:tag>
+            
+                <video:tag>3.5</video:tag>
+            
+            
+        </video:video>
+		
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2017/07/how-to-export-models-from-regard3d-with-textures</loc>
+
+    
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/fsi9OTTa-Ng/default.jpg</video:thumbnail_loc>
+            <video:title>How to Export Models from Regard3D with Textures [OUTDATED]</video:title>
+            <video:description><![CDATA[UPDATE: There is a new version that supposedly fixed this problem (I have not had time to try it yet), but I'll leave this here just in case. This is sort follow up to this video on scanning objects into 3d models: https://www.youtube.com/watch?v=GaYfpGcXxmA You can find the corresponding blog post with more information about the differences between using colored vertices and image textures here: https://alansartlog.com/2017/07/how-to-export-models-from-regard3d-with-textures/ - - - Website: http://alansartlog.com/ Patreon: https://www.patreon.com/alansartlog Instagram:  https://www.instagram.com/alansartlog/ Twitter: https://twitter.com/alansartlog Facebook: https://www.facebook.com/alansartlog Instructables: http://www.instructables.com/member/alansartlog/ -~-~~-~~~-~~-~- Checkout my Latest Video: "How to Scan Objects into 3D Models II - Settings and Setup Comparisons"  https://www.youtube.com/watch?v=7pGJ8rWiecw -~-~~-~~~-~~-~-]]></video:description>
+            <video:player_loc allow_embed="yes">https://www.youtube.com/watch?v=fsi9OTTa-Ng</video:player_loc>
+            <video:publication_date>2017-07-14T22:39:57.000Z</video:publication_date>
+            
+                <video:tag>art</video:tag>
+            
+                <video:tag>how to</video:tag>
+            
+                <video:tag>narrated</video:tag>
+            
+                <video:tag>tutorial</video:tag>
+            
+                <video:tag>tutorials</video:tag>
+            
+                <video:tag>photogrammetry</video:tag>
+            
+                <video:tag>3d</video:tag>
+            
+                <video:tag>3d model</video:tag>
+            
+                <video:tag>3d modeling</video:tag>
+            
+                <video:tag>blender</video:tag>
+            
+                <video:tag>models</video:tag>
+            
+                <video:tag>scanning</video:tag>
+            
+                <video:tag>scan</video:tag>
+            
+                <video:tag>camera</video:tag>
+            
+                <video:tag>free</video:tag>
+            
+                <video:tag>commercial</video:tag>
+            
+                <video:tag>easy</video:tag>
+            
+                <video:tag>textures</video:tag>
+            
+                <video:tag>regard3d</video:tag>
+            
+                <video:tag>sculpt</video:tag>
+            
+                <video:tag>sculpture</video:tag>
+            
+                <video:tag>archeology</video:tag>
+            
+                <video:tag>programs</video:tag>
+            
+                <video:tag>structure from motion</video:tag>
+            
+                <video:tag>sfm</video:tag>
+            
+            
+                <video:category>Art</video:category>
+            
+        </video:video>
+		
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2017/03/teapot-quick-oil-study</loc>
+
+    
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/gPh4Ht9H-xA/default.jpg</video:thumbnail_loc>
+            <video:title>Teapot - Quick Oil Study</video:title>
+            <video:description><![CDATA[Music: Eidolon by Scott Buckley – www.scottbuckley.com.au (used under a CC-BY license http://creativecommons.org/licenses/by/4.0/) Reference: http://mrg.bz/9d7ea9 Website: http://alansartlog.com/ Patreon: https://www.patreon.com/alansartlog Instagram:  https://www.instagram.com/alansartlog/ Twitter: https://twitter.com/alansartlog Facebook: https://www.facebook.com/alansartlog Tumblr: http://alansartlog.tumblr.com -~-~~-~~~-~~-~- Checkout my Latest Video: "How to Scan Objects into 3D Models II - Settings and Setup Comparisons"  https://www.youtube.com/watch?v=7pGJ8rWiecw -~-~~-~~~-~~-~-]]></video:description>
+            <video:player_loc allow_embed="yes">https://www.youtube.com/watch?v=gPh4Ht9H-xA</video:player_loc>
+            <video:publication_date>2017-03-29T17:35:06.000Z</video:publication_date>
+            
+                <video:tag>art</video:tag>
+            
+                <video:tag>drawing</video:tag>
+            
+                <video:tag>how to</video:tag>
+            
+                <video:tag>tutorial</video:tag>
+            
+                <video:tag>tutorials</video:tag>
+            
+                <video:tag>painting</video:tag>
+            
+                <video:tag>sketch</video:tag>
+            
+                <video:tag>sketches</video:tag>
+            
+                <video:tag>sketchbook</video:tag>
+            
+                <video:tag>traditional art</video:tag>
+            
+                <video:tag>timelapse</video:tag>
+            
+                <video:tag>paint</video:tag>
+            
+                <video:tag>oil painting</video:tag>
+            
+                <video:tag>oil</video:tag>
+            
+                <video:tag>teapot</video:tag>
+            
+                <video:tag>tea</video:tag>
+            
+                <video:tag>pot</video:tag>
+            
+                <video:tag>still life</video:tag>
+            
+                <video:tag>still</video:tag>
+            
+                <video:tag>life</video:tag>
+            
+                <video:tag>still live</video:tag>
+            
+                <video:tag>art study</video:tag>
+            
+                <video:tag>study</video:tag>
+            
+                <video:tag>studies</video:tag>
+            
+                <video:tag>art studies</video:tag>
+            
+                <video:tag>black and white</video:tag>
+            
+                <video:tag>b&amp;w</video:tag>
+            
+                <video:tag>grayscale</video:tag>
+            
+                <video:tag>value</video:tag>
+            
+                <video:tag>values</video:tag>
+            
+            
+                <video:category>Art</video:category>
+            
+        </video:video>
+		
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2017/03/beach-quick-color-study</loc>
+
+    
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/Z91Vs1Ts6i8/default.jpg</video:thumbnail_loc>
+            <video:title>Quick Color Study Painting (Narrated)</video:title>
+            <video:description><![CDATA[Just a quick study + some updates.  - - - Reference (used under CC-BY license https://creativecommons.org/licenses/by/2.0/): Aquarelle marine 3 by E. D'Ascoli Photographies http://flickr.com/photo.gne?id=29867528681 Website/Sketchbook: http://alansartlog.com/category/artwork/ Patreon: https://www.patreon.com/alansartlog Instagram:  https://www.instagram.com/alansartlog/ Twitter: https://twitter.com/alansartlog Facebook: https://www.facebook.com/alansartlog -~-~~-~~~-~~-~- Checkout my Latest Video: "How to Scan Objects into 3D Models II - Settings and Setup Comparisons"  https://www.youtube.com/watch?v=7pGJ8rWiecw -~-~~-~~~-~~-~-]]></video:description>
+            <video:player_loc allow_embed="yes">https://www.youtube.com/watch?v=Z91Vs1Ts6i8</video:player_loc>
+            <video:publication_date>2017-03-20T22:02:36.000Z</video:publication_date>
+            
+                <video:tag>art</video:tag>
+            
+                <video:tag>drawing</video:tag>
+            
+                <video:tag>how to</video:tag>
+            
+                <video:tag>narrated</video:tag>
+            
+                <video:tag>tutorial</video:tag>
+            
+                <video:tag>tutorials</video:tag>
+            
+                <video:tag>painting</video:tag>
+            
+                <video:tag>paint</video:tag>
+            
+                <video:tag>sketch</video:tag>
+            
+                <video:tag>sketches</video:tag>
+            
+                <video:tag>paintings</video:tag>
+            
+                <video:tag>sketchbook</video:tag>
+            
+                <video:tag>traditional art</video:tag>
+            
+                <video:tag>timelapse</video:tag>
+            
+                <video:tag>acrylics</video:tag>
+            
+                <video:tag>acrylic</video:tag>
+            
+                <video:tag>color</video:tag>
+            
+                <video:tag>study</video:tag>
+            
+                <video:tag>studies</video:tag>
+            
+                <video:tag>art study</video:tag>
+            
+                <video:tag>clouds</video:tag>
+            
+                <video:tag>landscape</video:tag>
+            
+                <video:tag>quick</video:tag>
+            
+                <video:tag>beach</video:tag>
+            
+            
+                <video:category>Art</video:category>
+            
+        </video:video>
+		
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2017/02/how-to-turnscan-objects-into-3d-models-with-just-a-camera</loc>
+
+    
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/GaYfpGcXxmA/default.jpg</video:thumbnail_loc>
+            <video:title>How to Turn/Scan Objects Into 3D Models With Just a Camera</video:title>
+            <video:description><![CDATA[UPDATE: NEW FOLLOWUP VIDEO: https://www.youtube.com/watch?v=7pGJ8rWiecw - - - In this video I'll be showing you how you can turn almost any object into a 3d model with just your camera and some free software. - - - UPDATE: The texture bug has been fixed! Now I'm not an expert at any of this. I've tried as best as possible to read through all the documentation, at least the parts I understand, and condense that into a video. Also please note the cleanup process was aimed at getting it ready for sculpting. I know that people like to scan objects to then 3d print them, but I don't have a 3d printer, so you'll have to look somewhere else for the details on how to do that properly. Lastly, I would love to share the project file so you can see what I tested but it's HUGE (15GB) and I'm not sharing the 3d model just yet because it's an original character of mine so I'm working on a generic version for practicing lighting the face so I'll make that available to patreons when I finish it. - - - LINKS Regard3d + Tutorial/Documentation: http://www.regard3d.org/ Meshlab: http://www.meshlab.net/ I was using 1.3.4BETA btw. Blender: https://www.blender.org/ If your object is particularly small I recommend you look at this part of the tutorial I wrote on magic lantern  (you don't need it to apply the concepts descriped but it's helpful if you have an DSLR camera): http://alansartlog.com/2015/08/magic-lantern-on-my-canon-rebel-t31100d#link-focus-stacking - - - To give you an idea of the type how long it might take on your computer, or what type of computer you need, I'm using a laptop with an Intel i5, 8GB of RAM, and a NVIDIA 650M GPU. - - - Website/Sketchbook: http://alansartlog.com/category/artwork/ Patreon: https://www.patreon.com/alansartlog Instagram:  https://www.instagram.com/alansartlog/ Twitter: https://twitter.com/alansartlog Facebook: https://www.facebook.com/alansartlog Deviantart: http://alansartlog.deviantart.com Instructables: http://www.instructables.com/member/alansartlog/...]]></video:description>
+            <video:player_loc allow_embed="yes">https://www.youtube.com/watch?v=GaYfpGcXxmA</video:player_loc>
+            <video:publication_date>2017-02-04T00:20:21.000Z</video:publication_date>
+            
+                <video:tag>how to</video:tag>
+            
+                <video:tag>narrated</video:tag>
+            
+                <video:tag>tutorial</video:tag>
+            
+                <video:tag>tutorials</video:tag>
+            
+                <video:tag>traditional art</video:tag>
+            
+                <video:tag>timelapse</video:tag>
+            
+                <video:tag>art</video:tag>
+            
+                <video:tag>3d</video:tag>
+            
+                <video:tag>scanning</video:tag>
+            
+                <video:tag>scan</video:tag>
+            
+                <video:tag>sfm</video:tag>
+            
+                <video:tag>structure from motion</video:tag>
+            
+                <video:tag>regard3d</video:tag>
+            
+                <video:tag>visualsfm</video:tag>
+            
+                <video:tag>blender</video:tag>
+            
+                <video:tag>meshlab</video:tag>
+            
+                <video:tag>mesh cleanup</video:tag>
+            
+                <video:tag>sculpting</video:tag>
+            
+                <video:tag>sculpt</video:tag>
+            
+                <video:tag>sculpture</video:tag>
+            
+                <video:tag>archeology</video:tag>
+            
+                <video:tag>programs</video:tag>
+            
+                <video:tag>photogrammetry</video:tag>
+            
+                <video:tag>autodesk 123d catch</video:tag>
+            
+            
+                <video:category>Art</video:category>
+            
+        </video:video>
+		
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2016/12/polymer-clay-basics-part-iii</loc>
+
+    
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/PVCMBBy-K_s/default.jpg</video:thumbnail_loc>
+            <video:title>Polymer Clay Basics Part III - Tools, Blending, &amp; Demos (in real time)</video:title>
+            <video:description><![CDATA[In this part I talk about the tools I use, how to blend clay (raw on raw and raw on baked), and do a few quick real time demos. The audio in the demo parts has pauses. That's how it is. I just didn't have time to replace the pauses with music. Also sorry this is a bit late. I couldn't get the video to upload. Had to split it in 3. Good news is we're changing internet providers soon to double the bandwidth so hopefully I'll be able to upload videos longer than 10 minutes without problems. - - - Part 1: https://www.youtube.com/watch?v=iPBNeFi3P8g Part 2: https://www.youtube.com/edit?video_id=g5m9kNVKDhQ Blog Post: http://alansartlog.com/2016/12/polymer-clay-basics-part-iii - - - Website/Sketchbook: http://alansartlog.com/category/artwork/ Patreon: https://www.patreon.com/alansartlog Instagram:  https://www.instagram.com/alansartlog/ Twitter: https://twitter.com/alansartlog Facebook: https://www.facebook.com/alansartlog Deviantart: http://alansartlog.deviantart.com Tumblr: http://alansartlog.tumblr.com Instructables: http://www.instructables.com/member/alansartlog/ -~-~~-~~~-~~-~- Checkout my Latest Video: "How to Scan Objects into 3D Models II - Settings and Setup Comparisons"  https://www.youtube.com/watch?v=7pGJ8rWiecw -~-~~-~~~-~~-~-]]></video:description>
+            <video:player_loc allow_embed="yes">https://www.youtube.com/watch?v=PVCMBBy-K_s</video:player_loc>
+            <video:publication_date>2016-12-23T22:46:15.000Z</video:publication_date>
+            
+                <video:tag>art</video:tag>
+            
+                <video:tag>how to</video:tag>
+            
+                <video:tag>narrated</video:tag>
+            
+                <video:tag>tutorial</video:tag>
+            
+                <video:tag>real time</video:tag>
+            
+                <video:tag>demo</video:tag>
+            
+                <video:tag>tutorials</video:tag>
+            
+                <video:tag>polymer clay</video:tag>
+            
+                <video:tag>sculpey</video:tag>
+            
+                <video:tag>sculpting</video:tag>
+            
+                <video:tag>sculpture</video:tag>
+            
+                <video:tag>sculpt</video:tag>
+            
+                <video:tag>clay</video:tag>
+            
+                <video:tag>tools</video:tag>
+            
+                <video:tag>super sculpey</video:tag>
+            
+                <video:tag>blending</video:tag>
+            
+                <video:tag>blend</video:tag>
+            
+                <video:tag>basics</video:tag>
+            
+                <video:tag>eyes</video:tag>
+            
+                <video:tag>hair</video:tag>
+            
+            
+                <video:category>Art</video:category>
+            
+        </video:video>
+		
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2016/12/polymer-clay-basics-part-ii</loc>
+
+    
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/g5m9kNVKDhQ/default.jpg</video:thumbnail_loc>
+            <video:title>Polymer Clay Basics Part II - Armatures, Bulking them Out, &amp; Reference</video:title>
+            <video:description><![CDATA[In this part I talk about armatures, bulking them out, and reference. - - - Blog Post: http://alansartlog.com/2016/12/polymer-clay-basics-part-ii Part 1: https://www.youtube.com/watch?v=iPBNeFi3P8g Part 3: https://www.youtube.com/endscreen?v=PVCMBBy-K_s - - - Website/Sketchbook: http://alansartlog.com/category/artwork/ Patreon: https://www.patreon.com/alansartlog Instagram:  https://www.instagram.com/alansartlog/ Twitter: https://twitter.com/alansartlog Facebook: https://www.facebook.com/alansartlog Deviantart: http://alansartlog.deviantart.com Tumblr: http://alansartlog.tumblr.com Instructables: http://www.instructables.com/member/alansartlog/ -~-~~-~~~-~~-~- Checkout my Latest Video: "How to Scan Objects into 3D Models II - Settings and Setup Comparisons"  https://www.youtube.com/watch?v=7pGJ8rWiecw -~-~~-~~~-~~-~-]]></video:description>
+            <video:player_loc allow_embed="yes">https://www.youtube.com/watch?v=g5m9kNVKDhQ</video:player_loc>
+            <video:publication_date>2016-12-10T16:53:43.000Z</video:publication_date>
+            
+                <video:tag>art</video:tag>
+            
+                <video:tag>how to</video:tag>
+            
+                <video:tag>narrated</video:tag>
+            
+                <video:tag>tutorial</video:tag>
+            
+                <video:tag>tutorials</video:tag>
+            
+                <video:tag>polymer clay</video:tag>
+            
+                <video:tag>sculpey</video:tag>
+            
+                <video:tag>sculpting</video:tag>
+            
+                <video:tag>sculpture</video:tag>
+            
+                <video:tag>sculpt</video:tag>
+            
+                <video:tag>clay</video:tag>
+            
+                <video:tag>super sculpey</video:tag>
+            
+                <video:tag>armatures</video:tag>
+            
+                <video:tag>armature</video:tag>
+            
+                <video:tag>wire</video:tag>
+            
+                <video:tag>bulking</video:tag>
+            
+                <video:tag>reference</video:tag>
+            
+            
+                <video:category>Art</video:category>
+            
+        </video:video>
+		
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2016/12/polymer-clay-softening-experiments</loc>
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2016/12/polymer-clay-basics-part-i</loc>
+
+    
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/iPBNeFi3P8g/default.jpg</video:thumbnail_loc>
+            <video:title>Polymer Clay Basics Part I - Clays, Softening, &amp; Baking</video:title>
+            <video:description><![CDATA[In this part I talk about the different types of polymer clays, how to soften it again, and how to bake it. PS: I want to emphasize Super Sculpey is not the only professional polymer clay (Fimo also has their own), it's just I'm not familiar with the others at all and it's what I see 90% of artists using. I was going to do this all in one part but it turned out to long to upload (uploads fail a lot if they're over 10-15 minutes), and there's a few small edits I still have to make in the 2nd and 3rd parts. Also life just never stops throwing itself in front of me, you know.  - - - LINKS Part 2: https://www.youtube.com/watch?v=g5m9kNVKDhQ Part 3: https://www.youtube.com/watch?v=PVCMBBy-K_s Extended Blog Post: http://alansartlog.com/2016/12/polymer-clay-basics-part-i Softening Experiments (I have separated them from the blog post): http://alansartlog.com/2016/12/polymer-clay-softening-experiments Glass Attic (Polymer Clay Encyclopedia):  http://www.glassattic.com/ Clay Types Section: http://www.glassattic.com/polymer/Characteristics.htm Useful Tension/Strength Test of Different Clays: http://www.garieinternational.com.sg/clay/shop/tension_test.htm - - - Website/Sketchbook: http://alansartlog.com/category/artwork/ Patreon: https://www.patreon.com/alansartlog Instagram:  https://www.instagram.com/alansartlog/ Twitter: https://twitter.com/alansartlog Facebook: https://www.facebook.com/alansartlog Deviantart: http://alansartlog.deviantart.com Tumblr: http://alansartlog.tumblr.com Instructables: http://www.instructables.com/member/alansartlog/ -~-~~-~~~-~~-~- Checkout my Latest Video: "How to Scan Objects into 3D Models II - Settings and Setup Comparisons"  https://www.youtube.com/watch?v=7pGJ8rWiecw -~-~~-~~~-~~-~-]]></video:description>
+            <video:player_loc allow_embed="yes">https://www.youtube.com/watch?v=iPBNeFi3P8g</video:player_loc>
+            <video:publication_date>2016-12-03T17:04:17.000Z</video:publication_date>
+            
+                <video:tag>art</video:tag>
+            
+                <video:tag>how to</video:tag>
+            
+                <video:tag>narrated</video:tag>
+            
+                <video:tag>tutorial</video:tag>
+            
+                <video:tag>tutorials</video:tag>
+            
+                <video:tag>timelapse</video:tag>
+            
+                <video:tag>sculpt</video:tag>
+            
+                <video:tag>sculpting</video:tag>
+            
+                <video:tag>sculpture</video:tag>
+            
+                <video:tag>polymer clay</video:tag>
+            
+                <video:tag>sculpey</video:tag>
+            
+                <video:tag>super sculpey</video:tag>
+            
+                <video:tag>softening</video:tag>
+            
+                <video:tag>baking</video:tag>
+            
+                <video:tag>types</video:tag>
+            
+            
+                <video:category>Art</video:category>
+            
+        </video:video>
+		
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2016/11/head-sculpt-timelapse</loc>
+
+    
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/VVaQoLw6byI/default.jpg</video:thumbnail_loc>
+            <video:title>Head Sculpt Timelapse (Narrated)</video:title>
+            <video:description><![CDATA[Timelapse of a head sculpt I made. This is at 1FPS here. And this is only about 5 hours you're seeing here because of all the edits. I might add onto it a bit more so it can stand on it's own like a bust and I've considered painting it, but it's mostly done around the face. - - - Website/Sketchbook: http://alansartlog.com/category/artwork/ Patreon: https://www.patreon.com/alansartlog Instagram:  https://www.instagram.com/alansartlog/ Twitter: https://twitter.com/alansartlog Facebook: https://www.facebook.com/alansartlog Deviantart: http://alansartlog.deviantart.com Tumblr: http://alansartlog.tumblr.com -~-~~-~~~-~~-~- Checkout my Latest Video: "How to Scan Objects into 3D Models II - Settings and Setup Comparisons"  https://www.youtube.com/watch?v=7pGJ8rWiecw -~-~~-~~~-~~-~-]]></video:description>
+            <video:player_loc allow_embed="yes">https://www.youtube.com/watch?v=VVaQoLw6byI</video:player_loc>
+            <video:publication_date>2016-11-25T17:28:52.000Z</video:publication_date>
+            
+                <video:tag>art</video:tag>
+            
+                <video:tag>how to</video:tag>
+            
+                <video:tag>narrated</video:tag>
+            
+                <video:tag>tutorial</video:tag>
+            
+                <video:tag>tutorials</video:tag>
+            
+                <video:tag>traditional art</video:tag>
+            
+                <video:tag>timelapse</video:tag>
+            
+                <video:tag>sculpting</video:tag>
+            
+                <video:tag>sculpt</video:tag>
+            
+                <video:tag>polymer clay</video:tag>
+            
+                <video:tag>sculpey</video:tag>
+            
+                <video:tag>super scupey</video:tag>
+            
+                <video:tag>scupture</video:tag>
+            
+                <video:tag>head</video:tag>
+            
+                <video:tag>bust</video:tag>
+            
+                <video:tag>clay</video:tag>
+            
+                <video:tag>figure</video:tag>
+            
+                <video:tag>reference</video:tag>
+            
+                <video:tag>hair</video:tag>
+            
+                <video:tag>strands</video:tag>
+            
+                <video:tag>modeling</video:tag>
+            
+            
+                <video:category>Art</video:category>
+            
+        </video:video>
+		
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2016/11/tripod-quick-tip</loc>
+
+    
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/qLNLrjWVCGo/default.jpg</video:thumbnail_loc>
+            <video:title>Quick Tip - How to Tighten Tripod Legs</video:title>
+            <video:description><![CDATA[I didn't finish the video I really wanted to do (on sculpting with polymer clay) so this is just a quick tip. It won't work for all tripods, but it should work for most of the ones that use hinges to tighten the legs. Post: http://alansartlog.com/2016/11/tripod-quick-tip - - - Website/Sketchbook: http://alansartlog.com/category/artwork/ Patreon: https://www.patreon.com/alansartlog Instagram:  https://www.instagram.com/alansartlog/ Twitter: https://twitter.com/alansartlog Facebook: https://www.facebook.com/alansartlog Deviantart: http://alansartlog.deviantart.com Tumblr: http://alansartlog.tumblr.com Instructables: http://www.instructables.com/member/alansartlog/ -~-~~-~~~-~~-~- Checkout my Latest Video: "How to Scan Objects into 3D Models II - Settings and Setup Comparisons"  https://www.youtube.com/watch?v=7pGJ8rWiecw -~-~~-~~~-~~-~-]]></video:description>
+            <video:player_loc allow_embed="yes">https://www.youtube.com/watch?v=qLNLrjWVCGo</video:player_loc>
+            <video:publication_date>2016-11-18T21:53:18.000Z</video:publication_date>
+            
+                <video:tag>art</video:tag>
+            
+                <video:tag>how to</video:tag>
+            
+                <video:tag>narrated</video:tag>
+            
+                <video:tag>tutorial</video:tag>
+            
+                <video:tag>tutorials</video:tag>
+            
+                <video:tag>diy</video:tag>
+            
+                <video:tag>traditional art</video:tag>
+            
+                <video:tag>timelapse</video:tag>
+            
+                <video:tag>fix</video:tag>
+            
+                <video:tag>photography</video:tag>
+            
+                <video:tag>tripod</video:tag>
+            
+                <video:tag>quick tips</video:tag>
+            
+                <video:tag>weight</video:tag>
+            
+                <video:tag>slip</video:tag>
+            
+                <video:tag>slipping</video:tag>
+            
+                <video:tag>tip</video:tag>
+            
+                <video:tag>art supplies</video:tag>
+            
+                <video:tag>art tools</video:tag>
+            
+                <video:tag>recording</video:tag>
+            
+            
+                <video:category>Art</video:category>
+            
+        </video:video>
+		
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2016/11/book-review-imaginitive-realism</loc>
+
+    
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/GZIWGMqte2A/default.jpg</video:thumbnail_loc>
+            <video:title>Imaginative Realism by James Gurney - Book Review</video:title>
+            <video:description><![CDATA[Book: Imaginative Realism: How to Paint What Doesn't Exist Author: James Gurney Pages: 224 Formats: Paperback - - - Gurney's blog: http://gurneyjourney.blogspot.com Here's the perspective trick I mentioned: https://www.instagram.com/p/BKoVwVkjTgz/ Here's the extended blog post on my site: http://alansartlog.com/2016/11/book-review-imaginitive-realism James Gurney was also mentioned it on his blog and there was an interesting discussion in the comments: http://gurneyjourney.blogspot.com.ar/2016/11/imaginative-drawingwith-and-without.html - - - Website/Sketchbook: http://alansartlog.com/category/artwork/ Patreon: https://www.patreon.com/alansartlog Instagram:  https://www.instagram.com/alansartlog/ Twitter: https://twitter.com/alansartlog Facebook: https://www.facebook.com/alansartlog Deviantart: http://alansartlog.deviantart.com Tumblr: http://alansartlog.tumblr.com -~-~~-~~~-~~-~- Checkout my Latest Video: "How to Scan Objects into 3D Models II - Settings and Setup Comparisons"  https://www.youtube.com/watch?v=7pGJ8rWiecw -~-~~-~~~-~~-~-]]></video:description>
+            <video:player_loc allow_embed="yes">https://www.youtube.com/watch?v=GZIWGMqte2A</video:player_loc>
+            <video:publication_date>2016-11-04T19:46:17.000Z</video:publication_date>
+            
+                <video:tag>book</video:tag>
+            
+                <video:tag>books</video:tag>
+            
+                <video:tag>art book</video:tag>
+            
+                <video:tag>book review</video:tag>
+            
+                <video:tag>art</video:tag>
+            
+                <video:tag>review</video:tag>
+            
+                <video:tag>james gurney</video:tag>
+            
+                <video:tag>gurney</video:tag>
+            
+                <video:tag>imaginitive realism</video:tag>
+            
+                <video:tag>how to paint what doesn&#39;t exist</video:tag>
+            
+                <video:tag>painting from imagination</video:tag>
+            
+                <video:tag>painting from reference</video:tag>
+            
+                <video:tag>painting</video:tag>
+            
+                <video:tag>techniques</video:tag>
+            
+                <video:tag>illustration</video:tag>
+            
+                <video:tag>sketching</video:tag>
+            
+                <video:tag>sketch</video:tag>
+            
+                <video:tag>paint</video:tag>
+            
+                <video:tag>materials</video:tag>
+            
+                <video:tag>tools</video:tag>
+            
+                <video:tag>indepth</video:tag>
+            
+                <video:tag>in-depth</video:tag>
+            
+            
+                <video:category>Art</video:category>
+            
+        </video:video>
+		
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2016/10/inktober-sketches-and-drawings</loc>
+
+    
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/ScRYvdB_H90/default.jpg</video:thumbnail_loc>
+            <video:title>Inktober Drawings (All)</video:title>
+            <video:description><![CDATA[These are all the drawings I managed to do for inktober.  - - - Also I forgot to mention the jetpack sketch with the light blue background, I added that later in acrylics because I didn't like the cloud. For the images I uploaded I edited them out to white, but in real life I wanted to take the chance to see how this paper would handle the layer of acrylic. I managed to straighten most of it, but as you can see it still left wrinkles, though they're in places where they could easily be edited out. - - - You can find all the drawings I did record in this playlist: https://www.youtube.com/playlist?list=PLZcWAAGgTGfovgtQWtlf0wwD_wcgA8hM1  If you want to see all the drawings and their preparatory sketches you can go to the post on my site: http://alansartlog.com/2016/10/inktober-sketches-and-drawings Also the direct link to my gumroad store is: http://gumroad.com/alansartlog - - - Website/Sketchbook: http://alansartlog.com/category/artwork/ Patreon: https://www.patreon.com/alansartlog Instagram:  https://www.instagram.com/alansartlog/ Twitter: https://twitter.com/alansartlog Facebook: https://www.facebook.com/alansartlog Deviantart: http://alansartlog.deviantart.com Tumblr: http://alansartlog.tumblr.com -~-~~-~~~-~~-~- Checkout my Latest Video: "How to Scan Objects into 3D Models II - Settings and Setup Comparisons"  https://www.youtube.com/watch?v=7pGJ8rWiecw -~-~~-~~~-~~-~-]]></video:description>
+            <video:player_loc allow_embed="yes">https://www.youtube.com/watch?v=ScRYvdB_H90</video:player_loc>
+            <video:publication_date>2016-10-29T19:26:45.000Z</video:publication_date>
+            
+                <video:tag>art</video:tag>
+            
+                <video:tag>drawing</video:tag>
+            
+                <video:tag>how to</video:tag>
+            
+                <video:tag>narrated</video:tag>
+            
+                <video:tag>tutorial</video:tag>
+            
+                <video:tag>tutorials</video:tag>
+            
+                <video:tag>painting</video:tag>
+            
+                <video:tag>sketch</video:tag>
+            
+                <video:tag>sketches</video:tag>
+            
+                <video:tag>sketchbook</video:tag>
+            
+                <video:tag>traditional art</video:tag>
+            
+                <video:tag>timelapse</video:tag>
+            
+                <video:tag>paint</video:tag>
+            
+                <video:tag>ink</video:tag>
+            
+                <video:tag>inktober</video:tag>
+            
+                <video:tag>thumbnails</video:tag>
+            
+            
+                <video:category>Art</video:category>
+            
+        </video:video>
+		
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2016/09/septembers-daily-sketches</loc>
+
+    
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/yvv6pV3jXlg/default.jpg</video:thumbnail_loc>
+            <video:title>September&#39;s Daily Sketches + Practice Methods</video:title>
+            <video:description><![CDATA[I go through all the sketches I did this month and some new methods I used to practice. - - - If you have a tablet and are interested in trying 3d sculpting, I would suggest Sculptris which is free and very easy to use (also look out for Zbrush Core which is supposed to be an easier affordable version of Zbrush, all 3 are from the same company, Pixologic). Just note it's not meant for point modeling (that is for very geometric shapes like the rib cage). It's more like sculpting with clay, for point modeling you need something like Blender but it has a huge frustrating learning curve. Some figure drawing sites/refs I often use: http://www.anatomy360.info/360-reference/ http://senshistock.deviantart.com http://artists.pixelovely.com/practice-tools/figure-drawing/ http://www.quickposes.com/pages/timed http://www.characterdesigns.com/ - - - Website/Sketchbook: http://alansartlog.com/ Patreon: https://www.patreon.com/alansartlog Instagram:  https://www.instagram.com/alansartlog/ Twitter: https://twitter.com/alansartlog Facebook: https://www.facebook.com/alansartlog Deviantart: http://alansartlog.deviantart.com Tumblr: http://alansartlog.tumblr.com Instructables: http://www.instructables.com/member/alansartlog/ -~-~~-~~~-~~-~- Checkout my Latest Video: "How to Scan Objects into 3D Models II - Settings and Setup Comparisons"  https://www.youtube.com/watch?v=7pGJ8rWiecw -~-~~-~~~-~~-~-]]></video:description>
+            <video:player_loc allow_embed="yes">https://www.youtube.com/watch?v=yvv6pV3jXlg</video:player_loc>
+            <video:publication_date>2016-09-30T19:24:05.000Z</video:publication_date>
+            
+                <video:tag>art</video:tag>
+            
+                <video:tag>drawing</video:tag>
+            
+                <video:tag>how to</video:tag>
+            
+                <video:tag>narrated</video:tag>
+            
+                <video:tag>tutorial</video:tag>
+            
+                <video:tag>tutorials</video:tag>
+            
+                <video:tag>painting</video:tag>
+            
+                <video:tag>sketch</video:tag>
+            
+                <video:tag>sketches</video:tag>
+            
+                <video:tag>sketchbook</video:tag>
+            
+                <video:tag>traditional art</video:tag>
+            
+                <video:tag>timelapse</video:tag>
+            
+                <video:tag>paint</video:tag>
+            
+                <video:tag>daily</video:tag>
+            
+                <video:tag>practice</video:tag>
+            
+                <video:tag>figure drawing</video:tag>
+            
+                <video:tag>muscles</video:tag>
+            
+                <video:tag>arm</video:tag>
+            
+                <video:tag>studies</video:tag>
+            
+                <video:tag>study</video:tag>
+            
+                <video:tag>how to learn</video:tag>
+            
+                <video:tag>drawings</video:tag>
+            
+                <video:tag>anatomy</video:tag>
+            
+                <video:tag>rib cage</video:tag>
+            
+            
+                <video:category>Art</video:category>
+            
+        </video:video>
+		
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2016/09/ink-drawing-of-neuschwanstein-castle</loc>
+
+    
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/Z-QM3CxkP9c/default.jpg</video:thumbnail_loc>
+            <video:title>Ink Drawing of Neuschwanstein Castle (Narrated)</video:title>
+            <video:description><![CDATA[I was a little bit tired of painting so I did an ink drawing because I'm going to attempt to do inktober! - - - There were some color issues with the original video so I've re-uploaded. Since I had to re-render it, I added some extra cross-hatching as some people suggested, and re-scanned the final image. - - - Reference (from morgueFile): http://mrg.bz/cd97c9 by pedrojperez - - - Website: http://alansartlog.com/ Patreon: https://www.patreon.com/alansartlog Instagram:  https://www.instagram.com/alansartlog/ Twitter: https://twitter.com/alansartlog Facebook: https://www.facebook.com/alansartlog Deviantart: http://alansartlog.deviantart.com Tumblr: http://alansartlog.tumblr.com Instructables: http://www.instructables.com/member/alansartlog/ -~-~~-~~~-~~-~- Checkout my Latest Video: "How to Scan Objects into 3D Models II - Settings and Setup Comparisons"  https://www.youtube.com/watch?v=7pGJ8rWiecw -~-~~-~~~-~~-~-]]></video:description>
+            <video:player_loc allow_embed="yes">https://www.youtube.com/watch?v=Z-QM3CxkP9c</video:player_loc>
+            <video:publication_date>2016-09-28T23:37:02.000Z</video:publication_date>
+            
+                <video:tag>art</video:tag>
+            
+                <video:tag>drawing</video:tag>
+            
+                <video:tag>how to</video:tag>
+            
+                <video:tag>narrated</video:tag>
+            
+                <video:tag>tutorial</video:tag>
+            
+                <video:tag>tutorials</video:tag>
+            
+                <video:tag>painting</video:tag>
+            
+                <video:tag>sketch</video:tag>
+            
+                <video:tag>sketches</video:tag>
+            
+                <video:tag>sketchbook</video:tag>
+            
+                <video:tag>traditional art</video:tag>
+            
+                <video:tag>timelapse</video:tag>
+            
+                <video:tag>paint</video:tag>
+            
+                <video:tag>ink</video:tag>
+            
+                <video:tag>inktober</video:tag>
+            
+                <video:tag>pen</video:tag>
+            
+                <video:tag>marker</video:tag>
+            
+                <video:tag>castle</video:tag>
+            
+                <video:tag>Neuschwanstein</video:tag>
+            
+            
+                <video:category>Art</video:category>
+            
+        </video:video>
+		
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/archive</loc>
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/contact</loc>
+
+</url>
+
+
+    
+
+    
+
+    
+
+    
+
+    
+<url>
+    <loc>https://alansartlog.com/2016/09/painting-an-animal-skull-in-acrylics</loc>
+
+    
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/u--wJckjQ9k/default.jpg</video:thumbnail_loc>
+            <video:title>Painting an Animal Skull (Narrated)</video:title>
+            <video:description><![CDATA[I talk you through my painting of an animals skull and how I tried to emphasize the colors a bit. - - - Reference" http://mrg.bz/fd66e2 by tinabel - - - READ ME PLEASE I'm considering switching to time-lapses with just music so I can make more videos and focus on more specific tutorials. Please leave a comment if you have a preference. I appreciate any feedback. - - - Website: http://alansartlog.com/ Patreon: https://www.patreon.com/alansartlog Instagram:  https://www.instagram.com/alansartlog/ Twitter: https://twitter.com/alansartlog Facebook: https://www.facebook.com/alansartlog Deviantart: http://alansartlog.deviantart.com Tumblr: http://alansartlog.tumblr.com Instructables: http://www.instructables.com/member/alansartlog/ -~-~~-~~~-~~-~- Checkout my Latest Video: "How to Scan Objects into 3D Models II - Settings and Setup Comparisons"  https://www.youtube.com/watch?v=7pGJ8rWiecw -~-~~-~~~-~~-~-]]></video:description>
+            <video:player_loc allow_embed="yes">https://www.youtube.com/watch?v=u--wJckjQ9k</video:player_loc>
+            <video:publication_date>2016-09-09T18:00:09.000Z</video:publication_date>
+            
+                <video:tag>art</video:tag>
+            
+                <video:tag>drawing</video:tag>
+            
+                <video:tag>how to</video:tag>
+            
+                <video:tag>narrated</video:tag>
+            
+                <video:tag>tutorial</video:tag>
+            
+                <video:tag>tutorials</video:tag>
+            
+                <video:tag>painting</video:tag>
+            
+                <video:tag>traditional art</video:tag>
+            
+                <video:tag>timelapse</video:tag>
+            
+                <video:tag>paint</video:tag>
+            
+                <video:tag>acrylic apinting</video:tag>
+            
+                <video:tag>skull</video:tag>
+            
+                <video:tag>animal</video:tag>
+            
+                <video:tag>skeleton</video:tag>
+            
+                <video:tag>morbid</video:tag>
+            
+                <video:tag>color</video:tag>
+            
+                <video:tag>temperature</video:tag>
+            
+                <video:tag>warm</video:tag>
+            
+                <video:tag>cool</video:tag>
+            
+                <video:tag>grays</video:tag>
+            
+                <video:tag>sketch</video:tag>
+            
+                <video:tag>loose</video:tag>
+            
+                <video:tag>lose</video:tag>
+            
+                <video:tag>time-lapse</video:tag>
+            
+            
+                <video:category>Art</video:category>
+            
+        </video:video>
+		
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2016/09/crowned-pawn-acrylic-painting</loc>
+
+    
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/RSx2Zh06xjM/default.jpg</video:thumbnail_loc>
+            <video:title>&#34;Crowned Pawn&#34; - Acrylic Painting Timelapse (Narrated)</video:title>
+            <video:description><![CDATA[I talk about keeping the the painting lose and a few things I did to try and help that. - - -  Palette: Burnt Umber, Burnt Sienna, Yellow Ochre, Cadmium Yellow, Pthalo Blue, and Carbon Black, and then just a bit of Ultramarine Blue but only because it's student grade, and I wanted to use it up. - - - Reference (from morguefile): http://mrg.bz/0ca100 by svklimkin Website: http://alansartlog.com/ Patreon: https://www.patreon.com/alansartlog Instagram:  https://www.instagram.com/alansartlog/ Twitter: https://twitter.com/alansartlog Facebook: https://www.facebook.com/alansartlog Deviantart: http://alansartlog.deviantart.com Tumblr: http://alansartlog.tumblr.com Instructables: http://www.instructables.com/member/alansartlog/ -~-~~-~~~-~~-~- Checkout my Latest Video: "How to Scan Objects into 3D Models II - Settings and Setup Comparisons"  https://www.youtube.com/watch?v=7pGJ8rWiecw -~-~~-~~~-~~-~-]]></video:description>
+            <video:player_loc allow_embed="yes">https://www.youtube.com/watch?v=RSx2Zh06xjM</video:player_loc>
+            <video:publication_date>2016-09-02T16:21:40.000Z</video:publication_date>
+            
+                <video:tag>art</video:tag>
+            
+                <video:tag>drawing</video:tag>
+            
+                <video:tag>how to</video:tag>
+            
+                <video:tag>narrated</video:tag>
+            
+                <video:tag>tutorial</video:tag>
+            
+                <video:tag>tutorials</video:tag>
+            
+                <video:tag>painting</video:tag>
+            
+                <video:tag>sketch</video:tag>
+            
+                <video:tag>sketches</video:tag>
+            
+                <video:tag>sketchbook</video:tag>
+            
+                <video:tag>traditional art</video:tag>
+            
+                <video:tag>timelapse</video:tag>
+            
+                <video:tag>paint</video:tag>
+            
+                <video:tag>acrylic painting</video:tag>
+            
+                <video:tag>acrylics</video:tag>
+            
+                <video:tag>chess</video:tag>
+            
+                <video:tag>pawn</video:tag>
+            
+                <video:tag>king</video:tag>
+            
+                <video:tag>crown</video:tag>
+            
+                <video:tag>gold</video:tag>
+            
+                <video:tag>wood</video:tag>
+            
+                <video:tag>loose</video:tag>
+            
+                <video:tag>pieces</video:tag>
+            
+                <video:tag>blending</video:tag>
+            
+                <video:tag>broad strokes</video:tag>
+            
+                <video:tag>brushwork</video:tag>
+            
+            
+                <video:category>Art</video:category>
+            
+        </video:video>
+		
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2016/08/palette-knife-painting-of-highclere-castle</loc>
+
+    
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/s9DRbB6auio/default.jpg</video:thumbnail_loc>
+            <video:title>Palette Knife Painting of Highclere Castle (Narrated)</video:title>
+            <video:description><![CDATA[I experiment with a palette knife for the first time, and talk about how that helped force me to simply details, and also how to flatten warped canvas paper for when you need to make straight lines. - - -  I forgot to mention my palette, I used Burnt Umber, Burnt Sienna, Yellow Ochre, Cadmium Yellow, Pthalo Blue, and Carbon Black, and then just the tiniest touch of Cadmium Red for the flag. - - - Reference (from morguefile): http://mrg.bz/312f23 by johninportland Website: http://alansartlog.com/ Patreon: https://www.patreon.com/alansartlog Instagram:  https://www.instagram.com/alansartlog/ Twitter: https://twitter.com/alansartlog Facebook: https://www.facebook.com/alansartlog Deviantart: http://alansartlog.deviantart.com Tumblr: http://alansartlog.tumblr.com Instructables: http://www.instructables.com/member/alansartlog/ -~-~~-~~~-~~-~- Checkout my Latest Video: "How to Scan Objects into 3D Models II - Settings and Setup Comparisons"  https://www.youtube.com/watch?v=7pGJ8rWiecw -~-~~-~~~-~~-~-]]></video:description>
+            <video:player_loc allow_embed="yes">https://www.youtube.com/watch?v=s9DRbB6auio</video:player_loc>
+            <video:publication_date>2016-08-26T20:37:08.000Z</video:publication_date>
+            
+                <video:tag>art</video:tag>
+            
+                <video:tag>drawing</video:tag>
+            
+                <video:tag>how to</video:tag>
+            
+                <video:tag>narrated</video:tag>
+            
+                <video:tag>tutorial</video:tag>
+            
+                <video:tag>tutorials</video:tag>
+            
+                <video:tag>painting</video:tag>
+            
+                <video:tag>sketch</video:tag>
+            
+                <video:tag>sketches</video:tag>
+            
+                <video:tag>sketchbook</video:tag>
+            
+                <video:tag>traditional art</video:tag>
+            
+                <video:tag>timelapse</video:tag>
+            
+                <video:tag>paint</video:tag>
+            
+                <video:tag>acrylic</video:tag>
+            
+                <video:tag>acrylics</video:tag>
+            
+                <video:tag>downton abbey</video:tag>
+            
+                <video:tag>highclere castle</video:tag>
+            
+                <video:tag>buildings</video:tag>
+            
+                <video:tag>perspective</video:tag>
+            
+                <video:tag>palette knife</video:tag>
+            
+                <video:tag>canvas paper</video:tag>
+            
+                <video:tag>warping</video:tag>
+            
+                <video:tag>straightening</video:tag>
+            
+                <video:tag>flattening</video:tag>
+            
+            
+                <video:category>Art</video:category>
+            
+        </video:video>
+		
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2016/08/painting-a-water-lily-in-acrylics</loc>
+
+    
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/RmxlxopPzlo/default.jpg</video:thumbnail_loc>
+            <video:title>Painting a Water Lily in Acrylics (Narrated)</video:title>
+            <video:description><![CDATA[I talk about choosing a color for the starting background, trying to paint more loosely, the importance of consistent lighting and a properly sized photo. - - - Reference Image (morguefile): http://mrg.bz/17eeea by morethanordinary - - -  If you're interested in buying the painting, contact me at alansartlog@gmail.com. It's 30 dollars for the painting and the most economical shipping I could find was about 15 dollars. It measures 15x20cm and is signed and varnished and will come protected between 2 pieces of cardboard. - - - Website: http://alansartlog.com/ Patreon: https://www.patreon.com/alansartlog Instagram:  https://www.instagram.com/alansartlog/ Twitter: https://twitter.com/alansartlog Facebook: https://www.facebook.com/alansartlog Deviantart: http://alansartlog.deviantart.com Tumblr: http://alansartlog.tumblr.com Instructables: http://www.instructables.com/member/alansartlog/ -~-~~-~~~-~~-~- Checkout my Latest Video: "How to Scan Objects into 3D Models II - Settings and Setup Comparisons"  https://www.youtube.com/watch?v=7pGJ8rWiecw -~-~~-~~~-~~-~-]]></video:description>
+            <video:player_loc allow_embed="yes">https://www.youtube.com/watch?v=RmxlxopPzlo</video:player_loc>
+            <video:publication_date>2016-08-13T17:56:11.000Z</video:publication_date>
+            
+                <video:tag>art</video:tag>
+            
+                <video:tag>drawing</video:tag>
+            
+                <video:tag>how to</video:tag>
+            
+                <video:tag>narrated</video:tag>
+            
+                <video:tag>tutorial</video:tag>
+            
+                <video:tag>tutorials</video:tag>
+            
+                <video:tag>painting</video:tag>
+            
+                <video:tag>sketch</video:tag>
+            
+                <video:tag>sketches</video:tag>
+            
+                <video:tag>sketchbook</video:tag>
+            
+                <video:tag>traditional art</video:tag>
+            
+                <video:tag>timelapse</video:tag>
+            
+                <video:tag>paint</video:tag>
+            
+                <video:tag>acrylic painting</video:tag>
+            
+                <video:tag>acrylics</video:tag>
+            
+                <video:tag>flower</video:tag>
+            
+                <video:tag>floral</video:tag>
+            
+                <video:tag>water lily</video:tag>
+            
+                <video:tag>lilies</video:tag>
+            
+                <video:tag>complementary colors</video:tag>
+            
+            
+                <video:category>Art</video:category>
+            
+        </video:video>
+		
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2016/08/how-to-make-a-stay-wet-palette-to-keep-your-paints-wet</loc>
+
+    
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/wac6PYpG9JM/default.jpg</video:thumbnail_loc>
+            <video:title>How to Make a Stay Wet Palette to Keep Your Paints Wet</video:title>
+            <video:description><![CDATA[I show you how to make a stay wet palette, the specific paper it needs, some other things to consider, and a fabric alternative I used for a while. - - - Website: http://alansartlog.com/ Patreon: https://www.patreon.com/alansartlog Instagram:  https://www.instagram.com/alansartlog/ Twitter: https://twitter.com/alansartlog Facebook: https://www.facebook.com/alansartlog Deviantart: http://alansartlog.deviantart.com Tumblr: http://alansartlog.tumblr.com Instructables: http://www.instructables.com/member/alansartlog/ -~-~~-~~~-~~-~- Checkout my Latest Video: "How to Scan Objects into 3D Models II - Settings and Setup Comparisons"  https://www.youtube.com/watch?v=7pGJ8rWiecw -~-~~-~~~-~~-~-]]></video:description>
+            <video:player_loc allow_embed="yes">https://www.youtube.com/watch?v=wac6PYpG9JM</video:player_loc>
+            <video:publication_date>2016-08-06T21:39:15.000Z</video:publication_date>
+            
+                <video:tag>art</video:tag>
+            
+                <video:tag>drawing</video:tag>
+            
+                <video:tag>how to</video:tag>
+            
+                <video:tag>narrated</video:tag>
+            
+                <video:tag>tutorial</video:tag>
+            
+                <video:tag>tutorials</video:tag>
+            
+                <video:tag>painting</video:tag>
+            
+                <video:tag>traditional art</video:tag>
+            
+                <video:tag>timelapse</video:tag>
+            
+                <video:tag>paint</video:tag>
+            
+                <video:tag>acrylic</video:tag>
+            
+                <video:tag>stay wet</video:tag>
+            
+                <video:tag>palette</video:tag>
+            
+                <video:tag>retarders</video:tag>
+            
+                <video:tag>slow drying</video:tag>
+            
+            
+                <video:category>Art</video:category>
+            
+        </video:video>
+		
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2016/07/how-to-keep-acrylic-paints-wet-adhesion-tests</loc>
+
+    
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/Z17Q9eTHJOc/default.jpg</video:thumbnail_loc>
+            <video:title>How much can you really dilute acrylic paints? - Adhesion Tests</video:title>
+            <video:description><![CDATA[Results of my adhesion tests on bare plastic (matte side), sanded, and sanded plus gessoed. Also how to check a painting for underbinding before adding final isolation layer. - - - Update: I believe the paint rubbing off with a cotton swab is probably the national brand using a weaker binder. Golden paints swatches on their tubes, so I painted a swatch of the national brand beside it and let it dry for more than a week. It came off with some effort, but the Golden didn't come off at all! I could not take the a single bit off with just my fingernails. I have no other known brands to compare to so I don't know if it's just Golden that has a really good binder, or the national brand here that is just using cheaper materials. Hopefully in the future I'll be able to get my hands on Liquitex or W&N to compare. Importation is slowly being opened in my country and I'm finding more variety of supplies, but they're still incredibly overpriced (2-3x list value). - - - The first set of instructions I'd found on Will Kemp's blog in reply to him: http://willkempartschool.com/getting-started-how-to-choose-what-to-paint-on/ and the ones I found later on Golden's site on a page about testing surfaces in general: http://oldsite.goldenpaints.com/justpaint/jp13article1.php Related Posts: http://alansartlog.com/2016/07/skull-painting-narrated-timelapse-acrylics-on-plastic/ http://alansartlog.com/2016/07/how-to-keep-acrylic-paints-wet-retarders/ Website: http://alansartlog.com/ Patreon: https://www.patreon.com/alansartlog Instagram:  https://www.instagram.com/alansartlog/ Twitter: https://twitter.com/alansartlog Facebook: https://www.facebook.com/alansartlog Deviantart: http://alansartlog.deviantart.com Tumblr: http://alansartlog.tumblr.com Instructables: http://www.instructables.com/member/alansartlog/ -~-~~-~~~-~~-~- Checkout my Latest Video: "How to Scan Objects into 3D Models II - Settings and Setup Comparisons"  https://www.youtube.com/watch?v=7pGJ8rWiecw -~-~~-~~~-~~-~-]]></video:description>
+            <video:player_loc allow_embed="yes">https://www.youtube.com/watch?v=Z17Q9eTHJOc</video:player_loc>
+            <video:publication_date>2016-07-30T00:51:42.000Z</video:publication_date>
+            
+                <video:tag>acrylic</video:tag>
+            
+                <video:tag>painting</video:tag>
+            
+                <video:tag>paint</video:tag>
+            
+                <video:tag>golden</video:tag>
+            
+                <video:tag>astm</video:tag>
+            
+                <video:tag>adhere</video:tag>
+            
+                <video:tag>stick</video:tag>
+            
+                <video:tag>surface</video:tag>
+            
+                <video:tag>substrate</video:tag>
+            
+                <video:tag>testing</video:tag>
+            
+                <video:tag>tests</video:tag>
+            
+                <video:tag>can i paint on plastic</video:tag>
+            
+                <video:tag>painting on plastic</video:tag>
+            
+            
+        </video:video>
+		
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2016/07/how-to-keep-acrylic-paints-wet-retarders</loc>
+
+    
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/lBqsvsB-MHw/default.jpg</video:thumbnail_loc>
+            <video:title>REUPLOAD How to Keep Your Acrylic Paints Wet - Retarders</video:title>
+            <video:description><![CDATA[- - -  Fixed the volume issues. Also am not dead. New videos coming soon. PS Any annotations had to be redone as cards. - - - I talk about the different types of retarders, different recipes you can try, their limits, and a very slow drying acrylic mix to replace my watercolors for doing quick studies. - - - The adhesion test video should be up by monday/tuesday. You can find the chart I kept for the drying time tests and further info here: http://alansartlog.com/2016/07/how-to-keep-acrylic-paints-wet-retarders/ Website: http://alansartlog.com/ Patreon: https://www.patreon.com/alansartlog Instagram:  https://www.instagram.com/alansartlog/ Twitter: https://twitter.com/alansartlog Facebook: https://www.facebook.com/alansartlog Tumblr: http://alansartlog.tumblr.com Instructables: http://www.instructables.com/member/alansartlog/ -~-~~-~~~-~~-~- Checkout my Latest Video: "How to Scan Objects into 3D Models II - Settings and Setup Comparisons"  https://www.youtube.com/watch?v=7pGJ8rWiecw -~-~~-~~~-~~-~-]]></video:description>
+            <video:player_loc allow_embed="yes">https://www.youtube.com/watch?v=lBqsvsB-MHw</video:player_loc>
+            <video:publication_date>2017-06-25T20:00:04.000Z</video:publication_date>
+            
+                <video:tag>art</video:tag>
+            
+                <video:tag>drawing</video:tag>
+            
+                <video:tag>how to</video:tag>
+            
+                <video:tag>narrated</video:tag>
+            
+                <video:tag>tutorial</video:tag>
+            
+                <video:tag>tutorials</video:tag>
+            
+                <video:tag>painting</video:tag>
+            
+                <video:tag>sketch</video:tag>
+            
+                <video:tag>sketches</video:tag>
+            
+                <video:tag>sketchbook</video:tag>
+            
+                <video:tag>traditional art</video:tag>
+            
+                <video:tag>timelapse</video:tag>
+            
+                <video:tag>paint</video:tag>
+            
+                <video:tag>acrylic</video:tag>
+            
+                <video:tag>retarders</video:tag>
+            
+                <video:tag>slow drying medium</video:tag>
+            
+                <video:tag>mediums</video:tag>
+            
+                <video:tag>propelyne glycol</video:tag>
+            
+                <video:tag>glycerin</video:tag>
+            
+                <video:tag>glycerol</video:tag>
+            
+                <video:tag>recipes</video:tag>
+            
+                <video:tag>golden</video:tag>
+            
+            
+                <video:category>Art</video:category>
+            
+        </video:video>
+		
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2016/07/skull-painting-narrated-timelapse-acrylics-on-plastic</loc>
+
+    
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/HjDBcx8UK1I/default.jpg</video:thumbnail_loc>
+            <video:title>Skull Painting Narrated Timelapse (Acrylics on Plastic)</video:title>
+            <video:description><![CDATA[I talk about painting with my new stay wet palette system (tutorial in next video), doing a preliminary sketch and under painting, painting wet into wet with retarder, glazing, and using plastic as a canvas paper substitute. - - - I did several tests before trying the techniques I tried here. Only time will really tell what will happen to the painting, but you can read the tests I tried and the conclusions I came to here http://alansartlog.com/posts/2016/07/skull-painting-narrated-timelapse-acrylics-on-plastic and make your own conclusions. Usually if there are problems it tends to happen within the first few days. As of now (two weeks), the painting is stable enough. The paint has not cracked or peeled (not even from purposely trying to peel it with tape), and the plastic (it's HIPS plastic) is in great condition (the medium heat from the blow dryer did not bend it out of shape). Update: I did do a swab test (softly rubbing a wet cotton swab on the surface) at two weeks and I did get some very minor lifting in the background, but still nothing with the tape and nothing where I then painted the light in with gray over that red background. So I don't think it's something to worry about as long as I add an isolation layer of pure medium over everything. Whatever lose pigments remain from the under-bound paint look like they're easily contained by another proper layer of paint. Overall it satisfies me. I'll report back further once I add this layer. The only thing is I painted all the way to the edge and the paint is kind of ragged there, liable to being accidentally peeled from handling roughly. Before I didn't paint to the edges because I used the edges to handle the canvas paper. I kept doing that for a while even though I started to secure my pages because they were already marked for it. But for this I thought there was no point, well now I realize it's probably better to continue that habit. Also all the water made the plastic stick to the paper I was using to hang it from. I managed to un...]]></video:description>
+            <video:player_loc allow_embed="yes">https://www.youtube.com/watch?v=HjDBcx8UK1I</video:player_loc>
+            <video:publication_date>2016-07-16T00:58:17.000Z</video:publication_date>
+            
+                <video:tag>acrylic</video:tag>
+            
+                <video:tag>painting</video:tag>
+            
+                <video:tag>paint</video:tag>
+            
+                <video:tag>art</video:tag>
+            
+                <video:tag>timelapse</video:tag>
+            
+                <video:tag>traditional art</video:tag>
+            
+                <video:tag>retarder</video:tag>
+            
+                <video:tag>glazing</video:tag>
+            
+                <video:tag>drawing</video:tag>
+            
+                <video:tag>how to</video:tag>
+            
+                <video:tag>narrated</video:tag>
+            
+                <video:tag>tutorial</video:tag>
+            
+                <video:tag>tutorials</video:tag>
+            
+                <video:tag>sketch</video:tag>
+            
+                <video:tag>sketches</video:tag>
+            
+                <video:tag>sketchbook</video:tag>
+            
+                <video:tag>skull</video:tag>
+            
+                <video:tag>supports</video:tag>
+            
+                <video:tag>substrates</video:tag>
+            
+                <video:tag>surfaces</video:tag>
+            
+                <video:tag>alternative</video:tag>
+            
+            
+                <video:category>Art</video:category>
+            
+        </video:video>
+		
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2016/07/art-supply-haul-updates</loc>
+
+    
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/r5HkRKTgaYw/default.jpg</video:thumbnail_loc>
+            <video:title>Art Supply Haul + Updates</video:title>
+            <video:description><![CDATA[I talk about why I ended up going with acrylics, the final reasons why and the related projects, go over all the colors, how to decipher paint tubes, and some of the brushes I got and why, and a few other minor supply updates (FB pen and woodless pencil for sketching). - - - Update: I found out the orange/brown handled brushes (that only say l'orange on the handle) are dynasty brushes, but I can't find the equivalent series on their site, so they must be some special series made for exportation. Also the very stiff brushes were made to be a synthetic hog bristle replacement if you're interested in something similar. Do note though that although I liked them initially after some use I found they're just a bit too stiff and they tend to catch the fibers of my towel when I wipe them and don't like to hold paint nicely (it forms like a blob halfway up the paintbrush). I was actually initially planning on buying some hog hair bristle brushes I saw that looked sturdy and unlikely to lose hairs, but the quality was awful (few hairs, badly shaped_ and that was why I'd gone with these, but now I'm reconsidering getting them anyway and trimming the hairs myself if I can't find a better quality brand. - - - Table of Contents 0:48 Why I chose acrylics. 4:16 Stay Wet Palette + Bottle Cap Containers (instructable: http://www.instructables.com/id/Bottle-Cap-Palette-Save-Keep-Paints-Wet/) 5:35 Silicon Palette 9:54 Paint Colors 15:00 Deciphering Paint Tubes 20:03 New Palette Knife 22:22 Paint Brushes 25:16 Woodless Pencil 28:12 Faber Castell Pitt Artist Pens 30:14 DIY Spring Loaded Pen - - - Sorry for the lateness I had a lot of trouble uploading because it was so long. There might be some audio gap/jumps because I had to split the video into parts to upload and the youtube editor is horrible for stitching them back together. - - - Website: http://alansartlog.com/ Patreon: https://www.patreon.com/alansartlog Instagram:  https://www.instagram.com/alansartlog/ Twitter: https://twitter.com/alansartlog Facebo...]]></video:description>
+            <video:player_loc allow_embed="yes">https://www.youtube.com/watch?v=r5HkRKTgaYw</video:player_loc>
+            <video:publication_date>2016-07-09T01:11:18.000Z</video:publication_date>
+            
+                <video:tag>art</video:tag>
+            
+                <video:tag>drawing</video:tag>
+            
+                <video:tag>how to</video:tag>
+            
+                <video:tag>narrated</video:tag>
+            
+                <video:tag>tutorial</video:tag>
+            
+                <video:tag>tutorials</video:tag>
+            
+                <video:tag>painting</video:tag>
+            
+                <video:tag>traditional art</video:tag>
+            
+                <video:tag>paint</video:tag>
+            
+                <video:tag>buying</video:tag>
+            
+                <video:tag>art supplies</video:tag>
+            
+                <video:tag>acrylics</video:tag>
+            
+                <video:tag>pens</video:tag>
+            
+                <video:tag>faber castell</video:tag>
+            
+                <video:tag>woodless pencil</video:tag>
+            
+                <video:tag>cretacolor</video:tag>
+            
+                <video:tag>palette</video:tag>
+            
+                <video:tag>limited palette</video:tag>
+            
+                <video:tag>silicon</video:tag>
+            
+                <video:tag>stay wet</video:tag>
+            
+                <video:tag>better stay wet palette</video:tag>
+            
+                <video:tag>bottlecaps</video:tag>
+            
+                <video:tag>bottle caps</video:tag>
+            
+                <video:tag>container</video:tag>
+            
+                <video:tag>how to keep your paints wet</video:tag>
+            
+                <video:tag>how to keep your paints from drying</video:tag>
+            
+                <video:tag>palette knives</video:tag>
+            
+                <video:tag>golden acrylics</video:tag>
+            
+            
+                <video:category>Art</video:category>
+            
+        </video:video>
+		
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2016/06/canyon-painting-oils</loc>
+
+    
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/XIVznrsju_Q/default.jpg</video:thumbnail_loc>
+            <video:title>Canyon Painting (Oils)</video:title>
+            <video:description><![CDATA[I talk briefly about brush sizes and painting directly on the canvas.  - - - Reference (used under CC-BY license https://creativecommons.org/licenses/by/2.0/): Bryce Canyon by Anna Panáková http://flickr.com/photo.gne?id=15562063855 Website: http://alansartlog.com/ Patreon: https://www.patreon.com/alansartlog Instagram:  https://www.instagram.com/alansartlog/ Twitter: https://twitter.com/alansartlog Facebook: https://www.facebook.com/alansartlog Deviantart: http://alansartlog.deviantart.com Tumblr: http://alansartlog.tumblr.com Instructables: http://www.instructables.com/member/alansartlog/ -~-~~-~~~-~~-~- Checkout my Latest Video: "How to Scan Objects into 3D Models II - Settings and Setup Comparisons"  https://www.youtube.com/watch?v=7pGJ8rWiecw -~-~~-~~~-~~-~-]]></video:description>
+            <video:player_loc allow_embed="yes">https://www.youtube.com/watch?v=XIVznrsju_Q</video:player_loc>
+            <video:publication_date>2016-06-25T02:24:26.000Z</video:publication_date>
+            
+                <video:tag>art</video:tag>
+            
+                <video:tag>drawing</video:tag>
+            
+                <video:tag>how to</video:tag>
+            
+                <video:tag>narrated</video:tag>
+            
+                <video:tag>tutorial</video:tag>
+            
+                <video:tag>tutorials</video:tag>
+            
+                <video:tag>painting</video:tag>
+            
+                <video:tag>sketch</video:tag>
+            
+                <video:tag>sketches</video:tag>
+            
+                <video:tag>sketchbook</video:tag>
+            
+                <video:tag>traditional art</video:tag>
+            
+                <video:tag>oil painting</video:tag>
+            
+                <video:tag>timelapse</video:tag>
+            
+                <video:tag>black white</video:tag>
+            
+                <video:tag>liquin</video:tag>
+            
+            
+                <video:category>Art</video:category>
+            
+        </video:video>
+		
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2016/06/limited-palette-and-thick-watercolors-test-painting</loc>
+
+    
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/iwGOpJv4nT8/default.jpg</video:thumbnail_loc>
+            <video:title>Palette and Medium Test (Watercolors - Thick)</video:title>
+            <video:description><![CDATA[I paint with the limited palette described in the previous video and talk about trying to pick one medium and some of my problems with the usual three. - - - Reference (used under CC-BY license https://creativecommons.org/licenses/by/2.0/): The Kish by PaulODonnell http://flickr.com/photo.gne?id=5937150545 Website: http://alansartlog.com/ Patreon: https://www.patreon.com/alansartlog Instagram:  https://www.instagram.com/alansartlog/ Twitter: https://twitter.com/alansartlog Facebook: https://www.facebook.com/alansartlog Deviantart: http://alansartlog.deviantart.com Tumblr: http://alansartlog.tumblr.com Instructables: http://www.instructables.com/member/alansartlog/ -~-~~-~~~-~~-~- Checkout my Latest Video: "How to Scan Objects into 3D Models II - Settings and Setup Comparisons"  https://www.youtube.com/watch?v=7pGJ8rWiecw -~-~~-~~~-~~-~-]]></video:description>
+            <video:player_loc allow_embed="yes">https://www.youtube.com/watch?v=iwGOpJv4nT8</video:player_loc>
+            <video:publication_date>2016-06-18T00:00:00.000Z</video:publication_date>
+            
+                <video:tag>art</video:tag>
+            
+                <video:tag>drawing</video:tag>
+            
+                <video:tag>how to</video:tag>
+            
+                <video:tag>narrated</video:tag>
+            
+                <video:tag>tutorial</video:tag>
+            
+                <video:tag>tutorials</video:tag>
+            
+                <video:tag>painting</video:tag>
+            
+                <video:tag>sketch</video:tag>
+            
+                <video:tag>sketches</video:tag>
+            
+                <video:tag>sketchbook</video:tag>
+            
+                <video:tag>traditional art</video:tag>
+            
+                <video:tag>experiment</video:tag>
+            
+                <video:tag>test</video:tag>
+            
+                <video:tag>thick</video:tag>
+            
+                <video:tag>watercolors</video:tag>
+            
+                <video:tag>lighthouse</video:tag>
+            
+            
+                <video:category>Art</video:category>
+            
+        </video:video>
+		
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2016/06/experimenting-with-limited-palettes</loc>
+
+    
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/AUxt8C90f1w/default.jpg</video:thumbnail_loc>
+            <video:title>Limited Palettes and their Pros/Cons</video:title>
+            <video:description><![CDATA[I experiment with a few limited palettes, talk about some of their pros and cons, why you will/won't get mud in certain secondary colors, and the alternative four color palettes and their pros and cons. - - - Sorry for the late video. I had some medical stuff to take care of and am feeling a bit worse than usual. Should be back on schedule after the next video. - - - Their are way more limited palettes then what I covered. These are just the ones I wanted to try. Technically their are as many combinations of three colors as you could think of although only a couple dozen are very useful and common. You could even use a two color palette to great effect. James Gourney has some great examples of two palette paintings, this one I think is one of the most striking http://gurneyjourney.blogspot.com.ar/2015/07/experiments-with-limited-palette.html . I also want to mention if you didn't see the annotation I made, that it's often much cheaper to buy a set if you can. There's also a lot of small sets to choose from, but for example with Golden, the small ones are around $0.16 per ml, while the big sets are only $0.11 per ml. Prices calculated from Amazon/Dick Blick. There's also different series/pigment prices to consider but the video was long enough. I'll make a note to do a video on deciphering paint tubes. - - - Website: http://alansartlog.com/ Patreon: https://www.patreon.com/alansartlog Instagram:  https://www.instagram.com/alansartlog/ Twitter: https://twitter.com/alansartlog Facebook: https://www.facebook.com/alansartlog Deviantart: http://alansartlog.deviantart.com Tumblr: http://alansartlog.tumblr.com Instructables: http://www.instructables.com/member/alansartlog/ -~-~~-~~~-~~-~- Checkout my Latest Video: "How to Scan Objects into 3D Models II - Settings and Setup Comparisons"  https://www.youtube.com/watch?v=7pGJ8rWiecw -~-~~-~~~-~~-~-]]></video:description>
+            <video:player_loc allow_embed="yes">https://www.youtube.com/watch?v=AUxt8C90f1w</video:player_loc>
+            <video:publication_date>2016-06-09T02:00:01.000Z</video:publication_date>
+            
+                <video:tag>art</video:tag>
+            
+                <video:tag>drawing</video:tag>
+            
+                <video:tag>how to</video:tag>
+            
+                <video:tag>narrated</video:tag>
+            
+                <video:tag>tutorial</video:tag>
+            
+                <video:tag>tutorials</video:tag>
+            
+                <video:tag>painting</video:tag>
+            
+                <video:tag>sketch</video:tag>
+            
+                <video:tag>sketches</video:tag>
+            
+                <video:tag>sketchbook</video:tag>
+            
+                <video:tag>traditional art</video:tag>
+            
+                <video:tag>paint</video:tag>
+            
+                <video:tag>palettes</video:tag>
+            
+                <video:tag>palletes</video:tag>
+            
+                <video:tag>pallettes</video:tag>
+            
+                <video:tag>limited</video:tag>
+            
+                <video:tag>colors</video:tag>
+            
+                <video:tag>buying</video:tag>
+            
+                <video:tag>shopping</video:tag>
+            
+                <video:tag>paint tubes</video:tag>
+            
+                <video:tag>color wheels</video:tag>
+            
+                <video:tag>why are my colors muddy</video:tag>
+            
+                <video:tag>purples</video:tag>
+            
+                <video:tag>green</video:tag>
+            
+                <video:tag>mixing</video:tag>
+            
+            
+                <video:category>Art</video:category>
+            
+        </video:video>
+		
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2016/05/glass-jar-graphite</loc>
+
+    
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/5a4JP60UhCs/default.jpg</video:thumbnail_loc>
+            <video:title>Drawing a Still Life Glass Jar (Graphite)</video:title>
+            <video:description><![CDATA[I talk about drawing from observation, drawing in graphite, and related supplies. - - - The pencils I use are Lyra ArtDesign if you're interested. I found them the smoothest of the ones I tried. The eraser pencil is from Faber-Castel but to be honest if other brands exist I'd try those instead. I find the Faber-Castel one a bit too harsh and yet not hard enough to really keep a sharp tip. It feels and looks similar to a pink school eraser. I've not had mine stain that I can remember but there have been reviews complaining about that. The book I mentioned is called Course in Pencil Sketching by Ernest Watson. I've mentioned it briefly before here http://alansartlog.com/2016/01/two-landscapes/ and here http://alansartlog.com/2016/02/first-sketch-from-a-course-in-pencil-sketching/ Website: http://alansartlog.com/ Patreon: https://www.patreon.com/alansartlog Instagram:  https://www.instagram.com/alansartlog/ Twitter: https://twitter.com/alansartlog Facebook: https://www.facebook.com/alansartlog Deviantart: http://alansartlog.deviantart.com Tumblr: http://alansartlog.tumblr.com Instructables: http://www.instructables.com/member/alansartlog/ -~-~~-~~~-~~-~- Checkout my Latest Video: "How to Scan Objects into 3D Models II - Settings and Setup Comparisons"  https://www.youtube.com/watch?v=7pGJ8rWiecw -~-~~-~~~-~~-~-]]></video:description>
+            <video:player_loc allow_embed="yes">https://www.youtube.com/watch?v=5a4JP60UhCs</video:player_loc>
+            <video:publication_date>2016-05-22T22:11:47.000Z</video:publication_date>
+            
+                <video:tag>art</video:tag>
+            
+                <video:tag>drawing</video:tag>
+            
+                <video:tag>narrated</video:tag>
+            
+                <video:tag>tutorial</video:tag>
+            
+                <video:tag>tutorials</video:tag>
+            
+                <video:tag>painting</video:tag>
+            
+                <video:tag>sketch</video:tag>
+            
+                <video:tag>sketches</video:tag>
+            
+                <video:tag>sketchbook</video:tag>
+            
+                <video:tag>traditional art</video:tag>
+            
+                <video:tag>pencil</video:tag>
+            
+                <video:tag>graphite</video:tag>
+            
+                <video:tag>realism</video:tag>
+            
+                <video:tag>drawing from observation</video:tag>
+            
+            
+                <video:category>Art</video:category>
+            
+        </video:video>
+		
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2016/05/how-to-clean-paint-stuck-in-the-ferrule-of-a-paintbrush</loc>
+
+    
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/bAPX2LKFHe8/default.jpg</video:thumbnail_loc>
+            <video:title>How to Clean the Ferrule of a Paintbrush</video:title>
+            <video:description><![CDATA[Website: http://alansartlog.com/ Patreon: https://www.patreon.com/alansartlog Instagram:  https://www.instagram.com/alansartlog/ Twitter: https://twitter.com/alansartlog Facebook: https://www.facebook.com/alansartlog Deviantart: http://alansartlog.deviantart.com Tumblr: http://alansartlog.tumblr.com Instructables: http://www.instructables.com/member/alansartlog/ -~-~~-~~~-~~-~- Checkout my Latest Video: "How to Scan Objects into 3D Models II - Settings and Setup Comparisons"  https://www.youtube.com/watch?v=7pGJ8rWiecw -~-~~-~~~-~~-~-]]></video:description>
+            <video:player_loc allow_embed="yes">https://www.youtube.com/watch?v=bAPX2LKFHe8</video:player_loc>
+            <video:publication_date>2016-05-16T00:45:39.000Z</video:publication_date>
+            
+                <video:tag>art</video:tag>
+            
+                <video:tag>art tutorials</video:tag>
+            
+                <video:tag>cleaning</video:tag>
+            
+                <video:tag>painting</video:tag>
+            
+                <video:tag>paintbrushes</video:tag>
+            
+                <video:tag>ferrule</video:tag>
+            
+                <video:tag>dirty</video:tag>
+            
+                <video:tag>materials</video:tag>
+            
+                <video:tag>acrylics</video:tag>
+            
+            
+                <video:category>Art</video:category>
+            
+        </video:video>
+		
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2016/05/three-perspective-videos</loc>
+
+    
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/h0HrmywKzFk/default.jpg</video:thumbnail_loc>
+            <video:title>How to Draw Perfect Squares in 1 &amp; 2 Point Perspective</video:title>
+            <video:description><![CDATA[Please note that this method is accurate so far as I've been able to compare it with 3d models, and also this was one of the methods used in a book I was reading, but as I will cover in the next video there's something off about using this to construct perfect cubes so I'm not sure if there might be some minor error or there's something I'm not taking into consideration when constructing perfect cubes. Website: http://alansartlog.com/ Patreon: https://www.patreon.com/alansartlog Instagram:  https://www.instagram.com/alansartlog/ Twitter: https://twitter.com/alansartlog Facebook: https://www.facebook.com/alansartlog Deviantart: http://alansartlog.deviantart.com Tumblr: http://alansartlog.tumblr.com Instructables: http://www.instructables.com/member/alansartlog/ -~-~~-~~~-~~-~- Checkout my Latest Video: "How to Scan Objects into 3D Models II - Settings and Setup Comparisons"  https://www.youtube.com/watch?v=7pGJ8rWiecw -~-~~-~~~-~~-~-]]></video:description>
+            <video:player_loc allow_embed="yes">https://www.youtube.com/watch?v=h0HrmywKzFk</video:player_loc>
+            <video:publication_date>2016-04-26T00:00:02.000Z</video:publication_date>
+            
+                <video:tag>art</video:tag>
+            
+                <video:tag>art tutorials</video:tag>
+            
+                <video:tag>sketch</video:tag>
+            
+                <video:tag>sketches</video:tag>
+            
+                <video:tag>sketchbook</video:tag>
+            
+                <video:tag>perspective</video:tag>
+            
+                <video:tag>perfect square</video:tag>
+            
+                <video:tag>perfect squares</video:tag>
+            
+                <video:tag>perfect cubes</video:tag>
+            
+                <video:tag>drawing</video:tag>
+            
+                <video:tag>1 point</video:tag>
+            
+                <video:tag>2 point</video:tag>
+            
+                <video:tag>digital art</video:tag>
+            
+                <video:tag>traditional art</video:tag>
+            
+            
+                <video:category>Art</video:category>
+            
+        </video:video>
+		
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/1sCd7av2rVk/default.jpg</video:thumbnail_loc>
+            <video:title>How to Draw Perfect Cubes in 2 Point Perspective</video:title>
+            <video:description><![CDATA[I have figured out why the corner point is where it is and made a quick gif https://imgur.com/gallery/JX8t7 because I cannot work on the new perspective videos yet.  Website: http://alansartlog.com/ Patreon: https://www.patreon.com/alansartlog Instagram:  https://www.instagram.com/alansartlog/ Twitter: https://twitter.com/alansartlog Facebook: https://www.facebook.com/alansartlog Deviantart: http://alansartlog.deviantart.com Tumblr: http://alansartlog.tumblr.com Instructables: http://www.instructables.com/member/alansartlog/ -~-~~-~~~-~~-~- Checkout my Latest Video: "How to Scan Objects into 3D Models II - Settings and Setup Comparisons"  https://www.youtube.com/watch?v=7pGJ8rWiecw -~-~~-~~~-~~-~-]]></video:description>
+            <video:player_loc allow_embed="yes">https://www.youtube.com/watch?v=1sCd7av2rVk</video:player_loc>
+            <video:publication_date>2016-05-02T01:06:53.000Z</video:publication_date>
+            
+                <video:tag>art</video:tag>
+            
+                <video:tag>art tutorials</video:tag>
+            
+                <video:tag>traditional drawing</video:tag>
+            
+                <video:tag>sketch</video:tag>
+            
+                <video:tag>sketches</video:tag>
+            
+                <video:tag>sketchbook</video:tag>
+            
+                <video:tag>perspective</video:tag>
+            
+                <video:tag>2 point</video:tag>
+            
+                <video:tag>perfect</video:tag>
+            
+                <video:tag>cubes</video:tag>
+            
+                <video:tag>basics</video:tag>
+            
+                <video:tag>easy</video:tag>
+            
+                <video:tag>simple</video:tag>
+            
+                <video:tag>1 point</video:tag>
+            
+                <video:tag>digital drawing</video:tag>
+            
+                <video:tag>tutorial</video:tag>
+            
+            
+                <video:category>Art</video:category>
+            
+        </video:video>
+		
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/b_luMHmlCio/default.jpg</video:thumbnail_loc>
+            <video:title>How to Rotate Objects in Perspective</video:title>
+            <video:description><![CDATA[I forgot to mention this but you can continue the second pair of lines off into the distance to find the second vanishing point, but very minute inconsistencies will mean they'll be a little bit off, especially the farther away the point is. There's a very small area where if you're rotating many objects it might be a better idea to find that point, but outside of that it isn't feasible.  Website: http://alansartlog.com/ Patreon: https://www.patreon.com/alansartlog Instagram:  https://www.instagram.com/alansartlog/ Twitter: https://twitter.com/alansartlog Facebook: https://www.facebook.com/alansartlog Deviantart: http://alansartlog.deviantart.com Tumblr: http://alansartlog.tumblr.com Instructables: http://www.instructables.com/member/alansartlog/ -~-~~-~~~-~~-~- Checkout my Latest Video: "How to Scan Objects into 3D Models II - Settings and Setup Comparisons"  https://www.youtube.com/watch?v=7pGJ8rWiecw -~-~~-~~~-~~-~-]]></video:description>
+            <video:player_loc allow_embed="yes">https://www.youtube.com/watch?v=b_luMHmlCio</video:player_loc>
+            <video:publication_date>2016-05-09T02:00:01.000Z</video:publication_date>
+            
+                <video:tag>art</video:tag>
+            
+                <video:tag>art tutorials</video:tag>
+            
+                <video:tag>traditional drawing</video:tag>
+            
+                <video:tag>sketch</video:tag>
+            
+                <video:tag>sketches</video:tag>
+            
+                <video:tag>sketchbook</video:tag>
+            
+                <video:tag>perspective</video:tag>
+            
+                <video:tag>drawing in perspective</video:tag>
+            
+                <video:tag>2d</video:tag>
+            
+                <video:tag>3d</video:tag>
+            
+                <video:tag>cube</video:tag>
+            
+                <video:tag>rotating objects</video:tag>
+            
+                <video:tag>rotating cubes</video:tag>
+            
+                <video:tag>perfectly</video:tag>
+            
+                <video:tag>digital art</video:tag>
+            
+                <video:tag>photoshop</video:tag>
+            
+            
+                <video:category>Art</video:category>
+            
+        </video:video>
+		
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2016/04/weeks-worth-of-figure-drawing-practice</loc>
+
+    
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/Pqoqua2Vj8s/default.jpg</video:thumbnail_loc>
+            <video:title>Week&#39;s Worth of Figure Drawing Practice</video:title>
+            <video:description><![CDATA[For the references I used a mix  of artists.pixelovely.com/practice-tools/figure-drawing/, www.quickposes.com/pages/timed,  and www.characterdesigns.com/, hence why unfortunately I did not have very early poses that repeat later. I have saved a few of my favorite poses for next time so hopefully there will be more to compare. The anatomy book I like to use is Classic Human Anatomy by Valerie L. Winslow. If you can only afford one book get this one. The only downside is it's all drawn but I have found no other book so well done. As for Michael Hampton who I mentioned, he has a wonderful blog full of sketches (figuredrawing.info/) that I found very helpful. He often shows his reference and I recommend you first attempt to do the pose from the reference, then look at his approach for help/comparison. He also has a book (Figure Drawing - Design and Invention) that looks very good.  The lightning bold figure drawing method I mentioned can be found here: https://www.youtube.com/watch?v=mBq7rtnES0A Oh also, this is kind of unrelated, but I fixed the noise on my microphone! I'm using an iPhone with a mic app plugged into my computer and I thought the noise was just a side-effect of the cable or being so close to my fan, but turns out it was all Windows. I had microphone boost turned on because otherwise I couldn't use the computer mic before without it, turns out this just seems to introduce hideous amounts of noise. Website: http://alansartlog.com/ Patreon: https://www.patreon.com/alansartlog Instagram:  https://www.instagram.com/alansartlog/ Twitter: https://twitter.com/alansartlog Facebook: https://www.facebook.com/alansartlog Deviantart: http://alansartlog.deviantart.com Tumblr: http://alansartlog.tumblr.com Instructables: http://www.instructables.com/member/alansartlog/ -~-~~-~~~-~~-~- Checkout my Latest Video: "How to Scan Objects into 3D Models II - Settings and Setup Comparisons"  https://www.youtube.com/watch?v=7pGJ8rWiecw -~-~~-~~~-~~-~-]]></video:description>
+            <video:player_loc allow_embed="yes">https://www.youtube.com/watch?v=Pqoqua2Vj8s</video:player_loc>
+            <video:publication_date>2016-04-18T00:00:01.000Z</video:publication_date>
+            
+                <video:tag>art</video:tag>
+            
+                <video:tag>art tutorials</video:tag>
+            
+                <video:tag>traditional drawing</video:tag>
+            
+                <video:tag>color pencil</video:tag>
+            
+                <video:tag>colored pencil</video:tag>
+            
+                <video:tag>landscape</video:tag>
+            
+                <video:tag>sketch</video:tag>
+            
+                <video:tag>sketches</video:tag>
+            
+                <video:tag>sketchbook</video:tag>
+            
+            
+                <video:category>Art</video:category>
+            
+        </video:video>
+		
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2016/04/boat-on-the-shore</loc>
+
+    
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/jhdB2v3kUbo/default.jpg</video:thumbnail_loc>
+            <video:title>Boat on the Shore (Colored Pencils)</video:title>
+            <video:description><![CDATA[Okay it seems I won't be able to do daily drawings. It's too much work editing and uploading. By Friday I felt so horrible I was practically useless all day and that kind of reverberated through the weekend. I can draw daily, it's just the rest that kills me. So I'm thinking of like doing a weekly progress thing or every few days post whatever I've been working on like here. This took 2-3 days and 3 hours total. Reference (used under a CC-BY license https://creativecommons.org/licenses/by/2.0/ ) :  Willy Lott's Cottage as painted in The Hay Wain by Karen Roe http://flickr.com/photo.gne?id=5558933741 Website: http://alansartlog.com/ Patreon: https://www.patreon.com/alansartlog Instagram:  https://www.instagram.com/alansartlog/ Twitter: https://twitter.com/alansartlog Facebook: https://www.facebook.com/alansartlog Deviantart: http://alansartlog.deviantart.com Tumblr: http://alansartlog.tumblr.com Instructables: http://www.instructables.com/member/alansartlog/ -~-~~-~~~-~~-~- Checkout my Latest Video: "How to Scan Objects into 3D Models II - Settings and Setup Comparisons"  https://www.youtube.com/watch?v=7pGJ8rWiecw -~-~~-~~~-~~-~-]]></video:description>
+            <video:player_loc allow_embed="yes">https://www.youtube.com/watch?v=jhdB2v3kUbo</video:player_loc>
+            <video:publication_date>2016-04-16T16:56:38.000Z</video:publication_date>
+            
+                <video:tag>art</video:tag>
+            
+                <video:tag>art tutorials</video:tag>
+            
+                <video:tag>traditional art</video:tag>
+            
+                <video:tag>color pencil</video:tag>
+            
+                <video:tag>colored pencil</video:tag>
+            
+                <video:tag>sketches</video:tag>
+            
+                <video:tag>sketch</video:tag>
+            
+                <video:tag>sketchbook</video:tag>
+            
+                <video:tag>timelapse</video:tag>
+            
+                <video:tag>boat</video:tag>
+            
+            
+                <video:category>Art</video:category>
+            
+        </video:video>
+		
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2016/04/mountains-oil-painting</loc>
+
+    
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/54joSbwW9oE/default.jpg</video:thumbnail_loc>
+            <video:title>Daily Sketch #5 - Mountains (Oils)</video:title>
+            <video:description><![CDATA[Reference (used under a CC-BY license https://creativecommons.org/licenses/by/2.0/ ) : Old man of Storr by Luls Ascenso http://flickr.com/photo.gne?id=15062743340 Website: http://alansartlog.com/ Patreon: https://www.patreon.com/alansartlog Instagram:  https://www.instagram.com/alansartlog/ Twitter: https://twitter.com/alansartlog Facebook: https://www.facebook.com/alansartlog Deviantart: http://alansartlog.deviantart.com Tumblr: http://alansartlog.tumblr.com Instructables: http://www.instructables.com/member/alansartlog/ -~-~~-~~~-~~-~- Checkout my Latest Video: "How to Scan Objects into 3D Models II - Settings and Setup Comparisons"  https://www.youtube.com/watch?v=7pGJ8rWiecw -~-~~-~~~-~~-~-]]></video:description>
+            <video:player_loc allow_embed="yes">https://www.youtube.com/watch?v=54joSbwW9oE</video:player_loc>
+            <video:publication_date>2016-04-08T00:00:00.000Z</video:publication_date>
+            
+                <video:tag>art tutorials</video:tag>
+            
+                <video:tag>art</video:tag>
+            
+                <video:tag>traditional drawing</video:tag>
+            
+                <video:tag>painting</video:tag>
+            
+                <video:tag>oils</video:tag>
+            
+                <video:tag>alla prima</video:tag>
+            
+                <video:tag>wet on wet</video:tag>
+            
+                <video:tag>landscape</video:tag>
+            
+                <video:tag>sketch</video:tag>
+            
+                <video:tag>sketches</video:tag>
+            
+                <video:tag>sketchbook</video:tag>
+            
+            
+                <video:category>Art</video:category>
+            
+        </video:video>
+		
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2016/04/cemetery-oil-painting</loc>
+
+    
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/ADWWYZ9yMWo/default.jpg</video:thumbnail_loc>
+            <video:title>Daily Sketch #2 - Oil Painting</video:title>
+            <video:description><![CDATA[Reference (used under a CC-BY license https://creativecommons.org/licenses/by/2.0/ ):  Fog 7 by Tim Green http://flickr.com/photo.gne?id=4351467124 Website: http://alansartlog.com/ Patreon: https://www.patreon.com/alansartlog Instagram:  https://www.instagram.com/alansartlog/ Twitter: https://twitter.com/alansartlog Facebook: https://www.facebook.com/alansartlog Deviantart: http://alansartlog.deviantart.com Tumblr: http://alansartlog.tumblr.com Instructables: http://www.instructables.com/member/alansartlog/ -~-~~-~~~-~~-~- Checkout my Latest Video: "How to Scan Objects into 3D Models II - Settings and Setup Comparisons"  https://www.youtube.com/watch?v=7pGJ8rWiecw -~-~~-~~~-~~-~-]]></video:description>
+            <video:player_loc allow_embed="yes">https://www.youtube.com/watch?v=ADWWYZ9yMWo</video:player_loc>
+            <video:publication_date>2016-04-04T21:23:21.000Z</video:publication_date>
+            
+                <video:tag>art</video:tag>
+            
+                <video:tag>oil painting</video:tag>
+            
+                <video:tag>studies</video:tag>
+            
+                <video:tag>cemetery</video:tag>
+            
+                <video:tag>spooky</video:tag>
+            
+                <video:tag>black and white</video:tag>
+            
+                <video:tag>daily sketch</video:tag>
+            
+                <video:tag>sketcbook</video:tag>
+            
+                <video:tag>drawing</video:tag>
+            
+                <video:tag>practice</video:tag>
+            
+                <video:tag>traditional art</video:tag>
+            
+            
+                <video:category>Art</video:category>
+            
+        </video:video>
+		
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2016/04/pen-marker-sketches</loc>
+
+    
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/AFIczkB4nj0/default.jpg</video:thumbnail_loc>
+            <video:title>Daily Drawing #1 - Pen &amp; Marker</video:title>
+            <video:description><![CDATA[Video is at around 2x speed. I don't know what happened with the image at the end. It looked fine in the preview, then I exported it and it went all white. My blog has the proper one. Reference (used under a CC-BY license https://creativecommons.org/licenses/by/2.0/ ): Cool house in Washington, D.C. (Logan Circle) by Brent Moore https://www.flickr.com/photos/brent_nashville/207554886 Website: http://alansartlog.com/ Patreon: https://www.patreon.com/alansartlog Instagram:  https://www.instagram.com/alansartlog/ Twitter: https://twitter.com/alansartlog Facebook: https://www.facebook.com/alansartlog Deviantart: http://alansartlog.deviantart.com Tumblr: http://alansartlog.tumblr.com Instructables: http://www.instructables.com/member/alansartlog/ -~-~~-~~~-~~-~- Checkout my Latest Video: "How to Scan Objects into 3D Models II - Settings and Setup Comparisons"  https://www.youtube.com/watch?v=7pGJ8rWiecw -~-~~-~~~-~~-~-]]></video:description>
+            <video:player_loc allow_embed="yes">https://www.youtube.com/watch?v=AFIczkB4nj0</video:player_loc>
+            <video:publication_date>2016-04-04T00:46:54.000Z</video:publication_date>
+            
+                <video:tag>art studies</video:tag>
+            
+                <video:tag>sketch</video:tag>
+            
+                <video:tag>ink sketching</video:tag>
+            
+                <video:tag>camera rig</video:tag>
+            
+                <video:tag>diy</video:tag>
+            
+                <video:tag>drawing</video:tag>
+            
+                <video:tag>art</video:tag>
+            
+                <video:tag>faber castell pitt pen</video:tag>
+            
+                <video:tag>semi-review</video:tag>
+            
+                <video:tag>pen</video:tag>
+            
+            
+                <video:category>Art</video:category>
+            
+        </video:video>
+		
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/TDYoARSh_q4/default.jpg</video:thumbnail_loc>
+            <video:title>Daily Sketch #3 - Castle (Pen &amp; Marker)</video:title>
+            <video:description><![CDATA[Reference (used under a CC-BY license https://creativecommons.org/licenses/by/2.0/ ) : Bodiam Castle, East Sussex, England, 11 October 2005 by Phillip Capper  http://flickr.com/photo.gne?id=52158537 Website: http://alansartlog.com/ Patreon: https://www.patreon.com/alansartlog Instagram:  https://www.instagram.com/alansartlog/ Twitter: https://twitter.com/alansartlog Facebook: https://www.facebook.com/alansartlog Deviantart: http://alansartlog.deviantart.com Tumblr: http://alansartlog.tumblr.com Instructables: http://www.instructables.com/member/alansartlog/ -~-~~-~~~-~~-~- Checkout my Latest Video: "How to Scan Objects into 3D Models II - Settings and Setup Comparisons"  https://www.youtube.com/watch?v=7pGJ8rWiecw -~-~~-~~~-~~-~-]]></video:description>
+            <video:player_loc allow_embed="yes">https://www.youtube.com/watch?v=TDYoARSh_q4</video:player_loc>
+            <video:publication_date>2016-04-05T22:40:34.000Z</video:publication_date>
+            
+                <video:tag>art studies</video:tag>
+            
+                <video:tag>art</video:tag>
+            
+                <video:tag>sketch</video:tag>
+            
+                <video:tag>sketches</video:tag>
+            
+                <video:tag>sketching</video:tag>
+            
+                <video:tag>pen</video:tag>
+            
+                <video:tag>marker</video:tag>
+            
+                <video:tag>ink</video:tag>
+            
+                <video:tag>drawing</video:tag>
+            
+                <video:tag>mistakes</video:tag>
+            
+            
+                <video:category>Art</video:category>
+            
+        </video:video>
+		
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/j95yD2R-Tx8/default.jpg</video:thumbnail_loc>
+            <video:title>Daily Sketch #4 - Tower (Pen &amp; Marker)</video:title>
+            <video:description><![CDATA[Reference (used under a CC-BY license https://creativecommons.org/licenses/by/2.0/ ) : Castle by Richard Leonard http://flickr.com/photo.gne?id=81647366 Website: http://alansartlog.com/ Patreon: https://www.patreon.com/alansartlog Instagram:  https://www.instagram.com/alansartlog/ Twitter: https://twitter.com/alansartlog Facebook: https://www.facebook.com/alansartlog Deviantart: http://alansartlog.deviantart.com Tumblr: http://alansartlog.tumblr.com Instructables: http://www.instructables.com/member/alansartlog/ -~-~~-~~~-~~-~- Checkout my Latest Video: "How to Scan Objects into 3D Models II - Settings and Setup Comparisons"  https://www.youtube.com/watch?v=7pGJ8rWiecw -~-~~-~~~-~~-~-]]></video:description>
+            <video:player_loc allow_embed="yes">https://www.youtube.com/watch?v=j95yD2R-Tx8</video:player_loc>
+            <video:publication_date>2016-04-06T21:56:45.000Z</video:publication_date>
+            
+                <video:tag>art</video:tag>
+            
+                <video:tag>art tutorials</video:tag>
+            
+                <video:tag>traditional drawing</video:tag>
+            
+                <video:tag>pen</video:tag>
+            
+                <video:tag>ink</video:tag>
+            
+                <video:tag>marker</video:tag>
+            
+                <video:tag>sketch</video:tag>
+            
+                <video:tag>sketches</video:tag>
+            
+                <video:tag>sketchbook</video:tag>
+            
+            
+                <video:category>Art</video:category>
+            
+        </video:video>
+		
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2016/03/drawing-some-hands</loc>
+
+    
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/dNeOheqcG6o/default.jpg</video:thumbnail_loc>
+            <video:title>Drawing Some Hands</video:title>
+            <video:description><![CDATA[I'm trying out something slightly different. I want to do more video but the editing always takes so long I avoid it. So I'm thinking of doing videos like this one, possibly even more concentrated (one hand at a time) because it's so much easier to edit. Then maybe once I get the hang of it (and a proper mic - 50% of is getting the iPhone audio bits in sync) I'll start making longer ones. Anyways enjoy. Reference (used with permission): http://www.anatomy360.info/capturing-the-human-hand/ Spiral Technique I mentioned: todo Download the Image: http://alansartlog.com/2016/03/drawing-some-hands/ Website: http://alansartlog.com/ Patreon: https://www.patreon.com/alansartlog Instagram:  https://www.instagram.com/alansartlog/ Twitter: https://twitter.com/alansartlog Facebook: https://www.facebook.com/alansartlog Deviantart: http://alansartlog.deviantart.com Tumblr: http://alansartlog.tumblr.com Instructables: http://www.instructables.com/member/alansartlog/ -~-~~-~~~-~~-~- Checkout my Latest Video: "How to Scan Objects into 3D Models II - Settings and Setup Comparisons"  https://www.youtube.com/watch?v=7pGJ8rWiecw -~-~~-~~~-~~-~-]]></video:description>
+            <video:player_loc allow_embed="yes">https://www.youtube.com/watch?v=dNeOheqcG6o</video:player_loc>
+            <video:publication_date>2016-03-13T19:15:32.000Z</video:publication_date>
+            
+                <video:tag>how to draw hands</video:tag>
+            
+                <video:tag>drawing</video:tag>
+            
+                <video:tag>digital art</video:tag>
+            
+                <video:tag>studies</video:tag>
+            
+                <video:tag>hands</video:tag>
+            
+                <video:tag>skin</video:tag>
+            
+                <video:tag>photoshop</video:tag>
+            
+                <video:tag>painting</video:tag>
+            
+            
+        </video:video>
+		
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2016/02/new-years-resolutions</loc>
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2016/02/final-site-design-brainstorm</loc>
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2016/02/two-fencing-sketches</loc>
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2016/02/first-sketch-from-a-course-in-pencil-sketching</loc>
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2016/01/logo-brainstorming</loc>
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2016/01/first-site-design-brainstorm</loc>
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2016/01/modifying-ikea-andy-drawers</loc>
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2016/01/color-swatches</loc>
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2016/01/two-landscapes</loc>
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2016/01/better-table-saw-push-stick-from-scrap-wood</loc>
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2015/12/some-notes-on-ears-part-2</loc>
+
+    
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/lhXwGYl1vIA/default.jpg</video:thumbnail_loc>
+            <video:title>How to Draw Ears - Part 2 - Coloring &amp; Subsurface Scattering</video:title>
+            <video:description><![CDATA[If you have any questions please comment. Feedback is appreciated. I worked on cutting down the time to 15 minutes this time. I've been told my speech is a bit monotone so currently working on that. My Links ======= Download the Image: http://alansartlog.com/2015/12/some-notes-on-ears-part-2/ Website: http://alansartlog.com/ Patreon: https://www.patreon.com/alansartlog Instagram:  https://www.instagram.com/alansartlog/ Twitter: https://twitter.com/alansartlog Facebook: https://www.facebook.com/alansartlog Deviantart: http://alansartlog.deviantart.com Tumblr: http://alansartlog.tumblr.com Instructables: http://www.instructables.com/member/alansartlog/ References/Resources Mentioned in the Video ====================================== Ears: "Mean me" by Pierre Vignaue used under a CC-BY 2.0 License / Cropped https://www.flickr.com/photos/vimages... "Backlight 2" by Travis Pawlewski used under a CC-BY 2.0 License / Cropped https://www.flickr.com/photos/3083297... "Infinite, 3D Head Scan" by Lee Perry-Smith used under a CC-BY 3.0 License / Rendered under different Lighting Conditions http://ir-ltd.net/portfolio/infinite/ (Click the link there and scroll down to download). Virtual Lighting Studio http://www.zvork.fr/vls/ Further Reading on the Subject ========================= Post on Subsurface Scattering and also How to Take Advantage of it in Traditional Mediums: http://danielmaidman.blogspot.com.ar/2010/09/subsurface-scattering.html -~-~~-~~~-~~-~- Checkout my Latest Video: "How to Scan Objects into 3D Models II - Settings and Setup Comparisons"  https://www.youtube.com/watch?v=7pGJ8rWiecw -~-~~-~~~-~~-~-]]></video:description>
+            <video:player_loc allow_embed="yes">https://www.youtube.com/watch?v=lhXwGYl1vIA</video:player_loc>
+            <video:publication_date>2015-12-21T02:52:03.000Z</video:publication_date>
+            
+                <video:tag>how to draw ears</video:tag>
+            
+                <video:tag>skin</video:tag>
+            
+                <video:tag>wavelengths</video:tag>
+            
+                <video:tag>3d model</video:tag>
+            
+                <video:tag>light</video:tag>
+            
+                <video:tag>creative commons</video:tag>
+            
+                <video:tag>anatomy</video:tag>
+            
+                <video:tag>skin color</video:tag>
+            
+                <video:tag>art</video:tag>
+            
+                <video:tag>free resources</video:tag>
+            
+                <video:tag>painting</video:tag>
+            
+                <video:tag>coloring</video:tag>
+            
+                <video:tag>subsurface scattering</video:tag>
+            
+                <video:tag>keywordalansartandstuffforblogger</video:tag>
+            
+                <video:tag>digital art</video:tag>
+            
+                <video:tag>reference</video:tag>
+            
+            
+                <video:category>Art</video:category>
+            
+        </video:video>
+		
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2015/12/easily-pour-paint-from-small-cans</loc>
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2015/11/varnished-chest</loc>
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2015/11/some-notes-on-ears</loc>
+
+    
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/EyBEEiOc2hI/default.jpg</video:thumbnail_loc>
+            <video:title>How to Draw Ears - Part 1 - Structure</video:title>
+            <video:description><![CDATA[Okay, reuploaded this with better links/annotations. Enjoy. morgueFile: morguefile.com Download the Image: http://alansartlog.com/posts/2015/11/some-notes-on-ears/ Website: http://alansartlog.com/ Patreon: https://www.patreon.com/alansartlog Instagram:  https://www.instagram.com/alansartlog/ Twitter: https://twitter.com/alansartlog Facebook: https://www.facebook.com/alansartlog Deviantart: http://alansartlog.deviantart.com Tumblr: http://alansartlog.tumblr.com Instructables: http://www.instructables.com/member/alansartlog/ -~-~~-~~~-~~-~- Checkout my Latest Video: "How to Scan Objects into 3D Models II - Settings and Setup Comparisons"  https://www.youtube.com/watch?v=7pGJ8rWiecw -~-~~-~~~-~~-~-]]></video:description>
+            <video:player_loc allow_embed="yes">https://www.youtube.com/watch?v=EyBEEiOc2hI</video:player_loc>
+            <video:publication_date>2015-11-20T17:36:42.000Z</video:publication_date>
+            
+                <video:tag>speedpainting</video:tag>
+            
+                <video:tag>anatomy</video:tag>
+            
+                <video:tag>tutorial</video:tag>
+            
+                <video:tag>keywordalansartandstuffforblogger</video:tag>
+            
+                <video:tag>drawing</video:tag>
+            
+                <video:tag>Draw</video:tag>
+            
+                <video:tag>painting</video:tag>
+            
+                <video:tag>digital art</video:tag>
+            
+                <video:tag>real time</video:tag>
+            
+                <video:tag>timelapse</video:tag>
+            
+                <video:tag>art tutorials</video:tag>
+            
+                <video:tag>how to draw an ear</video:tag>
+            
+                <video:tag>ear</video:tag>
+            
+                <video:tag>How-to (Website Category)</video:tag>
+            
+                <video:tag>how to draw ears</video:tag>
+            
+                <video:tag>Fine Art (Industry)</video:tag>
+            
+                <video:tag>studies</video:tag>
+            
+            
+        </video:video>
+		
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2015/10/bottle-cap-palette</loc>
+
+    
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/OUE5Obp9mTQ/default.jpg</video:thumbnail_loc>
+            <video:title>Timelapse Test - Sterling Castle</video:title>
+            <video:description><![CDATA[First semi-successful attempt at recording a painting. Didn't keep recording because it was a very uncomfortable setup (though I think it's pretty interesting that you can tell how hard I'm pressing by whether the canvas moves or not lol). Also unlike my first test recording at 2 FPS (forced with Magic Lantern) that was done all in one go and worked perfectly, I paused several times during this one. And at some point something went wrong and it switched to 30 FPS for some reason, used up all my memory, and made me lose a segment. I have to remember to check the FPS upon pausing or install ML on my bigger memory card. Anyways... At 2 FPS this is sped up 15 times, so this was about an hour and a half of painting, two with the missing segment. The stuff I'm taking off at the end is Masking Fluid btw. I sometimes like the extra practice of transferring the image over with the grid method, especially if it's a portrait, but even without it, I find the dark pencil lines don't blend in well later. I always find them peaking out here and there,, so I decided to try tracing the image with paint in a burnt sienna color. Worked great. Problem was though, the sky was such a paint dense area that I kept erasing my lines. So I just masked it off on this second attempt. Easier than trying to go back later and find those edges. Canvas paper is pretty see-through on a light table or computer screen, but once you've got any titanium white on it, you can't see anything. The paint does lift a bit near the edges when you take off the masking fluid though. I'd recommend pressing the edges down  and brushing them with some medium as soon as you're done. Anyways, I'm working on a better setup. Will do a post when I find it. Reference (used under a CC-BY license https://creativecommons.org/licenses/by/2.0/): Stirling castle, Scotland, United Kingdom" by Giuseppe Milo https://www.flickr.com/photos/giuseppemilo/17304898516 Website: http://alansartlog.com/ Patreon: https://www.patreon.com/alansartlog Instagram:  htt...]]></video:description>
+            <video:player_loc allow_embed="yes">https://www.youtube.com/watch?v=OUE5Obp9mTQ</video:player_loc>
+            <video:publication_date>2015-10-21T17:26:35.000Z</video:publication_date>
+            
+                <video:tag>art</video:tag>
+            
+                <video:tag>castle</video:tag>
+            
+                <video:tag>blending</video:tag>
+            
+                <video:tag>timelapse</video:tag>
+            
+                <video:tag>painting</video:tag>
+            
+                <video:tag>Paint</video:tag>
+            
+                <video:tag>keywordalansartandstuffforblogger</video:tag>
+            
+                <video:tag>traditional art</video:tag>
+            
+                <video:tag>speedpaint</video:tag>
+            
+                <video:tag>paintings</video:tag>
+            
+                <video:tag>glazing</video:tag>
+            
+                <video:tag>sky</video:tag>
+            
+                <video:tag>smotthing</video:tag>
+            
+                <video:tag>Artist</video:tag>
+            
+                <video:tag>acrylics</video:tag>
+            
+            
+                <video:category>Art</video:category>
+            
+        </video:video>
+		
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2015/09/wooden-chest</loc>
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2015/09/converting-a-camera-tripod-into-an-easel</loc>
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2015/08/how-to-export-kindle-highlights-personal-documents-included</loc>
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2015/08/magic-lantern-on-my-canon-rebel-t31100d</loc>
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2015/08/lower-kananaskis-lake</loc>
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2015/07/cornish-harbour</loc>
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2015/07/my-ideas-for-the-blog-and-current-projects</loc>
+
+    
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2015/07/random-building</loc>
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2015/07/random-head</loc>
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2015/07/random-bus-concept</loc>
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2015/06/figure-drawing</loc>
+
+    
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2015/05/random-head-angles-practice</loc>
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2015/05/random-robots</loc>
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2015/05/fruit-exercise</loc>
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2015/05/local-coffee-shop</loc>
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2015/05/random-sketches-mostly-boats</loc>
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2015/01/loomis-head-practice</loc>
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/2015/01/barn-in-the-snow</loc>
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/support-me</loc>
+
+</url>
+
+
+    
+<url>
+    <loc>https://alansartlog.com/about</loc>
+
+</url>
+
+
+</urlset>

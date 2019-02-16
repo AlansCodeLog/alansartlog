@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xml:lang="en-US" 
+xmlns:media="http://search.yahoo.com/mrss/" 
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns="http://www.w3.org/2005/Atom">
+    
+        
+            <link href="https://alansartlog.com/tags/regard3d/rss/index.xml" rel="self" type="application/atom+xml"  />
+            <title>Alan&#39;s Art Log - Tag:regard3d</title>
+            <link type="text/html" href="https://alansartlog.com/tags/regard3d" rel="alternate"/>
+            <id>https://alansartlog.com/tags/regard3d</id
+        
+    
+    <subtitle>Paintings, sketches, tutorials, videos, and art related DIY projects.</subtitle>
+    <category term="Art"></category>
+    <icon>https://alansartlog.com/resources/images/pencil-logo-icon-150x150.jpg</icon>
+    
+    <updated>2019-02-16T23:35:34+00:00</updated>
+    <author>
+        <name>Alan North</name>
+        <email>alansartlog@gmail.com</email>
+    </author>
+
+    
+    <rights>© Copyright 2017-2019 Alan North - All rights reserved unless otherwise stated.</rights>
+
+    
+        <entry>
+    
+    <title>How to Export Models from Regard3D with Textures</title>
+    <link href="https://alansartlog.com/2017/07/how-to-export-models-from-regard3d-with-textures"/>
+    <id>https://alansartlog.com/2017/07/how-to-export-models-from-regard3d-with-textures</id>
+    
+    
+    
+        <content type="html"><![CDATA[<p><strong>EDIT: This post is outdated. The bug has been fixed.</strong></p>
+<iframe src="https://www.youtube.com/embed/fsi9OTTa-Ng?autoplay=1" frameborder="0" allowfullscreen></iframe>
+<p>If you saw my previous post/video about scanning objects into 3d models you'll know the current version of the program I used, <a href="http://www.regard3d.org/">Regard3D</a>, has a bug with exporting objects with image textures.</p>
+<p>The <a href="https://github.com/rhiestan/Regard3D/issues/4">developer is aware of it</a> and it should get fixed eventually, but in the meantime, a viewer sent me an email with a better workaround so I thought I'd go over it.</p>
+<p>In the video I mentioned one way to get around it, and that is to use colored vertices, but as was pointed out to me, this creates much fuzzier textures at equal resolutions whereas an image texture will retain it's detail no matter the resolution of the model. I personally did not care about them so I didn't really investigate further, but the solution is embarrassingly simple if I would have thought about it more than two seconds.</p>
+<p>We know the program saves everything as it creates it to the project directory and it can correctly make and read textured models from there so the files in the project folder must be fine, the bug occurs only when a model is exported.</p>
+<h2 id="steps">Steps</h2>
+<p>So what we can do is once we created our surface model with image textures (<code>Colorization Type</code> should say <code>Textures</code>), instead of exporting it, note down it's path in our project tree. For the picture set, just count which it is from 0.</p>
+<figure>
+<div class="lazy-wrapper"><img src="https://alansartlog.com/resources/uploads/3d-scan-texture-path.jpg"  width="928" height="759"  alt="Project%20Tree%20in%20Regard%203D"/></div>
+</figure>
+<p>Then open up the project folder in your computer and navigate to the path (e.g. <code>Project Folder &gt; pictureset_1 &gt; matching_0 &gt; triangulation_0 &gt; densification_1 &gt; surface_0</code>). Once there you'll see a bunch of files. We need the <strong>obj</strong> file (our model), the <strong>mtl</strong> or material library file (tells programs where to look for the textures), and the texture <strong>images</strong>. Copy them manually wherever you wanted to export them to.</p>
+<figure>
+<div class="lazy-wrapper"><img src="https://alansartlog.com/resources/uploads/3d-scan-files-to-export.jpg"  width="1328" height="678"  alt="Project%20Tree%20in%20Regard%203D"/></div>
+</figure>
+<p>Now we can import these into Blender (make sure your import extension for obj files is on) and they should work import automatically. If the textures aren't showing up just make sure you're using the Blender render engine and that you're in the texture view. This is how Blender imports them by default. To use them with a different rendering engine you'll have to connect the textures manually.</p>
+<h2 id="proscons">Pros &amp; Cons</h2>
+<table>
+<thead>
+<tr>
+<th>Colored Vertices</th>
+<th>Image Textures</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fuzzy Textures</td>
+<td>Detailed Textures</td>
+</tr>
+<tr>
+<td>Smaller File Size at Same Detail</td>
+<td>Much Larger but…</td>
+</tr>
+<tr>
+<td>Looks Much Worse at Low Resolutions*</td>
+<td>Same Texture Detail at Low Resolutions*</td>
+</tr>
+<tr>
+<td>Computes Faster (2x +)</td>
+<td>Computes Slower (but again ^)</td>
+</tr>
+<tr>
+<td>Duller/Less Reflective</td>
+<td>Captures more lighting artifacts.**</td>
+</tr>
+</tbody>
+</table>
+<p>*This is because with colored vertices the amount of detail is tied to the amount of points, whereas with image textures, the texture is always the same resolution so it preserves it's details no matter the mesh's resolution.</p>
+<p>This is why in the image below, even though we're at the same mesh resolution, the colored vertices make the texture look fuzzy.</p>
+<figure>
+<div class="lazy-wrapper"><img src="https://alansartlog.com/resources/uploads/3d-scan-resolution-comparison-both-at-d8.jpg"  width="1747" height="1000"  alt="Both%20at%20Depth%208"/></div>
+</figure>
+<p>**By less reflective I mean that you don't get a lot of weird really light areas, especially if you had uneven lighting or scanned the model by turning it instead of turning the camera around the model. This causes lighting artifacts which are more noticeable when using image textures. I'm not 100% sure why that is, but it means using colored vertices might still be the better option if you don't care about the textures of your objects, just the color, and you want the scan to process faster.</p>
+<p>For example, if you were scanning a smooth multi-colored toy, you'd need to add texture to it somehow like I did with this model by spraying it with ink. So you'd have to paint the model by hand anyways if you wanted textures, so you'd only really need a rough reference of the object's colors, image textures would be overkill.</p>
+<p>Anyways, here are some more examples for comparison.</p>
+<div class="gallery force3"><figure><div class="lazy-wrapper"><img is_thumb="true" src="https://alansartlog.com/resources/uploads/3d-scan-resolution-comparison-base-meshes-524x300.jpg"  width="524" height="300"  alt="The%20Base%20Meshes%20at%20Depth%208%20&%206"/></div></figure><figure><div class="lazy-wrapper"><img is_thumb="true" src="https://alansartlog.com/resources/uploads/3d-scan-resolution-comparison-w-colored-vertices-524x300.jpg"  width="524" height="300"  alt="Colored%20Vertices%20at%20Depth%208%20&%206"/></div></figure><figure><div class="lazy-wrapper"><img is_thumb="true" src="https://alansartlog.com/resources/uploads/3d-scan-resolution-comparison-w-image-textures-524x300.jpg"  width="524" height="300"  alt="Image%20Textures%20at%20Depth%208%20&%206"/></div></figure></div>
+<p>And here are some closeups, you can see how much detail the second one appears to hold even though the mesh is quite simple. If you have a keen eye you'll notice the textures aren't 100% the same, that's just because the program pieces them together slightly different at the different resolutions, but you can see the amount of detail is the same.</p>
+<div class="gallery force4"><figure><div class="lazy-wrapper"><img is_thumb="true" src="https://alansartlog.com/resources/uploads/3d-scan-d8-colored-vertices-300x300.jpg"  width="300" height="300"  alt="Depth%208%20w/%20Colored%20Vertices%20Closeup"/></div><figcaption><p>Depth 8 w/ Colored Vertices</p></figcaption></figure><figure><div class="lazy-wrapper"><img src="https://alansartlog.com/resources/uploads/3d-scan-d6-colored-vertices.jpg"  width="500" height="500"  alt="Depth%206%20w/%20Colored%20Vertices%20Closeup"/></div><figcaption><p>Depth 6 w/ Colored Vertices</p></figcaption></figure><figure><div class="lazy-wrapper"><img is_thumb="true" src="https://alansartlog.com/resources/uploads/3d-scan-d8-textured-300x300.jpg"  width="300" height="300"  alt="Depth%208%20w/%20Texture%20Images%20Closeup"/></div><figcaption><p>Depth 8 w/ Texture Images</p></figcaption></figure><figure><div class="lazy-wrapper"><img src="https://alansartlog.com/resources/uploads/3d-scan-d6-textured.jpg"  width="500" height="500"  alt="Depth%206%20w/%20Texture%20Images%20Closeup"/></div><figcaption><p>Depth 6 w/ Texture Images</p></figcaption></figure></div>
+<h2 id="othernotes">Other Notes</h2>
+<p>For those who might be wondering if it's possible to salvage the exported raw file, I did think it might be a simple bug, maybe an extra line or symbol or something that could be corrected by just editing the raw file, but the file is missing a lot of coordinates. Still I can open it in Meshlab and all the points are there, so if for some reason you lost all the files by this one, you could use the points to do the poisson surface reconstruction from there, though of course, you wouldn't be able to salvage the textures.</p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2017/07/how-to-export-models-from-regard3d-with-textures#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/3d" label="3d"></category>
+    
+        <category term="https://alansartlog.com/tags/3d-model" label="3d model"></category>
+    
+        <category term="https://alansartlog.com/tags/photogrammetry" label="photogrammetry"></category>
+    
+        <category term="https://alansartlog.com/tags/regard3d" label="regard3d"></category>
+    
+        <category term="https://alansartlog.com/tags/toolssoftware" label="tools/software"></category>
+    
+        <category term="https://alansartlog.com/tags/tutorials" label="tutorials"></category>
+    
+        <category term="https://alansartlog.com/tags/videos" label="videos"></category>
+    
+    
+    <updated>2017-07-07T15:43:03+00:00</updated>
+</entry>
+
+    
+</feed>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xml:lang="en-US" 
+xmlns:media="http://search.yahoo.com/mrss/" 
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns="http://www.w3.org/2005/Atom">
+    
+        
+            <link href="https://alansartlog.com/tags/outdated/rss/index.xml" rel="self" type="application/atom+xml"  />
+            <title>Alan&#39;s Art Log - Tag:outdated</title>
+            <link type="text/html" href="https://alansartlog.com/tags/outdated" rel="alternate"/>
+            <id>https://alansartlog.com/tags/outdated</id
+        
+    
+    <subtitle>Paintings, sketches, tutorials, videos, and art related DIY projects.</subtitle>
+    <category term="Art"></category>
+    <icon>https://alansartlog.com/resources/images/pencil-logo-icon-150x150.jpg</icon>
+    
+    <updated>2019-02-16T23:35:34+00:00</updated>
+    <author>
+        <name>Alan North</name>
+        <email>alansartlog@gmail.com</email>
+    </author>
+
+    
+    <rights>© Copyright 2017-2019 Alan North - All rights reserved unless otherwise stated.</rights>
+
+    
+        <entry>
+    
+    <title>How to Export Kindle Highlights (Personal Documents Included)</title>
+    <link href="https://alansartlog.com/2015/08/how-to-export-kindle-highlights-personal-documents-included"/>
+    <id>https://alansartlog.com/2015/08/how-to-export-kindle-highlights-personal-documents-included</id>
+    
+    
+    
+        <content type="html"><![CDATA[<h4 id="editamazonhasfinallyaddedtheabilitytoexportnotesandhighlightsbyemailthispostisoutdated">EDIT: Amazon has finally added the ability to export notes and highlights by email. This post is outdated.</h4>
+<p><a class="read-more" href="/2015/08/how-to-export-kindle-highlights-personal-documents-included">Read More…</a></p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2015/08/how-to-export-kindle-highlights-personal-documents-included#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/outdated" label="outdated"></category>
+    
+        <category term="https://alansartlog.com/tags/random" label="random"></category>
+    
+        <category term="https://alansartlog.com/tags/toolssoftware" label="tools/software"></category>
+    
+    
+    <updated>2015-08-19T00:00:00+00:00</updated>
+</entry>
+
+    
+</feed>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xml:lang="en-US" 
+xmlns:media="http://search.yahoo.com/mrss/" 
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns="http://www.w3.org/2005/Atom">
+    
+        
+            <link href="https://alansartlog.com/tags/colored-pencil/rss/index.xml" rel="self" type="application/atom+xml"  />
+            <title>Alan&#39;s Art Log - Tag:colored pencil</title>
+            <link type="text/html" href="https://alansartlog.com/tags/colored-pencil" rel="alternate"/>
+            <id>https://alansartlog.com/tags/colored-pencil</id
+        
+    
+    <subtitle>Paintings, sketches, tutorials, videos, and art related DIY projects.</subtitle>
+    <category term="Art"></category>
+    <icon>https://alansartlog.com/resources/images/pencil-logo-icon-150x150.jpg</icon>
+    
+    <updated>2019-02-16T23:35:34+00:00</updated>
+    <author>
+        <name>Alan North</name>
+        <email>alansartlog@gmail.com</email>
+    </author>
+
+    
+    <rights>© Copyright 2017-2019 Alan North - All rights reserved unless otherwise stated.</rights>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/boat-on-the-shore.jpg"/>
+        
+            <media:description type="html">&lt;p&gt;Inspired by:&amp;nbsp;&lt;a href=&#34;http://flickr.com/photo.gne?id=5558933741&#34;&gt;Willy Lott&#39;s Cottage as painted in The Hay Wain by Karen Roe&lt;/a&gt; / used under &lt;a href=&#34;https://creativecommons.org/licenses/by/2.0/&#34;&gt;CC-BY&lt;/a&gt;&lt;/p&gt;</media:description>
+        
+    
+    <title>Boat on the Shore</title>
+    <link href="https://alansartlog.com/2016/04/boat-on-the-shore"/>
+    <id>https://alansartlog.com/2016/04/boat-on-the-shore</id>
+    
+    
+    
+        <content type="html"><![CDATA[<iframe src="https://www.youtube.com/embed/jhdB2v3kUbo?autoplay=1" frameborder="0" allowfullscreen></iframe>
+<p>Okay it seems I won't be able to do daily drawings. It's too much work editing and uploading. By Friday I felt so horrible I was practically useless all day and that kind of reverberated through the weekend. I can draw daily, it's just the rest that kills me. So I'm thinking of like doing a weekly progress thing or every few days post whatever I've been working on like here.</p>
+<p>This took 2-3 days and 3 hours total.</p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2016/04/boat-on-the-shore#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/artwork" label="artwork"></category>
+    
+        <category term="https://alansartlog.com/tags/colored-pencil" label="colored pencil"></category>
+    
+        <category term="https://alansartlog.com/tags/videos" label="videos"></category>
+    
+    
+    <updated>2016-04-14T23:28:53+00:00</updated>
+</entry>
+
+    
+</feed>

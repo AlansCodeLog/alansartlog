@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xml:lang="en-US" 
+xmlns:media="http://search.yahoo.com/mrss/" 
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns="http://www.w3.org/2005/Atom">
+    
+        
+            <link href="https://alansartlog.com/tags/patreon-only-content/rss/index.xml" rel="self" type="application/atom+xml"  />
+            <title>Alan&#39;s Art Log - Tag:patreon only content</title>
+            <link type="text/html" href="https://alansartlog.com/tags/patreon-only-content" rel="alternate"/>
+            <id>https://alansartlog.com/tags/patreon-only-content</id
+        
+    
+    <subtitle>Paintings, sketches, tutorials, videos, and art related DIY projects.</subtitle>
+    <category term="Art"></category>
+    <icon>https://alansartlog.com/resources/images/pencil-logo-icon-150x150.jpg</icon>
+    
+    <updated>2019-02-16T23:35:34+00:00</updated>
+    <author>
+        <name>Alan North</name>
+        <email>alansartlog@gmail.com</email>
+    </author>
+
+    
+    <rights>© Copyright 2017-2019 Alan North - All rights reserved unless otherwise stated.</rights>
+
+    
+        <entry>
+    
+        <media:thumbnail url="https://alansartlog.com//resources/uploads/rotating-cube-gif.gif"/>
+        
+    
+    <title>Three Perspective Videos</title>
+    <link href="https://alansartlog.com/2016/05/three-perspective-videos"/>
+    <id>https://alansartlog.com/2016/05/three-perspective-videos</id>
+    
+    
+    
+        <content type="html"><![CDATA[<h1 id="howtodrawperfectsquaresin12pointperspective">How to Draw Perfect Squares in 1 &amp; 2 Point Perspective</h1>
+<iframe src="https://www.youtube.com/embed/h0HrmywKzFk?autoplay=1" frameborder="0" allowfullscreen></iframe>
+<p>Please note that this method is accurate so far as I’ve been able to compare it with 3d models, and also this was one of the methods used in a book I was reading, but as cover in the next video below there’s something off about using this to construct perfect cubes so I’m not sure if there might be some minor error or there’s something I’m not taking into consideration when constructing perfect cubes.</p>
+<h1 id="howtodrawperfectcubesin2pointperspective">How to Draw Perfect Cubes in 2 Point Perspective</h1>
+<iframe src="https://www.youtube.com/embed/1sCd7av2rVk?autoplay=1" frameborder="0" allowfullscreen></iframe>
+<h1 id="howtorotateobjectsinperspective">How to Rotate Objects in Perspective</h1>
+<iframe src="https://www.youtube.com/embed/b_luMHmlCio?autoplay=1" frameborder="0" allowfullscreen></iframe>
+<p>Patreons can get access to the 3d models I made and the PSD for the animation <a href="https://www.patreon.com/posts/patreon-only-for-5419096">here</a>.</p>
+<p>If you have any questions or there’s something else you have trouble with concerning perspective leave me a comment and I’ll try and help.</p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2016/05/three-perspective-videos#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/artwork" label="artwork"></category>
+    
+        <category term="https://alansartlog.com/tags/digital" label="digital"></category>
+    
+        <category term="https://alansartlog.com/tags/patreon-only-content" label="patreon only content"></category>
+    
+        <category term="https://alansartlog.com/tags/videos" label="videos"></category>
+    
+    
+    <updated>2016-05-09T00:00:00+00:00</updated>
+</entry>
+
+    
+</feed>

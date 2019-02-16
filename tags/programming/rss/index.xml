@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xml:lang="en-US" 
+xmlns:media="http://search.yahoo.com/mrss/" 
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns="http://www.w3.org/2005/Atom">
+    
+        
+            <link href="https://alansartlog.com/tags/programming/rss/index.xml" rel="self" type="application/atom+xml"  />
+            <title>Alan&#39;s Art Log - Tag:programming</title>
+            <link type="text/html" href="https://alansartlog.com/tags/programming" rel="alternate"/>
+            <id>https://alansartlog.com/tags/programming</id
+        
+    
+    <subtitle>Paintings, sketches, tutorials, videos, and art related DIY projects.</subtitle>
+    <category term="Art"></category>
+    <icon>https://alansartlog.com/resources/images/pencil-logo-icon-150x150.jpg</icon>
+    
+    <updated>2019-02-16T23:35:34+00:00</updated>
+    <author>
+        <name>Alan North</name>
+        <email>alansartlog@gmail.com</email>
+    </author>
+
+    
+    <rights>© Copyright 2017-2019 Alan North - All rights reserved unless otherwise stated.</rights>
+
+    
+        <entry>
+    
+    <title>How to Remote Debug Blender with VS Code</title>
+    <link href="https://alansartlog.com/2018/01/how-to-remote-debug-blender-with-vs-code"/>
+    <id>https://alansartlog.com/2018/01/how-to-remote-debug-blender-with-vs-code</id>
+    
+    
+    
+        <content type="html"><![CDATA[<iframe src="https://www.youtube.com/embed/UVDf2VSmRvk?autoplay=1" frameborder="0" allowfullscreen></iframe>
+<p>In this video I'll show you how to setup everything so you can remote debug Blender from VS Code to make it easier to develop and debug addons and the source code by adding breakpoints and stepping through your code.</p>
+<p>If you're a programmer and you're semi-familiar with Python, VS Code, and the command line, you can probably just read the documentation on github and it'll make sense, but I know I would have been stumped as a beginner and I really think the extra setup is well worth it, even more so if you're a beginner. I only got started messing with Blender addons a few weeks ago and this has made it so much easier to code.</p>
+<h1 id="links">Links</h1>
+<p><strong><a href="https://www.python.org/">Python</a></strong></p>
+<p><strong><a href="https://github.com/alanscodelog/blender-debugger-for-vscode">Blender Debugger for VS Code Addon + Documentation</a></strong></p>
+<p>I would have put this on my coding blog, but I don't really have that set up properly yet or active, I'll put a link when I do.</p>]]></content>
+    
+    <link rel="service.post" type="text/html" href="https://alansartlog.com/2018/01/how-to-remote-debug-blender-with-vs-code#disqus_thread" title="Comment"/>
+    
+        <category term="https://alansartlog.com/tags/3d" label="3d"></category>
+    
+        <category term="https://alansartlog.com/tags/videos" label="videos"></category>
+    
+        <category term="https://alansartlog.com/tags/programming" label="programming"></category>
+    
+        <category term="https://alansartlog.com/tags/toolssoftware" label="tools/software"></category>
+    
+        <category term="https://alansartlog.com/tags/random" label="random"></category>
+    
+    
+    <updated>2018-01-23T00:00:00+00:00</updated>
+</entry>
+
+    
+</feed>
