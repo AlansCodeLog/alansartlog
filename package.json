@@ -17,7 +17,8 @@
       "watch-css": "npm run watch-sass && npm run postcss-autoprefixer && wait",
       "all": "concurrently --kill-others \"npm run watch-sass\" \"npm run postcss-autoprefixer\"",
       "tags": "node tagslist.js",
-      "import": "node local_plugins/image-importer/index.js images-to-import resources/uploads"
+      "import": "node local_plugins/image-importer/index.js images-to-import resources/uploads",
+      "sass:fix": "npm rebuild node-sass"
    },
    "browserslist": [
       "> 0.1%",
@@ -26,6 +27,7 @@
    "devDependencies": {
       "autoprefixer": "^9.2.0",
       "clean-css": "^4.2.1",
+      "concurrently": "^4.1.0",
       "ejs": "^2.6.1",
       "ejs-lint": "^0.3.0",
       "filehound": "^1.16.4",
@@ -44,6 +46,7 @@
       "metalsmith-shortcodes-replace": "^1.0.3",
       "metalsmith-showdown": "^1.2.0",
       "moment": "^2.22.2",
+      "postcss-cli": "^6.1.1",
       "probe-image-size": "^4.0.0",
       "search": "file:local_plugins\\search",
       "serve": "^10.0.2",

@@ -77,6 +77,7 @@ metalsmith(__dirname)
       nav_links: {
          About: "/about",
          Contact: "/contact",
+         "Support Me": "/support-me",
          Artwork: "/artwork",
          Store: "https://gumroad.com/alansartlog",
       },
